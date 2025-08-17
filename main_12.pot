@@ -1,0 +1,1174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-17 08:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:2
+msgid "Play a rated game against a chess engine"
+msgstr ""
+
+#: main_12.cpp:4
+msgid "This parameter file is probably not for this engine"
+msgstr ""
+
+#: main_12.cpp:6
+msgid "because neither file stem contains the other."
+msgstr ""
+
+#: main_12.cpp:8
+msgid "Do you still wish to load the file ?"
+msgstr ""
+
+#: main_12.cpp:10
+msgid "Engine parameter file message"
+msgstr ""
+
+#: main_12.cpp:12
+msgid "has won playing white and gains"
+msgstr ""
+
+#: main_12.cpp:14
+msgid "has lost playing black and loses"
+msgstr ""
+
+#: main_12.cpp:16
+msgid "has lost playing white and loses"
+msgstr ""
+
+#: main_12.cpp:18
+msgid "has won playing black and gains"
+msgstr ""
+
+#: main_12.cpp:20
+msgid "has drawn playing white"
+msgstr ""
+
+#: main_12.cpp:22
+msgid "has drawn playing black"
+msgstr ""
+
+#: main_12.cpp:24
+msgid "there was no rating change."
+msgstr ""
+
+#: main_12.cpp:26
+msgid "and gained"
+msgstr ""
+
+#: main_12.cpp:28
+msgid "and lost"
+msgstr ""
+
+#: main_12.cpp:30
+msgid "Your new rating is"
+msgstr ""
+
+#: main_12.cpp:32
+msgid "Game result rating message"
+msgstr ""
+
+#: main_12.cpp:34
+msgid "Rated game options"
+msgstr ""
+
+#: main_12.cpp:36
+msgid "PGN filename for player games"
+msgstr ""
+
+#: main_12.cpp:38
+msgid "Select .pgn file for the game"
+msgstr ""
+
+#: main_12.cpp:40
+msgid "Engine opponent"
+msgstr ""
+
+#: main_12.cpp:42
+msgid "Engine ELO"
+msgstr ""
+
+#: main_12.cpp:44
+msgid "Current player"
+msgstr ""
+
+#: main_12.cpp:46
+msgid "Player ELO"
+msgstr ""
+
+#: main_12.cpp:48
+msgid "Edit player ELO rating"
+msgstr ""
+
+#: main_12.cpp:50
+msgid "Set as current engine"
+msgstr ""
+
+#: main_12.cpp:52
+msgid "Set as current clock"
+msgstr ""
+
+#: main_12.cpp:54
+msgid "Rating change for results"
+msgstr ""
+
+#: main_12.cpp:56
+msgid "Manual adjustment"
+msgstr ""
+
+#: main_12.cpp:58 main_12.cpp:96
+msgid "Rating formulas"
+msgstr ""
+
+#: main_12.cpp:60
+msgid "Time controls"
+msgstr ""
+
+#: main_12.cpp:62
+msgid "Minutes per game"
+msgstr ""
+
+#: main_12.cpp:64
+msgid "Increment (seconds)"
+msgstr ""
+
+#: main_12.cpp:66
+msgid "Player"
+msgstr ""
+
+#: main_12.cpp:68
+msgid "Book off"
+msgstr ""
+
+#: main_12.cpp:70
+msgid "Start the game"
+msgstr ""
+
+#: main_12.cpp:72
+msgid "Input the PGN filename for saving player games"
+msgstr ""
+
+#: main_12.cpp:74
+msgid "Input the engine ELO strength"
+msgstr ""
+
+#: main_12.cpp:75
+msgid "Open the engine settings dialog box"
+msgstr ""
+
+#: main_12.cpp:77
+msgid "Add a new player"
+msgstr ""
+
+#: main_12.cpp:78
+msgid "Delete the current player"
+msgstr ""
+
+#: main_12.cpp:79
+msgid "Save the current player details"
+msgstr ""
+
+#: main_12.cpp:80
+msgid "Player ELO rating"
+msgstr ""
+
+#: main_12.cpp:81
+msgid "Check to edit the player ELO rating"
+msgstr ""
+
+#: main_12.cpp:82
+msgid "Check to use a move delay for the rated game."
+msgstr ""
+
+#: main_12.cpp:84
+msgid "Check to set engine settings as current"
+msgstr ""
+
+#: main_12.cpp:85
+msgid "Check to set clock settings as current"
+msgstr ""
+
+#: main_12.cpp:87
+msgid "Check to switch off the opening book for this game"
+msgstr ""
+
+#: main_12.cpp:89
+msgid "ELO rating change for a player win"
+msgstr ""
+
+#: main_12.cpp:90
+msgid "ELO rating change for a player loss"
+msgstr ""
+
+#: main_12.cpp:91
+msgid "ELO rating change for a draw"
+msgstr ""
+
+#: main_12.cpp:93
+msgid "Check to adjust the rating changes"
+msgstr ""
+
+#: main_12.cpp:94
+msgid "and player ELO manually"
+msgstr ""
+
+#: main_12.cpp:97
+msgid "Add a new formula"
+msgstr ""
+
+#: main_12.cpp:98
+msgid "Delete the current formula"
+msgstr ""
+
+#: main_12.cpp:99
+msgid "Edit the current formula"
+msgstr ""
+
+#: main_12.cpp:101
+msgid "Input the player time for the game in minutes"
+msgstr ""
+
+#: main_12.cpp:102
+msgid "Input the player move increment in seconds"
+msgstr ""
+
+#: main_12.cpp:104
+msgid "Input the engine time for the game in minutes"
+msgstr ""
+
+#: main_12.cpp:105
+msgid "Input the engine move increment in seconds"
+msgstr ""
+
+#: main_12.cpp:107
+msgid "Check for human to play white"
+msgstr ""
+
+#: main_12.cpp:109
+msgid "Start the game with the current settings"
+msgstr ""
+
+#: main_12.cpp:111
+msgid "Select the engine that you want to play against"
+msgstr ""
+
+#: main_12.cpp:113
+msgid "Select the current player"
+msgstr ""
+
+#: main_12.cpp:115
+msgid "Rated game help"
+msgstr ""
+
+#: main_12.cpp:117
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr ""
+
+#: main_12.cpp:119
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr ""
+
+#: main_12.cpp:121
+msgid "by updating an approximate ELO rating."
+msgstr ""
+
+#: main_12.cpp:123
+msgid "You can set the following options for a rated game"
+msgstr ""
+
+#: main_12.cpp:125
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr ""
+
+#: main_12.cpp:127
+msgid "The filename is derived from the player name. The will be stored in the"
+msgstr ""
+
+#: main_12.cpp:130
+msgid "If no player name is input,  rated_games.pgn will be used for the filename"
+msgstr ""
+
+#: main_12.cpp:132
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr ""
+
+#: main_12.cpp:134
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr ""
+
+#: main_12.cpp:136
+msgid "which allows them to be weakened."
+msgstr ""
+
+#: main_12.cpp:138
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr ""
+
+#: main_12.cpp:140
+msgid "to the"
+msgstr ""
+
+#: main_12.cpp:142
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr ""
+
+#: main_12.cpp:144
+msgid "The upper and lower permissable values are shown."
+msgstr ""
+
+#: main_12.cpp:146
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr ""
+
+#: main_12.cpp:148
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr ""
+
+#: main_12.cpp:150
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr ""
+
+#: main_12.cpp:152
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr ""
+
+#: main_12.cpp:154
+msgid "of a drop-down list box."
+msgstr ""
+
+#: main_12.cpp:156
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr ""
+
+#: main_12.cpp:158
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr ""
+
+#: main_12.cpp:160
+msgid "which contains their details, will be stored on disk in the"
+msgstr ""
+
+#: main_12.cpp:162
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr ""
+
+#: main_12.cpp:164
+msgid "This will also remove their file from disk."
+msgstr ""
+
+#: main_12.cpp:166
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr ""
+
+#: main_12.cpp:168
+msgid "if you make a manual change to their ELO rating."
+msgstr ""
+
+#: main_12.cpp:170
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr ""
+
+#: main_12.cpp:172
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr ""
+
+#: main_12.cpp:174
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr ""
+
+#: main_12.cpp:176
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr ""
+
+#: main_12.cpp:178
+msgid "as the current engine after the rated game has finished."
+msgstr ""
+
+#: main_12.cpp:180
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr ""
+
+#: main_12.cpp:182
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr ""
+
+#: main_12.cpp:184
+msgid "as the current clock after the rated game has finished."
+msgstr ""
+
+#: main_12.cpp:186
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr ""
+
+#: main_12.cpp:188
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr ""
+
+#: main_12.cpp:190
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr ""
+
+#: main_12.cpp:192
+msgid "and which formula for ELO calculation is used."
+msgstr ""
+
+#: main_12.cpp:194
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr ""
+
+#: main_12.cpp:196
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr ""
+
+#: main_12.cpp:198
+msgid "then leave this box checked when you click on < Start game >"
+msgstr ""
+
+#: main_12.cpp:200
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr ""
+
+#: main_12.cpp:202
+msgid "It is used in a similar way to the current player box."
+msgstr ""
+
+#: main_12.cpp:204
+msgid "The main difference is that when you add or edit a formula,"
+msgstr ""
+
+#: main_12.cpp:206
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr ""
+
+#: main_12.cpp:208
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr ""
+
+#: main_12.cpp:210
+msgid "of the formula dialog box."
+msgstr ""
+
+#: main_12.cpp:212
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr ""
+
+#: main_12.cpp:214
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr ""
+
+#: main_12.cpp:216
+msgid "for the human player and chess engine."
+msgstr ""
+
+#: main_12.cpp:218
+msgid "You can give yourself more time than the engine if you like."
+msgstr ""
+
+#: main_12.cpp:220
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr ""
+
+#: main_12.cpp:222
+msgid "Play white  -  Check for the human player to play white,"
+msgstr ""
+
+#: main_12.cpp:224
+msgid "uncheck for the human player to play black."
+msgstr ""
+
+#: main_12.cpp:226
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr ""
+
+#: main_12.cpp:228
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr ""
+
+#: main_12.cpp:230
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr ""
+
+#: main_12.cpp:232
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr ""
+
+#: main_12.cpp:234
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr ""
+
+#: main_12.cpp:236
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr ""
+
+#: main_12.cpp:238
+msgid "or if no book is used."
+msgstr ""
+
+#: main_12.cpp:240
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr ""
+
+#: main_12.cpp:242
+msgid "Lowering this value speeds up the moves a bit."
+msgstr ""
+
+#: main_12.cpp:244
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr ""
+
+#: main_12.cpp:246
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr ""
+
+#: main_12.cpp:248
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr ""
+
+#: main_12.cpp:250
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr ""
+
+#: main_12.cpp:252
+msgid "in the engine dialog box."
+msgstr ""
+
+#: main_12.cpp:254
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr ""
+
+#: main_12.cpp:256
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr ""
+
+#: main_12.cpp:258
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr ""
+
+#: main_12.cpp:260
+msgid "from the engine dialog box that opens."
+msgstr ""
+
+#: main_12.cpp:262
+msgid "The parameter files for Stockfish11 are stored in the directory"
+msgstr ""
+
+#: main_12.cpp:264
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr ""
+
+#: main_12.cpp:266
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr ""
+
+#: main_12.cpp:268
+msgid "there is no need to use the stronger engines."
+msgstr ""
+
+#: main_12.cpp:270
+msgid "Stockfish engine help"
+msgstr ""
+
+#: main_12.cpp:272
+msgid "Cannot start a game without a player name"
+msgstr ""
+
+#: main_12.cpp:273
+msgid "Please select a player from the Current player list box"
+msgstr ""
+
+#: main_12.cpp:275
+msgid "Rated game error message"
+msgstr ""
+
+#: main_12.cpp:277
+msgid "Cannot start a game without a rating formula"
+msgstr ""
+
+#: main_12.cpp:278
+msgid "Please select a formula from the Rating formula list box"
+msgstr ""
+
+#: main_12.cpp:280
+msgid "Engine is not in the list, so it cannot be set"
+msgstr ""
+
+#: main_12.cpp:282
+msgid "Player name is empty, please type in a name"
+msgstr ""
+
+#: main_12.cpp:283 main_12.cpp:287
+msgid "Error message"
+msgstr ""
+
+#: main_12.cpp:285
+msgid "Player name is already in the list,"
+msgstr ""
+
+#: main_12.cpp:286
+msgid "please input a different player name"
+msgstr ""
+
+#: main_12.cpp:289 main_12.cpp:297
+msgid "Player profile for"
+msgstr ""
+
+#: main_12.cpp:290
+msgid "saved to disk"
+msgstr ""
+
+#: main_12.cpp:292
+msgid "Error saving player profile to disk"
+msgstr ""
+
+#: main_12.cpp:294
+msgid "Player name is not in the list,"
+msgstr ""
+
+#: main_12.cpp:295
+msgid "please input a player name that is in the list"
+msgstr ""
+
+#: main_12.cpp:298 main_12.cpp:311
+msgid "deleted from disk"
+msgstr ""
+
+#: main_12.cpp:300
+msgid "Error deleting player profile from disk"
+msgstr ""
+
+#: main_12.cpp:302
+msgid "Rating formula filename is empty, please type in a filename"
+msgstr ""
+
+#: main_12.cpp:304
+msgid "Rating formula filename is already in the list,"
+msgstr ""
+
+#: main_12.cpp:305
+msgid "please input a different filename"
+msgstr ""
+
+#: main_12.cpp:307
+msgid "Rating formula filename is not in the list,"
+msgstr ""
+
+#: main_12.cpp:308
+msgid "please input a filename that is in the list"
+msgstr ""
+
+#: main_12.cpp:310
+msgid "Rating formula for"
+msgstr ""
+
+#: main_12.cpp:313
+msgid "Error deleting rating formula from disk"
+msgstr ""
+
+#: main_12.cpp:315
+msgid "Rating adjustment formula"
+msgstr ""
+
+#: main_12.cpp:317
+msgid "for"
+msgstr ""
+
+#: main_12.cpp:319
+msgid "Win value"
+msgstr ""
+
+#: main_12.cpp:321
+msgid "Loss value"
+msgstr ""
+
+#: main_12.cpp:323
+msgid "Draw value"
+msgstr ""
+
+#: main_12.cpp:325
+msgid "Strength adjustment factor"
+msgstr ""
+
+#: main_12.cpp:327
+msgid "Effective maximum difference value"
+msgstr ""
+
+#: main_12.cpp:329 main_12.cpp:341
+msgid "Minimum win value"
+msgstr ""
+
+#: main_12.cpp:331
+msgid "Input rating change for a win"
+msgstr ""
+
+#: main_12.cpp:333
+msgid "Rating change for a draw"
+msgstr ""
+
+#: main_12.cpp:335
+msgid "Rating change for a loss"
+msgstr ""
+
+#: main_12.cpp:337
+msgid "Input the strength factor adjustment percentage"
+msgstr ""
+
+#: main_12.cpp:339
+msgid "Effective maximum rating difference"
+msgstr ""
+
+#: main_12.cpp:343
+msgid "This dialog box allows the user to set options for the formula"
+msgstr ""
+
+#: main_12.cpp:345
+msgid "used to adjust the player rating after a game against an engine."
+msgstr ""
+
+#: main_12.cpp:347
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr ""
+
+#: main_12.cpp:349
+msgid "Draw value  -  this is always set to zero."
+msgstr ""
+
+#: main_12.cpp:351
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr ""
+
+#: main_12.cpp:353
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr ""
+
+#: main_12.cpp:355
+msgid "in calculating the rating, as shown in the equation below."
+msgstr ""
+
+#: main_12.cpp:357
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr ""
+
+#: main_12.cpp:359
+msgid "between the players is greater than this number,"
+msgstr ""
+
+#: main_12.cpp:361
+msgid "then it is set to this number.  See the equation below."
+msgstr ""
+
+#: main_12.cpp:363
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr ""
+
+#: main_12.cpp:365
+msgid "for correspondence chess games. "
+msgstr ""
+
+#: main_12.cpp:367
+msgid "You can see it described on the following website -"
+msgstr ""
+
+#: main_12.cpp:369
+msgid "Here is my explanation of their formula."
+msgstr ""
+
+#: main_12.cpp:370
+msgid "Their calculation for the new rating after a game is -"
+msgstr ""
+
+#: main_12.cpp:372 main_12.cpp:404
+msgid "(for win or loss)"
+msgstr ""
+
+#: main_12.cpp:374
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr ""
+
+#: main_12.cpp:376
+msgid "ED is the effective rating difference."
+msgstr ""
+
+#: main_12.cpp:378
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr ""
+
+#: main_12.cpp:379
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr ""
+
+#: main_12.cpp:382
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr ""
+
+#: main_12.cpp:384
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr ""
+
+#: main_12.cpp:386
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr ""
+
+#: main_12.cpp:388
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr ""
+
+#: main_12.cpp:390
+msgid "a stronger opponent your ranking decreases."
+msgstr ""
+
+#: main_12.cpp:392
+msgid "The rating change here will be small, only 2 points."
+msgstr ""
+
+#: main_12.cpp:394
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr ""
+
+#: main_12.cpp:396
+msgid "So the general equation is, I think -"
+msgstr ""
+
+#: main_12.cpp:398
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr ""
+
+#: main_12.cpp:400
+msgid "but you can create a new file and change the settings if you like."
+msgstr ""
+
+#: main_12.cpp:402
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr ""
+
+#: main_12.cpp:406
+msgid "where"
+msgstr ""
+
+#: main_12.cpp:408
+msgid "Ranking formula explained"
+msgstr ""
+
+#: main_12.cpp:410
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr ""
+
+#: main_12.cpp:412
+msgid "I would recommend the polyglot opening book"
+msgstr ""
+
+#: main_12.cpp:414
+msgid "This book was part of the Deep Saros engine download."
+msgstr ""
+
+#: main_12.cpp:416
+msgid "It should have been installed in the following directory -"
+msgstr ""
+
+#: main_12.cpp:418
+msgid "Move delay.."
+msgstr ""
+
+#: main_12.cpp:419
+msgid "Show move delay dialog box"
+msgstr ""
+
+#: main_12.cpp:421
+msgid "Move delay for human - engine games"
+msgstr ""
+
+#: main_12.cpp:423
+msgid "Random delay for fixed time"
+msgstr ""
+
+#: main_12.cpp:424
+msgid "Maximum move delay (seconds)"
+msgstr ""
+
+#: main_12.cpp:425
+msgid "Minimum move delay (seconds)"
+msgstr ""
+
+#: main_12.cpp:426
+msgid "Cancel at minutes"
+msgstr ""
+
+#: main_12.cpp:427
+msgid "Use move delay"
+msgstr ""
+
+#: main_12.cpp:429
+msgid "Use move delay in a human - engine game"
+msgstr ""
+
+#: main_12.cpp:431
+msgid "Cancel move delay when only this many minutes left"
+msgstr ""
+
+#: main_12.cpp:433
+msgid "Minimum move delay in seconds"
+msgstr ""
+
+#: main_12.cpp:435
+msgid "Maximum move delay in seconds"
+msgstr ""
+
+#: main_12.cpp:437
+msgid "Use random move delay for fixed engine times"
+msgstr ""
+
+#: main_12.cpp:439
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr ""
+
+#: main_12.cpp:441
+msgid "when they have been weakened for human - engine games."
+msgstr ""
+
+#: main_12.cpp:443
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr ""
+
+#: main_12.cpp:445
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr ""
+
+#: main_12.cpp:447
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr ""
+
+#: main_12.cpp:449
+msgid "allows you to set options which will slow down the engine."
+msgstr ""
+
+#: main_12.cpp:451
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr ""
+
+#: main_12.cpp:453
+msgid "Cancel at minutes  -  Select the time at which move delay is no longer used."
+msgstr ""
+
+#: main_12.cpp:455
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr ""
+
+#: main_12.cpp:457
+msgid "This will be overriden if there is not enough time to spare."
+msgstr ""
+
+#: main_12.cpp:459
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr ""
+
+#: main_12.cpp:461
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr ""
+
+#: main_12.cpp:463
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr ""
+
+#: main_12.cpp:465
+msgid "Move delay help"
+msgstr ""
+
+#: main_12.cpp:467
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr ""
+
+#: main_12.cpp:469
+msgid "This option is intended for engines that move too quickly"
+msgstr ""
+
+#: main_12.cpp:471
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr ""
+
+#: main_12.cpp:473
+msgid "This also happens with the Rybka 2.3 engine."
+msgstr ""
+
+#: main_12.cpp:475 main_12.cpp:517
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr ""
+
+#: main_12.cpp:477 main_12.cpp:519
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr ""
+
+#: main_12.cpp:479 main_12.cpp:521
+msgid "for them to work."
+msgstr ""
+
+#: main_12.cpp:481 main_12.cpp:523
+msgid "For the Delfi engine this action will be made automatically."
+msgstr ""
+
+#: main_12.cpp:483 main_12.cpp:525
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr ""
+
+#: main_12.cpp:485 main_12.cpp:527
+msgid "< Copy to custom > box and the limit strength parameters will be copied across."
+msgstr ""
+
+#: main_12.cpp:487 main_12.cpp:515
+msgid "Copy to custom parameters"
+msgstr ""
+
+#: main_12.cpp:489
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr ""
+
+#: main_12.cpp:491
+msgid "Engine parameters loaded from"
+msgstr ""
+
+#: main_12.cpp:493
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr ""
+
+#: main_12.cpp:495
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr ""
+
+#: main_12.cpp:497
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr ""
+
+#: main_12.cpp:499
+msgid "there are some problems."
+msgstr ""
+
+#: main_12.cpp:501
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr ""
+
+#: main_12.cpp:503
+msgid "none of them would work on my computer."
+msgstr ""
+
+#: main_12.cpp:505
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr ""
+
+#: main_12.cpp:507
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr ""
+
+#: main_12.cpp:509
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr ""
+
+#: main_12.cpp:511
+msgid "All of the engines from this version run on my computer."
+msgstr ""
+
+#: main_12.cpp:513
+msgid "minimum win value"
+msgstr ""
+
+#: main_12.cpp:529
+msgid "Description of personalities"
+msgstr ""
+
+#: main_12.cpp:531
+msgid "Rating formula explanation"
+msgstr ""
+
+#: main_12.cpp:533
+msgid "Could not find the previous book,"
+msgstr ""
+
+#: main_12.cpp:535
+msgid "so the default book was loaded"
+msgstr ""
+
+#: main_12.cpp:537
+msgid "Opening book message"
+msgstr ""
+
+#: main_12.cpp:539
+msgid "Rodent 4, written by Pawel Koziol, is a very interesting chess engine."
+msgstr ""
+
+#: main_12.cpp:541
+msgid "It has the UCI limit strength option and also a set of personalities"
+msgstr ""
+
+#: main_12.cpp:543
+msgid "for more varied play."
+msgstr ""
+
+#: main_12.cpp:545
+msgid "Sadly, I was not able to get the personalities to work."
+msgstr ""
+
+#: main_12.cpp:547
+msgid "I am fairly sure I placed them in the right directory,"
+msgstr ""
+
+#: main_12.cpp:549
+msgid "because the names appeared in the engine parameter list,"
+msgstr ""
+
+#: main_12.cpp:551
+msgid "but when I tried to load them, they were all playing the same moves,"
+msgstr ""
+
+#: main_12.cpp:553
+msgid "which were also the same moves as with no personality loaded."
+msgstr ""
+
+#: main_12.cpp:555
+msgid "This was a great pity, because when I tried the engine on the"
+msgstr ""
+
+#: main_12.cpp:557
+msgid "Arena Chess GUI the personalities worked well and offered"
+msgstr ""
+
+#: main_12.cpp:559
+msgid "a great variety of play."
+msgstr ""
+
+#: main_12.cpp:561
+msgid "Anyway, the engine can still be used as it is, although sometimes"
+msgstr ""
+
+#: main_12.cpp:563
+msgid "it starts to play at full strength when UCI limit strength is set."
+msgstr ""
+
+#: main_12.cpp:565
+msgid "This can be avoided by checking the limit strength option -"
+msgstr ""
+
+#: main_12.cpp:567
+msgid "< Copy to custom parameters > in the engine dialog box."
+msgstr ""
+
+#: main_12.cpp:569
+msgid "The neural net version can also be used,"
+msgstr ""
+
+#: main_12.cpp:571
+msgid "and it plays a slightly different game."
+msgstr ""
+
+#: main_12.cpp:573
+msgid "Rodent engine help"
+msgstr ""
