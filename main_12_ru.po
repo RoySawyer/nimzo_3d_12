@@ -1,0 +1,1174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-17 08:58+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:2
+msgid "Play a rated game against a chess engine"
+msgstr "Сыграйте рейтинговую игру против шахматного движка"
+
+#: main_12.cpp:4
+msgid "This parameter file is probably not for this engine"
+msgstr "Этот файл параметров, вероятно, не предназначен для этого двигателя."
+
+#: main_12.cpp:6
+msgid "because neither file stem contains the other."
+msgstr "поскольку ни один из файловых шаблонов не содержит другой."
+
+#: main_12.cpp:8
+msgid "Do you still wish to load the file ?"
+msgstr "Вы все еще хотите загрузить файл?"
+
+#: main_12.cpp:10
+msgid "Engine parameter file message"
+msgstr "Сообщение файла параметров двигателя"
+
+#: main_12.cpp:12
+msgid "has won playing white and gains"
+msgstr "выиграл, играя белыми, и получает"
+
+#: main_12.cpp:14
+msgid "has lost playing black and loses"
+msgstr "проиграл, играя черными, и проигрывает"
+
+#: main_12.cpp:16
+msgid "has lost playing white and loses"
+msgstr "проиграл, играя белыми, и проигрывает"
+
+#: main_12.cpp:18
+msgid "has won playing black and gains"
+msgstr "выиграл, играя черными, и набирает"
+
+#: main_12.cpp:20
+msgid "has drawn playing white"
+msgstr "сыграл вничью, играя белыми"
+
+#: main_12.cpp:22
+msgid "has drawn playing black"
+msgstr "сыграл вничью черными"
+
+#: main_12.cpp:24
+msgid "there was no rating change."
+msgstr "рейтинг не изменился."
+
+#: main_12.cpp:26
+msgid "and gained"
+msgstr "и получил"
+
+#: main_12.cpp:28
+msgid "and lost"
+msgstr "и потерял"
+
+#: main_12.cpp:30
+msgid "Your new rating is"
+msgstr "Ваш новый рейтинг"
+
+#: main_12.cpp:32
+msgid "Game result rating message"
+msgstr "Сообщение о рейтинге результата игры"
+
+#: main_12.cpp:34
+msgid "Rated game options"
+msgstr "Рейтинговые варианты игр"
+
+#: main_12.cpp:36
+msgid "PGN filename for player games"
+msgstr "Имя файла PGN для игр игроков"
+
+#: main_12.cpp:38
+msgid "Select .pgn file for the game"
+msgstr "Выберите .pgn-файл для игры"
+
+#: main_12.cpp:40
+msgid "Engine opponent"
+msgstr "Двигатель противника"
+
+#: main_12.cpp:42
+msgid "Engine ELO"
+msgstr "Двигатель ELO"
+
+#: main_12.cpp:44
+msgid "Current player"
+msgstr "Текущий игрок"
+
+#: main_12.cpp:46
+msgid "Player ELO"
+msgstr "Эло игрока"
+
+#: main_12.cpp:48
+msgid "Edit player ELO rating"
+msgstr "Изменить рейтинг игрока ELO"
+
+#: main_12.cpp:50
+msgid "Set as current engine"
+msgstr "Установить как текущий движок"
+
+#: main_12.cpp:52
+msgid "Set as current clock"
+msgstr "Установить как текущие часы"
+
+#: main_12.cpp:54
+msgid "Rating change for results"
+msgstr "Изменение рейтинга результатов"
+
+#: main_12.cpp:56
+msgid "Manual adjustment"
+msgstr "Ручная регулировка"
+
+#: main_12.cpp:58 main_12.cpp:96
+msgid "Rating formulas"
+msgstr "Формулы оценки"
+
+#: main_12.cpp:60
+msgid "Time controls"
+msgstr "Контроль времени"
+
+#: main_12.cpp:62
+msgid "Minutes per game"
+msgstr "Минуты за игру"
+
+#: main_12.cpp:64
+msgid "Increment (seconds)"
+msgstr "Приращение (секунды)"
+
+#: main_12.cpp:66
+msgid "Player"
+msgstr "Игрок"
+
+#: main_12.cpp:68
+msgid "Book off"
+msgstr "Бронирование со скидкой"
+
+#: main_12.cpp:70
+msgid "Start the game"
+msgstr "Начать игру"
+
+#: main_12.cpp:72
+msgid "Input the PGN filename for saving player games"
+msgstr "Введите имя PGN-файла для сохранения игр игрока."
+
+#: main_12.cpp:74
+msgid "Input the engine ELO strength"
+msgstr "Введите силу ELO двигателя"
+
+#: main_12.cpp:75
+msgid "Open the engine settings dialog box"
+msgstr "Откройте диалоговое окно настроек движка"
+
+#: main_12.cpp:77
+msgid "Add a new player"
+msgstr "Добавить нового игрока"
+
+#: main_12.cpp:78
+msgid "Delete the current player"
+msgstr "Удалить текущего игрока"
+
+#: main_12.cpp:79
+msgid "Save the current player details"
+msgstr "Сохранить данные текущего игрока"
+
+#: main_12.cpp:80
+msgid "Player ELO rating"
+msgstr "Рейтинг игрока ELO"
+
+#: main_12.cpp:81
+msgid "Check to edit the player ELO rating"
+msgstr "Установите флажок, чтобы изменить рейтинг ELO игрока."
+
+#: main_12.cpp:82
+msgid "Check to use a move delay for the rated game."
+msgstr "Установите этот флажок, чтобы использовать задержку хода для рейтинговой игры."
+
+#: main_12.cpp:84
+msgid "Check to set engine settings as current"
+msgstr "Установите флажок, чтобы установить текущие настройки двигателя."
+
+#: main_12.cpp:85
+msgid "Check to set clock settings as current"
+msgstr "Установите флажок, чтобы установить текущие настройки часов."
+
+#: main_12.cpp:87
+msgid "Check to switch off the opening book for this game"
+msgstr "Отметьте, чтобы отключить дебютную книгу для этой игры."
+
+#: main_12.cpp:89
+msgid "ELO rating change for a player win"
+msgstr "Изменение рейтинга ЭЛО для победы игрока"
+
+#: main_12.cpp:90
+msgid "ELO rating change for a player loss"
+msgstr "Изменение рейтинга ELO в случае поражения игрока"
+
+#: main_12.cpp:91
+msgid "ELO rating change for a draw"
+msgstr "Изменение рейтинга ЭЛО при ничьей"
+
+#: main_12.cpp:93
+msgid "Check to adjust the rating changes"
+msgstr "Отметьте, чтобы скорректировать изменения рейтинга."
+
+#: main_12.cpp:94
+msgid "and player ELO manually"
+msgstr "и игрок ELO вручную"
+
+#: main_12.cpp:97
+msgid "Add a new formula"
+msgstr "Добавить новую формулу"
+
+#: main_12.cpp:98
+msgid "Delete the current formula"
+msgstr "Удалить текущую формулу"
+
+#: main_12.cpp:99
+msgid "Edit the current formula"
+msgstr "Изменить текущую формулу"
+
+#: main_12.cpp:101
+msgid "Input the player time for the game in minutes"
+msgstr "Введите время игрока в игре в минутах."
+
+#: main_12.cpp:102
+msgid "Input the player move increment in seconds"
+msgstr "Введите шаг перемещения игрока в секундах."
+
+#: main_12.cpp:104
+msgid "Input the engine time for the game in minutes"
+msgstr "Введите время работы двигателя в игре в минутах."
+
+#: main_12.cpp:105
+msgid "Input the engine move increment in seconds"
+msgstr "Введите приращение хода двигателя в секундах."
+
+#: main_12.cpp:107
+msgid "Check for human to play white"
+msgstr "Проверьте, может ли человек играть белыми"
+
+#: main_12.cpp:109
+msgid "Start the game with the current settings"
+msgstr "Запустить игру с текущими настройками"
+
+#: main_12.cpp:111
+msgid "Select the engine that you want to play against"
+msgstr "Выберите движок, против которого вы хотите играть"
+
+#: main_12.cpp:113
+msgid "Select the current player"
+msgstr "Выберите текущего игрока"
+
+#: main_12.cpp:115
+msgid "Rated game help"
+msgstr "Помощь в рейтинговой игре"
+
+#: main_12.cpp:117
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "Рейтинговая игра предоставляет вам удобный способ играть против ослабленных"
+
+#: main_12.cpp:119
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "шахматные движки и в то же время отслеживает ваш прогресс"
+
+#: main_12.cpp:121
+msgid "by updating an approximate ELO rating."
+msgstr "путем обновления приблизительного рейтинга ЭЛО."
+
+#: main_12.cpp:123
+msgid "You can set the following options for a rated game"
+msgstr "Вы можете установить следующие параметры для рейтинговой игры"
+
+#: main_12.cpp:125
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "Имя файла PGN: выберите имя файла PGN для хранения рейтинговых игр."
+
+#: main_12.cpp:127
+msgid "The filename is derived from the player name. The will be stored in the"
+msgstr "Имя файла формируется на основе имени игрока. Файл будет сохранён в"
+
+#: main_12.cpp:130
+msgid "If no player name is input,  rated_games.pgn will be used for the filename"
+msgstr "Если имя игрока не указано, в качестве имени файла будет использоваться rated_games.pgn."
+
+#: main_12.cpp:132
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Двигатель противника: Здесь вы можете выбрать, за какой движок вы хотите играть."
+
+#: main_12.cpp:134
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Все эти движки имеют опцию UCI_LimitStrength,"
+
+#: main_12.cpp:136
+msgid "which allows them to be weakened."
+msgstr "что позволяет им ослабнуть."
+
+#: main_12.cpp:138
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Если вы хотите добавить другой движок, имеющий эту опцию, его следует скопировать"
+
+#: main_12.cpp:140
+msgid "to the"
+msgstr "к"
+
+#: main_12.cpp:142
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "Engine ELO — выберите уровень ELO двигателя."
+
+#: main_12.cpp:144
+msgid "The upper and lower permissable values are shown."
+msgstr "Показаны верхние и нижние допустимые значения."
+
+#: main_12.cpp:146
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Настройки движка. Открывает диалоговое окно движка, позволяющее вам изменить"
+
+#: main_12.cpp:148
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "Другие варианты для выбранного вами движка. Нажмите на <Stockfish>, чтобы увидеть пример."
+
+#: main_12.cpp:150
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Текущий игрок - Здесь вы можете установить текущего игрока, а также добавить, удалить"
+
+#: main_12.cpp:152
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "и редактировать игроков. Имя текущего игрока отображается в окне редактирования."
+
+#: main_12.cpp:154
+msgid "of a drop-down list box."
+msgstr "раскрывающегося списка."
+
+#: main_12.cpp:156
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Кнопка «Плюс» — чтобы добавить нового игрока, введите его имя в окно редактирования и нажмите"
+
+#: main_12.cpp:158
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "на эту кнопку. Их имена будут добавлены в список, и будет создан файл с их именем."
+
+#: main_12.cpp:160
+msgid "which contains their details, will be stored on disk in the"
+msgstr "который содержит их данные, будут сохранены на диске в"
+
+#: main_12.cpp:162
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Кнопка «Минус» — нажмите, чтобы удалить игрока, отображаемого в окне редактирования."
+
+#: main_12.cpp:164
+msgid "This will also remove their file from disk."
+msgstr "Это также удалит их файл с диска."
+
+#: main_12.cpp:166
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Сохранить — нажмите, чтобы сохранить данные об игроке в окне редактирования."
+
+#: main_12.cpp:168
+msgid "if you make a manual change to their ELO rating."
+msgstr "если вы вручную измените их рейтинг ЭЛО."
+
+#: main_12.cpp:170
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "ELO игрока — здесь отображается рейтинг ELO игрока в окне редактирования."
+
+#: main_12.cpp:172
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Если вы хотите редактировать это поле при добавлении нового игрока, то смотрите следующую опцию."
+
+#: main_12.cpp:174
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Редактировать рейтинг ELO игрока — установите флажок, чтобы разрешить редактирование рейтинга ELO игрока."
+
+#: main_12.cpp:176
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Установить как текущий двигатель — установите флажок, чтобы установить двигатель, отображаемый в этом поле."
+
+#: main_12.cpp:178
+msgid "as the current engine after the rated game has finished."
+msgstr "в качестве текущего движка после завершения рейтинговой игры."
+
+#: main_12.cpp:180
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Снимите флажок, чтобы вернуться к старому движку после рейтинговой игры."
+
+#: main_12.cpp:182
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Установить как текущие часы — установите флажок, чтобы установить отображаемое в этом поле время."
+
+#: main_12.cpp:184
+msgid "as the current clock after the rated game has finished."
+msgstr "как текущие часы после окончания рейтинговой игры."
+
+#: main_12.cpp:186
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Снимите флажок, чтобы сбросить время на прежние значения после рейтинговой игры."
+
+#: main_12.cpp:188
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Изменение рейтинга результатов - показывает изменение рейтинга в случае победы, поражения или ничьей."
+
+#: main_12.cpp:190
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Они автоматически корректируются в соответствии с рейтингами игроков и движка."
+
+#: main_12.cpp:192
+msgid "and which formula for ELO calculation is used."
+msgstr "и какая формула для расчета ЭЛО используется."
+
+#: main_12.cpp:194
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Ручная настройка. Установите этот флажок, если вы хотите изменить указанные выше значения вручную."
+
+#: main_12.cpp:196
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Если вы хотите сыграть в рейтинговую игру с настроенными вручную значениями,"
+
+#: main_12.cpp:198
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "затем оставьте этот флажок установленным, когда нажмете «Начать игру»"
+
+#: main_12.cpp:200
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Формулы расчета рейтинга. Здесь вы можете выбрать и изменить формулы расчета ELO."
+
+#: main_12.cpp:202
+msgid "It is used in a similar way to the current player box."
+msgstr "Используется аналогично полю текущего игрока."
+
+#: main_12.cpp:204
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "Главное отличие состоит в том, что когда вы добавляете или редактируете формулу,"
+
+#: main_12.cpp:206
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "откроется новое диалоговое окно, в котором можно ввести параметры формулы."
+
+#: main_12.cpp:208
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "Для получения дополнительной информации о формулах оценки нажмите кнопку <Справка>."
+
+#: main_12.cpp:210
+msgid "of the formula dialog box."
+msgstr "диалогового окна формулы."
+
+#: main_12.cpp:212
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Контроль времени - Выберите контроль времени для игры."
+
+#: main_12.cpp:214
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Введите время игры в минутах и шаг хода в секундах."
+
+#: main_12.cpp:216
+msgid "for the human player and chess engine."
+msgstr "для игрока-человека и шахматного движка."
+
+#: main_12.cpp:218
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Если хотите, вы можете дать себе больше времени, чем двигателю."
+
+#: main_12.cpp:220
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Книга отключена — установите флажок, чтобы отключить дебютную книгу для рейтинговой игры."
+
+#: main_12.cpp:222
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Играть белыми - Проверьте, будет ли игрок-человек играть белыми,"
+
+#: main_12.cpp:224
+msgid "uncheck for the human player to play black."
+msgstr "снимите этот флажок, чтобы игрок-человек играл черными."
+
+#: main_12.cpp:226
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Начать игру — Нажмите, чтобы начать рейтинговую игру с текущими параметрами."
+
+#: main_12.cpp:228
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Когда я писал код для движка, я обнаружил, что Stockfish"
+
+#: main_12.cpp:230
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "и движки Komodo проигрывали по времени в играх с быстрым лимитом времени,"
+
+#: main_12.cpp:232
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "поэтому я написал опцию <Регулировка времени работы двигателя>, чтобы исправить эту проблему."
+
+#: main_12.cpp:234
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "В рейтинговой игре с более длительным лимитом времени я снова обнаружил, что"
+
+#: main_12.cpp:236
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Stockfish делает свои ходы очень медленно, когда он находится за пределами своей дебютной книги."
+
+#: main_12.cpp:238
+msgid "or if no book is used."
+msgstr "или если книга не используется."
+
+#: main_12.cpp:240
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Чтобы исправить это, вы можете настроить опцию медленного движения Stockfish."
+
+#: main_12.cpp:242
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Уменьшение этого значения немного ускоряет движения."
+
+#: main_12.cpp:244
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Хотя я обнаружил, что этот вариант не подходит для быстрого контроля времени"
+
+#: main_12.cpp:246
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "если игра длится 3 минуты или меньше, то этот метод хорош для игры продолжительностью 5 минут или дольше."
+
+#: main_12.cpp:248
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "Для Stockfish 11 значение 20–30 подойдет для игр продолжительностью 5–10 минут."
+
+#: main_12.cpp:250
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "Вы можете установить опцию медленного перемещения, используя пользовательские параметры."
+
+#: main_12.cpp:252
+msgid "in the engine dialog box."
+msgstr "в диалоговом окне движка."
+
+#: main_12.cpp:254
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "Чтобы упростить задачу, я создал файл параметров движка для Stockfish 11."
+
+#: main_12.cpp:256
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "С набором «Медленный ход». Вы можете загрузить его из диалогового окна рейтинговой игры."
+
+#: main_12.cpp:258
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "нажав на движок < Настройки двигателя.. > и затем < Загрузить двигатель >"
+
+#: main_12.cpp:260
+msgid "from the engine dialog box that opens."
+msgstr "из открывшегося диалогового окна движка."
+
+#: main_12.cpp:262
+msgid "The parameter files for Stockfish11 are stored in the directory"
+msgstr "Файлы параметров для Stockfish11 хранятся в каталоге"
+
+#: main_12.cpp:264
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Двигатели Stockfish 8-15 имеют опцию тихохода, 16 и 17 — нет."
+
+#: main_12.cpp:266
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "Учитывая тот факт, что здесь вам не нужна дополнительная игровая сила,"
+
+#: main_12.cpp:268
+msgid "there is no need to use the stronger engines."
+msgstr "нет необходимости использовать более мощные двигатели."
+
+#: main_12.cpp:270
+msgid "Stockfish engine help"
+msgstr "Помощь движку Stockfish"
+
+#: main_12.cpp:272
+msgid "Cannot start a game without a player name"
+msgstr "Невозможно начать игру без имени игрока."
+
+#: main_12.cpp:273
+msgid "Please select a player from the Current player list box"
+msgstr "Пожалуйста, выберите игрока из списка текущих игроков."
+
+#: main_12.cpp:275
+msgid "Rated game error message"
+msgstr "Сообщение об ошибке рейтинговой игры"
+
+#: main_12.cpp:277
+msgid "Cannot start a game without a rating formula"
+msgstr "Невозможно начать игру без формулы рейтинга."
+
+#: main_12.cpp:278
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Выберите формулу из списка «Формула оценки»."
+
+#: main_12.cpp:280
+msgid "Engine is not in the list, so it cannot be set"
+msgstr "Двигателя нет в списке, поэтому его нельзя установить."
+
+#: main_12.cpp:282
+msgid "Player name is empty, please type in a name"
+msgstr "Имя игрока пусто, пожалуйста, введите имя"
+
+#: main_12.cpp:283 main_12.cpp:287
+msgid "Error message"
+msgstr "Сообщение об ошибке"
+
+#: main_12.cpp:285
+msgid "Player name is already in the list,"
+msgstr "Имя игрока уже есть в списке,"
+
+#: main_12.cpp:286
+msgid "please input a different player name"
+msgstr "пожалуйста, введите другое имя игрока"
+
+#: main_12.cpp:289 main_12.cpp:297
+msgid "Player profile for"
+msgstr "Профиль игрока для"
+
+#: main_12.cpp:290
+msgid "saved to disk"
+msgstr "сохранено на диске"
+
+#: main_12.cpp:292
+msgid "Error saving player profile to disk"
+msgstr "Ошибка сохранения профиля игрока на диск"
+
+#: main_12.cpp:294
+msgid "Player name is not in the list,"
+msgstr "Имя игрока отсутствует в списке,"
+
+#: main_12.cpp:295
+msgid "please input a player name that is in the list"
+msgstr "пожалуйста, введите имя игрока, которое есть в списке"
+
+#: main_12.cpp:298 main_12.cpp:311
+msgid "deleted from disk"
+msgstr "удалено с диска"
+
+#: main_12.cpp:300
+msgid "Error deleting player profile from disk"
+msgstr "Ошибка удаления профиля игрока с диска"
+
+#: main_12.cpp:302
+msgid "Rating formula filename is empty, please type in a filename"
+msgstr "Имя файла формулы оценки пусто, пожалуйста, введите имя файла"
+
+#: main_12.cpp:304
+msgid "Rating formula filename is already in the list,"
+msgstr "Имя файла формулы оценки уже есть в списке,"
+
+#: main_12.cpp:305
+msgid "please input a different filename"
+msgstr "пожалуйста, введите другое имя файла"
+
+#: main_12.cpp:307
+msgid "Rating formula filename is not in the list,"
+msgstr "Имя файла формулы оценки отсутствует в списке,"
+
+#: main_12.cpp:308
+msgid "please input a filename that is in the list"
+msgstr "пожалуйста, введите имя файла, которое есть в списке"
+
+#: main_12.cpp:310
+msgid "Rating formula for"
+msgstr "Формула оценки для"
+
+#: main_12.cpp:313
+msgid "Error deleting rating formula from disk"
+msgstr "Ошибка удаления формулы оценки с диска"
+
+#: main_12.cpp:315
+msgid "Rating adjustment formula"
+msgstr "Формула корректировки рейтинга"
+
+#: main_12.cpp:317
+msgid "for"
+msgstr "для"
+
+#: main_12.cpp:319
+msgid "Win value"
+msgstr "Значение выигрыша"
+
+#: main_12.cpp:321
+msgid "Loss value"
+msgstr "Убыточная стоимость"
+
+#: main_12.cpp:323
+msgid "Draw value"
+msgstr "Значение розыгрыша"
+
+#: main_12.cpp:325
+msgid "Strength adjustment factor"
+msgstr "Коэффициент корректировки прочности"
+
+#: main_12.cpp:327
+msgid "Effective maximum difference value"
+msgstr "Эффективное максимальное значение разницы"
+
+#: main_12.cpp:329 main_12.cpp:341
+msgid "Minimum win value"
+msgstr "Минимальная сумма выигрыша"
+
+#: main_12.cpp:331
+msgid "Input rating change for a win"
+msgstr "Введите изменение рейтинга для победы"
+
+#: main_12.cpp:333
+msgid "Rating change for a draw"
+msgstr "Изменение рейтинга при ничьей"
+
+#: main_12.cpp:335
+msgid "Rating change for a loss"
+msgstr "Изменение рейтинга за убыток"
+
+#: main_12.cpp:337
+msgid "Input the strength factor adjustment percentage"
+msgstr "Введите процент корректировки коэффициента прочности."
+
+#: main_12.cpp:339
+msgid "Effective maximum rating difference"
+msgstr "Эффективная максимальная разница в рейтинге"
+
+#: main_12.cpp:343
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "Это диалоговое окно позволяет пользователю задать параметры формулы."
+
+#: main_12.cpp:345
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "используется для корректировки рейтинга игрока после игры против движка."
+
+#: main_12.cpp:347
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Ценность выигрыша — прирост рейтинговых очков за победу в игре."
+
+#: main_12.cpp:349
+msgid "Draw value  -  this is always set to zero."
+msgstr "Значение розыгрыша — всегда равно нулю."
+
+#: main_12.cpp:351
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Значение проигрыша — это отрицательное значение значения выигрыша."
+
+#: main_12.cpp:353
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Коэффициент корректировки прочности (в процентах) — это значение используется"
+
+#: main_12.cpp:355
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "при расчете рейтинга, как показано в уравнении ниже."
+
+#: main_12.cpp:357
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Эффективная максимальная разница в рейтинге - Если разница в рейтинге"
+
+#: main_12.cpp:359
+msgid "between the players is greater than this number,"
+msgstr "между игроками больше этого числа,"
+
+#: main_12.cpp:361
+msgid "then it is set to this number.  See the equation below."
+msgstr "затем ему присваивается это число. См. уравнение ниже."
+
+#: main_12.cpp:363
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Основная формула используется Шахматной федерацией США."
+
+#: main_12.cpp:365
+msgid "for correspondence chess games. "
+msgstr "для заочных шахматных партий."
+
+#: main_12.cpp:367
+msgid "You can see it described on the following website -"
+msgstr "Вы можете увидеть его описание на следующем сайте:"
+
+#: main_12.cpp:369
+msgid "Here is my explanation of their formula."
+msgstr "Вот мое объяснение их формулы."
+
+#: main_12.cpp:370
+msgid "Their calculation for the new rating after a game is -"
+msgstr "Их расчет нового рейтинга после игры -"
+
+#: main_12.cpp:372 main_12.cpp:404
+msgid "(for win or loss)"
+msgstr "(на победу или поражение)"
+
+#: main_12.cpp:374
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Здесь 0,04 (4 процента) — коэффициент корректировки прочности (SAF)."
+
+#: main_12.cpp:376
+msgid "ED is the effective rating difference."
+msgstr "ED — эффективная разница рейтингов."
+
+#: main_12.cpp:378
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED имеет положительное значение при расчете рейтинга"
+
+#: main_12.cpp:379
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "более слабый игрок и отрицательное значение при расчете для более сильного игрока."
+
+#: main_12.cpp:382
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "Для коэффициента выигрыша/проигрыша 16, если фактическая разница рейтингов"
+
+#: main_12.cpp:384
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "между игроками больше 350, то он устанавливается равным 350."
+
+#: main_12.cpp:386
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "Это делается для того, чтобы в таких случаях, если вы выиграете игру против"
+
+#: main_12.cpp:388
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "более слабого противника, ваш рейтинг повышается, и если вы проиграете"
+
+#: main_12.cpp:390
+msgid "a stronger opponent your ranking decreases."
+msgstr "чем сильнее противник, тем ниже ваш рейтинг."
+
+#: main_12.cpp:392
+msgid "The rating change here will be small, only 2 points."
+msgstr "Изменение рейтинга здесь будет небольшим, всего 2 балла."
+
+#: main_12.cpp:394
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Это можно скорректировать, используя переменную минимального значения выигрыша."
+
+#: main_12.cpp:396
+msgid "So the general equation is, I think -"
+msgstr "Итак, я думаю, общее уравнение таково:"
+
+#: main_12.cpp:398
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Настройки по умолчанию хранятся в файле формулы рейтинга <USCF>"
+
+#: main_12.cpp:400
+msgid "but you can create a new file and change the settings if you like."
+msgstr "но вы можете создать новый файл и изменить настройки, если захотите."
+
+#: main_12.cpp:402
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Я бы рекомендовал внести лишь незначительные изменения в основные цифры."
+
+#: main_12.cpp:406
+msgid "where"
+msgstr "где"
+
+#: main_12.cpp:408
+msgid "Ranking formula explained"
+msgstr "Объяснение формулы ранжирования"
+
+#: main_12.cpp:410
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Если вам нужна интересная и разнообразная дебютная книга для игр с участием человека и движка,"
+
+#: main_12.cpp:412
+msgid "I would recommend the polyglot opening book"
+msgstr "Я бы рекомендовал книгу «Полиглот»"
+
+#: main_12.cpp:414
+msgid "This book was part of the Deep Saros engine download."
+msgstr "Эта книга была частью загрузки движка Deep Saros."
+
+#: main_12.cpp:416
+msgid "It should have been installed in the following directory -"
+msgstr "Его следовало установить в следующий каталог:"
+
+#: main_12.cpp:418
+msgid "Move delay.."
+msgstr "Задержка перемещения.."
+
+#: main_12.cpp:419
+msgid "Show move delay dialog box"
+msgstr "Показать диалоговое окно задержки перемещения"
+
+#: main_12.cpp:421
+msgid "Move delay for human - engine games"
+msgstr "Задержка хода для игр с человеческим движком"
+
+#: main_12.cpp:423
+msgid "Random delay for fixed time"
+msgstr "Случайная задержка на фиксированное время"
+
+#: main_12.cpp:424
+msgid "Maximum move delay (seconds)"
+msgstr "Максимальная задержка хода (секунды)"
+
+#: main_12.cpp:425
+msgid "Minimum move delay (seconds)"
+msgstr "Минимальная задержка хода (секунды)"
+
+#: main_12.cpp:426
+msgid "Cancel at minutes"
+msgstr "Отменить через минут"
+
+#: main_12.cpp:427
+msgid "Use move delay"
+msgstr "Использовать задержку перемещения"
+
+#: main_12.cpp:429
+msgid "Use move delay in a human - engine game"
+msgstr "Использовать задержку хода в игре с человеческим движком"
+
+#: main_12.cpp:431
+msgid "Cancel move delay when only this many minutes left"
+msgstr "Отменить задержку переезда, когда осталось всего столько минут"
+
+#: main_12.cpp:433
+msgid "Minimum move delay in seconds"
+msgstr "Минимальная задержка хода в секундах"
+
+#: main_12.cpp:435
+msgid "Maximum move delay in seconds"
+msgstr "Максимальная задержка хода в секундах"
+
+#: main_12.cpp:437
+msgid "Use random move delay for fixed engine times"
+msgstr "Использовать случайную задержку движения для фиксированного времени работы двигателя"
+
+#: main_12.cpp:439
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "Эта функция предназначена в первую очередь для использования с шахматными движками Komodo."
+
+#: main_12.cpp:441
+msgid "when they have been weakened for human - engine games."
+msgstr "когда они были ослаблены для игр человек-машина."
+
+#: main_12.cpp:443
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "В этом случае двигатели двигаются почти мгновенно, что дает игре"
+
+#: main_12.cpp:445
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "неестественный ритм, который довольно сбивает с толку."
+
+#: main_12.cpp:447
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "У двигателей Komodo нет опции < Медленно движущийся >, поэтому это диалоговое окно"
+
+#: main_12.cpp:449
+msgid "allows you to set options which will slow down the engine."
+msgstr "позволяет вам устанавливать параметры, которые будут замедлять двигатель."
+
+#: main_12.cpp:451
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Использовать задержку хода. Установите флажок, чтобы использовать задержку хода для игр с человеческим движком."
+
+#: main_12.cpp:453
+msgid "Cancel at minutes  -  Select the time at which move delay is no longer used."
+msgstr "Отмена через несколько минут — выберите время, по истечении которого задержка хода больше не будет использоваться."
+
+#: main_12.cpp:455
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Минимальная задержка хода — выберите минимальную задержку хода в секундах."
+
+#: main_12.cpp:457
+msgid "This will be overriden if there is not enough time to spare."
+msgstr "Если времени недостаточно, этот срок будет отменен."
+
+#: main_12.cpp:459
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Максимальная задержка движения — выберите максимальную задержку движения в секундах."
+
+#: main_12.cpp:461
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Случайная задержка для фиксированного времени. Установите этот флажок, чтобы использовать случайную задержку хода для фиксированных уровней времени."
+
+#: main_12.cpp:463
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Снимите флажок, чтобы использовать все фиксированное время, отведенное для задержки хода."
+
+#: main_12.cpp:465
+msgid "Move delay help"
+msgstr "Помощь с задержкой движения"
+
+#: main_12.cpp:467
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Использовать задержку хода. Установите флажок, чтобы использовать задержку хода для рейтинговой игры."
+
+#: main_12.cpp:469
+msgid "This option is intended for engines that move too quickly"
+msgstr "Эта опция предназначена для двигателей, которые движутся слишком быстро."
+
+#: main_12.cpp:471
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "когда они ослаблены, как, например, комодский варан."
+
+#: main_12.cpp:473
+msgid "This also happens with the Rybka 2.3 engine."
+msgstr "То же самое происходит и с движком Рыбка 2.3."
+
+#: main_12.cpp:475 main_12.cpp:517
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "При написании статьи «Рейтинговая игра» я обнаружил, что движок Delfi"
+
+#: main_12.cpp:477 main_12.cpp:519
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "необходимы настройки предельной прочности, размещенные в списке пользовательских параметров"
+
+#: main_12.cpp:479 main_12.cpp:521
+msgid "for them to work."
+msgstr "чтобы они работали."
+
+#: main_12.cpp:481 main_12.cpp:523
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "Для движка Delfi это действие будет выполнено автоматически."
+
+#: main_12.cpp:483 main_12.cpp:525
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Если у вас возникла эта проблема с другими двигателями, то вы можете проверить"
+
+#: main_12.cpp:485 main_12.cpp:527
+msgid "< Copy to custom > box and the limit strength parameters will be copied across."
+msgstr "В поле <Копировать в пользовательское> будут скопированы параметры предельной прочности."
+
+#: main_12.cpp:487 main_12.cpp:515
+msgid "Copy to custom parameters"
+msgstr "Копировать в пользовательские параметры"
+
+#: main_12.cpp:489
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Установите флажок, чтобы скопировать настройки предела прочности в пользовательские параметры."
+
+#: main_12.cpp:491
+msgid "Engine parameters loaded from"
+msgstr "Параметры двигателя загружены из"
+
+#: main_12.cpp:493
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Движок Arasan, написанный Джоном Дартом, — еще один очень хороший движок."
+
+#: main_12.cpp:495
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Хоть он и не такой сильный, как Stockfish, но у него свой особый стиль игры."
+
+#: main_12.cpp:497
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "Однако при использовании с графическим интерфейсом Tarrasch и Nimzo_3d,"
+
+#: main_12.cpp:499
+msgid "there are some problems."
+msgstr "есть некоторые проблемы."
+
+#: main_12.cpp:501
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "С момента добавления нейронной сети в версии 23.0,"
+
+#: main_12.cpp:503
+msgid "none of them would work on my computer."
+msgstr "ни один из них не работал на моем компьютере."
+
+#: main_12.cpp:505
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "Однако с последней версией 25.2 работают следующие движки"
+
+#: main_12.cpp:507
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "Учитывая эти проблемы, я использовал движки версии 22.3."
+
+#: main_12.cpp:509
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "Для рейтинговых игр. Это была последняя версия без нейронной сети."
+
+#: main_12.cpp:511
+msgid "All of the engines from this version run on my computer."
+msgstr "Все движки этой версии работают на моем компьютере."
+
+#: main_12.cpp:513
+msgid "minimum win value"
+msgstr "минимальная стоимость выигрыша"
+
+#: main_12.cpp:529
+msgid "Description of personalities"
+msgstr "Описание личностей"
+
+#: main_12.cpp:531
+msgid "Rating formula explanation"
+msgstr "Пояснение формулы оценки"
+
+#: main_12.cpp:533
+msgid "Could not find the previous book,"
+msgstr "Не удалось найти предыдущую книгу,"
+
+#: main_12.cpp:535
+msgid "so the default book was loaded"
+msgstr "поэтому была загружена книга по умолчанию"
+
+#: main_12.cpp:537
+msgid "Opening book message"
+msgstr "Открытие книги"
+
+#: main_12.cpp:539
+msgid "Rodent 4, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Rodent 4, написанный Павлом Козиолом, — очень интересный шахматный движок."
+
+#: main_12.cpp:541
+msgid "It has the UCI limit strength option and also a set of personalities"
+msgstr "Имеет опцию ограничения силы UCI, а также набор персонализаций"
+
+#: main_12.cpp:543
+msgid "for more varied play."
+msgstr "для более разнообразной игры."
+
+#: main_12.cpp:545
+msgid "Sadly, I was not able to get the personalities to work."
+msgstr "К сожалению, мне не удалось заставить личности работать."
+
+#: main_12.cpp:547
+msgid "I am fairly sure I placed them in the right directory,"
+msgstr "Я почти уверен, что разместил их в правильном каталоге,"
+
+#: main_12.cpp:549
+msgid "because the names appeared in the engine parameter list,"
+msgstr "поскольку имена появились в списке параметров двигателя,"
+
+#: main_12.cpp:551
+msgid "but when I tried to load them, they were all playing the same moves,"
+msgstr "но когда я попытался их загрузить, они все играли одни и те же ходы,"
+
+#: main_12.cpp:553
+msgid "which were also the same moves as with no personality loaded."
+msgstr "которые также были теми же ходами, что и без загрузки личности."
+
+#: main_12.cpp:555
+msgid "This was a great pity, because when I tried the engine on the"
+msgstr "Это было очень жаль, потому что когда я попробовал двигатель на"
+
+#: main_12.cpp:557
+msgid "Arena Chess GUI the personalities worked well and offered"
+msgstr "В графическом интерфейсе Arena Chess личности хорошо проработаны и предложены"
+
+#: main_12.cpp:559
+msgid "a great variety of play."
+msgstr "большое разнообразие игр."
+
+#: main_12.cpp:561
+msgid "Anyway, the engine can still be used as it is, although sometimes"
+msgstr "В любом случае, двигатель все еще может использоваться в том виде, в котором он есть, хотя иногда"
+
+#: main_12.cpp:563
+msgid "it starts to play at full strength when UCI limit strength is set."
+msgstr "он начинает звучать в полную силу, когда устанавливается предельная сила UCI."
+
+#: main_12.cpp:565
+msgid "This can be avoided by checking the limit strength option -"
+msgstr "Этого можно избежать, проверив опцию ограничения прочности -"
+
+#: main_12.cpp:567
+msgid "< Copy to custom parameters > in the engine dialog box."
+msgstr "<Копировать в пользовательские параметры> в диалоговом окне движка."
+
+#: main_12.cpp:569
+msgid "The neural net version can also be used,"
+msgstr "Также можно использовать версию нейронной сети,"
+
+#: main_12.cpp:571
+msgid "and it plays a slightly different game."
+msgstr "и он играет немного в другую игру."
+
+#: main_12.cpp:573
+msgid "Rodent engine help"
+msgstr "Помощь грызунам"
