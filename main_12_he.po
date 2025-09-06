@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "נוסחת התאמת דירוג"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "עֲבוּר"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "ערך הזכייה"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "ערך ההפסד"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "ערך משיכה"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "גורם התאמת חוזק"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "ערך הפרש מקסימלי אפקטיבי"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "ערך זכייה מינימלי"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "שינוי דירוג קלט לצורך ניצחון"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "שינוי דירוג עבור תיקו"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "שינוי דירוג עקב הפסד"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "הזן את אחוז התאמת גורם החוזק"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "הפרש דירוג מקסימלי אפקטיבי"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "תיבת דו-שיח זו מאפשרת למשתמש להגדיר אפשרויות עבור הנוסחה"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "משמש להתאמת דירוג השחקן לאחר משחק נגד מנוע."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "ערך ניצחון - עלייה בנקודות הדירוג עקב ניצחון במשחק."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "ערך משיכה - זה תמיד מוגדר לאפס."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "ערך הפסד - זהו הערך המינוס של ערך הזכייה."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "גורם התאמת חוזק (באחוזים) - ערך זה משמש"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "בחישוב הדירוג, כפי שמוצג במשוואה שלהלן."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "הפרש הדירוג המקסימלי האפקטיבי - אם הפרש הדירוג"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "בין השחקנים גדול ממספר זה,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "אז הוא מוגדר למספר הזה. ראה את המשוואה למטה."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "הנוסחה הבסיסית משמשת את איגוד השחמט של ארצות הברית"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "למשחקי שחמט בהתכתבות."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "ניתן לראות את זה מתואר באתר הבא -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "הנה ההסבר שלי על הנוסחה שלהם."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "החישוב שלהם לדירוג החדש לאחר משחק הוא -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(לניצחון או להפסד)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "כאן 0.04 (4 אחוזים) הוא מקדם התאמת החוזק (SAF)"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED הוא הפרש הדירוג האפקטיבי."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ל-ED יש ערך חיובי בעת חישוב הדירוג של ה-"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "שחקן חלש יותר וערך שלילי בעת חישוב עבור השחקן החזק יותר."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "עבור ערך ניצחון/הפסד של 16, אם הפרש הדירוג בפועל"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "בין השחקנים גדול מ-350, אז הוא מוגדר ל-350."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "זאת כדי להבטיח שבמקרים אלה, אם תנצחו במשחק נגד"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "יריב חלש יותר, הדירוג שלך עולה ואם תפסיד נגדו"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "יריב חזק יותר הדירוג שלך יורד."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "שינוי הדירוג כאן יהיה קטן, רק 2 נקודות."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "ניתן להתאים זאת באמצעות משתנה ערך זכייה מינימלי."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "אז המשוואה הכללית היא, אני חושב -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "אֵיפֹה"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "ערך זכייה מינימלי"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "הגדרות ברירת המחדל נשמרות בקובץ נוסחת הדירוג < USCF >"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "אבל אתה יכול ליצור קובץ חדש ולשנות את ההגדרות אם תרצה."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "הייתי ממליץ על שינויים קלים בלבד במספרים הבסיסיים."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "הסבר על נוסחת הדירוג"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "עיכוב תנועה עבור משחקי מנוע אנושיים"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "השתמש בהשהיית תנועה"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "ביטול תוך שניות"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "השהיית תנועה מינימלית (שניות)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "אכיפת השהיית תנועה מינימלית"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "השתמש בזמן אכיפה אקראי"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "השהיית תנועה מקסימלית (שניות)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "עיכוב אקראי לזמן קבוע"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "השתמש בעיכוב מהלך במשחק עם מנוע אנושי"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "ביטול השהיית העברה כאשר נותרו רק מספר שניות זה"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "השהיית תנועה מינימלית בשניות"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "אכיפת עיכוב התנועה המינימלי,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "עד להגעה למצב ביטול ב- שניות"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "השתמש במספר אקראי בין 1 - השהיית מהלך מינימלית,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "כאשר מוגדרת השהיית תנועה מינימלית לאכיפת"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "השהיית תנועה מקסימלית בשניות"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "השתמש בהשהיית תנועה אקראית עבור זמני מנוע קבועים"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "תכונה זו מיועדת בעיקר לשימוש עם מנועי שחמט של קומודו."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "כאשר הם נחלשו למשחקי מנוע אנושיים."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "במקרה הזה המנועים נעים כמעט מיד, מה שנותן את המשחק"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "קצב לא טבעי, שהוא די מטריד."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "זה קורה גם עם מנוע ריבקה 2.3"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "ומנוע השחמט של אלכסנדר."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "למנועי קומודו אין אפשרות < איטי >, כך שתיבת דו-שיח זו"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "מאפשר לך להגדיר אפשרויות אשר יאטו את מהירות המנוע."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "השתמש בעיכוב מהלך - סמן כדי להשתמש בעיכוב מהלך עבור משחקים עם מנוע אנושי."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "ביטול בשניות - בחר את הזמן שבו השהיית התנועה לא תהיה בשימוש עוד."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "השהיית מהלך מינימלית - בחר את השהיית המהלך המינימלית בשניות."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "אכיפת השהיית מהלך מינימלית - סמן כדי לאכוף את השהיית המהלך המינימלית"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "במקרה זה, אם התוכנית מחשבת שהזמן המוקצב למעבר"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "קטן מהשהיית המהלך המינימלית, אז השהיית המהלך מוגדרת ל-"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "עיכוב מהלך מינימלי, או למספר אקראי בין 1 לעיכוב המהלך המינימלי,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "בהתאם לאופן שבו תיבת הסימון הבאה מוגדרת."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "אכיפה זו אינה חלה עוד כאשר מגיעים לזמן הביטול בשניות."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "בטל את הסימון כדי לאפשר למנוע להפעיל מהלכים מהר יותר מהשהיית המהלך המינימלית,"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "לפני הביטול בנקודת השניות, אם הזמן מתחיל להיגמר."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "אכיפה אקראית - בדיקת זמן אכיפה אקראי של עיכוב המהלך המינימלי."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "השהיית מהלך מקסימלית - בחר את השהיית המהלך המקסימלית בשניות."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "השהיה אקראית לזמן קבוע - סמן כדי להשתמש בהשהיה אקראית של מהלך עבור רמות זמן קבועות."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "בטל את הסימון כדי להשתמש בכל הזמן הקבוע המותר לעיכוב ההעברה."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "עזרה בעיכוב מעבר"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "אפשרויות משחק מדורגות"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "שם קובץ PGN עבור משחקי שחקנים"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "בחר קובץ .pgn עבור המשחק"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "יריב מנוע"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "מנוע ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "אישיויות"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "השחקן הנוכחי"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "שחקן ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "עריכת דירוג ELO של השחקן"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "סמן כדי לערוך את דירוג ה-ELO של השחקן"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "הגדר כמנוע נוכחי"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "הגדר כשעון נוכחי"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "שינוי דירוג עבור תוצאות"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "כוונון ידני"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "נוסחת דירוג"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "בקרות זמן"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "דקות למשחק"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "תוספת (שניות)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "נַגָן"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "הזמן את ההזמנה"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "התחל את המשחק"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "הזן את שם קובץ ה-PGN לשמירת משחקי השחקן"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "הזן את עוצמת ה-ELO של המנוע"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "פתח את תיבת הדו-שיח של הגדרות המנוע"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "פתח את תיבת הדו-שיח של אישיויות מנוע המכרסמים"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "הוסף שחקן חדש"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "מחיקת הנגן הנוכחי"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "שמור את פרטי השחקן הנוכחי"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "דירוג ELO של השחקן"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "סמן כדי לערוך את דירוג ה-ELO של השחקן"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "סמן כדי להשתמש בעיכוב מהלך עבור המשחק המדורג."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "סמן כדי להגדיר את הגדרות המנוע כעדכניות"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "סמן כדי להגדיר את הגדרות השעון כעדכניות"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "סמן כדי לכבות את ספר הפתיחה של משחק זה"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "שינוי דירוג ELO עבור ניצחון שחקן"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "שינוי דירוג ELO עקב אובדן שחקן"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "שינוי דירוג ELO עקב תיקו"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "סמן כדי להתאים את שינויי הדירוג"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "ו-ELO של השחקן באופן ידני"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "נוסחת הדירוג הנמצאת כעת בשימוש"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "הוסף נוסחה חדשה"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "מחיקת הנוסחה הנוכחית"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "עריכת הנוסחה הנוכחית"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "הזן את זמן השחקן במשחק בדקות"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "הזן את תוספת המהלך של השחקן בשניות"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "הזן את זמן המנוע עבור המשחק בדקות"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "הזן את תוספת תנועת המנוע בשניות"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "בדוק אם האדם ישחק לבן"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "הפעל את המשחק עם ההגדרות הנוכחיות"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "בחר את המנוע שאתה רוצה לשחק מולו"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "בחר את הנגן הנוכחי"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "עזרה במשחק מדורג"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "משחק מדורג מספק דרך נוחה עבורך לשחק נגד שחקנים מוחלשים"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "מנועי שחמט ובמקביל עוקב אחר ההתקדמות שלך"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "על ידי עדכון דירוג ELO משוער."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "ניתן להגדיר את האפשרויות הבאות עבור משחק מדורג"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "שם קובץ PGN: בחר את שם קובץ ה-PGN לאחסון משחקים מדורגים."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "שם הקובץ נגזר משם השחקן. הוא יישמר ב"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "אם לא יוזן שם שחקן, rated_games.pgn ישמש כשם הקובץ"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "יריב מנוע: כאן תוכלו לבחור באיזה מנוע תרצו לשחק."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "לכל המנועים האלה יש את האפשרות UCI_LimitStrength,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "מה שמאפשר להם להיחלש."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "אם ברצונך להוסיף מנוע נוסף שיש לו אפשרות זו, יש להעתיק אותו"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "אל ה"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "ספרייה"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "ELO של מנוע - בחר את עוצמת ה-ELO של המנוע."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "מוצגים הערכים העליונים והתחתונים המותרים."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "הגדרות מנוע - פעולה זו פותחת את תיבת הדו-שיח של המנוע המאפשרת לך לשנות"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "אפשרויות נוספות עבור המנוע שבחרת. לחץ על <Stockfish> לדוגמה."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "אם מנוע שחמט של Rodent נטען, אז כפתור < Personalities>"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "עבור מנוע זה יופיע גם כן."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "נגן נוכחי - כאן ניתן להגדיר את הנגן הנוכחי וגם להוסיף, למחוק"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "ולערוך שחקנים. שם השחקן הנוכחי מוצג בחלון העריכה"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "של תיבת רשימה נפתחת."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "כפתור פלוס - כדי להוסיף שחקן חדש, הקלד את שמו בחלון העריכה ולחץ על"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "על כפתור זה. שמם יתווסף לרשימה וקובץ ייקרא על שמם,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "אשר מכיל את פרטיהם, יאוחסן בדיסק ב-"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "כפתור מינוס - לחץ כדי למחוק את השחקן המוצג בחלון העריכה."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "פעולה זו גם תמחק את הקובץ שלהם מהדיסק."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "שמור - לחץ כדי לשמור את פרטי השחקן בחלון העריכה"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "אם תבצעו שינוי ידני בדירוג ה-ELO שלהם."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "דירוג ELO של השחקן - מציג את דירוג ה-ELO של השחקן בחלון העריכה."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "אם ברצונך לערוך תיבה זו בעת הוספת שחקן חדש, עיין באפשרות הבאה."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "עריכת דירוג ELO של השחקן - סמן כדי לאפשר עריכה של דירוג ה-ELO של השחקן."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "השתמש בעיכוב מהלך - סמן כדי להשתמש בעיכוב מהלך עבור המשחק המדורג."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "אפשרות זו מיועדת למנועים שנעים מהר מדי"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "כאשר הם נחלשים, כמו דרקון קומודו."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "הגדר כמנוע נוכחי - סמן כדי להגדיר את המנוע המוצג בתיבה זו"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "כמנוע הנוכחי לאחר סיום המשחק המדורג."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "בטל את הסימון כדי לאפס למנוע הישן לאחר המשחק המדורג."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "הגדר כשעון נוכחי - סמן כדי להגדיר את זמני השעון המוצגים בתיבה זו"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "כמו השעון הנוכחי לאחר סיום המשחק המדורג."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "בטל את הסימון כדי לאפס לשעון הישן לאחר המשחק המדורג."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "שינוי דירוג לתוצאות - מציג את שינויי הדירוג עבור ניצחון, הפסד או תיקו."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "אלה מותאמים אוטומטית בהתאם לדירוגי ה-ELO של השחקן והמנוע"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "ואיזו נוסחה משמשת לחישוב ELO."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "כוונון ידני - סמן תיבה זו אם ברצונך לשנות את הערכים לעיל באופן ידני."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "אם אתם רוצים לשחק את המשחק המדורג עם ערכים מותאמים ידנית,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "לאחר מכן, השאר תיבה זו מסומנת כשאתה לוחץ על <התחל משחק>"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "נוסחאות דירוג - כאן ניתן לבחור ולשנות נוסחאות חישוב ELO."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "הוא משמש באופן דומה לתיבת השחקן הנוכחית."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "ההבדל העיקרי הוא שכאשר מוסיפים או עורכים נוסחה,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "נפתחת תיבת דו-שיח חדשה המאפשרת לך להזין את האפשרויות עבור הנוסחה."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "למידע נוסף על נוסחאות דירוג לחצו על כפתור <עזרה>"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "של תיבת הדו-שיח של הנוסחה."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "בקרות זמן - בחר את בקרות הזמן למשחק."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "הזינו את זמן המשחק בדקות ואת תוספת המהלך בשניות"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "עבור השחקן האנושי ומנוע השחמט."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "אתה יכול לתת לעצמך יותר זמן מאשר למנוע אם תרצה."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "כבוי ספר - סמן כדי לכבות את ספר הפתיחה של המשחק המדורג."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "שחקו לבן - בדקו אם השחקן האנושי ישחק לבן,"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "בטל את הסימון כדי שהשחקן האנושי ישחק שחור."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "התחלת המשחק - לחץ כדי להתחיל משחק מדורג עם האפשרויות הנוכחיות."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "אם אתם רוצים ספר פתיחה מעניין ומגוון למשחקי מנוע אנושיים,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "אני ממליץ על ספר הפתיחה הרב-לשוניות"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "ספר זה היה חלק מהורדת מנוע Deep Saros."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "זה היה אמור להיות מותקן בתיקייה הבאה -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "עזרה למנועי משחק מדורגים"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "ארסן"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "מְכַּרסֵם"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "דגי סטוקפיש"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "לכל המנועים שבהם נעשה שימוש <משחק מדורג> יש אפשרות הגבלת עוצמה של UCI."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "זה מאפשר למשתמש לבחור דירוג ELO משוער"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "לעוצמת הנגינה של המנוע."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "המנועים מאוחסנים בדרך כלל בספרייה הבאה -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "יש מבחר גדול לבחירה, אך ניתן להוסיף מגבלות עוצמה נוספות"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "מנועים אם תרצה על ידי יצירת ספרייה חדשה ב- <rated_engines>"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "והעתקת קובץ ה- engine *.exe לתוכו."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "תהליך זה יעבוד עבור המנועים המסחריים הבאים -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "דרקון קומודו, פריץ 16, שרדר, הודיני 6, דיפ ג'וניור וכירון."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "ייתכן בהחלט שיש עוד רבים."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "ניסיתי לספק מענה לרוב סוגי המחשבים וזה גרם לי..."
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "רשימת המנועים די ארוכה. כך שתוכל למחוק את אלה שאתה לא רוצה."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "בעוד שחלק מהמנועים הישנים יותר, כמו Ufim, Delfi ו-Amyan, משחקים קצת"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "באופן שונה זה מזה, רוב המנועים שמקורם ב-Stockfish,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "לשחק בצורה דומה."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "המנוע היחיד שבולט כייחודי לחלוטין ומתאים בצורה מושלמת"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "עבור <משחק מדורג> הוא מנוע השחמט Rodent, שנכתב על ידי פאבל קוזיול."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "לחץ על <מכרסם> לפרטים נוספים."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "מנוע אראסאן, שנכתב על ידי ג'ון דארט הוא מנוע טוב מאוד נוסף."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "למרות שהוא לא חזק כמו הסטוקפיש, יש לו סגנון משחק ייחודי."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "עם זאת, כאשר משתמשים בו עם ממשק המשתמש הגרפי של Tarrasch ו-Nimzo_3d,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "יש כמה בעיות."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "מאז הוספת רשת נוירונים בגרסה 23.0,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "אף אחד מהם לא יעבוד על המחשב שלי."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "עם זאת, עם גרסה 25.2 האחרונה, המנועים הבאים פועלים"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "בהתחשב בבעיות אלו, השתמשתי במנועים מגרסה 22.3"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "עבור המשחקים המדורגים. זו הייתה הגרסה האחרונה ללא רשת נוירונים."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "כל המנועים מהגרסה הזו פועלים על המחשב שלי."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "עזרה במנוע אראסאן"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "מנוע שחמט Stockfish"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "דגי סטוקפיש (NPS)"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "אלכסנדר"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "כשכתבתי את הקוד להתאמות מנוע, גיליתי ש-Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "ומנועי קומודו הפסידו בזמן במשחקים עם מגבלת זמן מהירה,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "אז כתבתי את האפשרות < התאמת זמן מנוע > כדי לתקן את הבעיה הזו."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "עם משחק מדורג, תוך שימוש במגבלת זמן ארוכה יותר, גיליתי ששוב"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "סטוקפיש משחק את המהלכים שלו לאט מאוד כשהוא מחוץ לספר הפתיחה שלו"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "או אם לא נעשה שימוש בספר."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "כדי לתקן זאת ניתן להתאים את אפשרות המנוע האיטי של Stockfish."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "הורדת ערך זה מאיצה מעט את המהלכים."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "למרות שמצאתי שאפשרות זו אינה מספקת לבקרות זמן מהירות"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "של 3 דקות או פחות למשחק, זה עובד היטב במשך 5 דקות או יותר."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "עבור Stockfish 11, ערך של 20-30 עובד היטב למשחקים בני 5-10 דקות."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "ניתן להגדיר את אפשרות התנועה האיטית באמצעות אפשרויות הפרמטרים המותאמים אישית"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "בתיבת הדו-שיח של המנוע."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "כדי להקל על הדברים, יצרתי קובץ פרמטרים של מנוע עבור Stockfish 11."
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "עם הגדרת משחק איטי. ניתן לטעון זאת מתיבת הדו-שיח של המשחק המדורג"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "על ידי לחיצה על מנוע < הגדרות מנוע.. > ולאחר מכן < טען מנוע >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "מתיבת הדו-שיח של המנוע שנפתחת."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "קבצי הפרמטרים עבור Stockfish 11 מאוחסנים בספרייה"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "למנועי סטוקפיש 8-15 יש אפשרות להילוך איטי, בדגמים 16 ו-17 אין."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "בהתחשב בעובדה שאתה לא צריך את כוח הנגינה הנוסף כאן,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "אין צורך להשתמש במנועים חזקים יותר."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "מצאתי את הגרסה הזו של מנוע Stockfish ב-GitHub ב- -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "זוהי גרסה מתכווננת יותר מהמנוע הסטנדרטי."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "הנה תיאור של המנוע מהקובץ <README.md> -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS הוא דג Stockfish שעבר שינוי קל למשחק אנושי"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "עם הפחתת צמתים לשנייה, (קילו צמתים לשנייה ~= 1 / waitmins"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "הערכה אקראית, עומק חיפוש ומגבלת צמתי חיפוש."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "ניתן להגדיר את עוצמת שני השינויים הראשונים באפשרויות ה-uci."
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "מ-0 עד 100, בעוד שעומק החיפוש עשוי להיות מוגבל לערכים מ-1 עד 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "ולחפש צמתים לערכים של עד 500000."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "ניתן להשתמש בכל השינויים בכל שילוב יחד עם"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "הגדרות גבול כוח ורמת מיומנות של ELO, כדי להפחית את הכוח"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "של המנוע כשמשחקים נגד בני אדם."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "עם הגדרות ברירת מחדל, StockfishNPS פועל בדיוק כמו הקובץ Stockfish16_dev הנוכחי."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "שינוי הגדרת צמתי החיפוש בלבד לערך שבין 1 ל-10 מפחית את ה-ELO בערך ל-1400."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "זוהי נקודת התחלה טובה לשינויים נוספים באפשרויות."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "אני חושב שזה אומר שערך גבוה יותר של <waitms> מפחית"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "מספר המיקומים שהמנוע מחפש בשנייה."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "הגדלת ערך ההערכה האקראית"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "יוביל למשחק מגוון יותר."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< Search nodes > מטיל מגבלה מסוימת על מספר המיקומים המבוצעים בחיפוש."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< עומק חיפוש > מגביל את מספר חצאי המהלכים (ply) שהמנוע מחפש."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "יש גם אפשרות שנקראת < nodestime > אבל אני לא יודע מה היא עושה."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "ערכי ברירת מחדל של אפס פירושם שהאפשרות אינה בשימוש."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "לנוחיותך, יצרתי קבצי פרמטרים של מנוע עבור המנועים"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "כאשר כל הפרמטרים מוגדרים כברירת מחדל, מוכן לביצוע התאמות."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "אלה מאוחסנים ב- -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "וניתן לטעון אותו באמצעות <Load engine> מתיבת הדו-שיח של המנוע."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "עזרה במנוע nps של Stockfish"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "זהו מנוע נגזר של Stockfish עם תכונות התאמה רבות."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "כשניסיתי את זה לראשונה עם הגדרת עוצמת גבול ELO, זה לא נחלש,"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "וניגן את מהלכיו במלוא העוצמה."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "לאחר מכן הוספתי את האפשרות < Handicapped Depth > והגדרתי אותה ל- < true >"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "נראה שזה עובד, והמנוע פועל בעומקים שונים בהתאם"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "על דירוג ה-ELO שנקבע."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "ישנן אפשרויות רבות נוספות, המתוארות בקובץ < README.md >"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "קובץ זה ממוקם בספרייה הבאה"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "יצרתי שני קבצי פרמטרים של מנוע בספרייה הזו, בהם תוכלו להשתמש"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "כדי להגדיר את המנוע באמצעות <טען מנוע> מתיבת הדו-שיח של המנוע."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "כאשר משחקים במצב מוחלש, אלכסנדר משחק את המהלכים שלו כמעט באופן מיידי."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "אם תרצו, תוכלו להאט אותו באמצעות < תפריט ראשי > < מנוע > < השהיית תנועה >"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "מנוע אלכסנדר מתארח ב-GitHub בקישור הבא"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "עזרה במנוע שחמט של אלכסנדר"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "אי אפשר להתחיל משחק בלי שם שחקן"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "אנא בחר שחקן מרשימת השחקנים הנוכחיים"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "הודעת שגיאה של משחק מדורג"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "אי אפשר להתחיל משחק בלי נוסחת דירוג"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "אנא בחר נוסחה מתיבת הרשימה נוסחת דירוג"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "בחר הגדרות אישיות של מנוע מכרסמים"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "אין קבצי מנוע ב"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "מדריך המנועים המדורגים לא שונתה."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "אין קבצי אישיות לקריאה"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "מדריך האישיויות"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "לא קיים, ולכן לא ניתן להראות אישיויות"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "בחר הגדרות אישיות של מנוע Rodent 3"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "אישיות נוכחית"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "שם אישיות תצוגה"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "השתמש בספריית המסמכים"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "השתמש בעוצמת ELO מוגבלת"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "הזן ערכים כדי להתאים את עוצמת המנוע"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "צמתים לשנייה"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "העתקת ערכי ברירת מחדל"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "ערך טשטוש ההערכה"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "טשטוש הערכת העתק"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "רמת מיומנות חיפוש (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "העתקת מיומנות חיפוש"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "שמור את ההגדרות הנוכחיות לקובץ"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "בחר שם קובץ לשמירת קובץ האישיות"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "הוסף ערכים לקובץ אם אינם קיימים"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "סמן כדי להשתמש בספרייה הבאה"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "עבור המנועים המדורגים והקבצים הנלווים"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "סמן כדי להשתמש בעוצמת גבול UCI עבור התאמות מנוע"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "הזן את ערך הצמתים לשנייה,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "גבוה יותר לחזק יותר, נמוך יותר לחלש יותר,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "אבל אפס לעוצמה מקסימלית"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "הזן את ערך הערכת הטשטוש,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "נמוך יותר לחזק יותר, גבוה יותר לחלש יותר"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "הזן את ערך רמת המיומנות,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "נמוך יותר לחלש יותר, גבוה יותר לחזק יותר"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "הוספת צמתים לשנייה וטשטוש הערכה"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "ערכים לקובץ, אם הם אינם קיימים"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "בחר את האישיות שאתה רוצה לשחק נגדה"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "מִן"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "לא ניתן להחליף"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "התאמת עוצמת גבול UCI"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "התאמת צמתים לשנייה"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "לא ניתן להגדיר ל"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "כִּי"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "לא ניתן היה לפתוח את הקובץ."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "מכיוון שאפשרות הגבלת עוצמה לא הייתה בקובץ."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "כל הערכים מוגדרים כברירת מחדל"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "אז אין טעם לכתוב אותם"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "לא ניתן היה לפתוח את קובץ הקלט"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "לא ניתן היה לפתוח את קובץ הפלט"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "מעודכן, ו"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "נשמר בדיסק"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "עזרה במנוע שחמט של מכרסמים"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "תיאורי אישיות"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "אודות מכרסם"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "תיבת דו-שיח זו מאפשרת לך לבחור אישיות משחק"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "ואפשרויות למנועי השחמט Rodent."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "אישיות נוכחית - תיבת הרשימה הנפתחת מאפשרת לך לבחור אישיות."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "השתמש בעוצמת מגבלת ELO - סמן כדי להשתמש בערכי ELO בתיבת הדו-שיח של המנוע"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "בעת הגדרת עוצמת הנגינה של המנוע."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "הזן ערכים כדי להתאים את עוצמת המנוע -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "צמתים לשנייה - מספר המיקומים שהמנוע ייצור"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "ולנתח בכל שנייה."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "ערך טשטוש הערכה - ערך אקראי שנוסף לפונקציית הערכה."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "עם Rodent 3, במצב צמתים לשנייה, ערך טשטוש ההערכה"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "נטען מקובץ האישיות. זה ייתן לך מושג כלשהו"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "של טווח הערכים לשימוש, אם ברצונך לבצע התאמות."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "ניתן להשתמש באפשרות זו גם עם עוצמת גבול ELO."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "כאשר נעשה שימוש בדרך זו, גיליתי שהגדרה של 20 שינתה את המהלכים"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "שהמנוע עבד אבל מספרים גבוהים מ-20 לא השפיעו עד 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "והגדרה גבוהה מ-1000 החלישה את המנוע באופן משמעותי."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "אז ההגדרות השימושיות במצב עוצמת הגבלה של ELO עבור המחשב שלי"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "הם 20 או 500 - 1000, אבל זה עשוי להיות שונה עבור המחשב שלך."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "אם אינך רוצה שהוא יוגדר או יוצג, הגדר אותו לאפס."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "למרות שמספר הצמתים לשנייה אינו חל בעת שימוש בעוצמת גבול ELO,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "עדיין ניתן להזין ערכים ולשמור אותם בקובץ האישיות לשימוש מאוחר יותר."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "העתק ערכי ברירת מחדל - בדוק את ערכי התאמות העוצמה"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "להעתקה מתיבת דו-שיח זו לתיבת הדו-שיח של המנוע"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "אפילו כשהם מוגדרים כברירת מחדל. לאחר מכן ניתן לערוך אותם."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "אם יישארו כפי שהם, לא תהיה להם שום השפעה על המנוע."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "במצב עוצמת גבול ELO, הם לא מתאפסים בעת מחיקה מ"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "תיבת הדו-שיח של המנוע. במצב צמתים לשנייה הם מאופסים,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "אז אתה צריך לכבות את <העתק פרמטרים> כדי לערוך אותם."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "הצגת שם האישיות - סמן כדי להציג את שם האישיות"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "בעקבות שם המנוע במהלך משחק."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "דירוג המנוע מוצג גם הוא אוטומטית."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "השתמש בספריית המסמכים - סמן כדי להשתמש ב"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "עבור המנועים המדורגים."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "זהו אמצעי גיבוי חירום למקרה שהם לא הועתקו אליהם"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "אם הם הותקנו במקום אחר, ניתן להעתיק אותם אליהם."
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "אחת מהספריות למעלה."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "אם הם לא הותקנו כלל, ניתן להוריד אותם מהקישורים האלה -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "קישורים"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "שמירת ההגדרות הנוכחיות לקובץ - בעזרת בורר קבצים זה, ניתן לשמור את"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "השמעת הגדרות עוצמה מתיבת הדו-שיח לקובץ הנוכחי,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "או חדש אם תרצה."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "הוסף ערכים אם אינם קיימים - סמן כדי להוסיף את ערכי התאמת החוזק לקובץ"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "אם הם אינם קיימים. זה יהיה המקרה אם תוסיף ערכי טשטוש הערכה"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "לקובץ אישיות של מכרסם 4."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "אודות מנועי השחמט של Rodent"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr ""מכרסם", שנכתב על ידי פאבל קוזיול, הוא מנוע שחמט מעניין מאוד."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "יש לו את האפשרות UCI_LimitStrength וגם סט של אישיויות,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "אשר נטענים מקבצים, למשחק חלש ומגוון יותר."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "כדי שהמנוע יעבוד כראוי עם האישיויות והן"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "בפתיחת ספרים, כל הרכיבים צריכים להיות ממוקמים באותה ספרייה."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "הם היו צריכים להיות מותקנים ב- -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "אם אתם רוצים שמנוע המכרסמים ישתמש בספר משלו במהלך משחק,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "אז אתה צריך לכבות את ספר הפתיחה של Nimzo_3d מ"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< תפריט ראשי > < פתיחות > < ספר פתיחה >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "או סימון האפשרות <Book off>, אם אתם משתמשים ב-"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "תיבת דו-שיח של משחק מדורג."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "יש קצת תיעוד ותוכנת שירות"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "אשר ניתן להשתמש בהם כדי ליצור אישיויות נוספות."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "ניתן להוריד את חבילת מנוע Rodent 4 וגרסאות קודמות מ- -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "מכרסם 4 בלבד, עם סקירה מפורטת"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "חומר התמיכה למנוע Rodent 4, ללא מנועים"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "חומר תמיכה למכרסם 3, ללא מנועים"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "קובץ אישיות מכרסם הוא פשוט רשימה של פקודות UCI בקובץ *.txt"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "זה אמור לעבוד בצורה הבאה -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "ממשק המשתמש הגרפי של תוכנית השחמט שולח את הפקודה < Personality > למנוע המכרסמים."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "לאחר מכן המנוע קורא את הפקודות מקובץ האישיות"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "ומתאים את הגדרותיו בהתאם."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "עם זאת, גם עם Nimzo_3d וגם עם ממשק המשתמש הגרפי של Tarrasch,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "לא הצלחתי לגרום למנועים לעבוד כשמשתמשים בהם בצורה הזו."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "כל הדמויות שיחקו את אותם המהלכים."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "אז במקום זאת, יירטתי את הפקודה < Personality > כשהיא הייתה"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "עומד להישלח מהממשק הגרפי למנוע, פתח את קובץ האישיות"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "ושלח את הפקודות מהקובץ בנפרד. נראה שזה עובד."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "בעיקרון, למנוע Rodent יש שתי שיטות עיקריות לשינוי עוצמת הנגינה שלו."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "זה יכול להשתמש בעוצמת גבול ELO או בצמתים לשנייה עם טשטוש הערכה."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "עוצמת מגבלת ELO מאפשרת לך להגדיר דירוג ELO משוער"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "וצמתים לשנייה עם טשטוש הערכה מאפשר לך לקבוע ערכים"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "שיש להם אפקט מחלישה דומה."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "אישיויות המכרסם 3 מוגדרות להשתמש בצמתים לשנייה."
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "עם טשטוש הערכה ומכרסם 4 מיועד לשימוש"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "עם עוצמת גבול ELO בלבד."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "בגלל השינוי שעשיתי באופן שבו הפקודה < Personality > נשלחת,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "מכרסם 3 יכול להשתמש באישיות שלו עם מגבלת כוח ELO"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "בשילוב עם טשטוש הערכה ובחירת מיומנות,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "אבל לא עם צמתים לשנייה."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "זה גם אומר שמכרסם 4 יכול להשתמש בעוצמת גבול ELO"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "עם טשטוש הערכה ובחירת מיומנות."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "שינוי קל של ערך טשטוש ההערכה פירושו שהמנוע ינגן"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "מהלכים שונים מבלי להשפיע רבות על עוצמת המשחק,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "כל עוד ערך הטשטוש אינו גבוה מדי."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "אתה יכול להתנסות עם זה, מצאתי שערכים בין 20 ל-50"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "עבד די טוב."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "בנוסף לכך, שני המנועים יכולים כעת להשתמש בקבצי האישיות"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "של המנוע השני עם התאמות קלות בלבד מתוך Nimzo_3d,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "לאחר שהועתקו לתיקיית < Personalities > של המנוע."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "זה מאפשר לך להחליף בקלות קבצי אישיות חדשים אם אתה רוצה שינוי."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "שמתי כמה ב-< extra_personalities >"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "בתוך הספרייה < אישיויות >."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "קבצי האישיות מאוחסנים בספריות הבאות -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "פְּלוּס"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "אוֹ"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "ניתן לשנות את הקבצים מתוך Nimzo_3d כדי להתאים את"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "צמתים לשנייה וערכי טשטוש הערכה ולאחר מכן נשמרים בחזרה לדיסק."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "לא משנה שקבצי האישיות יכולים להכיל פקודות"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "שאינם מתאימים למנוע הנמצא כעת בשימוש, משום שהם"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "מסוננים על ידי ה-GUI לפני שהם נשלחים למנוע."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "פקודות מכרסמים"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "תיאורים אלה של אישיויות מנוע השחמט של מכרסמים לקוחים מתוך"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "הקובץ < FinalRodent.pdf > אשר ניתן למצוא בספרייה הבאה -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "אישיויות מוגדרות מראש"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "מאז הקמתו, פרויקט Rodent עסק ביצירת מנוע"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "שמאפשר שינוי של סגנון המשחק שלו - בדיוק כמו סדרת ChessMaster,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "רק טוב יותר. שינויי קוד בגרסה החדשה גרמו לכך שאישיות ישנה"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "אינם שמישים עוד, אז הרגשתי צורך ליצור סט חדש."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "אני מקווה שתמצא את זה מעניין."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "אגרוף וראשית, תוקף, השיקול השני שלה"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "פעילות של כל חלק. משחק פתיחות גמביט."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "קלואי אוהב עמדות סגורות, סערות חיילים ומבנה חיילים יציב."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "הדבר היחיד שהיא מעדיפה על פני עמדה סגורה הוא עמדה סגורה"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "עם קובץ פתוח אחד, בבעלות טירוניה."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "היא גאה להתאמן בהגנות הצרפתיות והאינדיאניות של המלך."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "דמיינו אותה כאישה כהת שיער, רזה ומלנכולית."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "היא שחקנית הגנה שאוהבת בישופים."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "דמיינו אותו בחליפה יקרה, נראה יותר כמו מנכ"ל"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "מאשר שחקן שחמט. אישיות חזקה, רציונלית, אם כי פסימית במידה מסוימת."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "משחק פתיחות מוצקות. מוכן לקחת תיקו בעמדות שוות לחלוטין."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "דמיינו אותו כשחקן שכבר עבר את שיאו,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "חסר כבוד כלפי יריביו ועדיין די מסוכן."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "גראמפי אוהב להגביל את תנועת האויב ולתקוף,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "נהנה מפוזיציות סגורות ומצפה לנצח."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "בגלל גילו, הוא מנגן בעיקר פתיחות לא מודרניות מדי."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "לדוגמה, הוא אוהב את ההגנה של טאראש."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "חיקוי של פול מורפי. מדגיש ניידות,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "ואז התקפת מלך, מעדיף עמדות פתוחות."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "הוא מתחיל לאט, תוך שימוש בפתחים שאינם תופסים הרבה מקום"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "במרכז, אבל אל תתנו לתחושה כוזבת של ביטחון."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "בהמשך הוא יוצא להתקפות אכזריות."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "דמיינו אותו כרב-אמן צעיר, עולה ומבטיח,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "שעדיין לא הגיע לפוטנציאל המלא שלו."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "רזה, אנרגטי, אוהב תנועות ראוותניות קצת יותר מדי."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "הוא נוטה להיפרד מהכישופים שלו מדי פעם."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "אישיות מאוזנת, נוטה להקריב כמות צנועה של חומר,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "לעתים קרובות נוקט בהגנה אקטיבית בסוף המשחק."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "פדריטה מייצגת פיונים, הגנה, ריסון."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "היא משחקת פתיחות מוצקות וחושבת קודם כל על הגנה, אבל אל תטעו!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "היא יכולה לתקוף מצוין אם המיקום דורש זאת, ועם משחק פיוני מוצק"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "היא אגוז קשה לפיצוח."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "מעט חומרני, אבל נלחם על היוזמה"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "וקרוב מספיק לחדלות פירעון כדי להימנע מתוכניות לא יציבות."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "אוהב ליצור לחץ נגד כלי האויב."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "משחק פתיחות סגורות כלבן, הגנות סלאביות וקארו-קאן כשחור."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "אולי ההגדרה הטובה ביותר מול המנועים החלשים יותר."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "משחק ללא היבטים מתקדמים יותר של פונקציית הערכה,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "החלת ברירת מחדל הגיונית. העדפה קלה להחלפת מלכות,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "במצבים שווים לחלוטין ילכו על תיקו."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "אולי האישיות הכי דמוית מחשב."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "דמיינו אותו כגבר גבוה במעיל עור חום."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "הוא אוהב משחק פעיל אבל מתעב להיות תחת התקפה."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "אוהב לשמור מלכות על הלוח."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "מבוסס על אישיות "מכרסם 3" מאת ברנדן ג'יי נורמן."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "משחק בסגנון נחש בואה, אך בעל העדפה חזקה להתקפה,"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "סביר להניח שיקריב מסיבות של מיקום."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "גרסה הרבה יותר טמפרמנטלית של גראמפי, משחק מאוד אנושי."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "ייתכן שיהיה אופטימי מדי במשחקי קצה עם מלכות."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "יש גם דמויות אישיות של אלופי עולם רבים ושחקנים מפורסמים אחרים."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "תיאורי אישיות במנוע השחמט Rodent 4"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "החלון תמיד למעלה"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "אם תרצה, תוכל להאט את הקצב עם -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< תפריט ראשי > < מנוע > < השהיית תנועה >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "שחק משחק מדורג נגד מנוע שחמט"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "סמן כדי להעתיק את הגדרות עוצמת הגבלה לפרמטרים מותאמים אישית"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "נוסחת הדירוג מוסברת"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "סמן כדי להציג שם אישיות"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "עם שם המנוע במהלך משחק"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "הזן את ערך מיומנות החיפוש,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "סמן כדי להעתיק אפשרויות באופן אוטומטי תמיד"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "לפרמטרים מותאמים אישית"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "סמן כדי להעתיק אוטומטית את טשטוש ההערכה"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "ערך לפרמטרים מותאמים אישית"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "סמן כדי להעתיק אוטומטית את מיומנות החיפוש"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "הזן את שם הקובץ לשמירת"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "אפשרויות כוונון עוצמת המנוע"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "ניצח במשחק לבן ומרוויח"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "הפסיד במשחק שחור ומפסיד"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "הפסיד במשחק לבן ומפסיד"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "ניצח במשחק שחור ומרוויח"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "צייר משחק לבן"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "צייר משחק שחור"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "לא היה שינוי בדירוג."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "וזכה"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "ואיבד"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "הדירוג החדש שלך הוא"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "הודעת דירוג תוצאות המשחק"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "לא ניתן לפתוח את קובץ פרופיל השחקן כדי לכתוב פרטים"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "אין קבצי מנוע בספרייה, משחק מדורג בוטל"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "מדריך מנועים מדורגים"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "לא קיים, משחק מדורג בוטל"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "הצעה: אפס את ערכי ברירת המחדל של התוכנית מ-"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< תפריט ראשי > < אפשרויות > < איפוס להגדרות היצרן >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "אם פעולה זו נכשלת, הורד והתקן את המנועים המדורגים מ"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "אישיות מנוע מכרסם"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "טָעוּן"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "הודעה על מנוע משחק מדורג"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "המנוע אינו ברשימה, לכן לא ניתן להגדיר אותו"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "ספריית פרופילי השחקן"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "הצעה: צור ספרייה זו באופן ידני באמצעות סייר Windows"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "שם השחקן ריק, אנא הקלד שם"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "שם השחקן כבר נמצא ברשימה,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "אנא הזן שם שחקן אחר"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "פרופיל שחקן עבור"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "שגיאה בשמירת פרופיל הנגן בדיסק"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "שם השחקן לא מופיע ברשימה,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "אנא הזן שם של שחקן שנמצא ברשימה"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "נמחק מהדיסק"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "שגיאה במחיקת פרופיל הנגן מהדיסק"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "מדריך נוסחאות דירוג"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "והשתמש ב-< נוסחת דירוג > < + > כדי להוסיף נוסחה"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "בתיבת הדו-שיח של המשחק המדורג."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "שם קובץ הנוסחה ריק, אנא הקלד שם"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "שם קובץ נוסחת הדירוג כבר נמצא ברשימה,"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "אנא הזן שם קובץ שונה של נוסחת דירוג"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "שם קובץ נוסחת הדירוג אינו ברשימה,"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "אנא הזן שם קובץ של נוסחת דירוג שנמצא ברשימה"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "נוסחת דירוג עבור"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "שגיאה בשמירת קובץ נוסחת הדירוג בדיסק"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "שם קובץ הנוסחה ריק, אנא הקלד שם קובץ"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "קובץ נוסחת הדירוג אינו ברשימה,"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "אנא הזן קובץ נוסחה שנמצא ברשימה"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "שגיאה במחיקת נוסחת הדירוג מהדיסק"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "לא ניתן לפתוח קובץ נוסחת דירוג לקריאה"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "תכונת משחק מדורגת עבור משחקי מנוע אנושיים (גרסה 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "עיכוב תנועה"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "עיכוב במעבר.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "הצג את תיבת הדו-שיח של עיכוב ההעברה"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "הודעת שגיאה"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "העתק לפרמטרים מותאמים אישית"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "כשכתבתי את התכונה <משחק מדורג> גיליתי שמנוע הדלפי"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "נדרשו הגדרות עוצמת הגבלה שהוצבו ברשימת הפרמטרים המותאמים אישית"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "כדי שיעבדו."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "עבור מנוע Delfi פעולה זו תתבצע באופן אוטומטי."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "אם יש לך את הבעיה הזו במנועים אחרים, אתה יכול לבדוק את"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "התיבה <העתק לפרמטרים מותאמים אישית> ופרמטרי עוצמת הגבול"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "יועתק הלוך ושוב."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "גיליתי גם שאם שיחקתם יותר ממשחק אחד עם מנוע Stockfish מוחלש"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "ו-<העתק לפרמטרים מותאמים אישית> לא הוגדר, Stockfish חזר לעוצמה מלאה"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "למשחק השני. אז כנראה שעדיף שתמיד תהיה אפשרות זו מוגדרת"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "בעת שימוש בעוצמה מוגבלת."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "בעת שימוש בתכונה <משחק מדורג>, פעולה זו נאכפת עבור כל המנועים."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "אם לוח המידע לחיפוש פתוח כשאתם משחקים נגד סטוקפיש,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "זה מראה ניתוח חוזק מלא עבור המנוע,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "אפילו אם הוא נחלש באמצעות חוזק גבולי של UCI."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "אפשר לדעת אם הוא באמת נחלש כי הוא יתנגן לעתים קרובות"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "מהלך שונה מזה המוצג בניתוח."
+
