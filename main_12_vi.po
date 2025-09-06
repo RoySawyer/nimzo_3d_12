@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "Công thức điều chỉnh xếp hạng"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "vì"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "Giá trị chiến thắng"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "Giá trị mất mát"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "Giá trị vẽ"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "Hệ số điều chỉnh cường độ"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "Giá trị chênh lệch tối đa hiệu quả"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "Giá trị thắng tối thiểu"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "Đầu vào thay đổi xếp hạng để giành chiến thắng"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "Thay đổi xếp hạng cho một trận hòa"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "Thay đổi xếp hạng cho một mất mát"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "Nhập phần trăm điều chỉnh hệ số cường độ"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "Chênh lệch xếp hạng tối đa hiệu quả"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "Hộp thoại này cho phép người dùng thiết lập các tùy chọn cho công thức"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "được sử dụng để điều chỉnh xếp hạng của người chơi sau một trận đấu với một công cụ."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Giá trị chiến thắng - điểm xếp hạng tăng lên khi thắng một trò chơi."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "Giá trị vẽ - luôn được đặt thành 0."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Giá trị thua lỗ - đây là giá trị trừ đi giá trị thắng."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Hệ số điều chỉnh cường độ (phần trăm) - Giá trị này được sử dụng"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "trong việc tính toán xếp hạng, như thể hiện trong phương trình dưới đây."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Chênh lệch xếp hạng tối đa hiệu quả - Nếu chênh lệch xếp hạng"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "giữa những người chơi lớn hơn con số này,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "sau đó nó được đặt thành số này. Xem phương trình bên dưới."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Công thức cơ bản được Liên đoàn cờ vua Hoa Kỳ sử dụng"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "cho các ván cờ qua thư."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "Bạn có thể xem mô tả trên trang web sau -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "Sau đây là lời giải thích của tôi về công thức của họ."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "Tính toán của họ cho xếp hạng mới sau một trò chơi là -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(dù thắng hay thua)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Ở đây 0,04 (4 phần trăm) là hệ số điều chỉnh cường độ (SAF)"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED là sự khác biệt về xếp hạng hiệu quả."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED có giá trị dương khi tính toán thứ hạng của"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "người chơi yếu hơn và giá trị âm khi tính toán cho người chơi mạnh hơn."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "Đối với giá trị thắng/thua là 16, nếu chênh lệch xếp hạng thực tế"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "giữa những người chơi lớn hơn 350 thì đặt thành 350."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "Điều này nhằm đảm bảo rằng trong những trường hợp này, nếu bạn thắng một trò chơi với"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "một đối thủ yếu hơn, thứ hạng của bạn sẽ tăng lên và nếu bạn thua"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "đối thủ mạnh hơn thì thứ hạng của bạn sẽ giảm."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "Sự thay đổi về xếp hạng ở đây sẽ nhỏ, chỉ 2 điểm."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Có thể điều chỉnh điều này bằng cách sử dụng biến giá trị thắng tối thiểu."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "Vì vậy, theo tôi, phương trình tổng quát là -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "Ở đâu"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "giá trị thắng tối thiểu"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Các thiết lập mặc định được lưu trữ trong tệp công thức xếp hạng < USCF >"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "nhưng bạn có thể tạo một tệp mới và thay đổi cài đặt nếu muốn."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Tôi chỉ đề xuất những thay đổi nhỏ đối với các con số cơ bản."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "Giải thích công thức xếp hạng"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "Độ trễ di chuyển cho trò chơi giữa người và máy"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "Sử dụng độ trễ di chuyển"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "Hủy bỏ tại giây"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "Độ trễ di chuyển tối thiểu (giây)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "Áp dụng độ trễ di chuyển tối thiểu"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "Sử dụng thời gian thực thi ngẫu nhiên"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "Độ trễ di chuyển tối đa (giây)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "Độ trễ ngẫu nhiên trong thời gian cố định"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "Sử dụng độ trễ di chuyển trong trò chơi giữa người và máy"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "Hủy bỏ sự chậm trễ di chuyển khi chỉ còn lại số giây này"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "Độ trễ di chuyển tối thiểu tính bằng giây"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "Thực thi độ trễ di chuyển tối thiểu,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "cho đến khi hủy bỏ tại giây được thực hiện"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "Sử dụng một số ngẫu nhiên giữa 1 - độ trễ di chuyển tối thiểu,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "khi thực thi độ trễ di chuyển tối thiểu được thiết lập"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "Độ trễ di chuyển tối đa tính bằng giây"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "Sử dụng độ trễ di chuyển ngẫu nhiên cho thời gian động cơ cố định"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "Tính năng này chủ yếu được thiết kế để sử dụng với các công cụ cờ vua Komodo"
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "khi chúng bị làm yếu đi để phục vụ cho trò chơi giữa con người và động cơ."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "Trong trường hợp này, các động cơ di chuyển gần như ngay lập tức, điều này mang lại cho trò chơi"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "một nhịp điệu không tự nhiên, khá khó chịu."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "Điều này cũng xảy ra với động cơ Rybka 2.3"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "và công cụ cờ vua Alexander."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "Động cơ Komodo không có tùy chọn <Chuyển động chậm>, vì vậy hộp thoại này"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "cho phép bạn thiết lập các tùy chọn để làm chậm động cơ."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Sử dụng độ trễ di chuyển - Chọn để sử dụng độ trễ di chuyển cho trò chơi giữa người và máy."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "Hủy sau vài giây - Chọn thời điểm mà độ trễ di chuyển không còn được sử dụng nữa."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Độ trễ di chuyển tối thiểu - Chọn độ trễ di chuyển tối thiểu tính bằng giây."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "Áp dụng độ trễ di chuyển tối thiểu - Kiểm tra để áp dụng độ trễ di chuyển tối thiểu"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "Trong trường hợp này, nếu chương trình tính toán thời gian cho phép để di chuyển"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "nhỏ hơn độ trễ di chuyển tối thiểu, thì độ trễ di chuyển được đặt thành"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "độ trễ di chuyển tối thiểu hoặc đến một số ngẫu nhiên giữa 1 và độ trễ di chuyển tối thiểu,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "tùy thuộc vào cách thiết lập hộp kiểm tiếp theo."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "Việc thực thi này không còn hiệu lực khi thời gian hủy tính bằng giây đã đạt đến."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "Bỏ chọn để cho phép động cơ thực hiện các động tác nhanh hơn độ trễ di chuyển tối thiểu,"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "trước khi hủy tại thời điểm giây, nếu thời gian bắt đầu cạn kiệt."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "Thực thi ngẫu nhiên - Kiểm tra thời gian thực thi ngẫu nhiên của độ trễ di chuyển tối thiểu."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Độ trễ di chuyển tối đa - Chọn độ trễ di chuyển tối đa tính bằng giây."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Độ trễ ngẫu nhiên trong thời gian cố định - Chọn để sử dụng độ trễ di chuyển ngẫu nhiên trong các cấp độ thời gian cố định."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Bỏ chọn để sử dụng toàn bộ thời gian cố định được phép cho độ trễ di chuyển."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "Trợ giúp về độ trễ di chuyển"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "Tùy chọn trò chơi được xếp hạng"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "Tên tệp PGN cho trò chơi của người chơi"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "Chọn tệp .pgn cho trò chơi"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "Đối thủ động cơ"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "Động cơ ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "Nhân vật"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "Người chơi hiện tại"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "ELO của người chơi"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "Chỉnh sửa xếp hạng ELO của người chơi"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "Kiểm tra để chỉnh sửa xếp hạng ELO của người chơi"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "Đặt làm động cơ hiện tại"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "Đặt làm đồng hồ hiện tại"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "Thay đổi xếp hạng cho kết quả"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "Điều chỉnh thủ công"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "Công thức đánh giá"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "Kiểm soát thời gian"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "Số phút mỗi trận"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "Tăng dần (giây)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "Người chơi"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "Đặt chỗ"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "Bắt đầu trò chơi"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "Nhập tên tệp PGN để lưu trò chơi của người chơi"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "Nhập cường độ ELO của động cơ"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "Mở hộp thoại cài đặt động cơ"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Mở hộp thoại tính cách của động cơ Rodent"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "Thêm người chơi mới"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "Xóa trình phát hiện tại"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "Lưu thông tin chi tiết của người chơi hiện tại"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "Xếp hạng ELO của người chơi"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "Kiểm tra để chỉnh sửa xếp hạng ELO của người chơi"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "Chọn sử dụng độ trễ di chuyển cho trò chơi được xếp hạng."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "Kiểm tra để thiết lập cài đặt động cơ là hiện tại"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "Kiểm tra để thiết lập cài đặt đồng hồ là hiện tại"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "Kiểm tra để tắt cuốn sách mở đầu cho trò chơi này"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "Thay đổi xếp hạng ELO cho chiến thắng của người chơi"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "Thay đổi xếp hạng ELO khi người chơi thua"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "Thay đổi xếp hạng ELO cho trận hòa"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "Kiểm tra để điều chỉnh các thay đổi xếp hạng"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "và ELO của người chơi theo cách thủ công"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "Công thức đánh giá hiện đang được sử dụng"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "Thêm công thức mới"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "Xóa công thức hiện tại"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "Chỉnh sửa công thức hiện tại"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "Nhập thời gian của người chơi cho trò chơi tính bằng phút"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "Nhập bước di chuyển của người chơi tính bằng giây"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "Nhập thời gian động cơ cho trò chơi tính bằng phút"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "Nhập gia số chuyển động của động cơ tính bằng giây"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "Kiểm tra xem con người có chơi quân trắng không"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "Bắt đầu trò chơi với cài đặt hiện tại"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "Chọn động cơ mà bạn muốn chơi"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "Chọn người chơi hiện tại"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "Trợ giúp trò chơi được xếp hạng"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "Trò chơi được xếp hạng cung cấp cho bạn một cách thuận tiện để chơi với những người yếu hơn"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "công cụ cờ vua và đồng thời theo dõi tiến trình của bạn"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "bằng cách cập nhật xếp hạng ELO gần đúng."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "Bạn có thể thiết lập các tùy chọn sau cho một trò chơi được xếp hạng"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "Tên tệp PGN: Chọn tên tệp PGN để lưu trữ trò chơi được xếp hạng."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "Tên tệp được lấy từ tên người chơi. Nó sẽ được lưu trữ trong"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "Nếu không nhập tên người chơi, rated_games.pgn sẽ được sử dụng làm tên tệp"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Đối thủ động cơ: Ở đây bạn có thể chọn động cơ mà bạn muốn chơi."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Tất cả các công cụ này đều có tùy chọn UCI_LimitStrength,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "điều này làm cho chúng yếu đi."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Nếu bạn muốn thêm một công cụ khác có tùy chọn này thì bạn nên sao chép nó"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "đến"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "thư mục"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "ELO của động cơ - Chọn độ mạnh ELO của động cơ."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "Hiển thị các giá trị cho phép trên và dưới."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Cài đặt động cơ - Thao tác này sẽ mở hộp thoại động cơ cho phép bạn thay đổi"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "các tùy chọn khác cho công cụ bạn chọn. Nhấp vào <Stockfish> để xem ví dụ."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Nếu một công cụ cờ vua Rodent được tải, thì nút < Tính cách >"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "vì động cơ này cũng sẽ xuất hiện."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Người chơi hiện tại - Tại đây bạn có thể thiết lập người chơi hiện tại và cũng có thể thêm, xóa"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "và chỉnh sửa người chơi. Tên của người chơi hiện tại được hiển thị trong cửa sổ chỉnh sửa"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "của hộp danh sách thả xuống."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Nút dấu cộng - Để thêm người chơi mới, hãy nhập tên của họ vào cửa sổ chỉnh sửa và nhấp vào"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "vào nút này. Tên của họ sẽ được thêm vào danh sách và một tệp được đặt theo tên họ,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "chứa thông tin chi tiết của họ, sẽ được lưu trữ trên đĩa trong"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Nút trừ - Nhấp để xóa trình phát được hiển thị trong cửa sổ chỉnh sửa."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "Thao tác này cũng sẽ xóa tệp của họ khỏi đĩa."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Lưu - Nhấp để lưu thông tin chi tiết của người chơi trong cửa sổ chỉnh sửa"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "nếu bạn thực hiện thay đổi thủ công đối với xếp hạng ELO của họ."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "ELO của người chơi - Hiển thị xếp hạng ELO của người chơi trong cửa sổ chỉnh sửa."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Nếu bạn muốn chỉnh sửa hộp này khi thêm người chơi mới, hãy xem tùy chọn tiếp theo."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Chỉnh sửa xếp hạng ELO của người chơi - Chọn để cho phép chỉnh sửa xếp hạng ELO của người chơi."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Sử dụng độ trễ di chuyển - Chọn để sử dụng độ trễ di chuyển cho trò chơi được xếp hạng."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "Tùy chọn này dành cho các động cơ di chuyển quá nhanh"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "khi chúng bị suy yếu, chẳng hạn như rồng Komodo."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Đặt làm động cơ hiện tại - Đánh dấu để đặt động cơ được hiển thị trong hộp này"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "là công cụ hiện tại sau khi trò chơi được xếp hạng kết thúc."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Bỏ chọn để thiết lập lại về engine cũ sau khi chơi game được đánh giá."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Đặt làm đồng hồ hiện tại - Chọn để đặt thời gian đồng hồ hiển thị trong hộp này"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "là đồng hồ hiện tại sau khi trò chơi được xếp hạng kết thúc."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Bỏ chọn để thiết lập lại đồng hồ cũ sau khi trò chơi được xếp hạng."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Thay đổi xếp hạng theo kết quả - Hiển thị thay đổi xếp hạng khi thắng, thua hoặc hòa."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Những điều này được tự động điều chỉnh theo xếp hạng elo của người chơi và máy"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "và công thức nào được sử dụng để tính ELO."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Điều chỉnh thủ công - Đánh dấu vào ô này nếu bạn muốn thay đổi các giá trị trên theo cách thủ công."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Nếu bạn muốn chơi trò chơi được xếp hạng với các giá trị được điều chỉnh thủ công,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "sau đó để nguyên ô này khi bạn nhấp vào < Bắt đầu trò chơi >"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Công thức xếp hạng - Tại đây bạn có thể chọn và sửa đổi công thức tính toán ELO."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "Nó được sử dụng theo cách tương tự như hộp trình phát hiện tại."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "Sự khác biệt chính là khi bạn thêm hoặc chỉnh sửa một công thức,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "một hộp thoại mới sẽ mở ra cho phép bạn nhập các tùy chọn cho công thức."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "Để biết thêm thông tin về công thức xếp hạng, hãy nhấp vào nút <Trợ giúp>"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "của hộp thoại công thức."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Kiểm soát thời gian - Chọn kiểm soát thời gian cho trò chơi."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Nhập thời gian chơi tính bằng phút và bước di chuyển tính bằng giây"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "dành cho người chơi và máy chơi cờ."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Bạn có thể dành cho mình nhiều thời gian hơn động cơ nếu muốn."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Tắt sách - Chọn để tắt sách mở đầu cho trò chơi được xếp hạng."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Chơi quân trắng - Kiểm tra xem người chơi có chơi quân trắng không,"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "bỏ chọn để người chơi có thể chơi quân đen."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Bắt đầu trò chơi - Nhấp để bắt đầu trò chơi được xếp hạng với các tùy chọn hiện tại."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Nếu bạn muốn có một cuốn sách mở đầu thú vị và đa dạng cho trò chơi giữa người và máy,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "Tôi muốn giới thiệu cuốn sách mở đầu đa ngôn ngữ"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "Cuốn sách này là một phần của công cụ tải xuống Deep Saros."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "Nó phải được cài đặt trong thư mục sau -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "Trợ giúp cho các công cụ trò chơi được xếp hạng"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "Arasan"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "Động vật gặm nhấm"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "Cá tuyết"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "Các công cụ được sử dụng <Trò chơi được xếp hạng> đều có tùy chọn giới hạn sức mạnh của UCI."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "Điều này cho phép người dùng chọn xếp hạng ELO gần đúng"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "để tăng sức mạnh của động cơ."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "Các công cụ thường được lưu trữ trong thư mục sau -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "Có nhiều lựa chọn để lựa chọn, nhưng bạn có thể thêm sức mạnh giới hạn khác"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "động cơ nếu bạn thích bằng cách tạo một thư mục mới trong <rated_engines>"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "và sao chép tệp *.exe của engine vào đó."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "Quá trình này sẽ áp dụng cho các động cơ thương mại sau:"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "Rồng Komodo, Fritz 16, Shredder, Houdini 6, Deep Junior và Chiron."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "Có thể còn nhiều hơn thế nữa."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "Tôi đã cố gắng đáp ứng hầu hết các loại máy tính và điều này đã làm"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "Danh sách động cơ khá dài. Vì vậy, bạn có thể xóa những động cơ mà bạn không muốn."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Trong khi một số công cụ cũ hơn, chẳng hạn như Ufim, Delfi và Amyan chơi một chút"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "khác nhau với nhau, hầu hết các động cơ có nguồn gốc từ Stockfish,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "chơi theo cách tương tự."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "Một động cơ nổi bật hoàn toàn độc đáo và hoàn toàn phù hợp"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "đối với <Trò chơi được xếp hạng> là công cụ cờ vua Rodent, được viết bởi Pawel Koziol."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "Nhấp vào < Gặm nhấm > để biết thêm chi tiết."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Công cụ Arasan, được viết bởi Jon Dart, cũng là một công cụ rất tốt."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Mặc dù không mạnh bằng Stockfish, nhưng nó có phong cách chơi đặc biệt."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "Tuy nhiên, khi sử dụng với Tarrasch và Nimzo_3d GUI,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "có một số vấn đề."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "Kể từ khi bổ sung mạng nơ-ron vào phiên bản 23.0,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "không cái nào trong số chúng có thể hoạt động trên máy tính của tôi."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "Tuy nhiên, với phiên bản mới nhất 25.2, các công cụ sau đây hoạt động"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "Với những vấn đề này, tôi đã sử dụng các công cụ từ phiên bản 22.3"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "dành cho các trò chơi được xếp hạng. Đây là phiên bản cuối cùng không có mạng nơ-ron."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "Tất cả các công cụ trong phiên bản này đều chạy trên máy tính của tôi."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Trợ giúp động cơ Arasan"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Công cụ cờ vua Stockfish"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "Cá tuyết khô"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "Alexander"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Khi tôi đang viết mã cho các kết quả khớp động cơ, tôi thấy rằng Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "và động cơ Komodo đang mất thời gian trong các trò chơi có giới hạn thời gian nhanh,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "vì vậy tôi đã viết tùy chọn < Điều chỉnh thời gian động cơ > để khắc phục sự cố này."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "Với một trò chơi được xếp hạng, sử dụng giới hạn thời gian dài hơn, tôi thấy rằng một lần nữa"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Stockfish di chuyển rất chậm khi ra khỏi cuốn sách mở đầu"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "hoặc nếu không sử dụng sách."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Để khắc phục điều này, bạn có thể điều chỉnh tùy chọn Stockfish di chuyển chậm."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Giảm giá trị này sẽ làm tăng tốc độ di chuyển một chút."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Mặc dù tôi thấy tùy chọn này không đủ để kiểm soát thời gian nhanh"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "trong vòng 3 phút hoặc ít hơn cho một trò chơi, nó hoạt động tốt trong vòng 5 phút hoặc lâu hơn."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "Đối với Stockfish 11, giá trị 20-30 sẽ phù hợp cho trò chơi kéo dài 5-10 phút."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "Bạn có thể thiết lập tùy chọn chuyển động chậm bằng cách sử dụng tùy chọn tham số tùy chỉnh"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "trong hộp thoại động cơ."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "Để làm cho mọi việc dễ dàng hơn, tôi đã tạo một tệp tham số động cơ cho Stockfish 11"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "với bộ di chuyển chậm. Bạn có thể tải bộ này từ hộp thoại trò chơi được xếp hạng"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "bằng cách nhấp vào động cơ < Cài đặt động cơ.. > và sau đó < Tải động cơ >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "từ hộp thoại động cơ mở ra."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Các tập tin tham số cho Stockfish 11 được lưu trữ trong thư mục"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Động cơ Stockfish 8-15 có tùy chọn chuyển động chậm, động cơ 16 và 17 thì không."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "Với thực tế là bạn không cần sức mạnh chơi thêm ở đây,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "không cần phải sử dụng động cơ mạnh hơn."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "Tôi tìm thấy phiên bản này của công cụ Stockfish trên GitHub tại -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "Đây là phiên bản có thể điều chỉnh được nhiều hơn so với động cơ tiêu chuẩn."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "Sau đây là mô tả về công cụ từ tệp < README.md > -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS là một Stockfish được cải tiến một chút để con người có thể chơi"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "với việc giảm số nút mỗi giây, (kilo nút mỗi giây ~= 1 / waitms"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "đánh giá ngẫu nhiên, độ sâu tìm kiếm và giới hạn nút tìm kiếm."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "Sức mạnh của hai sửa đổi đầu tiên có thể được thiết lập trong các tùy chọn uci"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "từ 0 đến 100, trong khi độ sâu tìm kiếm có thể bị giới hạn ở các giá trị từ 1 đến 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "và tìm kiếm các nút có giá trị lên tới 500000."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "Tất cả các sửa đổi có thể được sử dụng trong bất kỳ sự kết hợp nào cùng với"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "Giới hạn sức mạnh ELO và cài đặt Cấp độ kỹ năng để giảm sức mạnh"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "của động cơ khi chơi với con người."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "Với cài đặt mặc định, StockfishNPS hoạt động giống hệt Stockfish16_dev hiện tại."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "Chỉ thay đổi cài đặt nút tìm kiếm trong khoảng từ 1 - 10 sẽ giảm ELO xuống còn khoảng 1400."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "Đó là điểm khởi đầu tốt cho những thay đổi tùy chọn bổ sung."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "Tôi nghĩ rằng điều này có nghĩa là giá trị <waitms> cao hơn sẽ làm giảm"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "số lượng vị trí mà công cụ tìm kiếm tìm kiếm mỗi giây."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "Tăng giá trị đánh giá ngẫu nhiên"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "sẽ dẫn đến lối chơi đa dạng hơn."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "<Nút tìm kiếm> áp đặt một số loại giới hạn về số lượng vị trí được tìm kiếm."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< Độ sâu tìm kiếm > giới hạn số lượng nửa bước di chuyển (ply) mà công cụ tìm kiếm."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "Ngoài ra còn có một tùy chọn có tên là <nodestime> nhưng tôi không biết nó có tác dụng gì."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "Giá trị mặc định bằng 0 có nghĩa là tùy chọn này không được sử dụng."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "Để thuận tiện cho bạn, tôi đã tạo các tệp tham số động cơ cho các động cơ"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "với tất cả các thông số được thiết lập mặc định, sẵn sàng để bạn điều chỉnh."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "Những thứ này được lưu trữ trong -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "và có thể được tải bằng <Tải động cơ> từ hộp thoại động cơ."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Trợ giúp về công cụ Stockfish NPS"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "Đây là một công cụ phái sinh từ Stockfish với nhiều tính năng điều chỉnh."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "Khi tôi lần đầu tiên thử nó với bộ giới hạn sức mạnh ELO, nó không yếu đi,"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "và chơi hết sức mình."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "Sau đó tôi đã thêm tùy chọn <Độ sâu khuyết tật> và đặt thành <đúng>"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "Điều này có vẻ hiệu quả và động cơ phát ở các độ sâu khác nhau tùy thuộc vào"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "dựa trên xếp hạng ELO được thiết lập."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "Có nhiều tùy chọn khác được mô tả trong tệp < README.md >"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "Tập tin này nằm trong thư mục sau"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "Tôi đã tạo hai tệp tham số động cơ trong thư mục này, bạn có thể sử dụng"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "để thiết lập động cơ bằng <Tải động cơ> từ hộp thoại động cơ."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "Khi chơi ở chế độ yếu hơn, Alexander thực hiện các động tác gần như ngay lập tức."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "Nếu muốn, bạn có thể làm chậm nó lại bằng < Menu chính > < Động cơ > < Độ trễ di chuyển >"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "Công cụ Alexander được lưu trữ trên GitHub theo liên kết sau"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "Trợ giúp về công cụ cờ vua Alexander"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "Không thể bắt đầu trò chơi nếu không có tên người chơi"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "Vui lòng chọn một người chơi từ hộp danh sách Người chơi hiện tại"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "Thông báo lỗi trò chơi được xếp hạng"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "Không thể bắt đầu trò chơi mà không có công thức xếp hạng"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Vui lòng chọn một công thức từ hộp danh sách công thức Xếp hạng"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Chọn cài đặt tính cách động cơ của loài gặm nhấm"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "Không có tập tin động cơ trong"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "Danh mục động cơ được đánh giá không thay đổi."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "Không có hồ sơ cá nhân nào để đọc"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "Danh bạ cá nhân"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "không tồn tại, nên không thể hiển thị tính cách"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Chọn cài đặt tính cách động cơ Rodent 3"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "Tính cách hiện tại"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "Hiển thị tên nhân vật"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "Sử dụng thư mục tài liệu"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "Sử dụng giới hạn sức mạnh ELO"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "Nhập giá trị để điều chỉnh sức mạnh động cơ"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "Số nút mỗi giây"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "Sao chép các giá trị mặc định"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "Giá trị làm mờ đánh giá"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "Đánh giá bản sao mờ"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "Tìm kiếm trình độ kỹ năng (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "Sao chép kỹ năng tìm kiếm"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "Lưu cài đặt hiện tại vào tệp"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "Chọn tên tệp để lưu tệp cá nhân"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "Thêm giá trị vào tệp nếu không có"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "Kiểm tra để sử dụng thư mục sau"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "cho các công cụ được đánh giá và các tập tin liên quan"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "Kiểm tra để sử dụng giới hạn cường độ UCI cho việc điều chỉnh động cơ"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "Nhập giá trị số nút trên giây,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "cao hơn cho mạnh hơn, thấp hơn cho yếu hơn,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "nhưng số không cho sức mạnh tối đa"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "Nhập giá trị đánh giá độ mờ,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "thấp hơn cho mạnh hơn, cao hơn cho yếu hơn"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "Nhập giá trị cấp độ kỹ năng,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "thấp hơn cho yếu hơn, cao hơn cho mạnh hơn"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "Thêm nút mỗi giây và đánh giá độ mờ"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "các giá trị vào tệp, nếu chúng không có"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "Chọn nhân vật mà bạn muốn chơi cùng"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "từ"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "Không thể chuyển đổi"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "Điều chỉnh giới hạn cường độ UCI"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "Điều chỉnh số nút trên giây"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "Không thể thiết lập thành"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "bởi vì"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "không thể mở được tập tin."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "vì tùy chọn giới hạn cường độ không có trong tệp."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "Tất cả các giá trị được đặt thành mặc định"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "Vì vậy, không có điểm nào trong việc viết chúng"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "Không thể mở tệp đầu vào"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "Không thể mở tệp đầu ra"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "đã cập nhật và"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "đã lưu vào đĩa"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "Trợ giúp về công cụ cờ vua Rodent"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "Mô tả tính cách"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "Về loài gặm nhấm"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "Hộp thoại này cho phép bạn chọn một nhân vật chơi"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "và các tùy chọn cho công cụ cờ vua Rodent."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "Tính cách hiện tại - Hộp danh sách thả xuống cho phép bạn chọn một tính cách."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "Sử dụng sức mạnh giới hạn ELO - Kiểm tra để sử dụng các giá trị ELO trong hộp thoại công cụ"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "khi thiết lập sức mạnh của động cơ."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "Nhập giá trị để điều chỉnh sức mạnh động cơ -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "Số nút trên giây - số vị trí mà động cơ sẽ tạo ra"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "và phân tích mỗi giây."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "Giá trị làm mờ đánh giá - giá trị ngẫu nhiên được thêm vào hàm đánh giá."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Với Rodent 3, ở chế độ nút trên giây, giá trị làm mờ đánh giá"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "được tải từ tệp cá nhân. Điều này sẽ cung cấp cho bạn một số ý tưởng"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "của phạm vi giá trị cần sử dụng, nếu bạn muốn thực hiện điều chỉnh."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "Tùy chọn này cũng có thể được sử dụng với cường độ giới hạn ELO."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "Khi sử dụng theo cách này, tôi thấy rằng cài đặt 20 đã thay đổi các động tác"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "rằng động cơ đã chạy nhưng số cao hơn 20 không có tác dụng lên đến 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "và mức cài đặt cao hơn 1000 sẽ làm động cơ yếu đi đáng kể."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "Vì vậy, các thiết lập hữu ích trong chế độ giới hạn sức mạnh ELO cho máy tính của tôi"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "là 20 hoặc 500 - 1000 nhưng có thể khác nhau tùy theo máy tính của bạn."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "Nếu bạn không muốn thiết lập hoặc hiển thị thì hãy đặt thành 0."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "Mặc dù số nút trên giây không áp dụng khi sử dụng cường độ giới hạn ELO,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "các giá trị vẫn có thể được nhập và lưu vào tệp cá nhân để sử dụng sau."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "Sao chép các giá trị mặc định - kiểm tra các giá trị điều chỉnh cường độ"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "được sao chép từ hộp thoại này vào hộp thoại động cơ"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "ngay cả khi chúng được đặt ở chế độ mặc định. Sau đó, chúng có thể được chỉnh sửa."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "Nếu cứ để nguyên như vậy, chúng sẽ không có tác dụng gì đối với động cơ."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "Trong chế độ giới hạn sức mạnh ELO, chúng không được đặt lại khi bị xóa khỏi"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "hộp thoại động cơ. Ở chế độ nút trên giây, chúng được đặt lại,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "vì vậy bạn phải tắt <Sao chép tham số> để chỉnh sửa chúng."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "Hiển thị tên nhân vật - Đánh dấu để hiển thị tên nhân vật"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "theo tên động cơ trong trò chơi."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "Xếp hạng động cơ cũng được hiển thị tự động."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "Sử dụng thư mục tài liệu - Kiểm tra để sử dụng"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "cho các động cơ được đánh giá."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "Đây là biện pháp dự phòng khẩn cấp trong trường hợp chúng không được sao chép vào"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "Nếu chúng đã được cài đặt ở nơi khác, bạn có thể sao chép chúng vào"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "một trong những thư mục ở trên."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "Nếu chúng chưa được cài đặt, bạn có thể tải xuống từ các liên kết này -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "liên kết"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "Lưu cài đặt hiện tại vào tệp - với trình chọn tệp này, bạn có thể lưu"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "cài đặt cường độ phát từ hộp thoại đến tệp hiện tại,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "hoặc một cái mới nếu bạn muốn."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "Thêm giá trị nếu không có - Kiểm tra để thêm các giá trị điều chỉnh cường độ vào tệp"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "nếu chúng không có mặt. Trường hợp này sẽ xảy ra nếu bạn thêm các giá trị làm mờ đánh giá"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "vào hồ sơ tính cách của loài Gặm nhấm 4."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "Giới thiệu về công cụ cờ vua Rodent"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Rodent, được viết bởi Pawel Koziol, là một công cụ chơi cờ vua rất thú vị."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "Nó có tùy chọn UCI_LimitStrength và cũng có một tập hợp các tính cách,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "được tải từ các tệp, để chơi yếu hơn và đa dạng hơn."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "Để động cơ hoạt động đúng với tính cách và con người của họ"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "Khi mở sách, tất cả các thành phần phải được đặt trong cùng một thư mục."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "Chúng phải được cài đặt trong -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Nếu bạn muốn công cụ Rodent sử dụng cuốn sách riêng của nó trong trò chơi,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "sau đó bạn phải tắt cuốn sách mở Nimzo_3d khỏi"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< Menu chính > < Mở đầu > < Sách mở đầu >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "hoặc kiểm tra tùy chọn <Đặt chỗ>, nếu bạn đang sử dụng"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "hộp thoại trò chơi được xếp hạng."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "có một số tài liệu và một chương trình tiện ích"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "có thể được sử dụng để tạo ra nhiều tính cách hơn."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "Gói động cơ Rodent 4 và các phiên bản cũ hơn có thể được tải xuống từ -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Chỉ dành cho loài gặm nhấm 4, có đánh giá chi tiết"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "Vật liệu hỗ trợ động cơ Rodent 4, không có động cơ"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Vật liệu hỗ trợ Rodent 3, không có động cơ"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Tệp tính cách của loài gặm nhấm chỉ đơn giản là danh sách các lệnh UCI trong tệp *.txt"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "Nó được cho là hoạt động theo cách sau:"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "Giao diện người dùng đồ họa của chương trình cờ vua gửi lệnh <Personality> đến công cụ Rodent."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "Sau đó, công cụ đọc các lệnh từ tệp cá tính"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "và điều chỉnh cài đặt cho phù hợp."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "Tuy nhiên, với cả Nimzo_3d và GUI Tarrasch,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "Tôi không thể khiến động cơ hoạt động khi sử dụng theo cách này."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "Tất cả các nhân vật đều thực hiện những động tác giống nhau."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "Vì vậy, thay vì điều này, tôi đã chặn lệnh < Personality > khi nó"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "sắp được gửi từ GUI đến công cụ, đã mở tệp cá tính"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "và gửi từng lệnh từ tệp riêng lẻ. Cách này có vẻ hiệu quả."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "Về cơ bản, động cơ Rodent có hai phương pháp chính để thay đổi sức mạnh chơi."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "Có thể sử dụng giới hạn ELO hoặc Số nút trên giây với độ mờ đánh giá."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "Sức mạnh giới hạn ELO cho phép bạn thiết lập xếp hạng ELO gần đúng"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "và các nút trên giây với độ mờ đánh giá cho phép bạn thiết lập các giá trị"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "có tác dụng làm suy yếu tương tự."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "3 tính cách của loài gặm nhấm được thiết lập để sử dụng số nút mỗi giây"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "với độ mờ đánh giá và Rodent 4 được dự định sử dụng"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "chỉ với giới hạn sức mạnh ELO."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "Do tôi đã sửa đổi cách gửi lệnh <Personality>,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "Rodent 3 có thể sử dụng tính cách của mình với sức mạnh giới hạn ELO"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "kết hợp với đánh giá làm mờ và lựa chọn kỹ năng,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "nhưng không phải với số nút trên giây."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "Điều này cũng có nghĩa là Rodent 4 có thể sử dụng sức mạnh giới hạn ELO"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "với đánh giá mờ và lựa chọn kỹ năng."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "Thay đổi giá trị làm mờ đánh giá một chút có nghĩa là động cơ sẽ phát"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "các động tác khác nhau mà không ảnh hưởng nhiều đến sức mạnh chơi,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "miễn là giá trị làm mờ không quá cao."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "Bạn có thể thử nghiệm với điều này, tôi thấy rằng các giá trị nằm trong khoảng 20 - 50"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "hoạt động khá tốt."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "Ngoài ra, cả hai công cụ hiện có thể sử dụng các tập tin cá nhân"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "của công cụ khác chỉ với những điều chỉnh nhỏ từ bên trong Nimzo_3d,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "sau khi chúng được sao chép vào thư mục <Personities> của công cụ."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "Tính năng này cho phép bạn dễ dàng hoán đổi các tệp tính cách mới nếu bạn muốn thay đổi."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "Tôi đã đặt một số trong <extra_personalities>"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "trong thư mục <Personities>."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "Các tập tin cá nhân được lưu trữ trong các thư mục sau -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "cộng thêm"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "hoặc"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Các tập tin có thể được sửa đổi từ bên trong Nimzo_3d để điều chỉnh"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "số nút trên giây và giá trị làm mờ đánh giá rồi lưu lại vào đĩa."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "Không quan trọng là các tập tin cá nhân có thể kết thúc bằng các lệnh"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "không phù hợp với động cơ hiện đang sử dụng, vì chúng"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "được lọc ra bởi GUI trước khi chúng được gửi đến công cụ."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "Lệnh của loài gặm nhấm"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "Những mô tả về tính cách của công cụ cờ vua Rodent được lấy từ"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "tập tin <FinalRodent.pdf> có thể được tìm thấy trong thư mục sau -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "Tính cách được xác định trước"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "Kể từ khi thành lập, dự án Rodent đã hướng đến việc tạo ra một động cơ"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "cho phép thay đổi phong cách chơi của nó - giống như loạt ChessMaster,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "chỉ tốt hơn. Những thay đổi về mã trong phiên bản mới có nghĩa là những nhân vật cũ"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "không còn sử dụng được nữa nên tôi cảm thấy cần phải tạo một bộ mới."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "Tôi hy vọng bạn thấy nó thú vị."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "Đầu tiên và quan trọng nhất, kẻ tấn công, là mối quan tâm thứ hai của cô ấy"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "là hoạt động quân cờ. Chơi các nước khai cuộc gambit."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe thích các thế trận khép kín, các đợt tấn công tốt và cấu trúc tốt hợp lý."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "Điều duy nhất cô ấy thích hơn một vị trí đóng là một vị trí đóng"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "với một hàng mở duy nhất, do quân xe của cô ta sở hữu."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "Bà là người thực hành đầy tự hào về hệ thống phòng thủ của người Pháp và Vua Ấn Độ."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "Hãy tưởng tượng cô ấy là một người phụ nữ tóc đen, mảnh khảnh và u sầu."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "Cô ấy là một cầu thủ phòng ngự thích chơi quân tượng."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "Hãy tưởng tượng anh ấy trong bộ vest đắt tiền, trông giống một CEO hơn"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "hơn một kỳ thủ cờ vua. Tính cách mạnh mẽ, lý trí, mặc dù hơi bi quan."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "Chơi những khai cuộc chắc chắn. Sẵn sàng hòa ở những thế cờ ngang ngửa."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "Hãy tưởng tượng anh ấy là một cầu thủ đã qua thời kỳ đỉnh cao,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "thiếu tôn trọng đối thủ và vẫn khá nguy hiểm."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "Grumpy thích hạn chế chuyển động của kẻ thù và tấn công,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "thích các vị thế đóng và mong đợi chiến thắng."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "Vì tuổi tác, ông chủ yếu chơi những khai cuộc không quá hiện đại."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "Ví dụ, ông thích hàng phòng ngự của Tarrasch."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "Bắt chước Paul Morphy. Nhấn mạnh tính di động,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "sau đó vua tấn công, thích các vị trí mở."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "Anh ấy bắt đầu chậm rãi, sử dụng những lỗ hổng không chiếm nhiều không gian"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "ở trung tâm, nhưng đừng để cảm giác an toàn giả tạo làm bạn mất cảnh giác."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "Sau đó anh ta thực hiện những cuộc tấn công tàn bạo."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "Hãy tưởng tượng anh ấy là một đại kiện tướng trẻ tuổi, đầy triển vọng,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "người vẫn chưa đạt được tiềm năng thực sự của mình."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "Gầy, năng động, thích những động tác lòe loẹt một chút."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "Thỉnh thoảng, ông có xu hướng chia tay những quân cờ của mình."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "Tính cách cân bằng, có thể hy sinh một lượng vật chất vừa phải,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "thường áp dụng chiến thuật phòng thủ chủ động ở giai đoạn cuối trận."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita tượng trưng cho quân tốt, phòng thủ, kiềm chế."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "Cô ấy chơi khai cuộc chắc chắn và nghĩ đến việc phòng thủ trước, nhưng đừng để bị đánh lừa!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "Cô ấy có thể tấn công tốt nếu vị trí yêu cầu, và với lối chơi tốt vững chắc"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "Cô ấy là một người khó tính."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "Có phần vật chất, nhưng đấu tranh cho sáng kiến"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "và đủ gần để vỡ nợ nhằm tránh những kế hoạch không hợp lý."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "Thích tạo áp lực lên quân địch."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "Chơi các khai cuộc đóng khi cầm quân trắng, phòng thủ Slav và Caro - Kann khi cầm quân đen."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "Có lẽ đây là thiết lập tốt nhất để chống lại những động cơ yếu hơn."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "Chơi mà không có các khía cạnh nâng cao hơn của chức năng đánh giá,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "áp dụng mặc định hợp lý. Ưu tiên một chút cho việc trao đổi quân hậu,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "ở vị trí ngang bằng nhau sẽ hòa."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "Có lẽ là tính cách giống máy tính nhất."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "Hãy tưởng tượng anh ấy là một người đàn ông cao lớn trong chiếc áo khoác da màu nâu."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "Anh ấy thích chơi năng động nhưng lại ghét bị tấn công."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "Thích giữ quân hậu trên bàn cờ."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Dựa trên tính cách của loài gặm nhấm III của Brendan J.Norman."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "Chơi theo phong cách trăn Nam Mỹ, nhưng có sở thích tấn công mạnh mẽ,"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "có khả năng hy sinh vì lý do vị trí."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "Phiên bản thất thường hơn nhiều của Grumpy, lối chơi rất giống con người."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "Có thể quá lạc quan khi chơi tàn cuộc với quân hậu."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "Ngoài ra còn có nhiều nhân vật tiêu biểu cho nhiều nhà vô địch thế giới và nhiều cầu thủ nổi tiếng khác."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Mô tả tính cách của động cơ cờ vua Rodent 4"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "Cửa sổ luôn ở trên cùng"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "Nếu bạn muốn, bạn có thể làm chậm nó lại bằng -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< Menu chính > < Động cơ > < Độ trễ di chuyển >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "Chơi một ván cờ được xếp hạng với một máy cờ vua"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Kiểm tra để sao chép cài đặt giới hạn cường độ vào các thông số tùy chỉnh"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "Giải thích công thức xếp hạng"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "Kiểm tra để hiển thị tên nhân vật"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "với tên động cơ trong một trò chơi"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "Nhập giá trị kỹ năng tìm kiếm,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "Kiểm tra để luôn tự động sao chép các tùy chọn"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "qua các tham số tùy chỉnh"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "Kiểm tra để tự động sao chép độ mờ đánh giá"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "giá trị cho các tham số tùy chỉnh"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "Kiểm tra để tự động sao chép kỹ năng tìm kiếm"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "Nhập tên tệp để lưu"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "tùy chọn điều chỉnh sức mạnh động cơ"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "đã thắng khi chơi quân trắng và giành chiến thắng"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "đã thua khi chơi đen và thua"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "đã thua khi chơi quân trắng và thua"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "đã thắng khi chơi quân đen và đạt được"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "đã rút quân trắng"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "đã rút thăm chơi đen"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "không có thay đổi về xếp hạng."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "và đã đạt được"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "và bị mất"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "Xếp hạng mới của bạn là"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "Tin nhắn đánh giá kết quả trò chơi"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "Không thể mở tệp hồ sơ người chơi để ghi thông tin chi tiết"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "Không có tệp tin động cơ nào trong thư mục, trò chơi được xếp hạng đã bị hủy"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "Danh mục động cơ được đánh giá"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "không tồn tại, trò chơi được xếp hạng đã bị hủy"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "Gợi ý: Đặt lại các giá trị mặc định của chương trình từ"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< Menu chính > < Tùy chọn > < Khôi phục về mặc định gốc >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "Nếu điều này không thành công, hãy tải xuống và cài đặt các công cụ được đánh giá từ"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "Tính cách của động cơ gặm nhấm"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "đã tải"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "Tin nhắn về công cụ trò chơi được xếp hạng"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "Động cơ không có trong danh sách nên không thể thiết lập"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "Thư mục hồ sơ người chơi"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "Gợi ý: Tạo thủ công thư mục này bằng Windows Explorer"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "Tên người chơi đang trống, vui lòng nhập tên"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "Tên người chơi đã có trong danh sách,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "vui lòng nhập tên người chơi khác"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "Hồ sơ người chơi cho"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "Lỗi khi lưu hồ sơ người chơi vào đĩa"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "Tên người chơi không có trong danh sách,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "vui lòng nhập tên người chơi có trong danh sách"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "đã xóa khỏi đĩa"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "Lỗi khi xóa hồ sơ người chơi khỏi đĩa"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "Thư mục công thức xếp hạng"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "và sử dụng < Công thức xếp hạng > < + > để thêm công thức"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "trong hộp thoại trò chơi được xếp hạng."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "Tên tệp công thức đang trống, vui lòng nhập tên"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "Tên tệp công thức xếp hạng đã có trong danh sách,"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "vui lòng nhập tên tệp công thức đánh giá khác"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "Tên tệp công thức xếp hạng không có trong danh sách,"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "vui lòng nhập tên tệp công thức đánh giá có trong danh sách"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "Công thức đánh giá cho"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "Lỗi khi lưu tệp công thức đánh giá vào đĩa"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "Tên tệp công thức đang trống, vui lòng nhập tên tệp"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "Tệp công thức xếp hạng không có trong danh sách,"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "vui lòng nhập một tập tin công thức có trong danh sách"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "Lỗi khi xóa công thức đánh giá khỏi đĩa"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "Không thể mở tệp công thức đánh giá để đọc"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "Một tính năng trò chơi được xếp hạng dành cho trò chơi tương tác giữa người và máy (phiên bản 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "Độ trễ di chuyển"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "Độ trễ di chuyển.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "Hiển thị hộp thoại trì hoãn di chuyển"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "Thông báo lỗi"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "Sao chép vào các tham số tùy chỉnh"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "Khi viết tính năng <Trò chơi được xếp hạng>, tôi thấy rằng công cụ Delfi"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "cần cài đặt giới hạn cường độ được đặt trong danh sách tham số tùy chỉnh"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "để họ có thể làm việc."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "Đối với công cụ Delfi, hành động này sẽ được thực hiện tự động."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Nếu bạn gặp vấn đề này với bất kỳ động cơ nào khác, thì bạn có thể kiểm tra"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< Sao chép vào các tham số tùy chỉnh > hộp và các tham số giới hạn cường độ"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "sẽ được sao chép qua."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "Tôi cũng thấy rằng nếu bạn chơi nhiều hơn một trò chơi với một công cụ Stockfish yếu hơn"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "và <Sao chép vào các tham số tùy chỉnh> không được thiết lập, Stockfish đã trở lại trạng thái mạnh nhất"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "cho trò chơi thứ hai. Vì vậy, tốt nhất là luôn thiết lập tùy chọn này"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "khi sử dụng giới hạn cường độ."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "Khi sử dụng tính năng <Trò chơi được xếp hạng>, tính năng này sẽ được áp dụng cho tất cả các công cụ."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Nếu bạn mở bảng thông tin tìm kiếm khi chơi với Stockfish,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "nó hiển thị phân tích sức mạnh đầy đủ cho động cơ,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "ngay cả khi nó đã bị làm yếu đi khi sử dụng giới hạn cường độ UCI."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "Bạn có thể biết liệu nó có thực sự bị yếu đi hay không vì nó thường sẽ phát"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "một động thái khác so với động thái được thể hiện trong phân tích."
+
