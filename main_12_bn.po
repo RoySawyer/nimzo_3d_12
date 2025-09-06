@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "রেটিং সমন্বয় সূত্র"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "জন্য"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "জয়ের মান"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "ক্ষতির মূল্য"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "অঙ্কনের মান"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "শক্তি সমন্বয় ফ্যাক্টর"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "কার্যকর সর্বোচ্চ পার্থক্য মান"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "ন্যূনতম জয়ের মান"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "জয়ের জন্য রেটিং পরিবর্তন ইনপুট করুন"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "ড্রয়ের জন্য রেটিং পরিবর্তন"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "হারের জন্য রেটিং পরিবর্তন"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "শক্তি ফ্যাক্টর সমন্বয় শতাংশ ইনপুট করুন"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "কার্যকর সর্বোচ্চ রেটিং পার্থক্য"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "এই ডায়ালগ বক্সটি ব্যবহারকারীকে সূত্রের জন্য বিকল্প সেট করতে দেয়"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "ইঞ্জিনের বিরুদ্ধে খেলার পরে খেলোয়াড়ের রেটিং সামঞ্জস্য করতে ব্যবহৃত হয়।"
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "জয়ের মান - একটি খেলা জেতার জন্য র‍্যাঙ্কিং পয়েন্ট বৃদ্ধি।"
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "অঙ্কনের মান - এটি সর্বদা শূন্যে সেট করা থাকে।"
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "ক্ষতির মান - এটি জয়ের মানের বিয়োগ মান।"
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "শক্তি সমন্বয় ফ্যাক্টর (শতাংশ) - এই মানটি ব্যবহৃত হয়"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "রেটিং গণনা করার সময়, যেমনটি নীচের সমীকরণে দেখানো হয়েছে।"
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "কার্যকর সর্বোচ্চ রেটিং পার্থক্য - যদি র‍্যাঙ্কিং পার্থক্য"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "খেলোয়াড়দের মধ্যে এই সংখ্যার চেয়ে বেশি,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "তারপর এটি এই সংখ্যায় সেট করা হয়। নীচের সমীকরণটি দেখুন।"
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "মৌলিক সূত্রটি মার্কিন যুক্তরাষ্ট্র দাবা ফেডারেশন দ্বারা ব্যবহৃত হয়"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "চিঠিপত্র দাবা খেলার জন্য।"
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "আপনি নিম্নলিখিত ওয়েবসাইটে এটি বর্ণনা করা দেখতে পারেন -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "তাদের সূত্র সম্পর্কে আমার ব্যাখ্যা এখানে।"
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "একটি খেলার পর নতুন রেটিং এর জন্য তাদের হিসাব হল -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(জয় বা পরাজয়ের জন্য)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "এখানে ০.০৪ (৪ শতাংশ) হল শক্তি সমন্বয় ফ্যাক্টর (SAF)"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED হল কার্যকর রেটিং পার্থক্য।"
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "র‍্যাঙ্কিং গণনা করার সময় ED-এর একটি ইতিবাচক মান থাকে"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "দুর্বল খেলোয়াড় এবং শক্তিশালী খেলোয়াড়ের জন্য গণনা করার সময় একটি ঋণাত্মক মান।"
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "জয়/পরাজয়ের মান ১৬ হলে, যদি প্রকৃত রেটিং পার্থক্য থাকে"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "খেলোয়াড়দের মধ্যে 350 এর বেশি হলে, এটি 350 এ সেট করা হয়।"
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "এটি নিশ্চিত করার জন্য যে এই ক্ষেত্রে, যদি আপনি কোনও খেলায় জয়ী হন"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "দুর্বল প্রতিপক্ষ হলে, আপনার র‍্যাঙ্কিং বৃদ্ধি পায় এবং যদি আপনি তার বিরুদ্ধে হেরে যান"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "শক্তিশালী প্রতিপক্ষ হলে আপনার র‍্যাঙ্কিং কমে যায়।"
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "এখানে রেটিং পরিবর্তন ছোট হবে, মাত্র ২ পয়েন্ট।"
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "এটি একটি ন্যূনতম জয় মান পরিবর্তনশীল ব্যবহার করে সামঞ্জস্য করা যেতে পারে।"
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "তাহলে সাধারণ সমীকরণ হল, আমার মনে হয় -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "কোথায়"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "সর্বনিম্ন জয়ের মান"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "ডিফল্ট সেটিংস র‍্যাঙ্কিং সূত্র ফাইলে সংরক্ষণ করা হয় <USCF>"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "কিন্তু আপনি চাইলে একটি নতুন ফাইল তৈরি করতে পারেন এবং সেটিংস পরিবর্তন করতে পারেন।"
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "আমি মৌলিক সংখ্যাগুলিতে কেবল সামান্য পরিবর্তন করার পরামর্শ দেব।"
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "রেটিং সূত্রের ব্যাখ্যা"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "মানুষের জন্য স্থানান্তর বিলম্ব - ইঞ্জিন গেম"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "সরানোর বিলম্ব ব্যবহার করুন"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "সেকেন্ডে বাতিল করুন"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "সর্বনিম্ন সরানোর বিলম্ব (সেকেন্ড)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "সর্বনিম্ন স্থানান্তর বিলম্ব কার্যকর করুন"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "এলোমেলোভাবে প্রয়োগের সময় ব্যবহার করুন"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "সর্বাধিক সরানোর বিলম্ব (সেকেন্ড)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "নির্দিষ্ট সময়ের জন্য এলোমেলো বিলম্ব"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "একটি মানব - ইঞ্জিন গেমে সরানোর বিলম্ব ব্যবহার করুন"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "মাত্র এত সেকেন্ড বাকি থাকলে সরানোর বিলম্ব বাতিল করুন"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "সেকেন্ডে সর্বনিম্ন সরানোর বিলম্ব"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "সর্বনিম্ন স্থানান্তর বিলম্ব কার্যকর করুন,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "যতক্ষণ না বাতিলের সময় সেকেন্ডে পৌঁছায়"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "১ এর মধ্যে একটি এলোমেলো সংখ্যা ব্যবহার করুন - সর্বনিম্ন স্থানান্তর বিলম্ব,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "যখন বলপ্রয়োগের ন্যূনতম স্থানান্তর বিলম্ব সেট করা থাকে"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "সর্বোচ্চ সরানোর বিলম্ব সেকেন্ডে"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "নির্দিষ্ট ইঞ্জিন সময়ের জন্য এলোমেলোভাবে চলাচলের বিলম্ব ব্যবহার করুন"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "এই বৈশিষ্ট্যটি মূলত কমোডো দাবা ইঞ্জিনগুলির সাথে ব্যবহারের জন্য তৈরি।"
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "যখন তারা মানুষের ইঞ্জিন খেলার জন্য দুর্বল হয়ে পড়েছে।"
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "এই ক্ষেত্রে ইঞ্জিনগুলি প্রায় তাৎক্ষণিকভাবে নড়াচড়া করে, যা গেমটিকে"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "একটি অস্বাভাবিক ছন্দ, যা বেশ বিরক্তিকর।"
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "এটি Rybka 2.3 ইঞ্জিনের ক্ষেত্রেও ঘটে।"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "এবং আলেকজান্ডার দাবা ইঞ্জিন।"
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "কমোডো ইঞ্জিনগুলিতে < স্লো মুভার> বিকল্প নেই, তাই এই ডায়ালগ বক্সটি"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "আপনাকে এমন বিকল্প সেট করতে দেয় যা ইঞ্জিনের গতি কমিয়ে দেবে।"
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "সরানোর বিলম্ব ব্যবহার করুন - মানব - ইঞ্জিন গেমের জন্য সরানোর বিলম্ব ব্যবহার করতে চেক করুন।"
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "সেকেন্ডে বাতিল করুন - যে সময়টিতে স্থানান্তর বিলম্ব আর ব্যবহার করা হবে না তা নির্বাচন করুন।"
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "সর্বনিম্ন স্থানান্তর বিলম্ব - সেকেন্ডে সর্বনিম্ন স্থানান্তর বিলম্ব নির্বাচন করুন।"
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "সর্বনিম্ন স্থানান্তর বিলম্ব কার্যকর করুন - সর্বনিম্ন স্থানান্তর বিলম্ব কার্যকর করতে চেক করুন"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "এই ক্ষেত্রে, যদি প্রোগ্রামটি গণনা করে যে স্থানান্তরের জন্য অনুমোদিত সময়"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "ন্যূনতম সরানোর বিলম্বের চেয়ে কম হলে, সরানোর বিলম্ব হয় সেট করা হয়"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "সর্বনিম্ন স্থানান্তর বিলম্ব, অথবা 1 এবং সর্বনিম্ন স্থানান্তর বিলম্বের মধ্যে একটি র্যান্ডম সংখ্যায়,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "পরবর্তী চেক বক্সটি কীভাবে সেট করা হয়েছে তার উপর নির্ভর করে।"
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "যখন "ক্যান্সেল অ্যাট সেকেন্ড" সময় শেষ হয়ে যাবে, তখন এই প্রয়োগ আর প্রযোজ্য হবে না।"
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "ইঞ্জিনটিকে সর্বনিম্ন মুভ বিলম্বের চেয়ে দ্রুত গতিতে চালানোর অনুমতি দিতে আনচেক করুন,"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "যদি সময় কমতে শুরু করে, তাহলে বাতিলের আগে সেকেন্ড পয়েন্টে।"
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "এলোমেলোভাবে প্রয়োগ করুন - ন্যূনতম সরানোর বিলম্বের একটি এলোমেলো প্রয়োগের সময় পরীক্ষা করুন।"
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "সর্বাধিক স্থানান্তর বিলম্ব - সেকেন্ডে সর্বাধিক স্থানান্তর বিলম্ব নির্বাচন করুন।"
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "নির্দিষ্ট সময়ের জন্য এলোমেলো বিলম্ব - নির্দিষ্ট সময়ের স্তরের জন্য এলোমেলো স্থানান্তর বিলম্ব ব্যবহার করতে চেক করুন।"
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "স্থানান্তর বিলম্বের জন্য অনুমোদিত সম্পূর্ণ নির্দিষ্ট সময় ব্যবহার করতে আনচেক করুন।"
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "স্থানান্তর বিলম্ব সহায়তা"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "রেটেড গেমের বিকল্পগুলি"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "প্লেয়ার গেমের জন্য PGN ফাইলের নাম"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "গেমটির জন্য .pgn ফাইলটি নির্বাচন করুন।"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "ইঞ্জিন প্রতিপক্ষ"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "ইঞ্জিন ইএলও"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "ব্যক্তিত্ব"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "বর্তমান খেলোয়াড়"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "প্লেয়ার ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "প্লেয়ার ELO রেটিং সম্পাদনা করুন"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "প্লেয়ার ELO রেটিং সম্পাদনা করতে চেক করুন"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "বর্তমান ইঞ্জিন হিসেবে সেট করুন"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "বর্তমান ঘড়ি হিসেবে সেট করুন"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "ফলাফলের রেটিং পরিবর্তন"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "ম্যানুয়াল সমন্বয়"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "রেটিং সূত্র"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "সময় নিয়ন্ত্রণ"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "প্রতি খেলায় মিনিট"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "বৃদ্ধি (সেকেন্ড)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "খেলোয়াড়"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "বুক অফ করুন"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "খেলা শুরু করুন"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "প্লেয়ার গেম সংরক্ষণের জন্য PGN ফাইলের নাম ইনপুট করুন।"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "ইঞ্জিনের ELO শক্তি ইনপুট করুন"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "ইঞ্জিন সেটিংস ডায়ালগ বক্স খুলুন।"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "রডেন্ট ইঞ্জিন পার্সোনালিটিস ডায়ালগ বক্স খুলুন।"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "একজন নতুন খেলোয়াড় যোগ করুন"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "বর্তমান প্লেয়ারটি মুছুন"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "বর্তমান খেলোয়াড়ের বিবরণ সংরক্ষণ করুন"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "খেলোয়াড়ের ELO রেটিং"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "প্লেয়ার ELO রেটিং সম্পাদনা করতে চেক করুন।"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "রেট করা গেমের জন্য একটি সরানোর বিলম্ব ব্যবহার করতে চেক করুন।"
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "ইঞ্জিন সেটিংস বর্তমান হিসেবে সেট করতে চেক করুন"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "ঘড়ির সেটিংস বর্তমান হিসেবে সেট করতে চেক করুন"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "এই গেমটির জন্য ওপেনিং বুকটি বন্ধ করতে চেক করুন।"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "একজন খেলোয়াড়ের জয়ের জন্য ELO রেটিং পরিবর্তন"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "খেলোয়াড় হারের জন্য ELO রেটিং পরিবর্তন"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "ড্রয়ের জন্য ELO রেটিং পরিবর্তন"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "রেটিং পরিবর্তনগুলি সামঞ্জস্য করতে চেক করুন"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "এবং প্লেয়ার ELO ম্যানুয়ালি"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "বর্তমানে ব্যবহৃত রেটিং সূত্র"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "একটি নতুন সূত্র যোগ করুন"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "বর্তমান সূত্রটি মুছে ফেলুন"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "বর্তমান সূত্রটি সম্পাদনা করুন"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "খেলার জন্য খেলোয়াড়ের সময় মিনিটের মধ্যে ইনপুট করুন।"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "সেকেন্ডে প্লেয়ারের মুভ ইনক্রিমেন্ট ইনপুট করুন।"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "গেমের ইঞ্জিনের সময় মিনিটের মধ্যে ইনপুট করুন।"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "সেকেন্ডে ইঞ্জিনের গতি বৃদ্ধি ইনপুট করুন।"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "সাদা রঙের জন্য মানুষের জন্য পরীক্ষা করুন"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "বর্তমান সেটিংস দিয়ে খেলা শুরু করুন"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "আপনি যে ইঞ্জিনের বিরুদ্ধে খেলতে চান তা নির্বাচন করুন"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "বর্তমান খেলোয়াড় নির্বাচন করুন"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "রেটেড গেম সহায়তা"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "রেটেড গেমটি আপনাকে দুর্বলদের বিরুদ্ধে খেলার জন্য একটি সুবিধাজনক উপায় প্রদান করে"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "দাবা ইঞ্জিন এবং একই সাথে এটি আপনার অগ্রগতির উপর নজর রাখে"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "একটি আনুমানিক ELO রেটিং আপডেট করে।"
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "আপনি একটি রেট করা গেমের জন্য নিম্নলিখিত বিকল্পগুলি সেট করতে পারেন"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN ফাইলের নাম: রেট করা গেম সংরক্ষণ করতে PGN ফাইলের নাম নির্বাচন করুন।"
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "ফাইলের নামটি প্লেয়ারের নাম থেকে নেওয়া হয়েছে। এটি সংরক্ষণ করা হবে"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "যদি কোনও প্লেয়ারের নাম ইনপুট না করা থাকে, তাহলে ফাইলের নামের জন্য rated_games.pgn ব্যবহার করা হবে"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "ইঞ্জিন প্রতিপক্ষ: এখানে আপনি কোন ইঞ্জিনটি খেলতে চান তা নির্বাচন করতে পারেন।"
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "এই সমস্ত ইঞ্জিনে UCI_LimitStrength বিকল্প রয়েছে,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "যা তাদের দুর্বল করে দিতে সাহায্য করে।"
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "যদি আপনি অন্য কোনও ইঞ্জিন যুক্ত করতে চান যাতে এই বিকল্পটি রয়েছে তবে এটি অনুলিপি করা উচিত।"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "প্রতি"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "ডিরেক্টরি"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "ইঞ্জিন ELO - ইঞ্জিনের ELO শক্তি নির্বাচন করুন।"
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "উপরের এবং নীচের অনুমোদিত মানগুলি দেখানো হয়েছে।"
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "ইঞ্জিন সেটিংস - এটি ইঞ্জিন ডায়ালগ বক্স খুলবে যা আপনাকে পরিবর্তন করতে দেবে"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "আপনার পছন্দের ইঞ্জিনের জন্য অন্যান্য বিকল্প। উদাহরণের জন্য Stockfish > এ ক্লিক করুন।"
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "যদি একটি রডেন্ট দাবা ইঞ্জিন লোড করা থাকে, তাহলে একটি <ব্যক্তিগত> বোতাম"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "এই ইঞ্জিনের জন্যও দেখা যাবে।"
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "বর্তমান খেলোয়াড় - এখানে আপনি বর্তমান খেলোয়াড় সেট করতে পারবেন এবং যোগ, মুছতে পারবেন"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "এবং প্লেয়ার সম্পাদনা করুন। বর্তমান প্লেয়ারের নাম সম্পাদনা উইন্ডোতে প্রদর্শিত হয়"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "একটি ড্রপ-ডাউন তালিকা বাক্সের।"
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "প্লাস বোতাম - নতুন খেলোয়াড় যোগ করতে, সম্পাদনা উইন্ডোতে তাদের নাম টাইপ করুন এবং ক্লিক করুন"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "এই বোতামে। তাদের নাম তালিকায় যোগ করা হবে এবং তাদের নামে একটি ফাইল নামকরণ করা হবে,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "যার মধ্যে তাদের বিবরণ থাকবে, তা ডিস্কে সংরক্ষণ করা হবে"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "মাইনাস বোতাম - সম্পাদনা উইন্ডোতে দেখানো প্লেয়ারটি মুছে ফেলতে ক্লিক করুন।"
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "এটি ডিস্ক থেকে তাদের ফাইলটিও সরিয়ে ফেলবে।"
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "সংরক্ষণ করুন - সম্পাদনা উইন্ডোতে প্লেয়ারের বিবরণ সংরক্ষণ করতে ক্লিক করুন।"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "যদি আপনি তাদের ELO রেটিংয়ে ম্যানুয়াল পরিবর্তন করেন।"
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "প্লেয়ার ELO - এটি সম্পাদনা উইন্ডোতে প্লেয়ারের ELO রেটিং দেখায়।"
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "নতুন প্লেয়ার যোগ করার সময় যদি আপনি এই বাক্সটি সম্পাদনা করতে চান, তাহলে পরবর্তী বিকল্পটি দেখুন।"
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "প্লেয়ার ELO রেটিং সম্পাদনা করুন - প্লেয়ার ELO রেটিং সম্পাদনা করার অনুমতি দিতে চেক করুন।"
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "সরানোর বিলম্ব ব্যবহার করুন - রেট করা গেমের জন্য সরানোর বিলম্ব ব্যবহার করতে চেক করুন।"
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "এই বিকল্পটি এমন ইঞ্জিনগুলির জন্য তৈরি যা খুব দ্রুত চলে"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "যখন তারা দুর্বল হয়ে পড়ে, যেমন কমোডো ড্রাগন।"
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "বর্তমান ইঞ্জিন হিসেবে সেট করুন - এই বাক্সে প্রদর্শিত ইঞ্জিন সেট করতে চেক করুন।"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "রেটেড গেমটি শেষ হওয়ার পরে বর্তমান ইঞ্জিন হিসাবে।"
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "রেটেড গেমের পরে পুরানো ইঞ্জিনে রিসেট করতে আনচেক করুন।"
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "বর্তমান ঘড়ি হিসেবে সেট করুন - এই বাক্সে প্রদর্শিত ঘড়ির সময় সেট করতে চেক করুন।"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "রেটেড গেম শেষ হওয়ার পর বর্তমান ঘড়ি হিসেবে।"
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "রেট করা গেমের পরে পুরানো ঘড়িতে রিসেট করতে আনচেক করুন।"
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "ফলাফলের জন্য রেটিং পরিবর্তন - জয়, পরাজয় বা ড্রয়ের জন্য রেটিং পরিবর্তনগুলি দেখায়।"
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "প্লেয়ার এবং ইঞ্জিন ইলো রেটিং অনুসারে এগুলি স্বয়ংক্রিয়ভাবে সমন্বয় করা হয়।"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "এবং ELO গণনার জন্য কোন সূত্র ব্যবহার করা হয়।"
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "ম্যানুয়াল সমন্বয় - উপরের মানগুলি ম্যানুয়ালভাবে পরিবর্তন করতে চাইলে এই বাক্সটি চেক করুন।"
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "যদি আপনি ম্যানুয়ালি অ্যাডজাস্ট করা মান সহ রেট করা গেমটি খেলতে চান,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "তারপর <Start game > এ ক্লিক করার সময় এই বাক্সটি চেক করে রাখুন।"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "রেটিং সূত্র - এখানে আপনি ELO গণনা সূত্র নির্বাচন এবং সংশোধন করতে পারেন।"
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "এটি বর্তমান প্লেয়ার বক্সের মতোই ব্যবহৃত হয়।"
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "মূল পার্থক্য হল যখন আপনি একটি সূত্র যোগ বা সম্পাদনা করেন,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "একটি নতুন ডায়ালগ বক্স খোলে যেখানে আপনি সূত্রের জন্য বিকল্পগুলি ইনপুট করতে পারবেন।"
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "রেটিং সূত্র সম্পর্কে আরও তথ্যের জন্য <Help > বোতামে ক্লিক করুন"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "সূত্র ডায়ালগ বক্সের।"
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "সময় নিয়ন্ত্রণ - খেলার জন্য সময় নিয়ন্ত্রণ নির্বাচন করুন।"
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "খেলার সময় মিনিটে এবং সরানোর পরিমাণ সেকেন্ডে ইনপুট করুন।"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "মানব খেলোয়াড় এবং দাবা ইঞ্জিনের জন্য।"
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "তুমি চাইলে ইঞ্জিনের চেয়ে নিজেকে বেশি সময় দিতে পারো।"
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "বুক অফ করুন - রেট করা গেমের জন্য ওপেনিং বুকটি বন্ধ করতে চেক করুন।"
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "সাদা খেলুন - সাদা খেলোয়াড় খেলবে কিনা তা পরীক্ষা করুন,"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "মানব খেলোয়াড় কালো খেলার জন্য আনচেক করুন।"
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "খেলা শুরু করুন - বর্তমান বিকল্পগুলি সহ একটি রেট করা খেলা শুরু করতে ক্লিক করুন।"
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "যদি আপনি মানুষের জন্য একটি আকর্ষণীয় এবং বৈচিত্র্যময় উদ্বোধনী বই চান - ইঞ্জিন গেম,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "আমি পলিগ্লট সূচনা বইটি সুপারিশ করব"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "এই বইটি ডিপ সারোস ইঞ্জিন ডাউনলোডের অংশ ছিল।"
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "এটি নিম্নলিখিত ডিরেক্টরিতে ইনস্টল করা উচিত ছিল -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "রেট করা গেম ইঞ্জিনগুলির জন্য সাহায্য"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "আরাসান"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "ইঁদুর"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "স্টকফিশ"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "<Rated game > ব্যবহৃত ইঞ্জিনগুলির সবগুলিতে UCI সীমা শক্তি বিকল্প রয়েছে।"
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "এটি ব্যবহারকারীকে একটি আনুমানিক ELO রেটিং নির্বাচন করতে দেয়"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "ইঞ্জিনের বাজানোর শক্তির জন্য।"
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "ইঞ্জিনগুলি সাধারণত নিম্নলিখিত ডিরেক্টরিতে সংরক্ষণ করা হয় -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "বেছে নেওয়ার জন্য অনেকগুলি বিকল্প রয়েছে, তবে আপনি অন্যান্য সীমা শক্তি যোগ করতে পারেন"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "ইঞ্জিন, যদি আপনি চান <rated_engines > এ একটি নতুন ডিরেক্টরি তৈরি করে"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "এবং এতে ইঞ্জিন *.exe ফাইলটি অনুলিপি করা।"
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "এই প্রক্রিয়াটি নিম্নলিখিত বাণিজ্যিক ইঞ্জিনগুলির জন্য কাজ করবে -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "কমোডো ড্রাগন, ফ্রিটজ ১৬, শ্রেডার, হাউডিনি ৬, ডিপ জুনিয়র এবং কাইরন।"
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "আরও অনেক কিছু থাকতে পারে।"
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "আমি বেশিরভাগ ধরণের কম্পিউটারের জন্য পরিষেবা প্রদানের চেষ্টা করেছি এবং এর ফলে"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "ইঞ্জিনের তালিকা বেশ লম্বা। তাই আপনি যেগুলো চান না সেগুলো মুছে ফেলতে পারেন।"
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "যদিও কিছু পুরোনো ইঞ্জিন, যেমন উফিম, ডেলফি এবং অ্যামিয়ান কিছুটা কাজ করে"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "স্টকফিশ থেকে প্রাপ্ত বেশিরভাগ ইঞ্জিন একে অপরের থেকে আলাদা,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "একইভাবে খেলুন।"
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "এমন একটি ইঞ্জিন যা সম্পূর্ণ অনন্য এবং পুরোপুরি উপযুক্ত।"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "<Rated game > এর জন্য হল Rodent chess engine, যা Pawel Koziol লিখেছেন।"
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "আরও বিস্তারিত জানার জন্য Rodent > এ ক্লিক করুন।"
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "জন ডার্টের লেখা "আরাসান ইঞ্জিন" আরেকটি খুব ভালো ইঞ্জিন।"
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "স্টকফিশের মতো শক্তিশালী না হলেও, এর খেলার ধরণ আলাদা।"
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "তবে, যখন Tarrasch এবং Nimzo_3d GUI এর সাথে ব্যবহার করা হয়,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "কিছু সমস্যা আছে।"
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "২৩.০ সংস্করণের সাথে একটি নিউরাল নেট যোগ করার পর থেকে,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "এগুলোর কোনটিই আমার কম্পিউটারে কাজ করবে না।"
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "তবে, সর্বশেষ সংস্করণ 25.2 এর সাথে নিম্নলিখিত ইঞ্জিনগুলি কাজ করে"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "এই সমস্যাগুলির কারণে, আমি 22.3 সংস্করণ থেকে ইঞ্জিন ব্যবহার করেছি"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "রেটিং করা গেমগুলির জন্য। এটি ছিল নিউরাল নেট ছাড়া শেষ সংস্করণ।"
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "এই ভার্সনের সব ইঞ্জিন আমার কম্পিউটারে চলে।"
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "আরসান ইঞ্জিন সাহায্য"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "স্টকফিশ দাবা ইঞ্জিন"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "স্টকফিশ এনপিএস"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "আলেকজান্ডার"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "যখন আমি ইঞ্জিন ম্যাচের কোড লিখছিলাম, তখন আমি দেখতে পেলাম যে স্টকফিশ"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "এবং কমোডো ইঞ্জিনগুলি দ্রুত সময়সীমা সহ গেমগুলিতে সময় নষ্ট করছিল,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "তাই আমি এই সমস্যাটি সমাধানের জন্য <Engine time adjustment > বিকল্পটি লিখেছি।"
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "একটি রেট করা গেমের সাথে, দীর্ঘ সময়সীমা ব্যবহার করে, আমি আবারও দেখতে পেলাম যে"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "স্টকফিশ যখন তার খোলার বই থেকে বেরিয়ে আসে তখন খুব ধীরে ধীরে তার চালচলন চালায়।"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "অথবা যদি কোন বই ব্যবহার না করা হয়।"
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "এর প্রতিকারের জন্য আপনি স্টকফিশ স্লো মুভার বিকল্পটি সামঞ্জস্য করতে পারেন।"
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "এই মান কমালে চলাচলের গতি কিছুটা বাড়ে।"
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "যদিও আমি দেখেছি যে এই বিকল্পটি দ্রুত সময় নিয়ন্ত্রণের জন্য পর্যাপ্ত ছিল না"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "একটি খেলার জন্য ৩ মিনিট বা তার কম সময়, এটি ৫ মিনিট বা তার বেশি সময়ের জন্য ভালো কাজ করে।"
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "স্টকফিশ ১১-এর জন্য, ৫-১০ মিনিটের গেমের জন্য ২০-৩০ মান ভালো কাজ করে।"
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "আপনি কাস্টম প্যারামিটার বিকল্পগুলি ব্যবহার করে স্লো মুভার বিকল্পটি সেট করতে পারেন।"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "ইঞ্জিন ডায়ালগ বক্সে।"
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "কাজটি সহজ করার জন্য, আমি Stockfish 11 এর জন্য একটি ইঞ্জিন প্যারামিটার ফাইল তৈরি করেছি।"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "স্লো মুভার সেট সহ। আপনি এটি রেট করা গেম ডায়ালগ বক্স থেকে লোড করতে পারেন"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "ইঞ্জিন <ইঞ্জিন সেটিংস.. > এ ক্লিক করে এবং তারপর <লোড ইঞ্জিন >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "খোলা ইঞ্জিন ডায়ালগ বক্স থেকে।"
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Stockfish 11 এর প্যারামিটার ফাইলগুলি ডিরেক্টরিতে সংরক্ষণ করা হয়"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "স্টকফিশ ইঞ্জিন ৮-১৫-এ স্লো মুভার অপশন আছে, ১৬ এবং ১৭-তে নেই।"
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "এখানে আপনার অতিরিক্ত খেলার শক্তির প্রয়োজন নেই, তাই"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "শক্তিশালী ইঞ্জিন ব্যবহার করার কোন প্রয়োজন নেই।"
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "আমি GitHub-এ Stockfish ইঞ্জিনের এই সংস্করণটি পেয়েছি -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "এটি স্ট্যান্ডার্ড ইঞ্জিনের তুলনায় আরও সামঞ্জস্যযোগ্য সংস্করণ।"
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "README.md > ফাইল থেকে ইঞ্জিনের একটি বিবরণ এখানে দেওয়া হল -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "স্টকফিশএনপিএস হলো মানুষের খেলার জন্য সামান্য পরিবর্তিত স্টকফিশ।"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "প্রতি সেকেন্ডে নোড হ্রাস সহ, (প্রতি সেকেন্ডে কিলো নোড ~= 1 / অপেক্ষা করুন)"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "এলোমেলো মূল্যায়ন, অনুসন্ধানের গভীরতা এবং অনুসন্ধান নোডের সীমা।"
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "প্রথম দুটি পরিবর্তনের শক্তি uci বিকল্পগুলিতে সেট করা যেতে পারে"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "০ থেকে ১০০ পর্যন্ত, যেখানে অনুসন্ধানের গভীরতা ১ থেকে ২০ পর্যন্ত মান পর্যন্ত সীমাবদ্ধ থাকতে পারে"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "এবং 500000 পর্যন্ত মান পর্যন্ত নোড অনুসন্ধান করুন।"
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "সমস্ত পরিবর্তনগুলি যেকোনো সংমিশ্রণে ব্যবহার করা যেতে পারে"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "শক্তি কমাতে ELO সীমা শক্তি এবং দক্ষতা স্তর সেটিংস"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "মানুষের বিরুদ্ধে খেলার সময় ইঞ্জিনের ক্ষতি।"
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "ডিফল্ট সেটিংস সহ, StockfishNPS ঠিক বর্তমান Stockfish16_dev এর মতোই চলে।"
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "শুধুমাত্র সার্চ নোড সেটিং ১-১০ এর মধ্যে পরিবর্তন করলে ELO মোটামুটি ১৪০০ এ নেমে আসে।"
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "অতিরিক্ত বিকল্প পরিবর্তনের জন্য এটি একটি ভালো সূচনা বিন্দু।"
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "আমার মনে হয় এর মানে হল যে <waitms> মান বেশি হলে হ্রাস পাবে"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "ইঞ্জিন প্রতি সেকেন্ডে কতগুলি অবস্থান অনুসন্ধান করে।"
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "এলোমেলো মূল্যায়ন মান বৃদ্ধি করা"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "আরও বৈচিত্র্যময় খেলায় নেতৃত্ব দেবে।"
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< অনুসন্ধান নোড > অনুসন্ধান করা অবস্থানের সংখ্যার উপর এক ধরণের সীমা আরোপ করে।"
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< অনুসন্ধান গভীরতা > ইঞ্জিন যে অর্ধেক চাল (প্লাই) অনুসন্ধান করে তার সংখ্যা সীমিত করে।"
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "<nodestime> নামে একটি বিকল্পও আছে কিন্তু আমি জানি না এটি কী করে।"
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "শূন্যের ডিফল্ট মান মানে হল যে বিকল্পটি ব্যবহার করা হয়নি।"
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "আপনাদের সুবিধার্থে, আমি ইঞ্জিনগুলির জন্য ইঞ্জিন প্যারামিটার ফাইল তৈরি করেছি।"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "সমস্ত প্যারামিটার ডিফল্টে সেট করা আছে, আপনার সমন্বয় করার জন্য প্রস্তুত।"
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "এগুলো সংরক্ষণ করা হয় -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "এবং ইঞ্জিন ডায়ালগ বক্স থেকে <Load engine > দিয়ে লোড করা যেতে পারে।"
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "স্টকফিশ এনপিএস ইঞ্জিন সহায়তা"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "এটি একটি স্টকফিশ ডেরিভেটিভ ইঞ্জিন যার অনেকগুলি সমন্বয় বৈশিষ্ট্য রয়েছে।"
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "যখন আমি প্রথম ELO লিমিট স্ট্রেংথ সেট দিয়ে এটি চেষ্টা করেছিলাম, তখন এটি দুর্বল হয়নি,"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "এবং পূর্ণ শক্তিতে তার চালগুলি চালাত।"
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "তারপর আমি Handicapped Depth > বিকল্পটি যোগ করেছি এবং এটিকে <true> এ সেট করেছি।"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "এটি কাজ করছে বলে মনে হচ্ছে, এবং ইঞ্জিনটি বিভিন্ন গভীরতায় কাজ করে"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "সেট করা ELO রেটিং এর উপর।"
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "আরও অনেক বিকল্প আছে, যা README.md > ফাইলে বর্ণনা করা হয়েছে।"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "এই ফাইলটি নিম্নলিখিত ডিরেক্টরিতে অবস্থিত"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "আমি এই ডিরেক্টরিতে দুটি ইঞ্জিন প্যারামিটার ফাইল তৈরি করেছি, যা আপনি ব্যবহার করতে পারেন"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "ইঞ্জিন ডায়ালগ বক্স থেকে <Load engine > দিয়ে ইঞ্জিন সেট করতে।"
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "দুর্বল মোডে খেলার সময়, আলেকজান্ডার প্রায় তাৎক্ষণিকভাবে তার চালগুলি চালায়।"
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "আপনি চাইলে <Main menu > <Engine > <Move delay > ব্যবহার করে এটি ধীর করতে পারেন।"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "আলেকজান্ডার ইঞ্জিনটি নিম্নলিখিত লিঙ্কে গিটহাবে হোস্ট করা হয়েছে।"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "আলেকজান্ডার দাবা ইঞ্জিন সাহায্য"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "খেলোয়াড়ের নাম ছাড়া খেলা শুরু করা যাবে না"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "বর্তমান খেলোয়াড় তালিকা বাক্স থেকে একজন খেলোয়াড় নির্বাচন করুন।"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "রেটেড গেম ত্রুটি বার্তা"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "রেটিং সূত্র ছাড়া খেলা শুরু করা যাবে না"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "রেটিং সূত্র তালিকা বাক্স থেকে একটি সূত্র নির্বাচন করুন।"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "ইঁদুর ইঞ্জিন ব্যক্তিত্ব সেটিংস নির্বাচন করুন"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "কোন ইঞ্জিন ফাইল নেই"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "রেটেড ইঞ্জিন ডিরেক্টরি পরিবর্তন করা হয়নি।"
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "পড়ার জন্য কোনও ব্যক্তিত্বের ফাইল নেই।"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "ব্যক্তিত্বের ডিরেক্টরি"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "অস্তিত্ব নেই, তাই ব্যক্তিত্ব দেখাতে পারে না"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "রডেন্ট ৩ ইঞ্জিন পার্সোনালিটি সেটিংস নির্বাচন করুন"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "বর্তমান ব্যক্তিত্ব"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "ব্যক্তিত্বের নাম প্রদর্শন করুন"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "ডকুমেন্ট ডিরেক্টরি ব্যবহার করুন"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "সীমা ELO শক্তি ব্যবহার করুন"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "ইঞ্জিনের শক্তি সামঞ্জস্য করতে মান লিখুন"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "প্রতি সেকেন্ডে নোড"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "ডিফল্ট মান কপি করুন"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "মূল্যায়ন অস্পষ্ট মান"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "মূল্যায়ন অস্পষ্টতা অনুলিপি করুন"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "অনুসন্ধান দক্ষতা স্তর (১ - ১০)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "কপি সার্চ দক্ষতা"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "বর্তমান সেটিংস ফাইলে সংরক্ষণ করুন"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "ব্যক্তিত্ব ফাইল সংরক্ষণের জন্য ফাইলের নাম নির্বাচন করুন"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "ফাইলে মান যোগ করুন যদি না থাকে"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "নিম্নলিখিত ডিরেক্টরিটি ব্যবহার করতে চেক করুন"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "রেট করা ইঞ্জিন এবং সংশ্লিষ্ট ফাইলগুলির জন্য"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "ইঞ্জিন সমন্বয়ের জন্য UCI সীমা শক্তি ব্যবহার করতে পরীক্ষা করুন।"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "প্রতি সেকেন্ডে নোডের মান লিখুন,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "শক্তিশালীদের জন্য উচ্চতর, দুর্বলদের জন্য নিম্নতর,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "কিন্তু সর্বোচ্চ শক্তির জন্য শূন্য"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "ব্লার মূল্যায়ন মান লিখুন,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "শক্তিশালীদের জন্য কম, দুর্বলদের জন্য বেশি"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "দক্ষতা স্তরের মান লিখুন,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "দুর্বলের জন্য কম, শক্তিশালীর জন্য বেশি"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "প্রতি সেকেন্ডে নোড যোগ করুন এবং মূল্যায়ন ঝাপসা করুন"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "ফাইলের মান, যদি সেগুলি উপস্থিত না থাকে"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "আপনি যে ব্যক্তিত্বের বিরুদ্ধে খেলতে চান তা নির্বাচন করুন।"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "থেকে"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "স্যুইচ করা যাচ্ছে না"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI সীমা শক্তি সমন্বয়"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "প্রতি সেকেন্ডে নোড সমন্বয়"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "সেট করা যাবে না"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "কারণ"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "ফাইল খোলা যায়নি।"
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "কারণ সীমা শক্তি বিকল্পটি ফাইলে ছিল না।"
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "সমস্ত মান ডিফল্টে সেট করা আছে।"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "তাই এগুলো লিখে লাভ নেই।"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "ইনপুট ফাইল খোলা যায়নি"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "আউটপুট ফাইল খোলা যায়নি"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "আপডেট করা হয়েছে, এবং"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "ডিস্কে সংরক্ষিত"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "ইঁদুর দাবা ইঞ্জিন সাহায্য"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "ব্যক্তিত্বের বর্ণনা"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "ইঁদুর সম্পর্কে"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "এই ডায়ালগ বক্সটি আপনাকে একটি খেলার ব্যক্তিত্ব নির্বাচন করতে দেয়"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "এবং রডেন্ট দাবা ইঞ্জিনের বিকল্পগুলি।"
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "বর্তমান ব্যক্তিত্ব - ড্রপ ডাউন তালিকা বাক্স আপনাকে একটি ব্যক্তিত্ব বাছাই করতে দেয়।"
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "ELO সীমা শক্তি ব্যবহার করুন - ইঞ্জিন ডায়ালগ বক্সে ELO মান ব্যবহার করতে চেক করুন।"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "ইঞ্জিনের বাজানোর শক্তি সেট করার সময়।"
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "ইঞ্জিনের শক্তি সামঞ্জস্য করতে মান লিখুন -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "প্রতি সেকেন্ডে নোড - ইঞ্জিন কতগুলি অবস্থান তৈরি করবে"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "এবং প্রতি সেকেন্ডে বিশ্লেষণ করুন।"
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "মূল্যায়ন অস্পষ্ট মান - মূল্যায়ন ফাংশনে এলোমেলো মান যোগ করা হয়েছে।"
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "রডেন্ট 3 এর সাথে, প্রতি সেকেন্ড মোডে নোডগুলিতে, মূল্যায়ন ব্লার মান"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "ব্যক্তিত্ব ফাইল থেকে লোড করা হয়েছে। এটি আপনাকে কিছু ধারণা দেবে"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "যদি আপনি সমন্বয় করতে চান, তাহলে ব্যবহারের জন্য মানগুলির পরিসরের সংখ্যা।"
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "এই বিকল্পটি ELO সীমা শক্তির সাথেও ব্যবহার করা যেতে পারে।"
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "এইভাবে ব্যবহার করার সময়, আমি দেখতে পেলাম যে 20 এর সেটিং, চালগুলিকে ভিন্ন করে তোলে"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "ইঞ্জিনটি বাজল কিন্তু ২০ এর বেশি সংখ্যা ৫০০ পর্যন্ত কোনও প্রভাব ফেলল না"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "এবং ১০০০ এর বেশি সেটিং ইঞ্জিনকে মারাত্মকভাবে দুর্বল করে দেয়।"
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "তাই ELO-তে থাকা দরকারী সেটিংস আমার কম্পিউটারের জন্য শক্তি মোড সীমিত করে"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "২০ অথবা ৫০০ - ১০০০ কিন্তু আপনার কম্পিউটারের জন্য এটি ভিন্ন হতে পারে।"
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "যদি আপনি এটি সেট বা প্রদর্শিত না করতে চান, তাহলে এটিকে শূন্যে সেট করুন।"
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "যদিও ELO সীমা শক্তি ব্যবহার করার সময় প্রতি সেকেন্ডে নোড প্রযোজ্য নয়,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "মানগুলি এখনও ব্যক্তিত্ব ফাইলে প্রবেশ করানো এবং সংরক্ষণ করা যেতে পারে পরবর্তী ব্যবহারের জন্য।"
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "ডিফল্ট মানগুলি অনুলিপি করুন - শক্তি সমন্বয় মানগুলি পরীক্ষা করুন"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "এই ডায়ালগ বক্স থেকে ইঞ্জিন ডায়ালগ বক্সে কপি করতে হবে"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "এমনকি যখন সেগুলি ডিফল্টে সেট করা থাকে। তখন সেগুলি সম্পাদনা করা যেতে পারে।"
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "এগুলো যেমন আছে তেমন থাকলে ইঞ্জিনের উপর কোন প্রভাব পড়বে না।"
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ELO লিমিট স্ট্রেন্থ মোডে, মুছে ফেলার পরেও এগুলি রিসেট হয় না"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "ইঞ্জিন ডায়ালগ বক্স। প্রতি সেকেন্ড মোডে নোডগুলি পুনরায় সেট করা হয়,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "তাই আপনাকে <Copy parameters > এডিট করার জন্য বন্ধ করতে হবে।"
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "ব্যক্তিত্বের নাম প্রদর্শন করুন - ব্যক্তিত্বের নাম প্রদর্শন করতে চেক করুন"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "খেলার সময় ইঞ্জিনের নাম অনুসরণ করে।"
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "ইঞ্জিন রেটিংও স্বয়ংক্রিয়ভাবে প্রদর্শিত হয়।"
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "ডকুমেন্ট ডিরেক্টরি ব্যবহার করুন - ব্যবহার করতে চেক করুন"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "রেটিংপ্রাপ্ত ইঞ্জিনগুলির জন্য।"
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "যদি সেগুলি কপি না করা হয়, তাহলে এটি একটি জরুরি ফলব্যাক পরিমাপ।"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "যদি সেগুলি অন্য কোথাও ইনস্টল করা থাকে, তাহলে আপনি সেগুলি কপি করতে পারেন"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "উপরের ডিরেক্টরিগুলির মধ্যে একটি।"
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "যদি এগুলো আদৌ ইনস্টল না করা থাকে, তাহলে এই লিঙ্কগুলি থেকে ডাউনলোড করা যেতে পারে -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "লিংক"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "বর্তমান সেটিংস ফাইলে সংরক্ষণ করুন - এই ফাইল পিকারের সাহায্যে, আপনি সংরক্ষণ করতে পারেন"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "ডায়ালগ বক্স থেকে বর্তমান ফাইলে শক্তি সেটিংস প্লে করা,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "অথবা আপনি চাইলে নতুন একটি।"
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "যদি মান না থাকে তাহলে যোগ করুন - ফাইলে শক্তি সমন্বয় মান যোগ করতে চেক করুন।"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "যদি তারা উপস্থিত না থাকে। যদি আপনি মূল্যায়ন ব্লার মান যোগ করেন তবে এটিই হবে।"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "একটি ইঁদুর ৪ ব্যক্তিত্ব ফাইলে।"
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "ইঁদুর দাবা ইঞ্জিন সম্পর্কে"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "পাওয়েল কোজিওল রচিত "রডেন্ট" একটি অত্যন্ত আকর্ষণীয় দাবা ইঞ্জিন।"
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "এতে UCI_LimitStrength বিকল্প রয়েছে এবং ব্যক্তিত্বের একটি সেটও রয়েছে,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "দুর্বল এবং আরও বৈচিত্র্যময় খেলার জন্য, যা ফাইল থেকে লোড করা হয়।"
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "যাতে ইঞ্জিনটি ব্যক্তিত্ব এবং তাদের সাথে সঠিকভাবে কাজ করে"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "খোলার বই, সমস্ত উপাদান একই ডিরেক্টরিতে স্থাপন করতে হবে।"
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "এগুলো ইনস্টল করা উচিত ছিল -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "যদি তুমি চাও যে রডেন্ট ইঞ্জিন খেলার সময় তার নিজস্ব বই ব্যবহার করুক,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "তাহলে আপনাকে Nimzo_3d ওপেনিং বইটি বন্ধ করতে হবে"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "<প্রধান মেনু > <খোলা> <খোলা> <খোলা> <খোলা>"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "অথবা <Book off > বিকল্পটি পরীক্ষা করে দেখুন, যদি আপনি ব্যবহার করেন"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "রেট করা গেম ডায়ালগ বক্স।"
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "কিছু ডকুমেন্টেশন এবং একটি ইউটিলিটি প্রোগ্রাম আছে"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "যা আরও ব্যক্তিত্ব তৈরিতে ব্যবহার করা যেতে পারে।"
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "রডেন্ট ৪ ইঞ্জিন প্যাকেজ এবং পুরোনো সংস্করণগুলি এখান থেকে ডাউনলোড করা যেতে পারে -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "শুধুমাত্র ইঁদুর ৪, বিস্তারিত পর্যালোচনা সহ"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "ইঁদুর ৪ ইঞ্জিনের সাপোর্ট উপাদান, ইঞ্জিন ছাড়াই"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "ইঁদুর ৩ এর সাপোর্ট উপাদান, ইঞ্জিন ছাড়াই"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "একটি ইঁদুর ব্যক্তিত্ব ফাইল হল একটি *.txt ফাইলে UCI কমান্ডের একটি তালিকা।"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "এটি নিম্নলিখিত পদ্ধতিতে কাজ করার কথা -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "দাবা প্রোগ্রাম GUI রডেন্ট ইঞ্জিনে <Personality > কমান্ড পাঠায়।"
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "এরপর ইঞ্জিনটি ব্যক্তিত্ব ফাইল থেকে কমান্ডগুলি পড়ে।"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "এবং সেই অনুযায়ী এর সেটিংস সামঞ্জস্য করে।"
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "তবে, Nimzo_3d এবং Tarrasch GUI উভয়ের সাথেই,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "এইভাবে ব্যবহার করার সময় আমি ইঞ্জিনগুলিকে কাজ করাতে পারিনি।"
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "সমস্ত ব্যক্তিত্ব একই চাল খেলেছে।"
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "তাই এর পরিবর্তে, আমি <Personality > কমান্ডটি আটকে দিয়েছিলাম যখন এটি ছিল"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "GUI থেকে ইঞ্জিনে পাঠানো হতে চলেছে, ব্যক্তিত্ব ফাইলটি খুললাম"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "এবং ফাইল থেকে কমান্ডগুলি পৃথকভাবে পাঠিয়েছে। এটি কাজ করছে বলে মনে হচ্ছে।"
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "মূলত, রডেন্ট ইঞ্জিনের খেলার শক্তি পরিবর্তনের দুটি প্রধান পদ্ধতি রয়েছে।"
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "এটি মূল্যায়ন অস্পষ্টতার সাথে ELO সীমা শক্তি বা প্রতি সেকেন্ডে নোড ব্যবহার করতে পারে।"
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ELO সীমা শক্তি আপনাকে একটি আনুমানিক ELO রেটিং সেট করতে দেয়"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "এবং মূল্যায়ন ব্লার সহ প্রতি সেকেন্ডে নোড আপনাকে মান সেট করতে দেয়"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "যার একই রকম দুর্বল প্রভাব রয়েছে।"
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "ইঁদুর ৩ ব্যক্তিত্ব প্রতি সেকেন্ডে নোড ব্যবহার করার জন্য সেট আপ করা হয়েছে"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "মূল্যায়ন ঝাপসা সহ এবং রডেন্ট 4 ব্যবহার করার উদ্দেশ্যে তৈরি"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "শুধুমাত্র ELO সীমা শক্তি সহ।"
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "<Personality > কমান্ড পাঠানোর পদ্ধতিতে আমার পরিবর্তনের কারণে,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "ইঁদুর ৩ তার ব্যক্তিত্ব ব্যবহার করতে পারে যার ELO সীমা শক্তি রয়েছে"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "মূল্যায়ন ঝাপসা এবং নির্বাচন দক্ষতার সাথে একত্রে,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "কিন্তু প্রতি সেকেন্ডে নোড দিয়ে নয়।"
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "এর অর্থ হল, ইঁদুর ৪ ELO সীমা শক্তি ব্যবহার করতে পারে"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "মূল্যায়ন ঝাপসা এবং দক্ষতা নির্বাচন সহ।"
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "মূল্যায়নের অস্পষ্টতার মান সামান্য পরিবর্তন করলে ইঞ্জিনটি চলবে"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "খেলার শক্তিকে খুব বেশি প্রভাবিত না করেই বিভিন্ন চাল,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "যতক্ষণ না ব্লার মান খুব বেশি হয়।"
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "তুমি এটা নিয়ে পরীক্ষা করতে পারো, আমি দেখেছি যে ২০ - ৫০ এর মধ্যে মান"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "বেশ ভালো কাজ করেছে।"
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "পাশাপাশি, উভয় ইঞ্জিনই এখন ব্যক্তিত্বের ফাইলগুলি ব্যবহার করতে পারে"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "Nimzo_3d এর মধ্যে থেকে সামান্য কিছু সমন্বয় সহ অন্য ইঞ্জিনের,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "একবার ইঞ্জিনের <ব্যক্তিগত> ডিরেক্টরিতে কপি করা হয়ে গেলে।"
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "আপনি যদি পরিবর্তন চান তবে এটি আপনাকে সহজেই নতুন ব্যক্তিত্বের ফাইলগুলি অদলবদল করতে দেয়।"
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "আমি <extra_personalities> তে কিছু রেখেছি।"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "<ব্যক্তিগত> ডিরেক্টরির মধ্যে।"
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "ব্যক্তিত্বের ফাইলগুলি নিম্নলিখিত ডিরেক্টরিগুলিতে সংরক্ষণ করা হয় -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "প্লাস"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "অথবা"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "ফাইলগুলিকে Nimzo_3d এর মধ্যে থেকে পরিবর্তন করা যেতে পারে যাতে সামঞ্জস্য করা যায়"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "প্রতি সেকেন্ডে নোড এবং মূল্যায়ন ব্লার মান এবং তারপর ডিস্কে সংরক্ষণ করা হয়।"
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "ব্যক্তিত্বের ফাইলগুলি কমান্ড দিয়ে শেষ হতে পারে তাতে কিছু যায় আসে না"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "যেগুলো বর্তমানে ব্যবহৃত ইঞ্জিনের জন্য অনুপযুক্ত, কারণ সেগুলো"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "ইঞ্জিনে পাঠানোর আগে GUI দ্বারা ফিল্টার করা হয়।"
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "ইঁদুরের আদেশ"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "ইঁদুর দাবা ইঞ্জিন ব্যক্তিত্বের এই বর্ণনাগুলি থেকে নেওয়া হয়েছে"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "<FinalRodent.pdf> ফাইলটি নিম্নলিখিত ডিরেক্টরিতে পাওয়া যাবে -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "পূর্বনির্ধারিত ব্যক্তিত্ব"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "শুরু থেকেই, রডেন্ট প্রকল্পটি একটি ইঞ্জিন তৈরির বিষয়ে ছিল"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "যা এর খেলার ধরণ পরিবর্তন করতে সাহায্য করে - ঠিক চেসমাস্টার সিরিজের মতো,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "কেবল আরও ভালো। নতুন সংস্করণে কোড পরিবর্তনের অর্থ হল পুরানো ব্যক্তিত্ব"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "আর ব্যবহারযোগ্য নয়, তাই আমি একটি নতুন সেট তৈরি করার প্রয়োজন অনুভব করলাম।"
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "আশা করি তুমি এটা আকর্ষণীয় পাবে।"
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "প্রথমত, একজন আক্রমণকারী, তার দ্বিতীয় বিবেচনা"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "হল টুকরো টুকরো কার্যকলাপ। ধাঁধা খেলা করে।"
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "ক্লো ক্লোজড পজিশন, প্যান স্টর্ম এবং সাউন্ড প্যান স্ট্রাকচার পছন্দ করে।"
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "বন্ধ অবস্থানের চেয়ে সে কেবল একটি জিনিসই পছন্দ করে তা হল বন্ধ অবস্থান।"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "তার বন্ধুদের মালিকানাধীন একটি খোলা ফাইল নিয়ে।"
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "তিনি ফরাসি এবং রাজার ভারতীয় প্রতিরক্ষার একজন গর্বিত অনুশীলনকারী।"
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "তাকে একজন কালো কেশিক, সরু, বিষণ্ণ মহিলা হিসেবে কল্পনা করো।"
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "সে একজন রক্ষণাত্মক খেলোয়াড় যে বিশপদের পছন্দ করে।"
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "কল্পনা করুন তিনি একটি দামি স্যুট পরে আছেন, দেখতে অনেকটা একজন সিইওর মতো।"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "একজন দাবা খেলোয়াড়ের চেয়েও শক্তিশালী, যুক্তিবাদী, যদিও কিছুটা হতাশাবাদী ব্যক্তিত্ব।"
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "শক্ত ওপেনিং খেলছে। সমান পজিশনে ড্র করার জন্য প্রস্তুত।"
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "কল্পনা করুন তাকে একজন খেলোয়াড় হিসেবে, যিনি ইতিমধ্যেই তার সেরা সময় পার করে ফেলেছেন,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "প্রতিপক্ষের প্রতি অসম্মানজনক এবং এখনও বেশ বিপজ্জনক।"
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "গ্রাম্পি শত্রুর চলাচল সীমিত করতে এবং আক্রমণ করতে পছন্দ করে,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "বন্ধ পজিশন উপভোগ করে এবং জয়ের আশা করে।"
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "বয়সের কারণে, সে বেশিরভাগই খুব বেশি আধুনিক ওপেনিংয়ে খেলে না।"
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "উদাহরণস্বরূপ, সে ট্যারাশের প্রতিরক্ষা পছন্দ করে।"
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "পল মরফির ছদ্মবেশ ধারণ। গতিশীলতার উপর জোর দেয়,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "তারপর রাজা আক্রমণ, খোলা অবস্থান পছন্দ করে।"
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "সে ধীরে ধীরে শুরু করে, এমন খোলা জায়গা ব্যবহার করে যা খুব বেশি জায়গা দখল করে না।"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "কেন্দ্রে, কিন্তু নিরাপত্তার মিথ্যা ধারণায় ডুবে যেও না।"
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "পরে সে ভয়াবহ আক্রমণ চালায়।"
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "তাকে একজন তরুণ, উদীয়মান গ্র্যান্ডমাস্টার হিসেবে কল্পনা করুন,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "যিনি এখনও তার প্রকৃত সম্ভাবনায় পৌঁছাতে পারেননি।"
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "রোগা, প্রাণবন্ত, ঝলমলে নড়াচড়া একটু বেশিই পছন্দ করে।"
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "সে মাঝে মাঝে তার দাবার গুন্ডাদের সাথে বিচ্ছেদ ঘটায়।"
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "ভারসাম্যপূর্ণ ব্যক্তিত্ব, সামান্য পরিমাণ উপাদান ত্যাগ করার সম্ভাবনা বেশি,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "খেলার শেষভাগে প্রায়শই সক্রিয় প্রতিরক্ষার জন্য যায়।"
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "পেড্রিটা মানে প্যান, প্রতিরক্ষা, সংযম।"
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "সে দুর্দান্ত ওপেনিং খেলে এবং প্রথমে প্রতিরক্ষার কথা ভাবে, কিন্তু প্রতারিত হও না!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "অবস্থানের প্রয়োজন হলে সে ঠিকঠাক আক্রমণ করতে পারে, এবং দৃঢ় বন্ধকী খেলার মাধ্যমে"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "সে এমন একটা জিনিস যা ভাঙা কঠিন।"
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "সামান্য বস্তুবাদী, কিন্তু উদ্যোগের জন্য লড়াই করছে"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "এবং খারাপ পরিকল্পনা এড়াতে ডিফল্টভাবে বন্ধ করার মতো যথেষ্ট।"
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "শত্রুর টুকরোগুলোর বিরুদ্ধে চাপ তৈরি করতে পছন্দ করে।"
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "বন্ধ ওপেনিংয়ে সাদা হিসেবে, স্লাভ এবং ক্যারো-কান ডিফেন্সে কালো হিসেবে খেলে।"
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "দুর্বল ইঞ্জিনের বিপরীতে সম্ভবত এটিই সেরা সেটআপ।"
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "মূল্যায়ন ফাংশনের আরও উন্নত দিক ছাড়াই খেলা হয়,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "বুদ্ধিমান ডিফল্ট প্রয়োগ করা হচ্ছে। রানী বিনিময়ের ক্ষেত্রে সামান্য পছন্দ,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "সমান অবস্থানে থাকলে ড্র হবে।"
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "সম্ভবত সবচেয়ে কম্পিউটারের মতো ব্যক্তিত্ব।"
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "তাকে বাদামী চামড়ার জ্যাকেট পরা একজন লম্বা মানুষ হিসেবে কল্পনা করুন।"
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "সে সক্রিয় খেলা পছন্দ করে কিন্তু আক্রমণের শিকার হতে ঘৃণা করে।"
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "রাণীদের বোর্ডে রাখতে পছন্দ করে।"
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "ব্রেন্ডন জে. নরম্যানের রডেন্ট III ব্যক্তিত্বের উপর ভিত্তি করে।"
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "বোয়া কনস্ট্রিক্টর স্টাইলে খেলে, কিন্তু আক্রমণের প্রতি তার প্রবল পছন্দ,"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "অবস্থানগত কারণে ত্যাগ স্বীকার করার সম্ভাবনা বেশি।"
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "গ্রম্পির অনেক বেশি মেজাজী সংস্করণ, একেবারে মানুষের মতো খেলা।"
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "রানীদের সাথে শেষ খেলায় অতিরিক্ত আশাবাদী হতে পারে।"
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "অনেক বিশ্বচ্যাম্পিয়ন এবং অন্যান্য বিখ্যাত খেলোয়াড়দের জন্য ব্যক্তিগতকৃত জিনিসপত্রও রয়েছে।"
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "ইঁদুর ৪ দাবা ইঞ্জিনের ব্যক্তিত্বের বর্ণনা"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "জানালা সবসময় উপরে থাকে"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "তুমি চাইলে - দিয়ে এটি ধীর করতে পারো।"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "<প্রধান মেনু > <ইঞ্জিন > <মুভ বিলম্ব >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "একটি দাবা ইঞ্জিনের বিরুদ্ধে একটি রেটযুক্ত খেলা খেলুন"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "সীমা শক্তি সেটিংস কাস্টম প্যারামিটারে কপি করতে চেক করুন।"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "রেটিং সূত্র ব্যাখ্যা করা হয়েছে"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "ব্যক্তিত্বের নাম প্রদর্শনের জন্য চেক করুন"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "খেলার সময় ইঞ্জিনের নাম সহ"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "অনুসন্ধান দক্ষতার মান লিখুন,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "সর্বদা স্বয়ংক্রিয়ভাবে বিকল্পগুলি অনুলিপি করতে চেক করুন"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "কাস্টম প্যারামিটারের উপর নির্ভর করে"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "মূল্যায়নের অস্পষ্টতা স্বয়ংক্রিয়ভাবে অনুলিপি করতে চেক করুন।"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "কাস্টম প্যারামিটারের মান"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "অনুসন্ধান দক্ষতা স্বয়ংক্রিয়ভাবে অনুলিপি করতে চেক করুন।"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "সংরক্ষণের জন্য ফাইলের নাম লিখুন"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "ইঞ্জিন শক্তি সমন্বয় বিকল্পগুলি"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "সাদা খেলায় জিতেছে এবং লাভ করেছে"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "কালো খেলায় হেরে গেছে এবং হেরে গেছে"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "সাদা খেলায় হেরে গেছে এবং হেরে গেছে"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "কালো খেলে জিতেছে এবং লাভ করেছে"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "সাদা রঙে এঁকেছে"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "কালো রঙে এঁকেছে"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "রেটিংয়ের কোনও পরিবর্তন হয়নি।"
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "এবং অর্জন করেছেন"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "এবং হারিয়ে গেছে"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "আপনার নতুন রেটিং হল"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "খেলার ফলাফল রেটিং বার্তা"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "বিস্তারিত লেখার জন্য প্লেয়ার প্রোফাইল ফাইল খোলা যাচ্ছে না।"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "ডিরেক্টরিতে কোনও ইঞ্জিন ফাইল নেই, রেট করা গেমটি বাতিল করা হয়েছে"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "রেটেড ইঞ্জিন ডিরেক্টরি"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "বিদ্যমান নেই, রেটেড গেম বাতিল করা হয়েছে"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "পরামর্শ: প্রোগ্রামের ডিফল্ট মানগুলি রিসেট করুন"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "<প্রধান মেনু > <বিকল্প > <ফ্যাক্টরি ডিফল্টে রিসেট করুন >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "যদি এটি ব্যর্থ হয়, তাহলে রেট করা ইঞ্জিনগুলি ডাউনলোড এবং ইনস্টল করুন"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "ইঁদুরের ইঞ্জিন ব্যক্তিত্ব"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "লোড করা"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "রেটেড গেম ইঞ্জিন বার্তা"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "ইঞ্জিন তালিকায় নেই, তাই সেট করা যাচ্ছে না।"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "খেলোয়াড়ের প্রোফাইল ডিরেক্টরি"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "পরামর্শ: উইন্ডোজ এক্সপ্লোরার দিয়ে ম্যানুয়ালি এই ডিরেক্টরিটি তৈরি করুন"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "খেলোয়াড়ের নাম খালি, অনুগ্রহ করে একটি নাম লিখুন।"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "খেলোয়াড়ের নাম ইতিমধ্যেই তালিকায় আছে,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "দয়া করে অন্য খেলোয়াড়ের নাম লিখুন।"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "খেলোয়াড়ের প্রোফাইল"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "প্লেয়ার প্রোফাইল ডিস্কে সংরক্ষণ করার সময় ত্রুটি হয়েছে"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "খেলোয়াড়ের নাম তালিকায় নেই,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "তালিকায় থাকা খেলোয়াড়ের নাম লিখুন।"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "ডিস্ক থেকে মুছে ফেলা হয়েছে"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "ডিস্ক থেকে প্লেয়ার প্রোফাইল মুছে ফেলার সময় ত্রুটি হয়েছে"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "রেটিং সূত্র ডিরেক্টরি"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "এবং একটি সূত্র যোগ করতে <Rating সূত্র > < + > ব্যবহার করুন"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "রেট করা গেম ডায়ালগ বক্সে।"
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "সূত্র ফাইলের নাম খালি, অনুগ্রহ করে একটি নাম লিখুন।"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "রেটিং সূত্র ফাইলের নাম ইতিমধ্যেই তালিকায় রয়েছে,"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "অনুগ্রহ করে একটি ভিন্ন রেটিং সূত্র ফাইলের নাম লিখুন।"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "রেটিং সূত্র ফাইলের নাম তালিকায় নেই,"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "তালিকায় থাকা একটি রেটিং সূত্র ফাইলের নাম দিন।"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "রেটিং সূত্র"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "রেটিং সূত্র ফাইলটি ডিস্কে সংরক্ষণ করার সময় ত্রুটি ঘটেছে"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "সূত্র ফাইলের নাম খালি, দয়া করে একটি ফাইলের নাম টাইপ করুন।"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "রেটিং সূত্র ফাইলটি তালিকায় নেই,"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "অনুগ্রহ করে তালিকায় থাকা একটি সূত্র ফাইল ইনপুট করুন।"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "ডিস্ক থেকে রেটিং সূত্র মুছে ফেলার সময় ত্রুটি হয়েছে"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "পড়ার জন্য রেটিং সূত্র ফাইলটি খোলা যাচ্ছে না"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "মানুষের জন্য একটি রেট করা গেম বৈশিষ্ট্য - ইঞ্জিন গেম (সংস্করণ 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "সরানোর বিলম্ব"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "সরাতে বিলম্ব.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "সরানোর বিলম্বের ডায়ালগ বক্সটি দেখান"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "ত্রুটি বার্তা"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "কাস্টম প্যারামিটারে কপি করুন"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "<Rated game > বৈশিষ্ট্যটি লেখার সময় আমি দেখতে পেলাম যে Delfi ইঞ্জিন"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "কাস্টম প্যারামিটার তালিকায় সীমা শক্তি সেটিংস স্থাপন করা প্রয়োজন ছিল"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "তাদের কাজ করার জন্য।"
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "ডেলফি ইঞ্জিনের জন্য এই ক্রিয়াটি স্বয়ংক্রিয়ভাবে সম্পন্ন হবে।"
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "যদি আপনার অন্য কোন ইঞ্জিনে এই সমস্যা থাকে, তাহলে আপনি পরীক্ষা করে দেখতে পারেন"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< কাস্টম প্যারামিটারে < কপি করুন > বক্স এবং সীমা শক্তি পরামিতি"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "জুড়ে কপি করা হবে।"
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "আমি আরও দেখেছি যে যদি আপনি দুর্বল স্টকফিশ ইঞ্জিন দিয়ে একাধিক গেম খেলেন"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "এবং <কপি টু কাস্টম প্যারামিটার > সেট করা হয়নি, স্টকফিশ পূর্ণ শক্তিতে ফিরে এসেছে"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "দ্বিতীয় খেলার জন্য। তাই সম্ভবত এই বিকল্পটি সর্বদা সেট করাই ভালো।"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "সীমা শক্তি ব্যবহার করার সময়।"
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "<Rated game > বৈশিষ্ট্যটি ব্যবহার করার সময়, এটি সমস্ত ইঞ্জিনের জন্য প্রয়োগ করা হয়।"
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "স্টকফিশের বিরুদ্ধে খেলার সময় যদি আপনার অনুসন্ধান তথ্য প্যানেল খোলা থাকে,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "এটি ইঞ্জিনের পূর্ণ শক্তি বিশ্লেষণ দেখায়,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "এমনকি যদি UCI সীমা শক্তি ব্যবহার করে এটি দুর্বল করা হয়ে থাকে।"
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "এটি আসলে দুর্বল হয়ে গেছে কিনা তা আপনি বলতে পারবেন কারণ এটি প্রায়শই"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "বিশ্লেষণে দেখানো পদক্ষেপের থেকে ভিন্ন একটি পদক্ষেপ।"
+
