@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "Reitingu korrigeerimise valem"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "eest"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "Võidu väärtus"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "Kahjuväärtus"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "Joonista väärtus"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "Tugevuse korrigeerimise tegur"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "Efektiivne maksimaalne erinevusväärtus"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "Minimaalne võiduväärtus"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "Sisendreitingu muutus võidu saavutamiseks"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "Reitingu muutus viigi korral"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "Reitingu muutus kaotuse korral"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "Sisestage tugevusteguri korrigeerimise protsent"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "Efektiivne maksimaalne reitingu erinevus"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "See dialoogiboks võimaldab kasutajal valemi suvandeid määrata"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "kasutatakse mängija reitingu kohandamiseks pärast mängu mootori vastu."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Võidu väärtus - edetabelipunktide suurenemine mängu võitmise eest."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "Joonista väärtus – see on alati null."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Kaotuse väärtus – see on võidu väärtuse miinusväärtus."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Tugevuse korrigeerimistegur (protsent) – seda väärtust kasutatakse"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "hinnangu arvutamisel, nagu on näidatud allolevas võrrandis."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Efektiivne maksimaalne hinnangute erinevus - kui edetabeli erinevus"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "mängijate vahel on see arv suurem,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "siis seatakse see sellele numbrile. Vaadake allolevat võrrandit."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Põhivalemit kasutab Ameerika Ühendriikide Maleliidu"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "kirjavahetusmale mängude jaoks."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "Selle kirjeldust näete järgmisel veebisaidil -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "Siin on minu selgitus nende valemi kohta."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "Nende arvutus uue reitingu kohta pärast mängu on -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(võidu või kaotuse puhul)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Siin on 0,04 (4 protsenti) tugevuse korrigeerimistegur (SAF)."
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED on efektiivne reitingu erinevus."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED-l on positiivne väärtus edetabeli arvutamisel."
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "nõrgema mängija puhul ja negatiivne väärtus tugevama mängija puhul."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "Võidu/kaotuse väärtuse 16 korral, kui tegelik reitingu erinevus"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "Kui mängijate vaheline summa on suurem kui 350, siis seatakse see väärtusele 350."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "See on selleks, et tagada, et nendel juhtudel, kui võidate mängu teie vastu"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "nõrgema vastase vastu tõuseb teie edetabel ja kui te kaotate"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "Tugevama vastase korral langeb sinu edetabel."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "Hinnangu muutus on siin väike, ainult 2 punkti."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Seda saab reguleerida minimaalse võiduväärtuse muutuja abil."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "Seega on üldine võrrand, ma arvan -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "kus"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "minimaalne võiduväärtus"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Vaikimisi sätted salvestatakse edetabeli valemi faili <USCF>."
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "aga saate luua uue faili ja soovi korral sätteid muuta."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Soovitaksin põhinumbrites teha vaid väikeseid muudatusi."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "Hinnanguvalemi selgitus"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "Liikumisviivitus inimese poolt juhitavates mängudes"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "Kasutage liikumise viivitust"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "Tühista sekundite järel"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "Minimaalne liikumisviivitus (sekundites)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "Jõusta minimaalne liikumisviivitus"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "Kasuta juhuslikku jõustamisaega"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "Maksimaalne liikumisviivitus (sekundites)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "Juhuslik viivitus fikseeritud aja jooksul"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "Liikumise viivituse kasutamine inimese ja mootoriga mängus"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "Tühista liikumise viivitus, kui on jäänud vaid nii palju sekundeid"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "Minimaalne liikumise viivitus sekundites"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "Rakenda minimaalset liikumisviivitust,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "kuni sekundites tühistamiseni"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "Kasutage juhuslikku arvu vahemikus 1 kuni minimaalne liikumisviivitus."
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "kui on seatud minimaalse liikumise viivituse jõustamine"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "Maksimaalne liikumise viivitus sekundites"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "Kasuta fikseeritud mootoriaegade jaoks juhuslikku liikumise viivitust"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "See funktsioon on mõeldud peamiselt Komodo malemootoritega kasutamiseks."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "kui need on inimmootoriga mängude jaoks nõrgestatud."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "Sel juhul hakkavad mootorid peaaegu kohe liikuma, mis annab mängule..."
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "ebaloomulik rütm, mis on üsna häiriv."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "See juhtub ka Rybka 2.3 mootoriga"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "ja Alexanderi malemootor."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "Komodo mootoritel pole valikut < Aeglane liikuja >, seega see dialoogiboks"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "võimaldab teil määrata valikuid, mis aeglustavad mootorit."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Kasuta liikumise viivitust – märkige, et kasutada liikumise viivitust inimmootoriga mängudes."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "Tühista sekundites – valige aeg, millal liikumise viivitust enam ei kasutata."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Minimaalne liikumisviivitus – valige minimaalne liikumisviivitus sekundites."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "Jõusta minimaalne liikumisviivitus – Märkige see ruut, et jõustada minimaalne liikumisviivitus"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "Sellisel juhul, kui programm arvutab, et liikumiseks lubatud aeg"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "on väiksem kui minimaalne liikumisviivitus, siis seatakse liikumisviivitus kas väärtusele"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "minimaalne liikumisviivitus või juhuslik arv vahemikus 1 kuni minimaalne liikumisviivitus,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "olenevalt sellest, kuidas järgmine märkeruut on seatud."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "See jõustamine ei kehti enam, kui saabub sekundilise tühistamise aeg."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "Tühjendage linnuke, et lubada mootoril käike esitada kiiremini kui minimaalne liikumisviivitus."
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "enne sekundipunktis tühistamist, kui aeg hakkab otsa saama."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "Jõusta juhuslikult – kontrolli minimaalse liikumisviivituse juhuslikku jõustamisaega."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Maksimaalne liikumisviivitus – valige maksimaalne liikumisviivitus sekundites."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Juhuslik viivitus fikseeritud aja jooksul – märkige, et kasutada fikseeritud ajatasemete jaoks juhuslikku liikumise viivitust."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Tühjendage märkeruut, et kasutada kogu liikumisviivituse jaoks lubatud fikseeritud aega."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "Liikumise viivituse abi"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "Hinnatud mänguvalikud"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "PGN-failinimi mängijamängudele"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "Valige mängu jaoks .pgn-fail"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "Mootori vastane"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "Mootori ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "Isiksused"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "Praegune mängija"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "Mängija ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "Muuda mängija ELO reitingut"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "Märkige, et muuta mängija ELO reitingut"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "Määra praeguseks mootoriks"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "Määra praeguseks kellaajaks"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "Tulemuste hinnangu muutus"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "Käsitsi reguleerimine"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "Hinnangu valem"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "Ajakontroll"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "Minutit mängu kohta"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "Suurendamine (sekundites)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "Mängija"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "Broneeri maha"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "Alusta mängu"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "Sisesta PGN-failinimi mängija mängude salvestamiseks"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "Sisestage mootori ELO tugevus"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "Ava mootori sätete dialoogiboks"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Ava näriliste mootori isiksuste dialoogiboks"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "Lisa uus mängija"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "Kustuta praegune mängija"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "Salvesta praeguse mängija andmed"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "Mängija ELO hinnang"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "Märki, et muuta mängija ELO reitingut"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "Märgi, et kasutada hinnatud mängu puhul liikumise viivitust."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "Märkige, et määrata mootori sätted kehtivaks"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "Märkige, et määrata kella seaded kehtivaks"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "Märki see, et selle mängu avaraamat välja lülitada"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "ELO reitingu muutus mängija võidu korral"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "ELO reitingu muutus mängija kaotuse korral"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "ELO reitingu muutus viigi korral"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "Märkige, et hinnangu muudatusi korrigeerida"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "ja mängija ELO käsitsi"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "Praegu kasutatav hindamisvalem"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "Lisa uus valem"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "Kustuta praegune valem"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "Praeguse valemi muutmine"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "Sisesta mängija mänguaeg minutites"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "Sisesta mängija käigu samm sekundites"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "Sisesta mängu mootori aeg minutites"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "Sisesta mootori liikumise samm sekundites"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "Kontrolli, kas inimene mängib valget"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "Alusta mängu praeguste sätetega"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "Vali mootor, mille vastu soovid mängida"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "Vali praegune mängija"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "Hinnatud mängude abi"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "Hinnatud mäng pakub mugavat viisi nõrgenenud mängijate vastu mängimiseks"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "malemootorid ja samal ajal jälgib see teie edusamme"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "ligikaudse ELO-reitingu uuendamise teel."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "Hinnatud mängu jaoks saate määrata järgmised valikud"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN-failinimi: valige hinnatud mängude salvestamiseks PGN-failinimi."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "Failinimi tuletatakse mängija nimest. See salvestatakse kausta"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "Kui mängija nime ei sisestata, kasutatakse failinimena rated_games.pgn."
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Mootori vastane: Siin saad valida, millise mootoriga soovid mängida."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Kõigil neil mootoritel on UCI_LimitStrength valik,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "mis võimaldab neil nõrgeneda."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Kui soovite lisada teise mootori, millel see valik on, tuleks see kopeerida."
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "sellele"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "kataloog"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "Mootori ELO – valige mootori ELO tugevus."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "Näidatud on ülemised ja alumised lubatud väärtused."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Mootori seaded – see avab mootori dialoogiboksi, mis võimaldab teil muuta"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "muud valikud teie valitud mootorile. Näite nägemiseks klõpsake <Stockfish>."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Kui on laaditud Rodenti malemootor, siis nupp <Isikupärad>"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "Selle mootori jaoks ilmub ka."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Praegune mängija – siin saate määrata praeguse mängija ning lisada ja kustutada"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "ja redigeeri mängijaid. Praeguse mängija nimi kuvatakse redigeerimisaknas."
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "rippmenüüst."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Plussnupp – Uue mängija lisamiseks tippige tema nimi muutmisaknasse ja klõpsake"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "sellele nupule. Nende nimi lisatakse nimekirja ja nende järgi nimetatakse fail."
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "mis sisaldab nende andmeid, salvestatakse kettale"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Miinusnupp – Klõpsa muutmisaknas kuvatava mängija kustutamiseks."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "See eemaldab ka nende faili kettalt."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Salvesta – klõpsake mängija andmete salvestamiseks redigeerimisaknas."
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "kui muudate käsitsi nende ELO-reitingut."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "Mängija ELO – see näitab muutmisaknas mängija ELO-reitingut."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Kui soovite seda kasti uue mängija lisamisel muuta, vaadake järgmist valikut."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Muuda mängija ELO reitingut – Märgi see ruut, et lubada mängija ELO reitingu muutmist."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Kasuta liigutuse viivitust – Märgi, et kasutada hinnatud mängus liigutuse viivitust."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "See valik on mõeldud mootoritele, mis liiguvad liiga kiiresti."
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "kui nad on nõrgenenud, näiteks Komodo varaanil."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Määra praeguseks mootoriks – Märkige, et määrata selles kastis kuvatav mootor"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "praeguse mootorina pärast hinnatud mängu lõppu."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Pärast hinnatud mängu lõppu vana mootori taastamiseks tühjenda linnuke."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Määra praeguseks kellaks – märkige, et määrata selles kastis kuvatavad kellaajad."
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "nagu praegune kell pärast hinnatud mängu lõppu."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Pärast hinnatud mängu lähtestamiseks vanale kellale tühjenda linnuke."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Tulemuste hinnangu muutus – näitab võidu, kaotuse või viigi hinnangu muutusi."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Neid reguleeritakse automaatselt vastavalt mängija ja mootori ELO reitingutele."
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "ja millist valemit ELO arvutamiseks kasutatakse."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Käsitsi reguleerimine – märkige see ruut, kui soovite ülaltoodud väärtusi käsitsi muuta."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Kui soovite mängida hinnatud mängu käsitsi muudetud väärtustega,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "seejärel jätke see ruut märgituks, kui klõpsate nupul <Alusta mängu>"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Hinnanguvalemid – siin saate valida ja muuta ELO arvutusvalemeid."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "Seda kasutatakse sarnaselt praeguse mängija kastiga."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "Peamine erinevus seisneb selles, et valemi lisamisel või muutmisel"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "Avaneb uus dialoogiboks, kus saate sisestada valemi suvandid."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "Lisateabe saamiseks hindamisvalemite kohta klõpsake nuppu < Abi >."
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "valemi dialoogiboksis."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Ajakontroll – vali mängu ajakontroll."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Sisesta mänguaeg minutites ja käigu samm sekundites"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "inimmängija ja malemootori jaoks."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Soovi korral võid endale mootorile rohkem aega anda."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Raamat välja lülitatud – märkige see ruut, et lülitada hinnatud mängu avaraamat välja."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Mängi valget - Kontrolli, kas inimmängija mängib valget."
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "Tühjenda linnuke, et inimmängija mängiks mustaga."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Alusta mängu – klõpsa, et alustada hinnatud mängu praeguste valikutega."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Kui soovid huvitavat ja mitmekesist avaraamatut inimmootoriga mängudele,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "Soovitaksin polüglottide avaraamatut"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "See raamat oli osa Deep Saros mootori allalaadimisest."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "See oleks pidanud olema installitud järgmisesse kataloogi -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "Abi hinnatud mängumootorite jaoks"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "Arasan"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "Näriline"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "Kukekala"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "Kasutatud mootoritel <Rated game> on kõigil UCI tugevuspiirangu valik."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "See võimaldab kasutajal valida ligikaudse ELO-reitingu"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "mootori mängujõu jaoks."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "Mootorid salvestatakse tavaliselt järgmisesse kataloogi:"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "Valik on suur, aga saate lisada ka muid piirangutugevusi."
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "mootorid, kui soovite, luues uue kataloogi < hinnatud_mootorid >"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "ja kopeerides mootori *.exe faili sinna."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "See protsess töötab järgmiste kommertsmootorite puhul -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "Komodo varaani, Fritz 16, Shredder, Houdini 6, Deep Junior ja Chiron."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "Neid võib vabalt palju rohkem olla."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "Olen püüdnud arvestada enamiku arvutitüüpidega ja see on teinud"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "Mootorite nimekiri on üsna pikk. Seega saate kustutada need, mida te ei soovi."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Kuigi mõned vanemad mootorid, näiteks Ufim, Delfi ja Amyan, mängivad natuke"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "erinevalt üksteisest, enamik Stockfishilt saadud mootoreid,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "sarnasel viisil mängida."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "Ainus mootor, mis paistab silma oma täiesti ainulaadse ja ideaalselt sobiva olemusega"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "< Hinnatud mängu > jaoks on mõeldud Pawel Kozioli kirjutatud Rodenti malemootor."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "Lisateabe saamiseks klõpsake <Näriline>."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Jon Darti kirjutatud Arasani mootor on veel üks väga hea mootor."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Kuigi see pole nii tugev kui Stockfish, on sellel iseloomulik mängustiil."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "Tarraschi ja Nimzo_3d graafilise kasutajaliidesega kasutamisel aga"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "on mõned probleemid."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "Pärast neuraalvõrgu lisamist versiooniga 23.0,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "ükski neist ei töötaks minu arvutis."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "Uusima versiooniga 25.2 töötavad aga järgmised mootorid"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "Neid probleeme arvestades olen kasutanud mootoreid alates versioonist 22.3"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "hinnatud mängude jaoks. See oli viimane versioon ilma närvivõrguta."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "Kõik selle versiooni mootorid töötavad minu arvutis."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Arasani mootori abi"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Stockfishi malemootor"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "Kukekalade nps"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "Aleksander"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Mootori vastete koodi kirjutades avastasin, et Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "ja Komodo mootorid kaotasid kiirete ajalimiidiga mängudes aja peale,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "Seega kirjutasin selle probleemi lahendamiseks valiku < Mootori aja reguleerimine >."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "Pikema ajalimiidiga mängu puhul avastasin taas, et"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Kui tursk on avaraamatust väljas, mängib ta oma käike väga aeglaselt."
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "või kui raamatut ei kasutata."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Selle parandamiseks saate muuta Stockfishi aeglase liikumise valikut."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Selle väärtuse vähendamine kiirendab liigutusi veidi."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Kuigi ma leidsin, et see valik ei olnud kiireks ajakontrolliks piisav"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "Kui mängu kestus on 3 minutit või vähem, toimib see hästi 5 minuti või pikema aja jooksul."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "Stockfish 11 puhul sobib väärtus 20–30 hästi 5–10-minutiliste mängude jaoks."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "Aeglase liikumise valiku saate määrata kohandatud parameetrite valikute abil."
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "mootori dialoogiboksis."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "Asjade lihtsustamiseks olen Stockfish 11 jaoks mootori parameetrite faili loonud."
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "aeglase liikumise komplektiga. Selle saab laadida hinnatud mängu dialoogiboksist"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "klõpsates mootoril < Mootori seaded.. > ja seejärel < Laadi mootor >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "avanevast mootori dialoogiboksist."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Stockfish 11 parameetrifailid on salvestatud kataloogi"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Stockfish mootoritel 8-15 on aeglase liikumise võimalus, mootoritel 16 ja 17 mitte."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "Arvestades asjaolu, et te ei vaja siin lisamängujõudu,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "pole vaja võimsamaid mootoreid kasutada."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "Leidsin selle Stockfishi mootori versiooni GitHubist aadressilt -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "See on tavalisest mootorist paremini reguleeritav versioon."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "Siin on failist <README.md> pärit mootori kirjeldus -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS on inimeste mänguks veidi modifitseeritud Stockfish"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "sõlmede arvu sekundis vähendamisega (kilo sõlme sekundis ~= 1 / waitms)"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "randomiseeritud hindamine, otsingu sügavus ja otsingusõlmede piirang."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "Kahe esimese modifikatsiooni tugevust saab määrata UCI valikutes."
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "0 kuni 100, samas kui otsingu sügavus võib olla piiratud väärtustega 1 kuni 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "ja otsi sõlmi väärtusteni kuni 500000."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "Kõiki modifikatsioone saab kasutada mis tahes kombinatsioonis koos"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "ELO piirangute tugevus ja oskustaseme seaded tugevuse vähendamiseks"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "mootori töö inimeste vastu mängides."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "Vaikimisi sätetega töötab StockfishNPS täpselt nagu praegune Stockfish16_dev."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "Ainult otsingusõlmede sätte muutmine vahemikus 1–10 vähendab ELO-d umbes 1400-ni."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "See on hea lähtepunkt täiendavate valikute muutmiseks."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "Ma arvan, et see tähendab, et kõrgem < waitms > väärtus vähendab"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "positsioonide arv, mida mootor sekundis otsib."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "Randomiseeritud hindamisväärtuse suurendamine"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "see viib mitmekesisema mänguni."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "<Otsingusõlmed> seab otsitavate positsioonide arvule mingisuguse piirangu."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "<Otsingusügavus> piirab pooltükkide (kihtide) arvu, milleni mootor otsib."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "Samuti on olemas valik nimega <nodestime>, aga ma ei tea, mida see teeb."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "Vaikimisi väärtus null tähendab, et valikut ei kasutata."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "Teie mugavuse huvides olen loonud mootorite parameetrite failid."
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "kõik parameetrid on vaikeseadetele seatud ja valmis muudatuste tegemiseks."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "Need on salvestatud -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "ja seda saab laadida mootori dialoogiboksis käsuga <Laadi mootor >."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Stockfish NPS mootori abi"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "See on Stockfishi tuletatud mootor, millel on palju reguleerimisvõimalusi."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "Kui ma seda esimest korda ELO tugevuspiiranguga proovisin, siis see ei nõrgenenud."
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "ja mängis oma käike täisjõuga."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "Seejärel lisasin valiku <Handicapped Depth> ja määrasin selle väärtuseks <true>"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "See näib toimivat ja mootor mängib erinevatel sügavustel olenevalt"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "seatud ELO reitingu põhjal."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "On palju muid valikuid, mida on kirjeldatud failis <README.md>."
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "See fail asub järgmises kataloogis"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "Olen sellesse kataloogi loonud kaks mootori parameetrite faili, mida saate kasutada"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "mootori seadistamiseks valige mootori dialoogiboksist <Laadi mootor >."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "Nõrgendatud režiimis mängides teeb Alexander oma käigud peaaegu koheselt."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "Soovi korral saate seda aeglustada valikuga < Peamenüü > < Mootor > < Liigutuse viivitus >."
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "Alexanderi mootor asub GitHubis järgmisel lingil"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "Alexanderi malemootori abi"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "Mängu ei saa alustada ilma mängijanimeta"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "Palun vali mängija praeguse mängija loendist"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "Hinnatud mängu veateade"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "Mängu ei saa alustada ilma hindamisvalemita"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Palun vali valem hindamisvalemi loendist"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Valige näriliste mootori isiksuse seaded"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "Mootorifaile pole"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "Hinnatud mootorite kataloogi ei muudetud."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "Isiksusefaile pole lugemiseks"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "Isiksuse kataloog"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "ei eksisteeri, seega ei saa isiksusi näidata"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Valige Rodent 3 mootori isiksuse seaded"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "Praegune isiksus"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "Kuva isiksuse nimi"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "Kasutage dokumentide kataloogi"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "Kasutage ELO tugevuse piirangut"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "Sisestage väärtused mootori võimsuse reguleerimiseks"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "Sõlme sekundis"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "Kopeeri vaikeväärtused"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "Hinnangu hägususe väärtus"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "Kopeeri hindamise hägusust"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "Otsinguoskuste tase (1–10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "Kopeeri otsingu oskus"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "Salvesta praegused sätted faili"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "Isiksusefaili salvestamiseks failinimi valimine"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "Lisa faili väärtused, kui neid pole"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "Märkige järgmise kataloogi kasutamiseks"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "hinnatud mootorite ja nendega seotud failide jaoks"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "Märkige, et mootori reguleerimisel kasutataks UCI piirtugevust"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "Sisestage sõlmede arv sekundis,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "kõrgem tugevama, madalam nõrgema jaoks,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "aga maksimaalse tugevuse korral null"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "Sisestage hägususe hindamise väärtus,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "madalam tugevama, kõrgem nõrgema jaoks"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "Sisestage oskustaseme väärtus,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "madalam nõrgema, kõrgem tugevama jaoks"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "Lisa sõlmed sekundis ja hägusta hindamist"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "väärtused faili, kui neid pole"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "Vali isiksus, kelle vastu soovid mängida"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "alates"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "Ei saa vahetada"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI piirtugevuse reguleerimine"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "Sõlmede arvu sekundis korrigeerimine"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "Ei saa määrata"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "sest"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "faili ei saanud avada."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "kuna failis polnud tugevuse piiramise valikut."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "Kõik väärtused on seatud vaikeväärtustele"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "Seega pole mõtet neid kirjutada"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "Sisendfaili avamine ebaõnnestus"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "Väljundfaili avamine ebaõnnestus"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "uuendatud ja"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "salvestatud kettale"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "Näriliste malemootori abi"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "Isiksuse kirjeldused"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "Närilise kohta"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "See dialoogiboks võimaldab teil valida mängustiili."
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "ja valikud näriliste malemootoritele."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "Praegune isiksus – rippmenüüst saate valida isiksuse."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "Kasuta ELO piirväärtuse tugevust – märkige see ruut, et kasutada mootori dialoogiboksis ELO väärtusi."
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "mootori mängutugevuse seadistamisel."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "Sisestage väärtused mootori võimsuse reguleerimiseks -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "Sõlmede arv sekundis - mootori genereeritavate positsioonide arv"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "ja analüüsida sekundis."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "Hinnangu hägususe väärtus - hindamisfunktsioonile lisatud juhuslik väärtus."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Närilise 3 puhul, sõlmede sekundis režiimis, on hindamise hägususe väärtus"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "laaditakse isiksusefailist. See annab sulle aimu"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "kasutatavate väärtuste vahemiku kohta, kui soovite teha kohandusi."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "Seda valikut saab kasutada ka ELO piirtugevusega."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "Sel viisil kasutades avastasin, et seadistus 20 muutis liigutusi"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "et mootor mängis, aga numbrid üle 20 ei avaldanud kuni 500-ni mingit mõju"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "ja säte üle 1000 nõrgestas mootorit tõsiselt."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "Seega on minu arvuti ELO tugevuse piiramise režiimi kasulikud sätted järgmised:"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "on 20 või 500–1000, kuid teie arvuti puhul võivad need erineda."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "Kui te ei soovi, et seda määrataks või kuvataks, määrake see nulliks."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "Kuigi sõlmede arv sekundis ei kehti ELO piirangu tugevuse kasutamisel,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "Väärtusi saab endiselt sisestada ja isiksusefaili salvestada hilisemaks kasutamiseks."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "Kopeeri vaikeväärtused – kontrolli tugevuse reguleerimise väärtusi"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "kopeeritakse sellest dialoogiboksist mootori dialoogiboksi"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "isegi kui need on vaikimisi seatud. Neid saab seejärel muuta."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "Sellisena jäetuna ei mõjuta need mootorit."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ELO piirtugevuse režiimis neid ei lähtestata, kui need kustutatakse"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "mootori dialoogiboks. Sõlmede arvu sekundis režiimis need lähtestatakse,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "seega peate nende muutmiseks < Kopeeri parameetreid > välja lülitama."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "Isiksuse nime kuvamine – märkige ruut, et kuvada isiksuse nime."
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "mängu ajal mootori nime järgides."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "Mootori nimivõimsus kuvatakse samuti automaatselt."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "Kasuta dokumentide kataloogi – märkige, et kasutada"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "nimimootorite puhul."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "See on hädaolukorra varumeede juhuks, kui neid ei kopeeritud"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "Kui need on kuhugi mujale installitud, saate need kopeerida"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "üks ülaltoodud kataloogidest."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "Kui neid üldse ei installitud, saab need alla laadida järgmistelt linkidelt -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "lingid"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "Salvesta praegused sätted faili – selle failivalijaga saate salvestada"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "dialoogiboksi helitugevuse sätete esitamine praeguses failis,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "või uue, kui soovid."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "Lisa väärtused, kui neid pole – Märkige, et lisada faili tugevuse reguleerimise väärtused"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "kui neid pole. See juhtub siis, kui lisate hindamise hägususe väärtused"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "Rodent 4 isiksusefaili."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "Näriliste malemootorite kohta"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Pawel Kozioli kirjutatud „Närilane” on väga huvitav malemootor."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "Sellel on UCI_LimitStrength valik ja ka isiksuste komplekt,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "mis laaditakse failidest, nõrgemaks ja mitmekesisemaks mängimiseks."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "Et mootor töötaks isiksuste ja nende"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "Raamatute avamisel tuleb kõik komponendid paigutada samasse kataloogi."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "Need oleksid pidanud olema paigaldatud -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Kui soovite, et Rodenti mootor kasutaks mängu ajal oma raamatut,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "siis peate Nimzo_3d avaraamatu välja lülitama"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< Peamenüü > < Avamised > < Raamatu avamine >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "või märkides valiku < Broneeri välja >, kui kasutate"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "hinnatud mängu dialoogiboks."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "seal on olemas dokumentatsioon ja utiliidiprogramm"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "mida saab kasutada rohkemate isiksuste loomiseks."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "Rodent 4 mootori paketi ja vanemad versioonid saab alla laadida aadressilt -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Ainult näriline 4, koos üksikasjaliku ülevaatega"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "Närilise 4 mootori tugimaterjal, ilma mootoriteta"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Närilise 3 tugimaterjal, ilma mootoriteta"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Närilise isiksusefail on lihtsalt UCI käskude loend *.txt-failis."
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "See peaks toimima järgmisel viisil -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "Maleprogrammi graafiline kasutajaliides saadab käsu <Personality> Rodent mootorile."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "Seejärel loeb mootor isiksusefailist käske."
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "ja kohandab vastavalt oma sätteid."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "Kuid nii Nimzo_3d kui ka Tarraschi graafilise kasutajaliidesega"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "Sellisel viisil kasutades ei saanud ma mootoreid tööle."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "Kõik isiksused mängisid samu liigutusi."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "Seega selle asemel pealtkuulasin ma käsu <Personality>, kui see oli"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "GUI-st mootorile saatmiseks avati isiksusefail"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "ja saatis failist käsud eraldi. See näib toimivat."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "Põhimõtteliselt on Rodenti mootoril kaks peamist meetodit oma mängutugevuse muutmiseks."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "See saab kasutada ELO piirangu tugevust või sõlmede arvu sekundis koos hindamise hägususega."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ELO piirtugevuse abil saate määrata ligikaudse ELO hinnangu"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "ja sõlmede arv sekundis koos hindamise hägususega, mis võimaldab väärtusi määrata"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "millel on sarnane nõrgestav toime."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "Näriliste 3 isiksused on seadistatud kasutama sõlme sekundis"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "hindamise hägususe ja Rodent 4 on ette nähtud kasutamiseks"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "ainult ELO piiratud tugevusega."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "Kuna ma muutsin käskluse <Personality> saatmise viisi,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "Näriline 3 saab oma isiksusi kasutada ELO piiratud tugevusega"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "koos hindamise hägususe ja valitud oskusega,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "aga mitte sõlmedega sekundis."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "See tähendab ka seda, et Rodent 4 saab kasutada ELO piirangu tugevust"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "hindamise hägususe ja oskuse valikuga."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "Hinnangu hägususe väärtuse veidi muutmine tähendab, et mootor mängib"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "erinevad käigud ilma mängu tugevust oluliselt mõjutamata,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "seni kuni hägususe väärtus pole liiga kõrge."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "Võite sellega katsetada, mina leidsin, et väärtused vahemikus 20–50"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "toimis päris hästi."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "Lisaks saavad mõlemad mootorid nüüd isiksusefaile kasutada."
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "teise mootori puhul, tehes Nimzo_3d-s vaid väikeseid kohandusi,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "kui need on kopeeritud mootori <Personalities> kataloogi."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "See võimaldab teil hõlpsalt uusi isiksusefaile vahetada, kui soovite muudatusi teha."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "Olen mõned paigutanud kausta <lisapersonaalsused>"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "kataloogis <Personalities>."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "Isiksusefailid salvestatakse järgmistesse kataloogidesse:"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "pluss"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "või"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Faile saab Nimzo_3d seest muuta, et kohandada"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "sõlmede sekundis ja hindamise hägususe väärtused ning seejärel salvestatakse need tagasi kettale."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "Pole oluline, et isiksusefailid võivad lõppeda käskudega"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "mis ei sobi praegu kasutatavale mootorile, kuna need on"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "graafilise kasutajaliidese poolt enne mootorile saatmist välja filtreeritud."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "Näriliste käsud"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "Need näriliste malemootorite isiksuste kirjeldused on võetud allikast"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "fail < FinalRodent.pdf >, mis asub järgmises kataloogis -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "Eelnevalt määratletud isiksused"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "Algusest peale on Rodent projekti eesmärk olnud luua mootor"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "mis võimaldab oma mängustiili muuta – täpselt nagu ChessMasteri seerias,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "ainult parem. Uue versiooni koodimuudatused tähendasid, et vanad isiksused"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "enam kasutuskõlbmatud, seega tundsin vajadust luua uus komplekt."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "Loodan, et see on teile huvitav."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "Esiteks ja eelkõige ründaja, tema teine ​​kaalutlus"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "on nuputamismäng. Mängib gambiti avausi."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloele meeldivad kinnised positsioonid, etturitormid ja usaldusväärne etturistruktuur."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "Ainus asi, mida ta suletud positsioonile eelistab, on suletud positsioon."
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "ühe avatud failiga, mis kuulub tema vankritele."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "Ta on uhke Prantsuse ja Kuninga India kaitseliinide praktiseerija."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "Kujutage teda ette tumedate juustega, sihvaka ja melanhoolse naisena."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "Ta on kaitsemängija, kellele meeldivad odad."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "Kujutage ette teda kalli ülikonnaga, kes näeb välja pigem nagu tegevjuht."
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "kui maletaja. Tugev, ratsionaalne, ehkki kergelt pessimistlik isiksus."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "Mängib kindlaid avanguid. Valmis võrdsetel positsioonidel vahetust võtma."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "Kujutage teda ette mängijana, kes on juba oma parimatest päevadest möödas."
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "lugupidamatu oma vastaste suhtes ja ikkagi üsna ohtlik."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "Grumpyle meeldib vaenlase liikumist piirata ja rünnata,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "naudib suletud positsioone ja loodab võita."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "Oma vanuse tõttu mängib ta enamasti mitte liiga moodsaid avanguid."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "Näiteks meeldib talle Tarraschi kaitse."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "Paul Morphy jäljendamine. Rõhutab mobiilsust."
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "siis kuningarünnak, eelistab avatud positsioone."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "Ta alustab aeglaselt, kasutades avasid, mis ei võta palju ruumi."
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "keskel, aga ära lase end petlikust turvatundest uinutada."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "Hiljem läheb ta ägedate rünnakute kallale."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "Kujutage teda ette noore, paljulubava suurmeistrina,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "kes pole veel oma tegelikku potentsiaali saavutanud."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "Kõhna kehaehitusega, energiline, armastab liiga palju efektseid liigutusi."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "Ta kipub aeg-ajalt oma etturitest lahku minema."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "Tasakaalustatud isiksus, kalduvus ohverdama tagasihoidlikku hulka materiaalset."
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "sageli läheb lõppmängus aktiivsesse kaitsesse."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita sümboliseerib ettureid, kaitset, vaoshoitust."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "Ta mängib kindlaid avamänge ja mõtleb esmalt kaitsele, aga ärge laske end petta!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "Ta võib rünnata küll, kui positsioon seda nõuab, ja kindla etturimänguga."
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "ta on kõva pähkel pureda."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "Kergelt materialistlik, aga võitleb initsiatiivi nimel"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "ja piisavalt lähedal maksejõuetuseks, et vältida ebamõistlikke plaane."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "Meeldib vaenlase üksuste vastu survet avaldada."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "Mängib suletud avanguid valgena, Slav ja Caro - Kann kaitsed mustana."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "Võib-olla parim seadistus nõrgemate mootorite vastu."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "Mängib ilma hindamisfunktsiooni täiustatud tahkudeta,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "mõistliku vaikimisi rakendamine. Kergelt eelistatakse kuningannade vahetamist,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "Täiesti võrdsete seisude korral läheb viigile."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "Võib-olla kõige arvutilaadsem isiksus."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "Kujuta teda ette kui pikka meest pruunis nahktagis."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "Talle meeldib aktiivne mäng, aga ta vihkab rünnaku all olemist."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "Meeldib emandaid laual hoida."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Brendan J. Normani Näriline III isiksuse põhjal."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "Mängib boamao stiilis, aga eelistab tugevalt rünnakut."
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "tõenäoliselt positsioonilistel põhjustel ohverdama."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "Palju temperamentsem versioon Grumpyst, väga inimlik mäng."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "Võib olla kuningannadega lõppmängudes liiga optimistlik."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "Samuti on olemas paljude maailmameistrite ja teiste kuulsate mängijate isikupärastatud pildid."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Närilise 4 malemootori isiksusekirjeldused"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "Aken alati üleval"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "Kui soovid, saad seda aeglustada -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< Peamenüü > < Mootor > < Liikumise viivitus >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "Mängi hinnatud mängu malemootori vastu"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Märkige, et kopeerida tugevuspiirangu sätted kohandatud parameetritesse"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "Hinnanguvalemi selgitus"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "Märkige, et kuvada isiksuse nime"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "mootori nimega mängu ajal"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "Sisestage otsinguoskuse väärtus,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "Märkige, et valikud alati automaatselt kopeeritaks"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "üle kohandatud parameetritele"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "Märkige, et hindamise hägusust automaatselt kopeerida"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "väärtus kohandatud parameetritele"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "Märkige, et otsinguoskus automaatselt kopeerida"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "Sisesta salvestatava faili nimi"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "mootori võimsuse reguleerimise valikud"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "on valgega mängides võitnud ja võidab"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "on kaotanud musta mängides ja kaotab"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "on kaotanud valgel mängides ja kaotab"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "on musta mängides võitnud ja võidab"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "on viigistanud valgega mängides"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "on mustaga mängides loosinud"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "reitingu muutust ei toimunud."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "ja saavutas"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "ja kaotas"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "Teie uus hinnang on"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "Mängu tulemuse hinnangusõnum"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "Mängija profiilifaili ei saa detailide kirjutamiseks avada"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "Kataloogis pole ühtegi mootorifaili, hinnatud mäng on tühistatud."
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "Nimimootorite kataloog"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "ei eksisteeri, hinnatud mäng tühistatud"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "Soovitus: Lähtestage programmi vaikeväärtused"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< Peamenüü > < Valikud > < Tehase vaikesätete taastamine >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "Kui see ebaõnnestub, laadige alla ja installige nimimootorid saidilt"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "Näriliste mootori iseloom"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "laaditud"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "Hinnatud mängumootori teade"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "Mootorit pole nimekirjas, seega ei saa seda määrata"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "Mängija profiilide kataloog"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "Soovitus: looge see kataloog käsitsi Windows Exploreri abil."
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "Mängija nimi on tühi, palun sisesta nimi"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "Mängija nimi on juba nimekirjas,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "palun sisesta teine ​​mängija nimi"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "Mängija profiil kasutajale"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "Viga mängijaprofiili kettale salvestamisel"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "Mängija nime nimekirjas pole,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "Palun sisesta nimekirjas oleva mängija nimi"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "kettalt kustutatud"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "Viga mängijaprofiili kettalt kustutamisel"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "Hinnanguvalemite kataloog"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "ja valemi lisamiseks kasutage < Hinnanguvalem > < + >"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "hinnatud mängu dialoogiboksis."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "Valemi failinimi on tühi, palun sisestage nimi"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "Hinnanguvalemi failinimi on juba nimekirjas."
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "palun sisestage erinev hindamisvalemi failinimi"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "Hinnanguvalemi failinimi pole nimekirjas."
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "Palun sisesta nimekirjas olev hinnanguvalemi failinimi"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "Hinnangu valem"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "Viga hinnanguvalemi faili kettale salvestamisel"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "Valemi failinimi on tühi, palun sisesta failinimi."
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "Hinnanguvalemi faili pole nimekirjas."
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "Palun sisesta nimekirjas olev valemifail"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "Viga hinnanguvalemi kettalt kustutamisel"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "Hinnanguvalemi faili ei saa lugemiseks avada"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "Hinnatud mängufunktsioon inimese loodud mängumootorite mängudele (versioon 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "Liigutuse viivitus"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "Liigutuse viivitus.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "Näita teisaldamise viivituse dialoogiboksi"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "Veateade"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "Kopeeri kohandatud parameetritesse"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "Artikli < Hinnatud mäng > kirjutamisel avastasin, et Delfi mootor"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "vajasid kohandatud parameetrite loendisse paigutatud tugevuse piirväärtuse sätteid"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "et nad töötaksid."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "Delfi otsingumootori puhul tehakse see toiming automaatselt."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Kui teil esineb sama probleem mõne teise mootoriga, siis saate kontrollida"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< Kopeeri kohandatud parameetritesse > kast ja tugevuse piirparameetrid"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "kopeeritakse üle."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "Samuti avastasin, et kui mängisite nõrgenenud Stockfishi mootoriga rohkem kui ühte mängu"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "ja < Kopeeri kohandatud parameetritesse > ei olnud määratud, taastati Stockfish täisvõimsus."
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "teise mängu jaoks. Seega on ilmselt kõige parem see valik alati seadistada."
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "piirtugevuse kasutamisel."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "Funktsiooni < Hinnatud mäng > kasutamisel rakendatakse seda kõigi mootorite puhul."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Kui sul on Stockfishi vastu mängides otsinguinfo paneel avatud,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "see näitab mootori täielikku tugevusanalüüsi,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "isegi kui seda on UCI piirtugevust kasutades nõrgestatud."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "Saate aru, kas see on tegelikult nõrgenenud, sest see mängib sageli"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "erinev käik võrreldes analüüsis näidatuga."
+
