@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "Формула за прилагођавање рејтинга"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "за"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "Вредност добитка"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "Вредност губитка"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "Вредност цртања"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "Фактор корекције чврстоће"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "Ефективна максимална вредност разлике"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "Минимална вредност добитка"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "Промена уноса оцене за победу"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "Промена оцене за нерешен резултат"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "Промена оцене због губитка"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "Унесите проценат подешавања фактора чврстоће"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "Ефективна максимална разлика у оценама"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "Овај дијалог прозор омогућава кориснику да подеси опције за формулу"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "користи се за подешавање рејтинга играча након игре против енџина."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Вредност победе - повећање ранг поена за победу у игри."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "Вредност цртања - ово је увек подешено на нулу."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Вредност губитка - ово је минус вредност вредности добитка."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Фактор подешавања јачине (проценат) - Ова вредност се користи"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "при израчунавању оцене, као што је приказано у једначини испод."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Ефективна максимална разлика у оцени - Ако је разлика у рангирању"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "између играча је већи од овог броја,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "онда се подешава на овај број. Погледајте једначину испод."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Основну формулу користи Шаховска федерација Сједињених Држава"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "за дописне шаховске партије."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "Можете га видети описан на следећој веб страници -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "Ево мог објашњења њихове формуле."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "Њихов прорачун за нови рејтинг након утакмице је -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(за победу или пораз)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Овде је 0,04 (4 процента) фактор прилагођавања чврстоће (SAF)"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED је ефективна разлика у рејтингу."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED има позитивну вредност при израчунавању ранга"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "слабијег играча и негативна вредност при израчунавању за јачег играча."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "За вредност победе/пореза од 16, ако је стварна разлика у рејтингу"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "између играча је већи од 350, онда се поставља на 350."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "Ово је да би се осигурало да у овим случајевима, ако победите у игри против"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "слабијег противника, ваш пласман се повећава, а ако изгубите против"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "јачи противник вам смањује ранг."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "Промена оцене овде ће бити мала, само 2 поена."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Ово се може подесити коришћењем променљиве минималне вредности добитка."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "Дакле, општа једначина је, мислим -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "где"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "минимална вредност добитка"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Подразумевана подешавања су сачувана у датотеци формуле рангирања < USCF >"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "али можете креирати нову датотеку и променити подешавања ако желите."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Препоручио бих само мање измене основних бројева."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "Објашњење формуле за оцењивање"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "Кашњење кретања за игре са људским мотором"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "Користите одлагање кретања"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "Откажи за неколико секунди"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "Минимално кашњење кретања (секунде)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "Примени минимално одлагање кретања"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "Користите насумично време спровођења"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "Максимално кашњење кретања (секунде)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "Случајно кашњење за фиксно време"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "Користите кашњење кретања у игри са људским мотором"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "Откажи одлагање кретања када је преостало само толико секунди"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "Минимално кашњење кретања у секундама"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "Примените минимално кашњење кретања,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "док се не достигне отказивање у секунди"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "Користите случајни број између 1 - минимално кашњење кретања,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "када је подешено минимално одлагање кретања"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "Максимално кашњење кретања у секундама"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "Користите насумично кашњење кретања за фиксна времена рада мотора"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "Ова функција је првенствено намењена за употребу са шаховским програмима Komodo."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "када су ослабљени за игре са људским мотором."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "У овом случају мотори се покрећу готово тренутно, што даје игри"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "неприродан ритам, што је прилично узнемирујуће."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "То се дешава и са мотором Рибка 2.3"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "и Александеров шаховски мотор."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "Комодо мотори немају опцију < Споро кретање >, тако да овај дијалошки оквир"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "омогућава вам да подесите опције које ће успорити мотор."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Користи кашњење кретања - Означите да бисте користили кашњење кретања за игре са људским мотором."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "Откажи у неколико секунди - Изаберите време када се кашњење кретања више не користи."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Минимално кашњење кретања - Изаберите минимално кашњење кретања у секундама."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "Примени минимално одлагање кретања - Означите да бисте применили минимално одлагање кретања"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "У овом случају, ако програм израчуна да је време дозвољено за потез"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "мање од минималног кашњења кретања, онда се кашњење кретања подешава на"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "минимално кашњење кретања или на случајни број између 1 и минималног кашњења кретања,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "у зависности од тога како је подешено следеће поље за потврду."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "Ова примена се више не примењује када се достигне време отказивања у секунди."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "Искључите поље да бисте омогућили мотору да репродукује потезе брже од минималног кашњења покрета,"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "пре отказивања у секунди, ако време почиње да истиче."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "Примени насумично - Провери насумично време примене минималног одлагања кретања."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Максимално кашњење кретања - Изаберите максимално кашњење кретања у секундама."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Случајно одлагање за фиксно време - Означите да бисте користили насумично одлагање кретања за нивое са фиксним временом."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Искључите поље да бисте користили целокупно фиксно време дозвољено за одлагање кретања."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "Помоћ при кашњењу кретања"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "Оцењене опције игре"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "PGN име датотеке за игре играча"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "Изаберите .pgn датотеку за игру"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "Противник у мотору"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "ЕЛО мотора"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "Личности"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "Тренутни играч"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "ЕЛО играча"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "Измени ЕЛО рејтинг играча"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "Означите да бисте изменили ЕЛО рејтинг играча"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "Постави као тренутни мотор"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "Постави као тренутни сат"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "Промена оцене за резултате"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "Ручно подешавање"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "Формула за оцењивање"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "Временске контроле"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "Минути по утакмици"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "Повећање (секунде)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "Играч"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "Резервишите искључено"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "Покрени игру"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "Унесите име PGN датотеке за чување партија играча"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "Унесите снагу ELO мотора"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "Отворите дијалошки прозор за подешавања мотора"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Отворите дијалошки прозор за карактеристике мотора за глодаре"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "Додај новог играча"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "Обриши тренутног играча"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "Сачувај податке о тренутном играчу"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "ЕЛО рејтинг играча"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "Означите да бисте изменили ЕЛО рејтинг играча"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "Означите да бисте користили одлагање потеза за оцењену игру."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "Означите да бисте поставили подешавања мотора као тренутна"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "Означите да бисте поставили подешавања сата као тренутна"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "Означите да бисте искључили почетну књигу за ову игру"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "Промена ЕЛО рејтинга за победу играча"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "Промена ЕЛО рејтинга за губитак играча"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "Промена ЕЛО рејтинга због нерешеног резултата"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "Означите да бисте прилагодили промене оцене"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "и ручно ELO играча"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "Формула за оцењивање која се тренутно користи"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "Додај нову формулу"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "Обриши тренутну формулу"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "Измени тренутну формулу"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "Унесите време играча за игру у минутима"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "Унесите корак кретања играча у секундама"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "Унесите време рада мотора за игру у минутима"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "Унесите корак кретања мотора у секундама"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "Провери да ли човек игра бело"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "Покрените игру са тренутним подешавањима"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "Изаберите мотор против ког желите да играте"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "Изаберите тренутног играча"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "Помоћ за оцењене игре"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "Оцењена игра вам пружа згодан начин да играте против ослабљених"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "шаховске моторе и истовремено прати ваш напредак"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "ажурирањем приближне ЕЛО оцене."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "Можете подесити следеће опције за оцењену игру"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "Име PGN датотеке: Изаберите име PGN датотеке за чување оцењених игара."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "Име датотеке је изведено из имена играча. Биће сачувано у"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "Ако се не унесе име играча, за име датотеке ће се користити rated_games.pgn"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Противник у мотору: Овде можете изабрати који мотор желите да играте."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Сви ови мотори имају опцију UCI_LimitStrength,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "што им омогућава да буду ослабљени."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Ако желите да додате још један мотор који има ову опцију, требало би га копирати"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "до"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "именик"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "ЕЛО мотора - Изаберите јачину ЕЛО мотора."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "Приказане су горње и доње дозвољене вредности."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Подешавања мотора - Ово отвара дијалошки прозор мотора који вам омогућава да мењате"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "друге опције за изабрани мотор. Кликните на < Stockfish > за пример."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Ако је учитан Rodent шаховски механизам, онда се приказује дугме < Personalities >"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "за овај мотор ће се такође појавити."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Тренутни играч - Овде можете подесити тренутног играча, а такође га додати и обрисати"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "и уређивање играча. Име тренутног играча се приказује у прозору за уређивање"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "падајућег оквира са листом."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Дугме плус - Да бисте додали новог играча, унесите његово име у прозор за уређивање и кликните"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "на ово дугме. Њихово име ће бити додато на листу и датотека ће бити названа по њима,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "који садржи њихове податке, биће сачуван на диску у"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Дугме минус - Кликните да бисте обрисали играча приказаног у прозору за уређивање."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "Ово ће такође уклонити њихов фајл са диска."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Сачувај - Кликните да бисте сачували податке о играчу у прозору за уређивање"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "ако ручно промените њихов ЕЛО рејтинг."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "ЕЛО играча - Ово приказује ЕЛО рејтинг играча у прозору за уређивање."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Ако желите да измените ово поље када додате новог играча, погледајте следећу опцију."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Измени ЕЛО рејтинг играча - Означите да бисте дозволили измену ЕЛО рејтинга играча."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Користи одлагање кретања - Означите да бисте користили одлагање кретања за оцењену игру."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "Ова опција је намењена моторима који се крећу пребрзо"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "када су ослабљени, као што је комодски змај."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Постави као тренутни мотор - Означите да бисте подесили мотор приказан у овом пољу"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "као тренутни мотор након што је оцењена игра завршена."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Искључите поље да бисте вратили игру на стари мотор након завршетка оцењене игре."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Постави као тренутни сат - Означите да бисте подесили време сата приказано у овом пољу"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "као тренутни сат након што је оцењена игра завршена."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Искључите поље да бисте вратили време на стари сат након оцењене игре."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Промена оцене за резултате - Приказује промене оцене за победу, пораз или нерешен резултат."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Ово се аутоматски подешава према оценама играча и мотора"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "и која се формула за израчунавање ЕЛО користи."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Ручно подешавање - Означите ову кућицу ако желите ручно да промените горе наведене вредности."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Ако желите да играте оцењену игру са ручно подешеним вредностима,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "затим оставите ову кућицу означену када кликнете на < Покрени игру >"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Формуле за оцену - Овде можете одабрати и изменити формуле за израчунавање ЕЛО-а."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "Користи се на сличан начин као и тренутна кутија играча."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "Главна разлика је у томе што када додате или измените формулу,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "Отвара се нови дијалошки оквир који вам омогућава да унесете опције за формулу."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "За више информација о формулама за оцењивање кликните на дугме < Помоћ >"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "дијалошког оквира за формулу."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Временске контроле - Изаберите временске контроле за игру."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Унесите време игре у минутима и корак потеза у секундама"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "за људског играча и шаховски мотор."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Можеш себи дати више времена него мотору ако желиш."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Искључи књигу - Означите да бисте искључили почетну књигу за оцењену игру."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Играј бело - Провери да ли људски играч игра бело,"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "искључите поље за избор да би људски играч играо црно."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Покрени игру - Кликните да бисте покренули оцењену игру са тренутним опцијама."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Ако желите занимљиву и разноврсну уводну књигу за игре са људским мотором,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "Препоручио бих полиглотску уводну књигу"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "Ова књига је била део преузимања Deep Saros мотора."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "Требало је да буде инсталиран у следећем директоријуму -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "Помоћ за оцењене енџине за игре"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "Арасан"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "Глодар"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "Бакалар"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "Коришћени мотори < Оцењена игра > сви имају опцију ограничења снаге UCI."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "Ово омогућава кориснику да изабере приближну ЕЛО оцену"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "за снагу свирања мотора."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "Мотори се обично чувају у следећем директоријуму -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "Постоји велики избор, али можете додати и друге граничне јачине"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "моторе ако желите тако што ћете направити нови директоријум у <rated_engines>"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "и копирање датотеке мотора *.exe у њега."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "Овај поступак ће функционисати за следеће комерцијалне моторе -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "Комодски змај, Фриц 16, Шредер, Худини 6, Дип Јуниор и Кајрон."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "Могуће је да их буде још много."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "Покушао сам да прилагодим потребе већини типова рачунара и то је омогућило"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "Листа мотора је прилично дугачка. Тако да можете обрисати оне које не желите."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Док неки од старијих мотора, као што су Уфим, Делфи и Амјан, мало играју"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "различито једни од других, већина мотора који су изведени из Stockfish-а,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "играју на сличан начин."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "Један мотор који се истиче као потпуно јединствен и савршено прилагођен"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "за < Оцењена игра > је шаховски мотор Rodent, који је написао Павел Козиол."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "Кликните на < Глодари> за више детаља."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Арасанов мотор, који је написао Џон Дарт, је још један веома добар мотор."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Иако није тако јак као Stockfish, има препознатљив стил игре."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "Међутим, када се користи са графичким корисничким интерфејсом Tarrasch и Nimzo_3d,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "постоје неки проблеми."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "Од додавања неуронске мреже са верзијом 23.0,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "Ниједан од њих није хтео да ради на мом рачунару."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "Међутим, са најновијом верзијом 25.2 следећи мотори раде"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "С обзиром на ове проблеме, користио сам моторе од верзије 22.3"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "за оцењене игре. Ово је била последња верзија без неуронске мреже."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "Сви мотори из ове верзије раде на мом рачунару."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Помоћ за Арасан мотор"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Шаховски мотор Stockfish"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "Бакаларска риба (NPS)"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "Александар"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Када сам писао код за подударање мотора, открио сам да је Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "и Комодо мотори су губили време у играма са брзим временским ограничењем,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "па сам написао опцију < Подешавање времена рада мотора > да бих решио овај проблем."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "Са оцењеном игром, користећи дуже временско ограничење, поново сам открио да"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Стокфиш игра своје потезе веома споро када је ван почетне књиге"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "или ако се не користи књига."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Да бисте ово решили, можете подесити опцију спорог покретања Stockfish-а."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Смањење ове вредности мало убрзава покрете."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Иако сам открио да ова опција није адекватна за брзе контроле времена"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "од 3 минута или мање за игру, добро функционише за 5 минута или дуже."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "За Stockfish 11, вредност од 20-30 добро функционише за игре од 5-10 минута."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "Можете подесити опцију спорог покретања помоћу опција прилагођених параметара"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "у дијалошком оквиру мотора."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "Да бих олакшао ствари, направио сам датотеку са параметрима мотора за Stockfish 11"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "са сетом спорог покретача. Ово можете учитати из дијалошког оквира за оцењену игру"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "кликом на мотор < Подешавања мотора.. >, а затим < Учитај мотор >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "из дијалошког прозора мотора који се отвори."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Датотеке параметара за Stockfish 11 се чувају у директоријуму"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Мотори Stockfish 8-15 имају опцију спорог покретања, 16 и 17 немају."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "С обзиром на то да вам овде није потребна додатна снага за играње,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "нема потребе за коришћењем јачих мотора."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "Нашао сам ову верзију Stockfish енџина на GitHub-у на -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "То је подесивија верзија од стандардног мотора."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "Ево описа мотора из датотеке <README.md> -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS је мало модификована игра Stockfish за људску игру."
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "са смањењем броја чворова у секунди, (кило чворова у секунди ~= 1 / waitms"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "рандомизована евалуација, дубина претраге и ограничење чворова претраге."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "Јачина прве две модификације може се подесити у uci опцијама"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "од 0 до 100, док дубина претраге може бити ограничена на вредности од 1 до 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "и претражи чворове до вредности до 500000."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "Све модификације се могу користити у било којој комбинацији заједно са"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "Подешавања ELO ограничења снаге и нивоа вештине, како би се смањила снага"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "мотора када се игра против људи."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "Са подразумеваним подешавањима, StockfishNPS се репродукује потпуно исто као тренутна верзија Stockfish16_dev."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "Промена само подешавања чворова за претрагу на вредност између 1 и 10 смањује ЕЛО отприлике на 1400."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "То је добра полазна тачка за додатне промене опција."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "Мислим да то значи да већа вредност <waitms> смањује"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "број позиција које претраживач претражује у секунди."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "Повећање вредности рандомизоване евалуације"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "довешће до разноврсније игре."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< Чворови претраге > намеће неку врсту ограничења на број претраживаних позиција."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< Дубина претраге > ограничава број полупотеза (слојева) које претраживач претражује."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "Постоји и опција под називом < nodestime >, али не знам чему служи."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "Подразумеване вредности нула значе да се опција не користи."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "Ради ваше удобности, направио сам датотеке са параметрима мотора"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "са свим параметрима подешеним на подразумеване вредности, спремни за подешавања."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "Ови се чувају у -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "и може се учитати помоћу < Учитај мотор > из дијалошког оквира мотора."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Помоћ за Stockfish NPS мотор"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "Ово је дериватни мотор Stockfish-а са многим функцијама подешавања."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "Када сам га први пут пробао са подешеном ELO граничном снагом, није ослабио,"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "и одиграла је своје потезе пуном снагом."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "Затим сам додао опцију <Handicapped Depth> и поставио је на <true>"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "Изгледа да ово функционише, а мотор се репродукује на различитим дубинама у зависности од"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "на основу ЕЛО рејтинга који је постављен."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "Постоји много других опција, које су описане у датотеци <README.md>"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "Ова датотека се налази у следећем директоријуму"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "Направио сам две датотеке са параметрима мотора у овом директоријуму, које можете користити"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "да бисте подесили мотор помоћу < Учитај мотор > из дијалошког оквира мотора."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "Када игра у ослабљеном режиму, Александар игра своје потезе готово тренутно."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "Ако желите, можете га успорити помоћу < Главни мени > < Мотор > < Кашњење кретања >"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "Александеров мотор се налази на ГитХабу на следећем линку"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "Помоћ за Александар шаховски мотор"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "Не можете започети игру без имена играча"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "Молимо вас да изаберете играча из поља са листом Тренутни играч"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "Порука о грешци у оцењеној игри"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "Не можете започети игру без формуле за оцењивање"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Изаберите формулу из поља са листом Формула за оцењивање"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Изаберите подешавања карактеристика мотора за глодаре"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "Нема датотека мотора у"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "Директоријум оцењених мотора није промењен."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "Нема личних досијеа за читање"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "Директоријум личности"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "не постоји, тако да не може да прикаже личности"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Изаберите подешавања карактеристика мотора Rodent 3"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "Тренутна личност"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "Име личности за приказ"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "Користите директоријум докумената"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "Користите ограничење јачине ELO-а"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "Унесите вредности да бисте подесили снагу мотора"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "Чворови у секунди"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "Копирај подразумеване вредности"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "Вредност замућења евалуације"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "Замућење евалуације копије"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "Ниво вештине претраживања (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "Вештина претраживања копирања"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "Сачувај тренутна подешавања у датотеку"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "Изаберите име датотеке за чување датотеке са подацима о личности"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "Додајте вредности у датотеку ако нису присутне"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "Означите да бисте користили следећи директоријум"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "за оцењене моторе и припадајуће датотеке"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "Означите да бисте користили UCI ограничење јачине за подешавања мотора"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "Унесите вредност броја чворова у секунди,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "више за јаче, ниже за слабије,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "али нула за максималну снагу"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "Унесите вредност процене замућења,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "ниже за јаче, више за слабије"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "Унесите вредност нивоа вештине,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "ниже за слабије, више за јаче"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "Додајте чворове у секунди и замућење евалуације"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "вредности у датотеку, ако нису присутне"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "Изаберите личност против које желите да играте"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "од"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "Не могу да пребацим"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "Подешавање ограничења снаге UCI"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "Подешавање броја чворова у секунди"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "Не може се подесити на"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "јер"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "датотека није могла бити отворена."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "јер опција за ограничавање јачине није била у датотеци."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "Све вредности су подешене на подразумеване вредности"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "Дакле, нема смисла писати их"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "Није могуће отворити улазну датотеку"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "Није могуће отворити излазну датотеку"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "ажурирано, и"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "сачувано на диску"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "Помоћ за глодарске шаховске моторе"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "Описи личности"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "О глодарима"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "Овај дијалошки оквир вам омогућава да изаберете личност играча"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "и опције за шаховске моторе Rodent."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "Тренутна личност - Падајући мени вам омогућава да изаберете личност."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "Користи ELO граничну јачину - Означите да бисте користили ELO вредности у дијалошком оквиру мотора"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "при подешавању снаге свирања мотора."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "Унесите вредности да бисте подесили снагу мотора -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "Чворови у секунди - број позиција које ће мотор генерисати"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "и анализирајте у секунди."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "Вредност замућења евалуације - случајна вредност додата функцији евалуације."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Са Rodent 3, у режиму чворова у секунди, вредност замућења евалуације"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "се учитава из датотеке са личностима. Ово ће вам дати неку представу"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "опсега вредности које треба користити, ако желите да извршите подешавања."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "Ова опција се такође може користити са ЕЛО граничном снагом."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "Када се користи на овај начин, открио сам да подешавање од 20 мења потезе"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "да је мотор радио, али бројеви већи од 20 нису имали ефекта до 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "а подешавање веће од 1000 је озбиљно ослабило мотор."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "Дакле, корисна подешавања у ELO режиму ограничавања јачине за мој рачунар"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "су 20 или 500 - 1000, али може бити другачије за ваш рачунар."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "Ако не желите да буде подешено или приказано, онда га поставите на нулу."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "Иако се број чворова у секунди не примењује када се користи ELO ограничење јачине,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "Вредности се и даље могу уносити и чувати у датотеци личности за каснију употребу."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "Копирај подразумеване вредности - провери вредности подешавања јачине"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "да се копира из овог дијалошког оквира у дијалошки оквир мотора"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "чак и када су подешени на подразумеване вредности. Тада се могу уређивати."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "Ако се оставе такви какви јесу, неће имати никаквог утицаја на мотор."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "У режиму ограничења јачине ЕЛО-а, они се не ресетују када се избришу из"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "дијалог прозор мотора. У режиму чворова у секунди они се ресетују,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "тако да морате да искључите < Копирај параметре > да бисте их изменили."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "Прикажи име личности - Означите да бисте приказали име личности"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "пратећи име мотора током игре."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "Оцена мотора се такође приказује аутоматски."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "Користи директоријум докумената - Означите да бисте користили"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "за номиналне моторе."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "Ово је резервна мера за хитне случајеве у случају да нису копирани у"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "Ако су инсталирани негде другде, можете их копирати у"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "један од горе наведених директоријума."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "Ако уопште нису инсталирани, могу се преузети са ових линкова -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "линкови"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "Сачувај тренутна подешавања у датотеку - помоћу овог бирача датотека можете сачувати"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "репродукција подешавања јачине звука из дијалошког оквира у тренутну датотеку,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "или нови ако желите."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "Додај вредности ако нису присутне - Означите да бисте додали вредности подешавања јачине у датотеку"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "ако нису присутне. То ће бити случај ако додате вредности замућења евалуације"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "у датотеку личности Rodent 4."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "О шаховским енџинима Rodent"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Rodent, аутора Павла Козиола, је веома занимљив шаховски програм."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "Има опцију UCI_LimitStrength, а такође и скуп персонализација,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "који се учитавају из датотека, за слабију и разноврснију игру."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "Да би мотор правилно радио са личностима и њиховим"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "Приликом отварања књига, све компоненте морају бити смештене у исти директоријум."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "Требало је да буду инсталирани у -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Ако желите да Rodent мотор користи сопствену књигу током игре,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "онда морате да искључите почетну књигу Nimzo_3d из"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< Главни мени > < Отварање > < Отварање књиге >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "или означавањем опције < Резервиши >, ако користите"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "дијалог прозора за оцењену игру."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "постоји нека документација и услужни програм"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "што се може користити за стварање више личности."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "Пакет мотора Rodent 4 и старије верзије могу се преузети са -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Само глодар 4, са детаљним прегледом"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "Материјал за подршку мотора Rodent 4, без мотора"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Материјал за подршку глодара 3, без мотора"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Датотека о личности глодара је једноставно листа UCI команди у *.txt датотеци"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "Требало би да функционише на следећи начин -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "Графички кориснички интерфејс шаховског програма шаље команду < Personality > Rodent енџину."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "Мотор затим чита команде из датотеке са личностима"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "и сходно томе прилагођава своја подешавања."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "Међутим, и са Nimzo_3d и са Tarrasch GUI-јем,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "Нисам могао да покренем моторе када сам их користио на овај начин."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "Све личности су играле исте потезе."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "Дакле, уместо овога, пресрео сам команду < Personality > када је била"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "који ће бити послат са графичког корисничког интерфејса на мотор, отворио је датотеку личности"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "и послао команде из датотеке појединачно. Изгледа да ово функционише."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "У суштини, Rodent мотор има два главна начина за варирање снаге свирања."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "Може користити ЕЛО граничну снагу или број чворова у секунди са замућењем евалуације."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "Ограничење јачине ЕЛО-а вам омогућава да подесите приближну ЕЛО оцену"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "и чворова у секунди са замућењем евалуације које вам омогућава да подесите вредности"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "који имају сличан слабећи ефекат."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "Личности Глодара 3 су подешене да користе чворове у секунди"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "са замућењем евалуације и Rodent 4 је намењен за употребу"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "само са ELO граничном снагом."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "Због моје измене начина на који се шаље команда < Personality >,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "Глодар 3 може да користи своје личности са ограниченом снагом ЕЛО-а"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "у комбинацији са замућењем евалуације и вештином одабира,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "али не са чворовима у секунди."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "То такође значи да Rodent 4 може да користи ELO ограничење снаге"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "са замућењем евалуације и одабиром вештине."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "Мала промена вредности замућења евалуације значи да ће се мотор репродуковати"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "различити потези без значајног утицаја на снагу игре,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "све док вредност замућења није превисока."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "Можете експериментисати са овим, открио сам да вредности између 20 и 50"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "функционисао је прилично добро."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "Поред тога, оба мотора сада могу да користе датотеке личности"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "другог мотора са само мањим подешавањима из Nimzo_3d,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "након што су копирани у директоријум < Personalities > претраживача."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "Ово вам омогућава да лако замените нове датотеке личности ако желите промену."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "Поставио/ла сам неке у < extra_personalities >"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "у директоријуму < Personalities >."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "Датотеке личности се чувају у следећим директоријумима -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "плус"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "или"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Датотеке се могу изменити из Nimzo_3d-а да би се подесиле"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "чворова у секунди и вредности замућења евалуације, а затим се чувају назад на диск."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "Није битно што датотеке личности могу завршити са командама"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "који нису погодни за мотор који се тренутно користи, јер су"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "филтрира их графички кориснички интерфејс пре него што се пошаљу мотору."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "Команде глодара"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "Ови описи карактеристика шаховског система Rodent су преузети из"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "датотека <FinalRodent.pdf> која се налази у следећем директоријуму -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "Унапред дефинисане личности"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "Од свог оснивања, пројекат Rodent се бавио стварањем мотора"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "што омогућава модификацију стила игре - баш као и серија ChessMaster,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "само боље. Промене кода у новој верзији значиле су да су старе личности"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "више нису употребљиви, па сам осетио потребу да направим нови сет."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "Надам се да ће вам бити занимљиво."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "Прво и најважније, нападач, њено друго разматрање"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "је активност фигура. Игра гамбитске отварања."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Клое воли затворене позиције, пешачке олује и здраву пешачку структуру."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "Једино што више воли од затвореног положаја је затворени положај"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "са једном отвореном колоном, у власништву њених топова."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "Она је поносна практичарка француске и краљевске индијанске одбране."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "Замислите је као тамнокосу, витку, меланхоличну жену."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "Она је одбрамбена играчица која воли лавове."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "Замислите га у скупом оделу, како више личи на генералног директора."
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "него шахиста. Јака, рационална, ако не и благо песимистична личност."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "Игра солидне отворе. Спреман за нерешене резултате у потпуно једнаким позицијама."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "Замислите га као играча који је већ прошао своје најбоље године,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "непоштован према својим противницима и даље прилично опасан."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "Мргођа воли да ограничава кретање непријатеља и напада,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "ужива у затвореним позицијама и очекује победу."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "Због својих година, свира углавном не баш модерне уводне комаде."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "На пример, свиђа му се Тарашова одбрана."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "Имитација Пола Морфија. Наглашава мобилност,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "затим краљевски напад, преферира отворене позиције."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "Почиње полако, користећи отворе који не заузимају много простора"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "у центру, али немојте се уљуљкавати у лажном осећају сигурности."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "Касније прелази на жестоке нападе."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "Замислите га као младог, перспективног велемајстора,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "који још није достигао свој пуни потенцијал."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "Мршава, енергична, мало превише воли блиставе покрете."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "Он има тенденцију да се с времена на време растане са својим пијунима."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "Уравнотежена личност, склона жртвовању скромне количине материјала,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "често се бави активном одбраном у завршници."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Педрита представља пионе, одбрану, уздржаност."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "Она игра чврсте отворе и прво размишља о одбрани, али немојте се заваравати!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "Она може да нападне сасвим добро ако позиција то захтева, и уз чврсту игру пешака"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "Она је тврд орах."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "Благо материјалистички настројен, али се бори за иницијативу"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "и довољно близу неизвршења обавеза како би се избегли неодрживи планови."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "Воли да ствара притисак на непријатељске фигуре."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "Игра затворене отворе као бели, одбране Слав и Каро - Кан као црни."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "Можда најбоље подешавање против слабијих мотора."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "Репродукује се без напреднијих аспеката функције евалуације,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "примена разумног подразумевања. Блага преференција за размену краљица,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "у потпуно једнаким позицијама ићи ће на нерешен резултат."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "Можда најкомпјутерскија личност."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "Замислите га као високог мушкарца у смеђој кожној јакни."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "Воли активну игру, али презире када је под нападом."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "Воли да држи даме на табли."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Засновано на личности Глодара III од Брендана Џ. Нормана."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "Игра стилом боа констриктора, али има јаку склоност ка нападу,"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "вероватно жртвовати из позиционих разлога."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "Много темпераментнија верзија Grumpy-ја, веома људски слична игра."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "Може бити превише оптимистичан у завршницама са дамама."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "Такође постоје персоналитети за многе светске шампионе и друге познате играче."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Описи личности у Rodent 4 шаховском енџину"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "Прозор увек на врху"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "Ако желите, можете га успорити са -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< Главни мени > < Мотор > < Кашњење кретања >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "Одиграјте оцењену партију против шаховског програма"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Означите да бисте копирали подешавања јачине ограничења у прилагођене параметре"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "Објашњење формуле за оцењивање"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "Означите да бисте приказали име личности"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "са именом мотора током игре"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "Унесите вредност вештине претраге,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "Означите да бисте увек аутоматски копирали опције"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "преко прилагођених параметара"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "Означите да бисте аутоматски копирали замућење евалуације"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "вредност прилагођених параметара"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "Означите да бисте аутоматски копирали вештину претраживања"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "Унесите име датотеке за чување"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "опције подешавања снаге мотора"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "победио је играјући бело и добија"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "изгубио је играјући црно и губи"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "изгубио је играјући бело и губи"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "победио је играјући црно и добија"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "је нерешено играо бело"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "је ремитирао играјући црно"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "није било промене оцене."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "и стекао"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "и изгубљен"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "Ваша нова оцена је"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "Порука о оцени резултата игре"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "Не могу да отворим датотеку профила играча ради писања детаља"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "Нема датотека мотора у директоријуму, оцењена игра отказана"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "Директоријум оцењених мотора"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "не постоји, оцењена игра отказана"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "Предлог: Ресетујте подразумеване вредности програма из"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< Главни мени > < Опције > < Ресетовање на фабричка подешавања >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "Ако ово не успе, преузмите и инсталирајте оцењене моторе са"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "Личност мотора глодара"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "натоварен"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "Порука о оцењеном гејм енџину"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "Мотор није на листи, тако да се не може подесити"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "Директоријум профила играча"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "Предлог: Ручно креирајте овај директоријум помоћу програма Windows Explorer"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "Име играча је празно, унесите име"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "Име играча је већ на листи,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "молимо вас унесите друго име играча"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "Профил играча за"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "Грешка при чувању профила играча на диск"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "Име играча није на списку,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "Молимо вас да унесете име играча који је на листи"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "обрисано са диска"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "Грешка при брисању профила играча са диска"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "Директоријум формула за оцењивање"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "и користите < Формула за оцењивање > < + > да бисте додали формулу"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "у дијалошком оквиру за оцењену игру."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "Поље за назив формуле је празно, унесите назив"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "Назив датотеке формуле за оцењивање је већ на листи,"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "Молимо вас да унесете другачији назив датотеке формуле за оцењивање"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "Назив датотеке формуле за оцењивање није на листи,"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "Молимо вас да унесете име датотеке формуле за оцењивање која се налази на листи"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "Формула за оцењивање"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "Грешка при чувању датотеке формуле за оцењивање на диск"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "Назив датотеке формуле је празан, унесите назив датотеке"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "Датотека формуле за оцењивање није на листи,"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "Молимо вас да унесете датотеку формуле која се налази на листи"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "Грешка при брисању формуле за оцењивање са диска"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "Не могу да отворим датотеку формуле за оцењивање за читање"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "Оцењена карактеристика игре за игре са људским мотором (верзија 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "Кашњење кретања"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "Кашњење кретања.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "Прикажи дијалог за одлагање кретања"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "Порука о грешци"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "Копирај у прилагођене параметре"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "Приликом писања функције < Оцењена игра >, открио сам да је Делфи енџин"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "потребна су подешавања граничне јачине смештена у листу прилагођених параметара"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "да би они радили."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "За Делфи претраживач ова радња ће се извршити аутоматски."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Ако имате овај проблем са било којим другим мотором, онда можете проверити"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< Копирај у прилагођене параметре > поље и параметри граничне јачине"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "биће копирано преко."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "Такође сам открио да ако сте играли више од једне игре са ослабљеним Stockfish енџином"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "и < Копирај у прилагођене параметре > није подешено, Stockfish је враћен на пуну снагу"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "за другу игру. Зато је вероватно најбоље да увек имате подешену ову опцију"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "при коришћењу граничне снаге."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "Када се користи функција < Оцењена игра >, ово се примењује за све моторе."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Ако вам је отворен панел са информацијама о претрази док играте против Stockfish-а,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "приказује потпуну анализу снаге мотора,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "чак и ако је ослабљена коришћењем UCI граничне снаге."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "Можете рећи да ли је заиста ослабљен јер ће често играти"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "другачији потез од оног приказаног у анализи."
+
