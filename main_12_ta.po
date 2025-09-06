@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "மதிப்பீட்டு சரிசெய்தல் சூத்திரம்"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "க்கான"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "வெற்றி மதிப்பு"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "இழப்பு மதிப்பு"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "மதிப்பு வரைதல்"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "வலிமை சரிசெய்தல் காரணி"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "அதிகபட்ச வேறுபாடு மதிப்பு"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "குறைந்தபட்ச வெற்றி மதிப்பு"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "வெற்றிக்கான உள்ளீட்டு மதிப்பீட்டில் மாற்றம்"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "ஒரு டிராவிற்கான மதிப்பீட்டில் மாற்றம்"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "இழப்புக்கான மதிப்பீட்டு மாற்றம்"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "வலிமை காரணி சரிசெய்தல் சதவீதத்தை உள்ளிடவும்"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "அதிகபட்ச மதிப்பீட்டு வேறுபாடு"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "இந்த உரையாடல் பெட்டி பயனரை சூத்திரத்திற்கான விருப்பங்களை அமைக்க அனுமதிக்கிறது."
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "ஒரு எஞ்சினுக்கு எதிரான ஆட்டத்திற்குப் பிறகு வீரர் மதிப்பீட்டை சரிசெய்யப் பயன்படுகிறது."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "வெற்றி மதிப்பு - ஒரு ஆட்டத்தில் வெற்றி பெறுவதற்கான தரவரிசைப் புள்ளி அதிகரிப்பு."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "வரைதல் மதிப்பு - இது எப்போதும் பூஜ்ஜியமாக அமைக்கப்படும்."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "இழப்பு மதிப்பு - இது வெற்றி மதிப்பின் கழித்தல் மதிப்பு."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "வலிமை சரிசெய்தல் காரணி (சதவீதம்) - இந்த மதிப்பு பயன்படுத்தப்படுகிறது"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "கீழே உள்ள சமன்பாட்டில் காட்டப்பட்டுள்ளபடி, மதிப்பீட்டைக் கணக்கிடுவதில்."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "பயனுள்ள அதிகபட்ச மதிப்பீட்டு வேறுபாடு - தரவரிசை வேறுபாடு என்றால்"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "வீரர்களுக்கு இடையேயான இடைவெளி இந்த எண்ணிக்கையை விட அதிகமாக உள்ளது,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "பின்னர் அது இந்த எண்ணுக்கு அமைக்கப்படுகிறது. கீழே உள்ள சமன்பாட்டைக் காண்க."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "அடிப்படை சூத்திரம் அமெரிக்க சதுரங்கக் கூட்டமைப்பால் பயன்படுத்தப்படுகிறது."
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "கடித சதுரங்க விளையாட்டுகளுக்கு."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "பின்வரும் வலைத்தளத்தில் விவரிக்கப்பட்டுள்ளதை நீங்கள் காணலாம் -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "அவர்களின் சூத்திரத்திற்கான எனது விளக்கம் இங்கே."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "ஒரு ஆட்டத்திற்குப் பிறகு புதிய மதிப்பீட்டிற்கான அவர்களின் கணக்கீடு -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(வெற்றி அல்லது தோல்விக்கு)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "இங்கு 0.04 (4 சதவீதம்) என்பது வலிமை சரிசெய்தல் காரணி (SAF) ஆகும்."
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED என்பது பயனுள்ள மதிப்பீட்டு வேறுபாடு ஆகும்."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "தரவரிசையைக் கணக்கிடும்போது ED என்பது நேர்மறையான மதிப்பைக் கொண்டுள்ளது"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "வலிமையான வீரருக்கான கணக்கீட்டில் பலவீனமான வீரர் மற்றும் எதிர்மறை மதிப்பு."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "உண்மையான மதிப்பீட்டு வித்தியாசம் 16 வெற்றி/தோல்வி மதிப்புக்கு,"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "வீரர்களுக்கு இடையேயான இடைவெளி 350 ஐ விட அதிகமாக இருந்தால், அது 350 ஆக அமைக்கப்படும்."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "இந்த சந்தர்ப்பங்களில், நீங்கள் ஒரு ஆட்டத்தில் வென்றால்,"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "பலவீனமான எதிராளியாக இருந்தால், உங்கள் தரவரிசை அதிகரிக்கிறது, மேலும் நீங்கள் தோற்றால்"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "வலுவான எதிராளியுடன், உங்கள் தரவரிசை குறைகிறது."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "இங்கே மதிப்பீடு மாற்றம் சிறியதாக இருக்கும், 2 புள்ளிகள் மட்டுமே."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "குறைந்தபட்ச வெற்றி மதிப்பு மாறியைப் பயன்படுத்தி இதை சரிசெய்யலாம்."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "எனவே பொதுவான சமன்பாடு என்னவென்றால், நான் நினைக்கிறேன் -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "எங்கே"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "குறைந்தபட்ச வெற்றி மதிப்பு"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "இயல்புநிலை அமைப்புகள் தரவரிசை சூத்திரக் கோப்பில் சேமிக்கப்படும் < USCF >"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "ஆனால் நீங்கள் விரும்பினால் ஒரு புதிய கோப்பை உருவாக்கி அமைப்புகளை மாற்றலாம்."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "அடிப்படை எண்களில் சிறிய மாற்றங்களை மட்டுமே நான் பரிந்துரைக்கிறேன்."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "மதிப்பீட்டு சூத்திர விளக்கம்"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "மனித - இயந்திர விளையாட்டுகளுக்கான நகர்வு தாமதம்"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "நகர்வு தாமதத்தைப் பயன்படுத்தவும்"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "வினாடிகளில் ரத்துசெய்"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "குறைந்தபட்ச நகர்வு தாமதம் (வினாடிகள்)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "குறைந்தபட்ச நகர்வு தாமதத்தை அமல்படுத்தவும்"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "சீரற்ற அமலாக்க நேரத்தைப் பயன்படுத்தவும்"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "அதிகபட்ச நகர்வு தாமதம் (வினாடிகள்)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "நிலையான நேரத்திற்கு சீரற்ற தாமதம்"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "மனித - இயந்திர விளையாட்டில் நகர்வு தாமதத்தைப் பயன்படுத்தவும்."
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "இவ்வளவு வினாடிகள் மட்டுமே மீதமுள்ளபோது நகர்த்தல் தாமதத்தை ரத்துசெய்."
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "வினாடிகளில் குறைந்தபட்ச நகர்வு தாமதம்"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "குறைந்தபட்ச நகர்வு தாமதத்தை அமல்படுத்தவும்,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "ரத்துசெய்தல் வினாடிகள் அடையும் வரை"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "1 க்கு இடையில் ஒரு சீரற்ற எண்ணைப் பயன்படுத்தவும் - குறைந்தபட்ச நகர்வு தாமதம்,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "குறைந்தபட்ச நகர்வு தாமதம் அமைக்கப்படும்போது"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "வினாடிகளில் அதிகபட்ச நகர்வு தாமதம்"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "நிலையான இயந்திர நேரங்களுக்கு சீரற்ற நகர்வு தாமதத்தைப் பயன்படுத்தவும்."
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "இந்த அம்சம் முதன்மையாக கொமோடோ சதுரங்க இயந்திரங்களுடன் பயன்படுத்த நோக்கம் கொண்டது."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "மனித இயந்திர விளையாட்டுகளுக்காக அவை பலவீனப்படுத்தப்பட்டிருக்கும் போது."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "இந்த விஷயத்தில் இயந்திரங்கள் கிட்டத்தட்ட உடனடியாக நகரும், இது விளையாட்டை"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "ஒரு இயற்கைக்கு மாறான தாளம், இது மிகவும் குழப்பத்தை ஏற்படுத்துகிறது."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "இது ரைப்கா 2.3 எஞ்சினிலும் நடக்கிறது."
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "மற்றும் அலெக்சாண்டர் சதுரங்க இயந்திரம்."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "கொமோடோ என்ஜின்களில் ஸ்லோ மூவர் > விருப்பம் இல்லை, எனவே இந்த உரையாடல் பெட்டி"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "இயந்திரத்தை மெதுவாக்கும் விருப்பங்களை அமைக்க உங்களை அனுமதிக்கிறது."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "நகர்வு தாமதத்தைப் பயன்படுத்தவும் - மனித - இயந்திர விளையாட்டுகளுக்கு நகர்வு தாமதத்தைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "வினாடிகளில் ரத்துசெய் - நகர்வு தாமதம் இனி பயன்படுத்தப்படாத நேரத்தைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "குறைந்தபட்ச நகர்வு தாமதம் - வினாடிகளில் குறைந்தபட்ச நகர்வு தாமதத்தைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "குறைந்தபட்ச நகர்வு தாமதத்தை அமல்படுத்து - குறைந்தபட்ச நகர்வு தாமதத்தை அமல்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "இந்த விஷயத்தில், நிரல் நகர்த்துவதற்கு அனுமதிக்கப்பட்ட நேரத்தைக் கணக்கிட்டால்"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "குறைந்தபட்ச நகர்வு தாமதத்தை விடக் குறைவாக இருந்தால், நகர்வு தாமதம்"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "குறைந்தபட்ச நகர்வு தாமதம், அல்லது 1 க்கும் குறைந்தபட்ச நகர்வு தாமதத்திற்கும் இடையிலான சீரற்ற எண்ணுக்கு,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "அடுத்த தேர்வுப்பெட்டி எவ்வாறு அமைக்கப்படுகிறது என்பதைப் பொறுத்து."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "ரத்துசெய்யும் நேரம் வினாடிகளில் எட்டும்போது இந்த அமலாக்கம் இனி பொருந்தாது."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "குறைந்தபட்ச நகர்வு தாமதத்தை விட வேகமாக இயக்க இயந்திரத்தை அனுமதிக்க தேர்வுநீக்கவும்,"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "நேரம் குறைவாக ஓடத் தொடங்கினால், வினாடிகளில் ரத்து செய்வதற்கு முன்."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "சீரற்ற முறையில் செயல்படுத்து - குறைந்தபட்ச நகர்வு தாமதத்தின் சீரற்ற அமலாக்க நேரத்தைச் சரிபார்க்கவும்."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "அதிகபட்ச நகர்வு தாமதம் - வினாடிகளில் அதிகபட்ச நகர்வு தாமதத்தைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "நிலையான நேரத்திற்கு சீரற்ற தாமதம் - நிலையான நேர நிலைகளுக்கு சீரற்ற நகர்வு தாமதத்தைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "நகர்வு தாமதத்திற்கு அனுமதிக்கப்பட்ட நிலையான நேரம் முழுவதையும் பயன்படுத்த தேர்வுநீக்கவும்."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "நகர்வு தாமத உதவி"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு விருப்பங்கள்"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "பிளேயர் கேம்களுக்கான PGN கோப்பு பெயர்"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "விளையாட்டுக்கான .pgn கோப்பைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "எஞ்சின் எதிரி"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "எஞ்சின் ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "ஆளுமைகள்"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "தற்போதைய வீரர்"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "வீரர் ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "பிளேயர் ELO மதிப்பீட்டைத் திருத்து"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "பிளேயர் ELO மதிப்பீட்டைத் திருத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "தற்போதைய எஞ்சினாக அமை"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "தற்போதைய கடிகாரமாக அமை"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "முடிவுகளுக்கான மதிப்பீட்டில் மாற்றம்"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "கைமுறை சரிசெய்தல்"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "மதிப்பீட்டு சூத்திரம்"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "நேரக் கட்டுப்பாடுகள்"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "ஒரு ஆட்டத்திற்கான நிமிடங்கள்"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "அதிகரிப்பு (வினாடிகள்)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "வீரர்"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "முன்பதிவு ரத்துசெய்யப்பட்டது"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "விளையாட்டைத் தொடங்கு"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "பிளேயர் கேம்களைச் சேமிப்பதற்கான PGN கோப்புப் பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "இயந்திரத்தின் ELO வலிமையை உள்ளிடவும்."
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "இயந்திர அமைப்புகள் உரையாடல் பெட்டியைத் திறக்கவும்."
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "ரோடென்ட் என்ஜின் ஆளுமைகள் உரையாடல் பெட்டியைத் திறக்கவும்."
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "புதிய வீரரைச் சேர்"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "தற்போதைய பிளேயரை நீக்கு"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "தற்போதைய வீரர் விவரங்களைச் சேமிக்கவும்."
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "வீரர் ELO மதிப்பீடு"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "பிளேயர் ELO மதிப்பீட்டைத் திருத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டுக்கு நகர்வு தாமதத்தைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "எஞ்சின் அமைப்புகளை தற்போதையதாக அமைக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "கடிகார அமைப்புகளை தற்போதையதாக அமைக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "இந்த விளையாட்டுக்கான தொடக்கப் புத்தகத்தை அணைக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "ஒரு வீரர் வெற்றிக்கான ELO மதிப்பீட்டில் மாற்றம்"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "ஒரு வீரரின் தோல்விக்கான ELO மதிப்பீட்டில் மாற்றம்"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "ஒரு டிராவிற்கான ELO மதிப்பீட்டில் மாற்றம்"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "மதிப்பீட்டு மாற்றங்களை சரிசெய்ய சரிபார்க்கவும்."
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "மற்றும் பிளேயர் ELO கைமுறையாக"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "தற்போது பயன்பாட்டில் உள்ள மதிப்பீட்டு சூத்திரம்"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "புதிய சூத்திரத்தைச் சேர்க்கவும்"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "தற்போதைய சூத்திரத்தை நீக்கு."
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "தற்போதைய சூத்திரத்தைத் திருத்து"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "விளையாட்டுக்கான வீரர் நேரத்தை நிமிடங்களில் உள்ளிடவும்."
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "வீரர் நகர்வு அதிகரிப்பை வினாடிகளில் உள்ளிடவும்."
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "விளையாட்டுக்கான இயந்திர நேரத்தை நிமிடங்களில் உள்ளிடவும்."
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "நொடிகளில் இயந்திர நகர்வு அதிகரிப்பை உள்ளிடவும்."
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "வெள்ளை நிறத்தில் விளையாட மனிதனை சரிபார்க்கவும்."
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "தற்போதைய அமைப்புகளுடன் விளையாட்டைத் தொடங்கவும்."
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "நீங்கள் விளையாட விரும்பும் எஞ்சினைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "தற்போதைய பிளேயரைத் தேர்ந்தெடுக்கவும்"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு உதவி"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு பலவீனமானவர்களுக்கு எதிராக விளையாட உங்களுக்கு வசதியான வழியை வழங்குகிறது"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "சதுரங்க இயந்திரங்கள் மற்றும் அதே நேரத்தில் அது உங்கள் முன்னேற்றத்தைக் கண்காணிக்கும்"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "தோராயமான ELO மதிப்பீட்டைப் புதுப்பிப்பதன் மூலம்."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டுக்கு பின்வரும் விருப்பங்களை நீங்கள் அமைக்கலாம்."
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN கோப்புப் பெயர்: மதிப்பிடப்பட்ட விளையாட்டுகளைச் சேமிக்க PGN கோப்புப் பெயரைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "கோப்பு பெயர் பிளேயரின் பெயரிலிருந்து பெறப்பட்டது. இது இதில் சேமிக்கப்படும்"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "எந்த பிளேயர் பெயரும் உள்ளிடப்படவில்லை என்றால், கோப்பு பெயருக்கு rated_games.pgn பயன்படுத்தப்படும்."
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "எஞ்சின் எதிரி: இங்கே நீங்கள் எந்த எஞ்சினை விளையாட விரும்புகிறீர்கள் என்பதைத் தேர்ந்தெடுக்கலாம்."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "இந்த இயந்திரங்கள் அனைத்தும் UCI_LimitStrength விருப்பத்தைக் கொண்டுள்ளன,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "இது அவர்களை பலவீனப்படுத்த அனுமதிக்கிறது."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "இந்த விருப்பத்தைக் கொண்ட மற்றொரு இயந்திரத்தைச் சேர்க்க விரும்பினால், அதை நகலெடுக்க வேண்டும்."
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "க்கு"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "அடைவு"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "எஞ்சின் ELO - எஞ்சினின் ELO வலிமையைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "அனுமதிக்கப்பட்ட மேல் மற்றும் கீழ் மதிப்புகள் காட்டப்பட்டுள்ளன."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "எஞ்சின் அமைப்புகள் - இது எஞ்சின் உரையாடல் பெட்டியைத் திறக்கிறது, இது உங்களை மாற்ற அனுமதிக்கிறது"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "நீங்கள் தேர்ந்தெடுத்த எஞ்சினுக்கான பிற விருப்பங்கள். உதாரணத்திற்கு Stockfish > என்பதைக் கிளிக் செய்யவும்."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "ஒரு கொறித்துண்ணி சதுரங்க இயந்திரம் ஏற்றப்பட்டால், ஒரு Personalities > பொத்தான்"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "இந்த இயந்திரமும் தோன்றும்."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "தற்போதைய பிளேயர் - இங்கே நீங்கள் தற்போதைய பிளேயரை அமைக்கலாம், மேலும் சேர்க்கலாம், நீக்கலாம்"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "மற்றும் வீரர்களைத் திருத்தவும். தற்போதைய வீரரின் பெயர் திருத்து சாளரத்தில் காட்டப்படும்."
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "ஒரு கீழ்தோன்றும் பட்டியல் பெட்டியின்."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "பிளஸ் பொத்தான் - ஒரு புதிய பிளேயரைச் சேர்க்க, திருத்து சாளரத்தில் அவர்களின் பெயரைத் தட்டச்சு செய்து,"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "இந்தப் பொத்தானில். அவர்களின் பெயர் பட்டியலில் சேர்க்கப்படும், மேலும் அவர்களின் பெயரால் ஒரு கோப்பு பெயரிடப்படும்,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "அவர்களின் விவரங்களைக் கொண்ட இது, வட்டில் சேமிக்கப்படும்"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "கழித்தல் பொத்தான் - திருத்த சாளரத்தில் காட்டப்பட்டுள்ள பிளேயரை நீக்க கிளிக் செய்யவும்."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "இது அவர்களின் கோப்பை வட்டில் இருந்தும் அகற்றும்."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "சேமி - திருத்து சாளரத்தில் பிளேயரின் விவரங்களைச் சேமிக்க கிளிக் செய்யவும்."
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "நீங்கள் அவர்களின் ELO மதிப்பீட்டில் கைமுறையாக மாற்றம் செய்தால்."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "பிளேயர் ELO - இது எடிட் விண்டோவில் பிளேயரின் ELO மதிப்பீட்டைக் காட்டுகிறது."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "நீங்கள் ஒரு புதிய பிளேயரைச் சேர்க்கும்போது இந்தப் பெட்டியைத் திருத்த விரும்பினால், அடுத்த விருப்பத்தைப் பார்க்கவும்."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "பிளேயர் ELO மதிப்பீட்டைத் திருத்து - பிளேயர் ELO மதிப்பீட்டைத் திருத்த அனுமதிக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "நகர்வு தாமதத்தைப் பயன்படுத்தவும் - மதிப்பிடப்பட்ட விளையாட்டுக்கு நகர்வு தாமதத்தைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "இந்த விருப்பம் மிக வேகமாக நகரும் இயந்திரங்களுக்காக வடிவமைக்கப்பட்டுள்ளது."
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "கொமோடோ டிராகன் போன்றவை பலவீனமடையும் போது."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "தற்போதைய எஞ்சினாக அமை - இந்தப் பெட்டியில் காட்டப்படும் எஞ்சினை அமைக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு முடிந்ததும் தற்போதைய இயந்திரமாக."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டுக்குப் பிறகு பழைய எஞ்சினுக்கு மீட்டமைக்க தேர்வுநீக்கவும்."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "தற்போதைய கடிகாரமாக அமை - இந்தப் பெட்டியில் காட்டப்படும் கடிகார நேரங்களை அமைக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு முடிந்ததும் தற்போதைய கடிகாரமாக."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டுக்குப் பிறகு பழைய கடிகாரத்திற்கு மீட்டமைக்க தேர்வுநீக்கவும்."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "முடிவுகளுக்கான மதிப்பீடு மாற்றம் - வெற்றி, தோல்வி அல்லது சமநிலைக்கான மதிப்பீடு மாற்றங்களைக் காட்டுகிறது."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "இவை பிளேயர் மற்றும் எஞ்சின் எலோ மதிப்பீடுகளுக்கு ஏற்ப தானாகவே சரிசெய்யப்படுகின்றன."
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "மற்றும் ELO கணக்கீட்டிற்கு எந்த சூத்திரம் பயன்படுத்தப்படுகிறது."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "கைமுறை சரிசெய்தல் - மேலே உள்ள மதிப்புகளை கைமுறையாக மாற்ற விரும்பினால் இந்தப் பெட்டியைத் தேர்வுசெய்யவும்."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டை கைமுறையாக சரிசெய்யப்பட்ட மதிப்புகளுடன் விளையாட விரும்பினால்,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "பின்னர் நீங்கள் தொடக்க விளையாட்டு > என்பதைக் கிளிக் செய்யும்போது இந்தப் பெட்டியைத் தேர்வுசெய்யவும்."
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "மதிப்பீட்டு சூத்திரங்கள் - இங்கே நீங்கள் ELO கணக்கீட்டு சூத்திரங்களைத் தேர்ந்தெடுத்து மாற்றலாம்."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "இது தற்போதைய பிளேயர் பெட்டியைப் போலவே பயன்படுத்தப்படுகிறது."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "முக்கிய வேறுபாடு என்னவென்றால், நீங்கள் ஒரு சூத்திரத்தைச் சேர்க்கும்போது அல்லது திருத்தும்போது,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "சூத்திரத்திற்கான விருப்பங்களை உள்ளிட உங்களை அனுமதிக்கும் ஒரு புதிய உரையாடல் பெட்டி திறக்கிறது."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "மதிப்பீட்டு சூத்திரங்கள் பற்றிய கூடுதல் தகவலுக்கு, உதவி > பொத்தானைக் கிளிக் செய்யவும்."
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "சூத்திர உரையாடல் பெட்டியின்."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "நேரக் கட்டுப்பாடுகள் - விளையாட்டுக்கான நேரக் கட்டுப்பாடுகளைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "விளையாட்டு நேரத்தை நிமிடங்களிலும், நகர்வு அதிகரிப்பை வினாடிகளிலும் உள்ளிடவும்."
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "மனித வீரருக்கும் சதுரங்க இயந்திரத்திற்கும்."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "நீங்கள் விரும்பினால் எஞ்சினை விட அதிக நேரம் உங்களுக்கு நீங்களே கொடுத்துக் கொள்ளலாம்."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "முன்பதிவு நிறுத்தம் - மதிப்பிடப்பட்ட விளையாட்டுக்கான தொடக்கப் புத்தகத்தை அணைக்க டிக் செய்யவும்."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "வெள்ளை நிறத்தில் விளையாடு - மனித வீரர் வெள்ளை நிறத்தில் விளையாடுகிறாரா என்று சரிபார்க்கவும்,"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "கருப்பு நிறத்தில் விளையாட மனித வீரர் தேர்வுநீக்கவும்."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "விளையாட்டைத் தொடங்கு - தற்போதைய விருப்பங்களுடன் மதிப்பிடப்பட்ட விளையாட்டைத் தொடங்க கிளிக் செய்யவும்."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "மனித - இயந்திர விளையாட்டுகளுக்கான சுவாரஸ்யமான மற்றும் மாறுபட்ட தொடக்கப் புத்தகத்தை நீங்கள் விரும்பினால்,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "நான் பன்மொழிப் புலமைப் புத்தகத்தைப் பரிந்துரைக்கிறேன்."
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "இந்தப் புத்தகம் டீப் சரோஸ் எஞ்சின் பதிவிறக்கத்தின் ஒரு பகுதியாகும்."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "இது பின்வரும் கோப்பகத்தில் நிறுவப்பட்டிருக்க வேண்டும் -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு இயந்திரங்களுக்கான உதவி"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "அரசன்"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "கொறித்துண்ணி"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "ஸ்டாக்ஃபிஷ்"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு > பயன்படுத்தப்படும் இயந்திரங்கள் அனைத்தும் UCI வரம்பு வலிமை விருப்பத்தைக் கொண்டுள்ளன."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "இது பயனருக்கு தோராயமான ELO மதிப்பீட்டைத் தேர்ந்தெடுக்க அனுமதிக்கிறது."
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "இயந்திரத்தின் விளையாடும் வலிமைக்காக."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "இயந்திரங்கள் பொதுவாக பின்வரும் கோப்பகத்தில் சேமிக்கப்படும் -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "தேர்வு செய்ய ஒரு பெரிய தேர்வு உள்ளது, ஆனால் நீங்கள் மற்ற வரம்பு வலிமையைச் சேர்க்கலாம்."
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "நீங்கள் விரும்பினால், <rated_engines > இல் ஒரு புதிய கோப்பகத்தை உருவாக்குவதன் மூலம் இயந்திரங்களைத் திறக்கவும்."
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "மற்றும் எஞ்சின் *.exe கோப்பை அதில் நகலெடுக்கவும்."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "இந்த செயல்முறை பின்வரும் வணிக இயந்திரங்களுக்கு வேலை செய்யும் -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "கொமோடோ டிராகன், ஃபிரிட்ஸ் 16, ஷ்ரெடர், ஹவுடினி 6, டீப் ஜூனியர் மற்றும் சிரான்."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "இன்னும் பல இருக்கலாம்."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "நான் பெரும்பாலான கணினி வகைகளுக்கு ஏற்றவாறு மாற்ற முயற்சித்தேன், இதனால்"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "என்ஜின் பட்டியல் மிக நீளமாக உள்ளது. எனவே நீங்கள் விரும்பாதவற்றை நீக்கலாம்."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "உஃபிம், டெல்ஃபி மற்றும் அமியான் போன்ற சில பழைய எஞ்சின்கள் சிறிது விளையாடும் அதே வேளையில்"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "ஒன்றுக்கொன்று வித்தியாசமாக, ஸ்டாக்ஃபிஷிலிருந்து பெறப்பட்ட பெரும்பாலான இயந்திரங்கள்,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "இதே வழியில் விளையாடுங்கள்."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "முற்றிலும் தனித்துவமானதாகவும், சரியாகப் பொருந்தக்கூடியதாகவும் தனித்து நிற்கும் ஒரு இயந்திரம்"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டுக்கு > என்பது பாவெல் கோசியோல் எழுதிய கொறிக்கும் சதுரங்க இயந்திரம்."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "மேலும் விவரங்களுக்கு கொறித்துண்ணி > என்பதைக் கிளிக் செய்யவும்."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "ஜான் டார்ட் எழுதிய அரசன் எஞ்சின் மற்றொரு மிகச் சிறந்த எஞ்சின் ஆகும்."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "ஸ்டாக்ஃபிஷைப் போல வலுவாக இல்லாவிட்டாலும், இது ஒரு தனித்துவமான விளையாட்டு பாணியைக் கொண்டுள்ளது."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "இருப்பினும், Tarrasch மற்றும் Nimzo_3d GUI உடன் பயன்படுத்தும்போது,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "சில பிரச்சனைகள் உள்ளன."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "பதிப்பு 23.0 உடன் ஒரு நரம்பியல் வலை சேர்க்கப்பட்டதிலிருந்து,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "அவை எதுவும் என் கணினியில் வேலை செய்யாது."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "இருப்பினும், சமீபத்திய பதிப்பு 25.2 இல் பின்வரும் இயந்திரங்கள் வேலை செய்கின்றன"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "இந்த சிக்கல்கள் காரணமாக, நான் பதிப்பு 22.3 இலிருந்து இயந்திரங்களைப் பயன்படுத்தியுள்ளேன்."
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டுகளுக்கு. இது நரம்பியல் வலை இல்லாத கடைசி பதிப்பாகும்."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "இந்தப் பதிப்பின் அனைத்து இயந்திரங்களும் எனது கணினியில் இயங்குகின்றன."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "அரசன் இயந்திர உதவி"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "ஸ்டாக்ஃபிஷ் சதுரங்க இயந்திரம்"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "ஸ்டாக்ஃபிஷ் என்.பி.எஸ்"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "அலெக்சாண்டர்"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "நான் எஞ்சின் பொருத்தங்களுக்கான குறியீட்டை எழுதும் போது, ​​ஸ்டாக்ஃபிஷ் என்பதைக் கண்டேன்"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "வேகமான நேர வரம்பு கொண்ட விளையாட்டுகளில் கொமோடோ என்ஜின்கள் சரியான நேரத்தில் தோற்றுக்கொண்டிருந்தன,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "அதனால் இந்த சிக்கலை சரிசெய்ய <Engine time adjustment > விருப்பத்தை எழுதினேன்."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டில், நீண்ட நேர வரம்பைப் பயன்படுத்தி, நான் மீண்டும் ஒருமுறை அதைக் கண்டேன்"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "ஸ்டாக்ஃபிஷ் அதன் தொடக்கப் புத்தகத்திலிருந்து வெளியேறும்போது அதன் நகர்வுகளை மிக மெதுவாக விளையாடுகிறது."
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "அல்லது எந்த புத்தகமும் பயன்படுத்தப்படவில்லை என்றால்."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "இதை சரிசெய்ய நீங்கள் Stockfish மெதுவாக நகரும் விருப்பத்தை சரிசெய்யலாம்."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "இந்த மதிப்பைக் குறைப்பது நகர்வுகளை சிறிது வேகப்படுத்துகிறது."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "வேகமான நேரக் கட்டுப்பாடுகளுக்கு இந்த விருப்பம் போதுமானதாக இல்லை என்று நான் கண்டறிந்தாலும்"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "ஒரு விளையாட்டுக்கு 3 நிமிடங்கள் அல்லது அதற்கும் குறைவாக, இது 5 நிமிடங்கள் அல்லது அதற்கு மேல் நன்றாக வேலை செய்யும்."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "ஸ்டாக்ஃபிஷ் 11க்கு, 5-10 நிமிட விளையாட்டுகளுக்கு 20-30 மதிப்பு நன்றாக வேலை செய்கிறது."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "தனிப்பயன் அளவுரு விருப்பங்களைப் பயன்படுத்தி மெதுவாக நகரும் விருப்பத்தை நீங்கள் அமைக்கலாம்."
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "என்ஜின் உரையாடல் பெட்டியில்."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "விஷயங்களை எளிதாக்க, நான் Stockfish 11 க்கு ஒரு இயந்திர அளவுரு கோப்பை உருவாக்கியுள்ளேன்."
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "மெதுவாக நகர்த்தும் கருவியுடன். மதிப்பிடப்பட்ட விளையாட்டு உரையாடல் பெட்டியிலிருந்து இதை நீங்கள் ஏற்றலாம்."
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "> என்ஜின் அமைப்புகள் என்பதைக் கிளிக் செய்து, பின்னர் லோட் எஞ்சின் > என்பதைக் கிளிக் செய்யவும்."
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "திறக்கும் என்ஜின் உரையாடல் பெட்டியிலிருந்து."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Stockfish 11 க்கான அளவுரு கோப்புகள் கோப்பகத்தில் சேமிக்கப்பட்டுள்ளன."
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "ஸ்டாக்ஃபிஷ் என்ஜின்கள் 8-15 மெதுவாக நகரும் விருப்பத்தைக் கொண்டுள்ளன, 16 மற்றும் 17 இல்லை."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "உங்களுக்கு இங்கே கூடுதல் விளையாட்டு வலிமை தேவையில்லை என்ற உண்மையைக் கருத்தில் கொண்டு,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "வலுவான இயந்திரங்களைப் பயன்படுத்த வேண்டிய அவசியமில்லை."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "நான் GitHub இல் Stockfish இயந்திரத்தின் இந்தப் பதிப்பைக் கண்டேன் -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "இது நிலையான இயந்திரத்தை விட அதிக சரிசெய்யக்கூடிய பதிப்பாகும்."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "README.md > கோப்பிலிருந்து இயந்திரத்தின் விளக்கம் இங்கே -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "ஸ்டாக்ஃபிஷ்என்பிஎஸ் என்பது மனித விளையாட்டுக்காக சற்று மாற்றியமைக்கப்பட்ட ஸ்டாக்ஃபிஷ் ஆகும்."
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "நொடிக்கு கணுக்கள் குறைப்புடன், (கிலோ நொடிக்கு கணுக்கள் ~= 1 / காத்திருப்புகள்"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "சீரற்ற மதிப்பீடு, தேடல் ஆழம் மற்றும் தேடல் முனைகளின் வரம்பு."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "முதல் இரண்டு மாற்றங்களின் வலிமையை uci விருப்பங்களில் அமைக்கலாம்."
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "0 முதல் 100 வரை, தேடல் ஆழம் 1 முதல் 20 வரையிலான மதிப்புகளுக்கு மட்டுப்படுத்தப்படலாம்."
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "மற்றும் 500000 வரையிலான மதிப்புகளுக்கு முனைகளைத் தேடுங்கள்."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "அனைத்து மாற்றங்களையும் எந்த கலவையிலும் பயன்படுத்தலாம்"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "வலிமையைக் குறைக்க, ELO வரம்பு வலிமை மற்றும் திறன் நிலை அமைப்புகள்"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "மனிதர்களுக்கு எதிராக விளையாடும்போது இயந்திரத்தின்."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "இயல்புநிலை அமைப்புகளுடன், StockfishNPS தற்போதைய Stockfish16_dev போலவே இயங்குகிறது."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "தேடல் முனைகளை மட்டும் 1 - 10 க்கு இடையில் மாற்றுவது ELO ஐ தோராயமாக 1400 ஆகக் குறைக்கிறது."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "கூடுதல் விருப்ப மாற்றங்களுக்கு அது ஒரு நல்ல தொடக்கப் புள்ளியாகும்."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "இதன் பொருள் அதிக காத்திருப்பு மதிப்பு > குறைகிறது என்று நான் நினைக்கிறேன்"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "ஒரு வினாடிக்கு இயந்திரம் தேடும் நிலைகளின் எண்ணிக்கை."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "சீரற்ற மதிப்பீட்டு மதிப்பை அதிகரித்தல்"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "மேலும் மாறுபட்ட விளையாட்டுக்கு வழிவகுக்கும்."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "தேடப்படும் நிலைகளின் எண்ணிக்கையில் <Search nodes > ஒருவித வரம்பை விதிக்கிறது."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "<Search depth > இயந்திரம் தேடும் பாதி நகர்வுகளின் (ஓடு) எண்ணிக்கையை வரம்பிடுகிறது."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "<nodestime > என்ற ஒரு விருப்பமும் உள்ளது, ஆனால் அது என்ன செய்கிறது என்று எனக்குத் தெரியவில்லை."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "பூஜ்ஜியத்தின் இயல்புநிலை மதிப்புகள் விருப்பம் பயன்படுத்தப்படவில்லை என்பதைக் குறிக்கிறது."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "உங்கள் வசதிக்காக, என்ஜின்களுக்கான என்ஜின் அளவுரு கோப்புகளை நான் உருவாக்கியுள்ளேன்."
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "அனைத்து அளவுருக்களும் இயல்புநிலையாக அமைக்கப்பட்டு, நீங்கள் மாற்றங்களைச் செய்யத் தயாராக உள்ளது."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "இவை சேமிக்கப்படுகின்றன -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "மேலும் எஞ்சின் உரையாடல் பெட்டியிலிருந்து Load engine > உடன் ஏற்றலாம்."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "ஸ்டாக்ஃபிஷ் என்பிஎஸ் எஞ்சின் உதவி"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "இது பல சரிசெய்தல் அம்சங்களைக் கொண்ட ஒரு ஸ்டாக்ஃபிஷ் வழித்தோன்றல் இயந்திரமாகும்."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "நான் முதன்முதலில் ELO வரம்பு வலிமை தொகுப்புடன் அதை முயற்சித்தபோது, ​​அது பலவீனமடையவில்லை,"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "மேலும் அதன் அசைவுகளை முழு பலத்துடன் விளையாடியது."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "பின்னர் நான் Handicapped Depth > விருப்பத்தைச் சேர்த்து, இதை <true > என அமைத்தேன்."
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "இது வேலை செய்வது போல் தெரிகிறது, மேலும் இயந்திரம் வெவ்வேறு ஆழங்களில் இயங்குகிறது, அதைப் பொறுத்து"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "அமைக்கப்பட்டுள்ள ELO மதிப்பீட்டில்."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "README.md > கோப்பில் விவரிக்கப்பட்டுள்ள பல விருப்பங்கள் உள்ளன."
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "இந்தக் கோப்பு பின்வரும் கோப்பகத்தில் அமைந்துள்ளது."
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "இந்த டைரக்டரியில் இரண்டு எஞ்சின் அளவுரு கோப்புகளை நான் உருவாக்கியுள்ளேன், அதை நீங்கள் பயன்படுத்தலாம்."
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "எஞ்சின் உரையாடல் பெட்டியிலிருந்து எஞ்சினை Load engine > உடன் அமைக்கவும்."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "பலவீனமான முறையில் விளையாடும்போது, ​​அலெக்சாண்டர் அதன் அசைவுகளை கிட்டத்தட்ட உடனடியாகச் செய்கிறார்."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "நீங்கள் விரும்பினால், <Main menu > <Engine > <Move delay > மூலம் வேகத்தைக் குறைக்கலாம்."
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "அலெக்சாண்டர் இயந்திரம் பின்வரும் இணைப்பில் GitHub இல் ஹோஸ்ட் செய்யப்பட்டுள்ளது."
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "அலெக்சாண்டர் சதுரங்க இயந்திர உதவி"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "வீரர் பெயர் இல்லாமல் விளையாட்டைத் தொடங்க முடியாது."
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "தற்போதைய வீரர் பட்டியல் பெட்டியிலிருந்து ஒரு வீரரைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு பிழை செய்தி"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "மதிப்பீட்டு சூத்திரம் இல்லாமல் விளையாட்டைத் தொடங்க முடியாது."
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "மதிப்பீட்டு சூத்திர பட்டியல் பெட்டியிலிருந்து ஒரு சூத்திரத்தைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "கொறிக்கும் இயந்திர ஆளுமை அமைப்புகளைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "இதில் எந்த இயந்திர கோப்புகளும் இல்லை."
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "மதிப்பிடப்பட்ட இயந்திரங்களின் கோப்பகம் மாற்றப்படவில்லை."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "படிக்க ஆளுமை கோப்புகள் எதுவும் இல்லை."
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "ஆளுமைகள் அடைவு"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "இல்லை, அதனால் ஆளுமைகளைக் காட்ட முடியாது."
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "ரோடன்ட் 3 இன்ஜின் ஆளுமை அமைப்புகளைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "தற்போதைய ஆளுமை"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "ஆளுமைப் பெயரைக் காட்டு"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "ஆவணக் கோப்பகத்தைப் பயன்படுத்தவும்"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "வரம்பு ELO வலிமையைப் பயன்படுத்தவும்"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "இயந்திர வலிமையை சரிசெய்ய மதிப்புகளை உள்ளிடவும்."
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "நொடிக்கு கணுக்கள்"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "இயல்புநிலை மதிப்புகளை நகலெடு"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "மதிப்பீட்டு மங்கலான மதிப்பு"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "மதிப்பீட்டை மங்கலாக்குவதை நகலெடுக்கவும்"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "தேடல் திறன் நிலை (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "நகல் தேடல் திறன்"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "தற்போதைய அமைப்புகளை கோப்பில் சேமிக்கவும்."
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "ஆளுமை கோப்பை சேமிப்பதற்கான கோப்பு பெயரைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "கோப்பில் மதிப்புகள் இல்லாவிட்டால் சேர்க்கவும்."
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "பின்வரும் கோப்பகத்தைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "மதிப்பிடப்பட்ட இயந்திரங்கள் மற்றும் தொடர்புடைய கோப்புகளுக்கு"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "இயந்திர சரிசெய்தல்களுக்கு UCI வரம்பு வலிமையைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "வினாடிக்கு முனைகளின் மதிப்பை உள்ளிடவும்,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "வலிமையானவருக்கு உயர்ந்தது, பலவீனமானவருக்குக் குறைவானது,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "ஆனால் அதிகபட்ச வலிமைக்கு பூஜ்ஜியம்"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "மங்கலான மதிப்பீட்டு மதிப்பை உள்ளிடவும்,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "வலிமையானவருக்குக் குறைவு, பலவீனமானவருக்குக் குறைவு"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "திறன் நிலை மதிப்பை உள்ளிடவும்,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "பலவீனமானவருக்குக் குறைவு, வலிமையானவருக்கு உயர்ந்தது"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "வினாடிக்கு முனைகளைச் சேர்த்து மதிப்பீட்டை மங்கலாக்குங்கள்"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "கோப்பிற்கான மதிப்புகள், அவை இல்லாவிட்டால்"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "நீங்கள் எதிர்த்து விளையாட விரும்பும் ஆளுமையைத் தேர்ந்தெடுக்கவும்."
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "இருந்து"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "மாற்ற முடியாது"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI வரம்பு வலிமை சரிசெய்தல்"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "வினாடிக்கு முனைகள் சரிசெய்தல்"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "அமைக்க முடியாது"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "ஏனெனில்"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "கோப்பைத் திறக்க முடியவில்லை."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "ஏனெனில் வரம்பு வலிமை விருப்பம் கோப்பில் இல்லை."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "எல்லா மதிப்புகளும் இயல்புநிலையாக அமைக்கப்பட்டுள்ளன."
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "எனவே அவற்றை எழுதுவதில் எந்த அர்த்தமும் இல்லை."
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "உள்ளீட்டு கோப்பைத் திறக்க முடியவில்லை."
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "வெளியீட்டு கோப்பைத் திறக்க முடியவில்லை."
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "புதுப்பிக்கப்பட்டது, மற்றும்"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "வட்டில் சேமிக்கப்பட்டது"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "கொறிக்கும் சதுரங்க இயந்திர உதவி"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "ஆளுமை விளக்கங்கள்"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "கொறித்துண்ணி பற்றி"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "இந்த உரையாடல் பெட்டி நீங்கள் விளையாடும் ஆளுமையைத் தேர்ந்தெடுக்க அனுமதிக்கிறது."
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "மற்றும் ரோடென்ட் சதுரங்க இயந்திரங்களுக்கான விருப்பங்கள்."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "தற்போதைய ஆளுமை - கீழ்தோன்றும் பட்டியல் பெட்டி ஒரு ஆளுமையைத் தேர்ந்தெடுக்க உங்களை அனுமதிக்கிறது."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "ELO வரம்பு வலிமையைப் பயன்படுத்தவும் - இயந்திர உரையாடல் பெட்டியில் ELO மதிப்புகளைப் பயன்படுத்த சரிபார்க்கவும்."
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "இயந்திர இயக்க வலிமையை அமைக்கும் போது."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "இயந்திர வலிமையை சரிசெய்ய மதிப்புகளை உள்ளிடவும் -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "வினாடிக்கு முனைகள் - இயந்திரம் உருவாக்கும் நிலைகளின் எண்ணிக்கை."
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "மற்றும் வினாடிக்கு பகுப்பாய்வு செய்யவும்."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "மதிப்பீட்டு மங்கலான மதிப்பு - மதிப்பீட்டு செயல்பாட்டில் சீரற்ற மதிப்பு சேர்க்கப்பட்டது."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "ரோடென்ட் 3 உடன், நொடிக்கு முனைகள் பயன்முறையில், மதிப்பீட்டு மதிப்பு மங்கலாகிறது"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "ஆளுமை கோப்பிலிருந்து ஏற்றப்பட்டது. இது உங்களுக்கு சில யோசனைகளைத் தரும்."
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "நீங்கள் மாற்றங்களைச் செய்ய விரும்பினால், பயன்படுத்த வேண்டிய மதிப்புகளின் வரம்பில்."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "இந்த விருப்பத்தை ELO வரம்பு வலிமையுடனும் பயன்படுத்தலாம்."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "இந்த வழியில் பயன்படுத்தும்போது, ​​20 என்ற அமைப்பு, நகர்வுகளை வேறுபடுத்துவதைக் கண்டேன்."
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "இயந்திரம் இயங்கியது, ஆனால் 20 க்கும் அதிகமான எண்கள் 500 வரை எந்த விளைவையும் ஏற்படுத்தவில்லை."
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "மேலும் 1000 க்கும் அதிகமான அமைப்பு இயந்திரத்தை கடுமையாக பலவீனப்படுத்தியது."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "எனவே ELO-வில் உள்ள பயனுள்ள அமைப்புகள் எனது கணினிக்கான வலிமை பயன்முறையைக் கட்டுப்படுத்துகின்றன."
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "20 அல்லது 500 - 1000 ஆக இருக்கலாம், ஆனால் உங்கள் கணினிக்கு இது வேறுபட்டிருக்கலாம்."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "நீங்கள் அதை அமைக்கவோ அல்லது காட்டவோ விரும்பவில்லை என்றால், அதை பூஜ்ஜியமாக அமைக்கவும்."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "ELO வரம்பு வலிமையைப் பயன்படுத்தும் போது நொடிக்கு முனைகள் பொருந்தாது என்றாலும்,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "மதிப்புகளை பின்னர் பயன்படுத்துவதற்காக ஆளுமை கோப்பில் உள்ளிட்டு சேமிக்கலாம்."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "இயல்புநிலை மதிப்புகளை நகலெடு - வலிமை சரிசெய்தல் மதிப்புகளைச் சரிபார்க்கவும்."
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "இந்த உரையாடல் பெட்டியிலிருந்து இயந்திர உரையாடல் பெட்டிக்கு நகலெடுக்கப்பட வேண்டும்."
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "அவை இயல்புநிலையாக அமைக்கப்பட்டிருந்தாலும் கூட. பின்னர் அவற்றைத் திருத்தலாம்."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "அவற்றை அப்படியே விட்டால், அவை இயந்திரத்தில் எந்த விளைவையும் ஏற்படுத்தாது."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ELO வரம்பு வலிமை பயன்முறையில், அவை நீக்கப்படும்போது மீட்டமைக்கப்படாது"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "என்ஜின் உரையாடல் பெட்டி. நொடிக்கு முனைகள் பயன்முறையில் அவை மீட்டமைக்கப்படுகின்றன,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "எனவே அவற்றைத் திருத்த நீங்கள் <Copy parameters > ஐ அணைக்க வேண்டும்."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "ஆளுமைப் பெயரைக் காண்பி - ஆளுமைப் பெயரைக் காண்பிக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "விளையாட்டின் போது இயந்திரப் பெயரைப் பின்பற்றுதல்."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "இயந்திர மதிப்பீடும் தானாகவே காட்டப்படும்."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "ஆவணங்கள் கோப்பகத்தைப் பயன்படுத்து - பயன்படுத்த சரிபார்க்கவும்"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "மதிப்பிடப்பட்ட இயந்திரங்களுக்கு."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "அவை நகலெடுக்கப்படாவிட்டால், இது ஒரு அவசரகால பின்வாங்கல் நடவடிக்கையாகும்."
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "அவை வேறு எங்காவது நிறுவப்பட்டிருந்தால், நீங்கள் அவற்றை நகலெடுக்கலாம்"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "மேலே உள்ள கோப்பகங்களில் ஒன்று."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "அவை நிறுவப்படவே இல்லை என்றால், இந்த இணைப்புகளிலிருந்து பதிவிறக்கம் செய்யலாம் -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "இணைப்புகள்"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "தற்போதைய அமைப்புகளை கோப்பில் சேமிக்கவும் - இந்த கோப்பு தேர்வியைப் பயன்படுத்தி, நீங்கள் சேமிக்கலாம்"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "உரையாடல் பெட்டியிலிருந்து தற்போதைய கோப்பிற்கு வலிமை அமைப்புகளை இயக்குதல்,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "அல்லது நீங்கள் விரும்பினால் புதியது."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "மதிப்புகள் இல்லாவிட்டால் சேர்க்கவும் - கோப்பில் வலிமை சரிசெய்தல் மதிப்புகளைச் சேர்க்க சரிபார்க்கவும்."
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "அவை இல்லாவிட்டால். மதிப்பீட்டு மங்கலான மதிப்புகளைச் சேர்த்தால் இதுதான் நடக்கும்."
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "ஒரு Rodent 4 ஆளுமை கோப்புக்கு."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "கொறிக்கும் சதுரங்க இயந்திரங்கள் பற்றி"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "பாவெல் கோசியோல் எழுதிய ரோடென்ட், மிகவும் சுவாரஸ்யமான சதுரங்க இயந்திரம்."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "இது UCI_LimitStrength விருப்பத்தையும், ஆளுமைகளின் தொகுப்பையும் கொண்டுள்ளது,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "பலவீனமான மற்றும் மிகவும் மாறுபட்ட விளையாட்டுக்காக, கோப்புகளிலிருந்து ஏற்றப்படும்."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "இயந்திரம் ஆளுமைகள் மற்றும் அவர்களது ஆளுமைகளுடன் சரியாக வேலை செய்ய"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "புத்தகங்களைத் திறக்கும்போது, ​​அனைத்து கூறுகளும் ஒரே கோப்பகத்தில் வைக்கப்பட வேண்டும்."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "அவை -ல் நிறுவப்பட்டிருக்க வேண்டும்."
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "ஒரு விளையாட்டின் போது ரோடென்ட் எஞ்சின் அதன் சொந்த புத்தகத்தைப் பயன்படுத்த விரும்பினால்,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "பின்னர் நீங்கள் Nimzo_3d தொடக்க புத்தகத்தை அணைக்க வேண்டும்"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< முதன்மை மெனு > < திறப்புகள் > < திறப்பு புத்தகம் >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "அல்லது நீங்கள் பயன்படுத்துகிறீர்கள் என்றால், <புத்தகம் ஆஃப்> விருப்பத்தைத் தேர்வுசெய்யவும்"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு உரையாடல் பெட்டி."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "சில ஆவணங்கள் மற்றும் ஒரு பயன்பாட்டு நிரல் உள்ளது."
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "இது அதிக ஆளுமைகளை உருவாக்கப் பயன்படுகிறது."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "ரோடென்ட் 4 எஞ்சின் தொகுப்பு மற்றும் பழைய பதிப்புகளை இங்கிருந்து பதிவிறக்கம் செய்யலாம் -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "விரிவான மதிப்பாய்வுடன், கொறித்துண்ணி 4 மட்டும்."
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "ரோடென்ட் 4 எஞ்சின் ஆதரவு பொருள், எஞ்சின்கள் இல்லாமல்."
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "ரோடென்ட் 3 துணைப் பொருள், இயந்திரங்கள் இல்லாமல்."
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "ஒரு ரோடென்ட் ஆளுமை கோப்பு என்பது *.txt கோப்பில் உள்ள UCI கட்டளைகளின் பட்டியலாகும்."
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "இது பின்வரும் முறையில் செயல்பட வேண்டும் -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "சதுரங்க நிரல் GUI, <Personality > கட்டளையை ரோடன்ட் எஞ்சினுக்கு அனுப்புகிறது."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "பின்னர் இயந்திரம் ஆளுமை கோப்பிலிருந்து கட்டளைகளைப் படிக்கிறது."
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "மற்றும் அதன் அமைப்புகளை அதற்கேற்ப சரிசெய்கிறது."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "இருப்பினும், Nimzo_3d மற்றும் Tarrasch GUI இரண்டிலும்,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "இந்த வழியில் பயன்படுத்தும்போது என்ஜின்களை வேலை செய்ய வைக்க முடியவில்லை."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "எல்லா ஆளுமைகளும் ஒரே மாதிரியான அசைவுகளையே செய்தனர்."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "எனவே இதற்கு பதிலாக, நான் <Personality > கட்டளையை இடைமறித்தேன், அது"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "GUI இலிருந்து எஞ்சினுக்கு அனுப்பப்படவிருந்தது, ஆளுமை கோப்பைத் திறந்தது."
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "கோப்பிலிருந்து கட்டளைகளை தனித்தனியாக அனுப்பினேன். இது வேலை செய்வது போல் தெரிகிறது."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "அடிப்படையில், கொறித்துண்ணி இயந்திரம் அதன் விளையாடும் வலிமையை மாற்றுவதற்கு இரண்டு முக்கிய முறைகளைக் கொண்டுள்ளது."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "இது மதிப்பீட்டு மங்கலுடன் ELO வரம்பு வலிமை அல்லது வினாடிக்கு முனைகளைப் பயன்படுத்தலாம்."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ELO வரம்பு வலிமை தோராயமான ELO மதிப்பீட்டை அமைக்க உங்களை அனுமதிக்கிறது."
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "மற்றும் மதிப்பீட்டு மங்கலான நொடிக்கு முனைகள் மதிப்புகளை அமைக்க உங்களை அனுமதிக்கிறது."
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "அவை ஒத்த பலவீனப்படுத்தும் விளைவைக் கொண்டுள்ளன."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "ரோடென்ட் 3 ஆளுமைகள் வினாடிக்கு முனைகளைப் பயன்படுத்த அமைக்கப்பட்டுள்ளன."
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "மதிப்பீட்டு மங்கலுடன் மற்றும் கொறித்துண்ணி 4 பயன்படுத்தப்பட வேண்டும்."
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "ELO வரம்பு வலிமையுடன் மட்டுமே."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "<Personality > கட்டளை அனுப்பப்படும் விதத்தில் நான் செய்த மாற்றத்தின் காரணமாக,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "எலி 3 அதன் ஆளுமைகளை ELO வரம்பு வலிமையுடன் பயன்படுத்தலாம்."
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "மதிப்பீட்டு தெளிவின்மை மற்றும் தேர்ந்தெடுக்கும் திறனுடன் இணைந்து,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "ஆனால் வினாடிக்கு முனைகளுடன் அல்ல."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "இதன் பொருள் எலி 4 ELO வரம்பு வலிமையைப் பயன்படுத்தலாம் என்பதாகும்."
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "மதிப்பீட்டு மங்கல் மற்றும் தேர்ந்தெடுக்கும் திறனுடன்."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "மதிப்பீட்டு மங்கலான மதிப்பை சிறிது மாற்றினால் இயந்திரம் இயங்கும்."
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "விளையாடும் வலிமையைப் பெரிதும் பாதிக்காமல் வெவ்வேறு நகர்வுகள்,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "மங்கலான மதிப்பு மிக அதிகமாக இல்லாத வரை."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "நீங்கள் இதைப் பரிசோதித்துப் பார்க்கலாம், 20 - 50 க்கு இடையிலான மதிப்புகளைக் கண்டறிந்தேன்"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "நன்றாக வேலை செய்தது."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "அதோடு, இரண்டு என்ஜின்களும் இப்போது ஆளுமை கோப்புகளைப் பயன்படுத்தலாம்."
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "Nimzo_3d-க்குள் இருந்து சிறிய மாற்றங்கள் மட்டுமே செய்யப்பட்ட மற்ற இயந்திரத்தின்,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "அவை இயந்திரத்தின் ஆளுமைகள் > கோப்பகத்தில் நகலெடுக்கப்பட்டவுடன்."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "நீங்கள் மாற்றம் விரும்பினால் புதிய ஆளுமை கோப்புகளை எளிதாக மாற்ற இது உங்களை அனுமதிக்கிறது."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "நான் சிலவற்றை extra_personalities > இல் சேர்த்துள்ளேன்."
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "ஆளுமைகள் > கோப்பகத்திற்குள்."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "ஆளுமை கோப்புகள் பின்வரும் கோப்பகங்களில் சேமிக்கப்படுகின்றன -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "கூடுதலாக"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "அல்லது"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Nimzo_3d-க்குள் இருந்து கோப்புகளை மாற்றியமைக்கலாம், இதனால்"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "வினாடிக்கு முனைகள் மற்றும் மதிப்பீடு மங்கலான மதிப்புகள் மற்றும் பின்னர் வட்டில் சேமிக்கப்படும்."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "ஆளுமை கோப்புகள் கட்டளைகளுடன் முடிவடையும் என்பது முக்கியமல்ல."
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "தற்போது பயன்பாட்டில் உள்ள எஞ்சினுக்குப் பொருத்தமற்றவை, ஏனெனில் அவை"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "அவை எஞ்சினுக்கு அனுப்பப்படுவதற்கு முன்பு GUI ஆல் வடிகட்டப்படுகின்றன."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "கொறிக்கும் கட்டளைகள்"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "கொறித்துண்ணி சதுரங்க இயந்திர ஆளுமைகளின் இந்த விளக்கங்கள் இதிலிருந்து எடுக்கப்பட்டவை."
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "பின்வரும் கோப்பகத்தில் காணக்கூடிய கோப்பு FinalRodent.pdf > -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "முன் வரையறுக்கப்பட்ட ஆளுமைகள்"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "அதன் தொடக்கத்திலிருந்தே, ரோடென்ட் திட்டம் ஒரு இயந்திரத்தை உருவாக்குவது பற்றியது."
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "இது அதன் விளையாட்டு பாணியை மாற்றியமைக்க அனுமதிக்கிறது - செஸ்மாஸ்டர் தொடரைப் போலவே,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "புதிய பதிப்பில் குறியீடு மாற்றங்கள் பழைய ஆளுமைகளைக் குறிக்கின்றன."
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "இனி பயன்படுத்த முடியாததால், ஒரு புதிய தொகுப்பை உருவாக்க வேண்டிய அவசியத்தை உணர்ந்தேன்."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "நீங்கள் அதை சுவாரஸ்யமாகக் காண்பீர்கள் என்று நம்புகிறேன்."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "முதல் மற்றும் முதன்மையானது, ஒரு தாக்குபவர், அவளுடைய இரண்டாவது பரிசீலனை"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "துண்டு செயல்பாடு. சூதாட்ட திறப்புகளை விளையாடுகிறது."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "க்ளோ மூடிய நிலைகள், சிப்பாய் புயல்கள் மற்றும் ஒலி சிப்பாய் அமைப்பு ஆகியவற்றை விரும்புகிறார்."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "மூடிய நிலையை விட அவள் விரும்பும் ஒரே விஷயம் மூடிய நிலை."
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "அவளுடைய ரூக்குகளுக்குச் சொந்தமான ஒற்றை திறந்த கோப்புடன்."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "அவர் பிரெஞ்சு மற்றும் மன்னரின் இந்திய தற்காப்புகளில் பெருமைமிக்க பயிற்சியாளர்."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "அவளை ஒரு கருமையான கூந்தல், மெல்லிய, மனச்சோர்வடைந்த பெண்ணாகக் கற்பனை செய்து பாருங்கள்."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "அவள் ஒரு தற்காப்பு வீராங்கனை, அவளுக்கு பிஷப்புகளை பிடிக்கும்."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "அவரை ஒரு விலையுயர்ந்த உடையில், ஒரு தலைமை நிர்வாக அதிகாரியைப் போல கற்பனை செய்து பாருங்கள்."
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "ஒரு சதுரங்க வீரரை விட. வலுவான, பகுத்தறிவு, ஆனால் சற்று அவநம்பிக்கையான ஆளுமை."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "உறுதியான தொடக்க ஆட்டங்களில் விளையாடுகிறது. சமமான நிலைகளில் சமநிலையை அடையத் தயாராக உள்ளது."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "அவரை ஏற்கனவே தனது பிரைம்பை கடந்த ஒரு வீரராக கற்பனை செய்து பாருங்கள்,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "எதிரிகளை அவமரியாதை செய்கிறார், இன்னும் மிகவும் ஆபத்தானவர்."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "கோபக்காரனுக்கு எதிரியின் நடமாட்டத்தைக் கட்டுப்படுத்துவதும், தாக்குவதும் பிடிக்கும்."
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "மூடிய பதவிகளை அனுபவித்து வெற்றி பெற எதிர்பார்க்கிறார்."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "அவரது வயதின் காரணமாக, அவர் பெரும்பாலும் மிகவும் நவீனமான தொடக்க ஆட்டக்காரர்களை அல்ல."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "உதாரணமாக, அவர் டாராஷ் தற்காப்பை விரும்புகிறார்."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "பால் மோர்பியின் ஆள்மாறாட்டம். இயக்கம் வலியுறுத்துகிறது,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "பின்னர் ராஜா தாக்குதல், திறந்த நிலைகளை விரும்புகிறது."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "அவர் மெதுவாகத் தொடங்குகிறார், அதிக இடத்தை எடுத்துக் கொள்ளாத திறப்புகளைப் பயன்படுத்துகிறார்."
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "மையத்தில், ஆனால் தவறான பாதுகாப்பு உணர்வில் மூழ்கிவிடாதீர்கள்."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "பின்னர் அவர் ஒரு கொடூரமான தாக்குதலுக்கு செல்கிறார்."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "அவரை ஒரு இளம், வளர்ந்து வரும் கிராண்ட்மாஸ்டராக கற்பனை செய்து பாருங்கள்,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "யார் இன்னும் தனது உண்மையான திறனை அடையவில்லை."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "மெல்லியவர், துடிப்பானவர், பகட்டான அசைவுகளை அதிகமாக விரும்புபவர்."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "அவர் அவ்வப்போது தனது சிப்பாய்களைப் பிரிந்து செல்வார்."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "சமநிலையான ஆளுமை, குறைந்த அளவிலான பொருட்களை தியாகம் செய்ய வாய்ப்புள்ளது,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "பெரும்பாலும் இறுதிக்கட்டத்தில் செயலில் தற்காப்புக்காக செல்கிறார்."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "பெட்ரிட்டா என்பது சிப்பாய்கள், பாதுகாப்பு, கட்டுப்பாடு ஆகியவற்றைக் குறிக்கிறது."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "அவள் திடமான தொடக்க ஆட்டங்களை விளையாடுகிறாள், முதலில் தற்காப்பை நினைக்கிறாள், ஆனால் ஏமாறாதே!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "நிலை தேவைப்பட்டால், அவளால் எந்த நேரத்திலும் தாக்க முடியும், மேலும் உறுதியான சிப்பாய் விளையாட்டின் மூலமும்."
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "அவள் உடைக்க கடினமானவள்."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "லேசான பொருள்முதல்வாதம், ஆனால் முன்முயற்சிக்காக போராடுவது."
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "மேலும் தவறான திட்டங்களைத் தவிர்க்க இயல்புநிலைக்கு அருகில் இருக்கும்."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "எதிரி காய்களுக்கு எதிராக அழுத்தத்தை உருவாக்க விரும்புகிறது."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "மூடிய ஓப்பனிங்ஸை வெள்ளையராகவும், ஸ்லாவ் மற்றும் காரோ - கான் டிஃபென்ஸை கருப்பு நிறமாகவும் விளையாடுகிறார்."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "பலவீனமான இயந்திரங்களுக்கு எதிரான சிறந்த அமைப்பு."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "மதிப்பீட்டு செயல்பாட்டின் மேம்பட்ட அம்சங்கள் இல்லாமல் விளையாடுகிறது,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "விவேகமான இயல்புநிலையைப் பயன்படுத்துகிறது. ராணிகளை பரிமாறிக்கொள்வதற்கான சிறிய விருப்பம்,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "சமமான நிலையில் இருக்கும் அணி டிராவுக்குச் செல்லும்."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "ஒருவேளை கணினி போன்ற ஆளுமை."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "பழுப்பு நிற தோல் ஜாக்கெட்டில் அவரை ஒரு உயரமான மனிதராக கற்பனை செய்து பாருங்கள்."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "அவர் சுறுசுறுப்பான விளையாட்டை விரும்புகிறார், ஆனால் தாக்குதலுக்கு உள்ளாகுவதை வெறுக்கிறார்."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "ராணிகளை பலகையில் வைத்திருப்பது பிடிக்கும்."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "பிரெண்டன் ஜே.நார்மன் எழுதிய ரோடென்ட் III ஆளுமையை அடிப்படையாகக் கொண்டது."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "போவா கட்டுப்படுத்தி பாணியில் விளையாடுகிறது, ஆனால் தாக்குதலுக்கு வலுவான விருப்பம் உள்ளது,"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "பதவி சார்ந்த காரணங்களுக்காக தியாகம் செய்ய வாய்ப்புள்ளது."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "க்ரம்பியின் மிகவும் சுபாவமுள்ள, மனிதனைப் போன்ற நாடகம்."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "ராணிகளுடனான இறுதி ஆட்டங்களில் அதிக நம்பிக்கையுடன் இருக்கலாம்."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "பல உலக சாம்பியன்கள் மற்றும் பிற பிரபலமான வீரர்களுக்கான தனிப்பட்ட விவரங்களும் உள்ளன."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "கொறித்துண்ணி 4 சதுரங்க இயந்திர ஆளுமை விளக்கங்கள்"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "ஜன்னல் எப்போதும் மேலே இருக்கும்"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "நீங்கள் விரும்பினால், இதை மெதுவாக்கலாம் -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "<முதன்மை மெனு > <இயந்திரம் > <நகர்வு தாமதம் >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "ஒரு சதுரங்க இயந்திரத்திற்கு எதிராக மதிப்பிடப்பட்ட விளையாட்டை விளையாடுங்கள்."
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "வரம்பு வலிமை அமைப்புகளை தனிப்பயன் அளவுருக்களுக்கு நகலெடுக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "மதிப்பீட்டு சூத்திரம் விளக்கப்பட்டது"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "ஆளுமைப் பெயரைக் காட்ட சரிபார்க்கவும்."
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "விளையாட்டின் போது இயந்திரப் பெயருடன்"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "தேடல் திறன் மதிப்பை உள்ளிடவும்,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "விருப்பங்களை எப்போதும் தானாக நகலெடுக்க தேர்வு செய்யவும்."
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "தனிப்பயன் அளவுருக்களுக்கு குறுக்கே"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "மதிப்பீட்டு மங்கலைத் தானாக நகலெடுக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "தனிப்பயன் அளவுருக்களுக்கான மதிப்பு"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "தேடல் திறனை தானாக நகலெடுக்க சரிபார்க்கவும்."
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "சேமிப்பதற்கான கோப்புப் பெயரை உள்ளிடவும்"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "இயந்திர வலிமை சரிசெய்தல் விருப்பங்கள்"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "வெள்ளையருடன் விளையாடி வெற்றி பெற்றுள்ளார், வெற்றி பெற்றுள்ளார்."
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "பிளாக் விளையாடி தோற்றுவிட்டது, தோற்றுவிட்டது."
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "வெள்ளையருடன் விளையாடி தோற்றுவிட்டான், தோற்றுவிட்டான்."
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "கருப்பு நிறத்தில் விளையாடி வெற்றி பெற்றுள்ளது, வெற்றி பெற்றுள்ளது."
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "வெள்ளை நிறத்தில் விளையாடி வரைந்துள்ளார்."
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "விளையாடும் கருப்பு வரைந்துள்ளார்."
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "மதிப்பீட்டில் எந்த மாற்றமும் இல்லை."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "மற்றும் பெற்றது"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "மற்றும் இழந்தது"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "உங்கள் புதிய மதிப்பீடு"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "விளையாட்டு முடிவு மதிப்பீட்டுச் செய்தி"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "விவரங்களை எழுத பிளேயர் சுயவிவரக் கோப்பைத் திறக்க முடியாது."
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "கோப்பகத்தில் எந்த இயந்திர கோப்புகளும் இல்லை, மதிப்பிடப்பட்ட விளையாட்டு ரத்து செய்யப்பட்டது."
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "மதிப்பிடப்பட்ட இயந்திரங்களின் கோப்பகம்"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "இல்லை, மதிப்பிடப்பட்ட விளையாட்டு ரத்து செய்யப்பட்டது."
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "பரிந்துரை: நிரலின் இயல்புநிலை மதிப்புகளை மீட்டமைக்கவும்"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "<முதன்மை மெனு > விருப்பங்கள் > தொழிற்சாலை இயல்புநிலைகளுக்கு மீட்டமை >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "இது தோல்வியுற்றால், மதிப்பிடப்பட்ட இயந்திரங்களை இதிலிருந்து பதிவிறக்கி நிறுவவும்."
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "கொறிக்கும் இயந்திர ஆளுமை"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "ஏற்றப்பட்டது"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு இயந்திர செய்தி"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "பட்டியலில் இயந்திரம் இல்லை, எனவே அமைக்க முடியாது."
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "பிளேயர் சுயவிவரக் கோப்பகம்"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "பரிந்துரை: விண்டோஸ் எக்ஸ்ப்ளோரரைப் பயன்படுத்தி இந்த கோப்பகத்தை கைமுறையாக உருவாக்கவும்."
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "வீரர் பெயர் காலியாக உள்ளது, தயவுசெய்து ஒரு பெயரை உள்ளிடவும்."
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "வீரர் பெயர் ஏற்கனவே பட்டியலில் உள்ளது,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "தயவுசெய்து வேறு ஒரு வீரர் பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "வீரர் சுயவிவரம்"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "பிளேயர் சுயவிவரத்தை வட்டில் சேமிப்பதில் பிழை"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "வீரர் பெயர் பட்டியலில் இல்லை,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "பட்டியலில் உள்ள ஒரு வீரர் பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "வட்டில் இருந்து நீக்கப்பட்டது"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "பிளேயர் சுயவிவரத்தை வட்டில் இருந்து நீக்குவதில் பிழை"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "மதிப்பீட்டு சூத்திரக் கோப்பகம்"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "மேலும் சூத்திரத்தைச் சேர்க்க, <Rating சூத்திரம் > < + > ஐப் பயன்படுத்தவும்."
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு உரையாடல் பெட்டியில்."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "சூத்திர கோப்பு பெயர் காலியாக உள்ளது, தயவுசெய்து ஒரு பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "மதிப்பீட்டு சூத்திர கோப்பு பெயர் ஏற்கனவே பட்டியலில் உள்ளது,"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "தயவுசெய்து வேறு மதிப்பீட்டு சூத்திர கோப்பு பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "மதிப்பீட்டு சூத்திர கோப்பு பெயர் பட்டியலில் இல்லை,"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "பட்டியலில் உள்ள மதிப்பீட்டு சூத்திர கோப்பு பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "மதிப்பீட்டு சூத்திரம்"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "மதிப்பீட்டு சூத்திரக் கோப்பை வட்டில் சேமிப்பதில் பிழை."
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "சூத்திர கோப்பு பெயர் காலியாக உள்ளது, தயவுசெய்து ஒரு கோப்பு பெயரை உள்ளிடவும்."
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "மதிப்பீட்டு சூத்திரக் கோப்பு பட்டியலில் இல்லை,"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "பட்டியலில் உள்ள ஒரு சூத்திரக் கோப்பை உள்ளிடவும்."
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "வட்டில் இருந்து மதிப்பீட்டு சூத்திரத்தை நீக்குவதில் பிழை."
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "மதிப்பீட்டு சூத்திரக் கோப்பைப் படிக்கத் திறக்க முடியவில்லை."
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "மனித - இயந்திர விளையாட்டுகளுக்கான மதிப்பிடப்பட்ட விளையாட்டு அம்சம் (பதிப்பு 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "நகர்த்துவதில் தாமதம்"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "நகர்வு தாமதம்.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "நகர்வு தாமத உரையாடல் பெட்டியைக் காட்டு."
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "பிழை செய்தி"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "தனிப்பயன் அளவுருக்களுக்கு நகலெடு"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு > அம்சத்தை எழுதும் போது டெல்ஃபி எஞ்சின்"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "தனிப்பயன் அளவுரு பட்டியலில் வைக்கப்பட்டுள்ள வரம்பு வலிமை அமைப்புகள் தேவை."
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "அவர்கள் வேலை செய்வதற்காக."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "டெல்ஃபி எஞ்சினுக்கு இந்த செயல் தானாகவே செய்யப்படும்."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "வேறு எந்த இயந்திரங்களுடனும் இந்த சிக்கல் இருந்தால், நீங்கள் சரிபார்க்கலாம்"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "<Copy to custom parameters > பெட்டி மற்றும் வரம்பு வலிமை அளவுருக்கள்"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "முழுவதும் நகலெடுக்கப்படும்."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "பலவீனமான ஸ்டாக்ஃபிஷ் எஞ்சினுடன் நீங்கள் ஒன்றுக்கு மேற்பட்ட விளையாட்டுகளை விளையாடியிருந்தால், நான் அதையும் கண்டறிந்தேன்."
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "மற்றும் <Copy to custom parameters > அமைக்கப்படவில்லை, Stockfish முழு வலிமைக்கு மாற்றப்பட்டது."
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "இரண்டாவது ஆட்டத்திற்கு. எனவே இந்த விருப்பத்தை எப்போதும் அமைப்பது நல்லது."
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "வரம்பு வலிமையைப் பயன்படுத்தும் போது."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "மதிப்பிடப்பட்ட விளையாட்டு > அம்சத்தைப் பயன்படுத்தும் போது, ​​இது அனைத்து இயந்திரங்களுக்கும் செயல்படுத்தப்படுகிறது."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Stockfish-க்கு எதிராக விளையாடும்போது தேடல் தகவல் பலகை திறந்திருந்தால்,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "இது இயந்திரத்திற்கான முழு வலிமை பகுப்பாய்வையும் காட்டுகிறது,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "UCI வரம்பு வலிமையைப் பயன்படுத்தி அது பலவீனப்படுத்தப்பட்டிருந்தாலும் கூட."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "அது பெரும்பாலும் விளையாடும் என்பதால் அது உண்மையில் பலவீனமடைந்துள்ளதா என்பதை நீங்கள் அறியலாம்"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "பகுப்பாய்வில் காட்டப்பட்டுள்ளதை விட வேறுபட்ட நகர்வு."
+
