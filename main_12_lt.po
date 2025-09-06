@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "Reitingo koregavimo formulė"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "už"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "Laimėjimo vertė"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "Nuostolių vertė"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "Piešimo vertė"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "Stiprumo koregavimo koeficientas"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "Efektyvi maksimali skirtumo vertė"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "Minimali laimėjimo vertė"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "Įvesties įvertinimo pakeitimas laimėjimui"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "Reitingo pakeitimas dėl lygiųjų"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "Reitingo pakeitimas dėl pralaimėjimo"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "Įveskite stiprumo koeficiento koregavimo procentą"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "Efektyvus maksimalus įvertinimo skirtumas"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "Šis dialogo langas leidžia vartotojui nustatyti formulės parinktis"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "naudojamas žaidėjo reitingui koreguoti po žaidimo prieš variklį."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Laimėjimo vertė – reitingo taškų padidėjimas už laimėtą žaidimą."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "Piešimo reikšmė – ji visada nustatoma į nulį."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Pralaimėjimo vertė – tai laimėjimo vertės minusinė vertė."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Stiprumo koregavimo koeficientas (procentais) – ši reikšmė naudojama"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "skaičiuojant įvertinimą, kaip parodyta toliau pateiktoje lygtyje."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Efektyvus maksimalus įvertinimų skirtumas – jei reitingavimo skirtumas"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "tarp žaidėjų yra didesnis nei šis skaičius,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "tada jis nustatomas į šį skaičių. Žr. toliau pateiktą lygtį."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Pagrindinę formulę naudoja Jungtinių Valstijų šachmatų federacija"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "korespondencinių šachmatų žaidimams."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "Aprašymą galite pamatyti šioje svetainėje –"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "Štai mano jų formulės paaiškinimas."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "Jų apskaičiuotas naujas reitingas po rungtynių yra -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(pergalei ar pralaimėjimui)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Čia 0,04 (4 procentai) yra stiprumo koregavimo koeficientas (SAF)."
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED yra efektyvus reitingų skirtumas."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "Skaičiuojant reitingą, ED turi teigiamą reikšmę."
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "silpnesnio žaidėjo atveju – neigiamos vertės, skaičiuojant stipresnio žaidėjo atveju."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "Jei laimėjimo / pralaimėjimo vertė yra 16, jei faktinis reitingų skirtumas"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "tarp žaidėjų yra didesnis nei 350, tada jis nustatomas į 350."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "Tai užtikrina, kad tokiais atvejais, jei laimėsite žaidimą prieš"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "silpnesniam priešininkui, jūsų reitingas padidėja, o jei pralaimite prieš"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "stipresnis priešininkas tavo reitingas mažėja."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "Reitingo pokytis čia bus nedidelis, tik 2 taškai."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Tai galima koreguoti naudojant minimalios laimėjimo vertės kintamąjį."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "Taigi, bendra lygtis, manau, yra..."
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "kur"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "minimali laimėjimo vertė"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Numatytieji nustatymai saugomi reitingavimo formulės faile <USCF>."
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "bet galite sukurti naują failą ir pakeisti nustatymus, jei norite."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Rekomenduočiau tik nedidelius pagrindinių skaičių pakeitimus."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "Įvertinimo formulės paaiškinimas"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "Judesio uždelsimas žmonių valdomuose žaidimuose"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "Naudoti judėjimo delsą"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "Atšaukti po kelių sekundžių"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "Minimalus judėjimo užlaikymas (sekundėmis)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "Įgyvendinti minimalų judėjimo vėlavimą"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "Naudoti atsitiktinį vykdymo laiką"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "Maksimalus judėjimo užlaikymas (sekundėmis)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "Atsitiktinis delsimas fiksuotam laikui"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "Naudokite judesio uždelsimą žmogaus valdomame žaidime"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "Atšaukti judėjimo delsą, kai liko tik tiek sekundžių"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "Minimalus judėjimo užlaikymas sekundėmis"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "Užtikrinkite minimalų judėjimo uždelsimą,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "kol bus pasiektas atšaukimo laikas sekundėmis"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "Naudokite atsitiktinį skaičių nuo 1 iki minimalaus judėjimo uždelsimo,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "kai nustatytas priverstinio minimalaus judėjimo delsos reikalavimas"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "Maksimalus judėjimo užlaikymas sekundėmis"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "Naudoti atsitiktinį judėjimo uždelsimą fiksuotiems variklio laikams"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "Ši funkcija pirmiausia skirta naudoti su „Komodo“ šachmatų varikliais."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "kai jie buvo susilpninti žmonių variklių žaidimams."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "Šiuo atveju varikliai pajuda beveik iš karto, o tai suteikia žaidimui"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "nenatūralus ritmas, kuris gana trikdo."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "Tai taip pat atsitinka su „Rybka 2.3“ varikliu"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "ir Aleksandro šachmatų variklis."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "„Komodo“ varikliuose nėra parinkties < Lėtas judėjimas >, todėl šiame dialogo lange"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "leidžia nustatyti parinktis, kurios sulėtins variklį."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Naudoti judėjimo uždelsimą – pažymėkite, jei norite naudoti judėjimo uždelsimą žaidimuose su žmonių varikliais."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "Atšaukti per sekundes – pasirinkite laiką, kada judėjimo uždelsimas nebenaudojamas."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Minimalus judėjimo užlaikymas – pasirinkite minimalų judėjimo užlaikymą sekundėmis."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "Priverstinai taikyti minimalų judėjimo vėlavimą – pažymėkite, jei norite taikyti minimalų judėjimo vėlavimą"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "Šiuo atveju, jei programa apskaičiuoja, kad judėjimui skirtas laikas"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "yra mažesnis už minimalų judėjimo vėlavimą, tada judėjimo vėlavimas nustatomas į"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "minimalus judėjimo užlaikymas arba atsitiktinis skaičius nuo 1 iki minimalaus judėjimo užlaikymo,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "priklausomai nuo to, kaip nustatytas kitas žymimasis langelis."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "Ši priemonė nebetaikoma, kai pasiekiamas atšaukimo laikas sekundėmis."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "Nuimkite žymėjimą, jei norite, kad variklis atliktų judesius greičiau nei minimalus judesio užlaikymas."
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "prieš atšaukimą sekundžių taške, jei laikas pradeda trūkti."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "Vykdyti atsitiktine tvarka – tikrinama, ar minimalus perkėlimo uždelsimas yra atsitiktinis vykdymo laikas."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Maksimalus judėjimo užlaikymas – pasirinkite maksimalų judėjimo užlaikymą sekundėmis."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Atsitiktinis užlaikymas fiksuotam laikui – pažymėkite, jei norite naudoti atsitiktinį judėjimo užlaikymą fiksuotiems laiko lygiams."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Nuimkite žymėjimą, jei norite naudoti visą fiksuotą perkėlimo uždelsimo laiką."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "Pagalba dėl judėjimo delsos"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "Įvertintos žaidimo parinktys"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "PGN failo pavadinimas žaidėjų žaidimams"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "Pasirinkite žaidimui skirtą .pgn failą"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "Variklio priešininkas"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "Variklio ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "Asmenybės"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "Dabartinis žaidėjas"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "Žaidėjo ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "Redaguoti žaidėjo ELO reitingą"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "Pažymėkite, jei norite redaguoti žaidėjo ELO reitingą"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "Nustatyti kaip dabartinį variklį"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "Nustatyti kaip dabartinį laikrodį"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "Rezultatų įvertinimo pakeitimas"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "Rankinis reguliavimas"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "Įvertinimo formulė"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "Laiko kontrolė"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "Minutės per rungtynes"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "Padidėjimas (sekundėmis)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "Žaidėjas"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "Užsisakykite nemokamai"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "Pradėti žaidimą"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "Įveskite PGN failo pavadinimą žaidėjų žaidimams išsaugoti"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "Įveskite variklio ELO stiprumą"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "Atidaryti variklio nustatymų dialogo langą"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Atidaryti graužikų variklio charakteristikų dialogo langą"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "Pridėti naują žaidėją"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "Ištrinti dabartinį žaidėją"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "Išsaugoti dabartinio žaidėjo informaciją"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "Žaidėjo ELO įvertinimas"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "Pažymėkite, jei norite redaguoti žaidėjo ELO reitingą"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "Pažymėkite, jei norite, kad įvertintame žaidime būtų naudojamas judesio užlaikymas."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "Pažymėkite, jei norite nustatyti variklio nustatymus kaip dabartinius"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "Pažymėkite, jei norite nustatyti laikrodžio nustatymus kaip dabartinius"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "Pažymėkite, jei norite išjungti šio žaidimo atidarymo knygą"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "ELO reitingo pokytis žaidėjo pergalei"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "ELO reitingo pokytis dėl žaidėjo praradimo"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "ELO reitingo pakeitimas dėl lygiųjų"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "Pažymėkite, kad pakoreguotumėte įvertinimo pakeitimus"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "ir žaidėjo ELO rankiniu būdu"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "Šiuo metu naudojama vertinimo formulė"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "Pridėti naują formulę"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "Ištrinti dabartinę formulę"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "Redaguoti dabartinę formulę"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "Įveskite žaidėjo žaidimo laiką minutėmis"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "Įveskite žaidėjo judesio žingsnį sekundėmis"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "Įveskite žaidimo variklio laiką minutėmis"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "Įveskite variklio judesio žingsnį sekundėmis"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "Patikrinkite, ar žmogus gali žaisti baltuoju"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "Pradėkite žaidimą su dabartiniais nustatymais"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "Pasirinkite variklį, prieš kurį norite žaisti"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "Pasirinkite dabartinį žaidėją"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "Pagalba įvertintuose žaidimuose"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "Įvertintas žaidimas suteikia patogų būdą žaisti prieš susilpnėjusius"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "šachmatų varikliai ir tuo pačiu metu stebi jūsų pažangą"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "atnaujinant apytikslį ELO įvertinimą."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "Įvertintam žaidimui galite nustatyti šias parinktis"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN failo pavadinimas: pasirinkite PGN failo pavadinimą, kuriame norite saugoti įvertintus žaidimus."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "Failo pavadinimas gaunamas iš žaidėjo vardo. Jis bus saugomas"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "Jei žaidėjo vardas neįvestas, failo pavadinimui bus naudojamas rated_games.pgn."
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Variklio priešininkas: Čia galite pasirinkti, su kuriuo varikliu norite žaisti."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Visuose šiuose varikliuose yra UCI_LimitStrength parinktis,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "kuris leidžia jiems susilpnėti."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Jei norite pridėti kitą variklį, turintį šią parinktį, ją reikia nukopijuoti."
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "į"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "katalogas"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "Variklio ELO – pasirinkite variklio ELO stiprumą."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "Rodomos viršutinė ir apatinė leistinos vertės."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Variklio nustatymai – atidaromas variklio dialogo langas, kuriame galite keisti"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "kitos pasirinkto variklio parinktys. Spustelėkite <Stockfish>, jei norite pamatyti pavyzdį."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Jei įkeltas „Rodent“ šachmatų variklis, tada mygtukas < Asmenybės >"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "taip pat pasirodys šiam varikliui."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Dabartinis žaidėjas – čia galite nustatyti dabartinį žaidėją, taip pat pridėti, ištrinti"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "ir redaguoti žaidėjus. Dabartinio žaidėjo vardas rodomas redagavimo lange"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "išskleidžiamojo sąrašo lango."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Pliuso mygtukas – norėdami pridėti naują žaidėją, redagavimo lange įveskite jo vardą ir spustelėkite"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "šį mygtuką. Jų vardas bus pridėtas prie sąrašo ir jų vardu pavadintas failas,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "kuriame yra jų duomenys, bus saugomi diske"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Minuso mygtukas – spustelėkite, jei norite ištrinti redagavimo lange rodomą žaidėją."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "Tai taip pat pašalins jų failą iš disko."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Išsaugoti – spustelėkite, jei norite išsaugoti žaidėjo duomenis redagavimo lange."
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "jei rankiniu būdu pakeisite jų ELO reitingą."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "Žaidėjo ELO – redagavimo lange rodomas žaidėjo ELO reitingas."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Jei norite redaguoti šį langelį pridėdami naują žaidėją, žr. kitą parinktį."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Redaguoti žaidėjo ELO reitingą – pažymėkite, jei norite redaguoti žaidėjo ELO reitingą."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Naudoti judesio uždelsimą – pažymėkite, jei norite, kad įvertintame žaidime būtų naudojamas judesio uždelsimas."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "Ši parinktis skirta varikliams, kurie juda per greitai."
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "kai jie susilpnėja, pavyzdžiui, Komodo varanas."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Nustatyti kaip dabartinį variklį – pažymėkite, jei norite, kad šiame laukelyje būtų rodomas variklis"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "kaip dabartinis variklis, pasibaigus įvertintam žaidimui."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Nuimkite žymėjimą, jei norite atkurti senąjį variklį po įvertinto žaidimo."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Nustatyti kaip dabartinį laikrodį – pažymėkite, jei norite nustatyti šiame lange rodomą laikrodžio laiką."
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "kaip ir dabartinis laikrodis po įvertintų rungtynių pabaigos."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Nuimkite žymėjimą, jei norite, kad po įvertinto žaidimo laikrodis būtų atstatytas į senąjį režimą."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Rezultatų reitingo pokytis – rodo reitingo pokyčius laimėjimo, pralaimėjimo arba lygiųjų atveju."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Jie automatiškai reguliuojami pagal žaidėjo ir variklio ELO įvertinimus"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "ir kokia ELO skaičiavimo formulė naudojama."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Rankinis reguliavimas – pažymėkite šį langelį, jei norite rankiniu būdu keisti aukščiau nurodytas vertes."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Jei norite žaisti įvertintą žaidimą su rankiniu būdu pakoreguotomis reikšmėmis,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "tada palikite šį langelį pažymėtą, kai spustelėsite <Pradėti žaidimą>"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Įvertinimo formulės – čia galite pasirinkti ir modifikuoti ELO skaičiavimo formules."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "Jis naudojamas panašiai kaip ir dabartinio žaidėjo dėžutė."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "Pagrindinis skirtumas yra tas, kad pridėjus arba redaguojant formulę,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "Atsidarys naujas dialogo langas, kuriame galėsite įvesti formulės parinktis."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "Daugiau informacijos apie vertinimo formules rasite spustelėję mygtuką <Pagalba>."
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "formulės dialogo lange."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Laiko valdikliai – pasirinkite žaidimo laiko valdiklius."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Įveskite žaidimo laiką minutėmis ir ėjimo žingsnį sekundėmis"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "žmogui žaidėjui ir šachmatų varikliui."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Jei norite, galite skirti sau daugiau laiko nei varikliui."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Knygos išjungimas – pažymėkite, jei norite išjungti įvertinto žaidimo knygos atidarymą."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Žaisti baltą – Patikrinkite, ar žmogus žaidžia baltą."
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "Nuimkite varnelę, jei norite, kad žmogus žaistų juodaisiais."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Pradėti žaidimą – spustelėkite, jei norite pradėti įvertintą žaidimą su dabartinėmis parinktimis."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Jei norite įdomios ir įvairios įžanginės knygos apie žmonių varomus žaidimus,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "Rekomenduočiau poliglotų atidarymo knygą"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "Ši knyga buvo „Deep Saros“ variklio atsisiuntimo dalis."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "Jis turėjo būti įdiegtas šiame kataloge:"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "Pagalba įvertintiems žaidimų varikliams"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "Arasanas"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "Graužikas"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "Jūrų ešeriai"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "Visi naudojami < Rated game > varikliai turi UCI ribinio stiprumo parinktį."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "Tai leidžia vartotojui pasirinkti apytikslį ELO įvertinimą"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "dėl variklio grojimo stiprumo."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "Varikliai paprastai saugomi šiame kataloge:"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "Yra didelis pasirinkimas, bet galite pridėti ir kitų stiprumo apribojimų."
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "variklių, jei norite, sukurdami naują katalogą < rated_engines >"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "ir nukopijuojant į jį variklio *.exe failą."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "Šis procesas veiks su šiais komerciniais varikliais:"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "Komodo varanas, Fritz 16, Shredder, Houdini 6, Deep Junior ir Chiron."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "Gali būti ir daug daugiau."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "Stengiausi pritaikyti jį daugumai kompiuterių tipų ir tai padėjo"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "Variklių sąrašas gana ilgas. Taigi galite ištrinti tuos, kurių nenorite."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Nors kai kurie senesni varikliai, tokie kaip „Ufim“, „Delfi“ ir „Amyan“, šiek tiek groja"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "skirtingai vienas nuo kito, dauguma variklių, gautų iš „Stockfish“,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "žaisti panašiu būdu."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "Vienintelis variklis, kuris išsiskiria kaip visiškai unikalus ir puikiai tinkantis"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "„<Rated game>“ yra „Rodent“ šachmatų variklis, kurį parašė Pawel Koziol."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "Daugiau informacijos rasite spustelėję < Graužikas >."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Jono Darto parašytas „Arasan“ variklis yra dar vienas labai geras variklis."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Nors ir ne toks stiprus kaip „Stockfish“, jis pasižymi savitu grojimo stiliumi."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "Tačiau, kai naudojamas su Tarrasch ir Nimzo_3d grafine sąsaja,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "yra keletas problemų."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "Nuo neuroninio tinklo pridėjimo 23.0 versijoje,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "nė vienas iš jų neveiktų mano kompiuteryje."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "Tačiau su naujausia 25.2 versija veikia šie varikliai"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "Atsižvelgdamas į šias problemas, naudojau variklius nuo 22.3 versijos."
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "įvertintų žaidimų. Tai buvo paskutinė versija be neuroninio tinklo."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "Visi šios versijos varikliai veikia mano kompiuteryje."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Arasan variklio pagalba"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Stokžuvių šachmatų variklis"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "Jūrų ešeriai (nps)"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "Aleksandras"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Rašydamas kodą variklio atitikmenims, pastebėjau, kad „Stockfish“"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "ir „Komodo“ varikliai pralaimėjo laiku žaidimuose su greitu laiko limitu,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "taigi, parašiau parinktį <Variklio laiko reguliavimas>, kad išspręsčiau šią problemą."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "Su žaidimu su reitingu, naudojant ilgesnį laiko limitą, vėl tai pastebėjau"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Jūrų ešerys atlieka savo ėjimus labai lėtai, kai yra išėjusi iš pradinės knygos."
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "arba jei nenaudojama jokia knyga."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Norėdami tai ištaisyti, galite pakoreguoti „Stockfish“ lėto judėjimo parinktį."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Sumažinus šią vertę, judesiai šiek tiek pagreitėja."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Nors pastebėjau, kad ši parinktis nebuvo tinkama greitam laiko valdymui"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "Jei žaidimas trunka 3 minutes ar mažiau, tai gerai veikia 5 minutes ar ilgiau."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "„Stockfish 11“ versijai 20–30 reikšmė gerai tinka 5–10 minučių žaidimams."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "Lėto judėjimo parinktį galite nustatyti naudodami pasirinktinio parametro parinktis."
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "variklio dialogo lange."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "Kad būtų lengviau, sukūriau „Stockfish 11“ variklio parametrų failą."
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "su lėto judėjimo rinkiniu. Galite jį įkelti iš įvertinto žaidimo dialogo lango"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "spustelėdami variklį < Variklio nustatymai... >, o tada < Įkelti variklį >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "iš atsidariusio variklio dialogo lango."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "„Stockfish 11“ parametrų failai saugomi kataloge"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "„Stockfish“ varikliai 8–15 turi lėto judėjimo parinktį, 16 ir 17 – ne."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "Atsižvelgiant į tai, kad čia nereikia papildomos žaidimo jėgos,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "nebūtina naudoti galingesnių variklių."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "Radau šią „Stockfish“ variklio versiją „GitHub“ adresu -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "Tai labiau reguliuojama versija nei standartinis variklis."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "Čia pateikiamas variklio aprašymas iš <README.md> failo -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "„StockfishNPS“ yra šiek tiek modifikuota „Stockfish“ žaidimams žmonėms"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "su mazgų per sekundę sumažėjimu (kilo mazgų per sekundę ~= 1 / waitms)"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "atsitiktinių imčių vertinimas, paieškos gylis ir paieškos mazgų riba."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "Pirmųjų dviejų modifikacijų stiprumą galima nustatyti UCI parinktyse."
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "nuo 0 iki 100, o paieškos gylis gali būti apribotas iki reikšmių nuo 1 iki 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "ir ieškoti mazgų iki 500000 reikšmių."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "Visos modifikacijos gali būti naudojamos bet kokiu būdu kartu su"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "ELO ribos jėgos ir įgūdžių lygio nustatymai, siekiant sumažinti jėgą"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "variklio žaidžiant prieš žmones."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "Pagal numatytuosius nustatymus „StockfishNPS“ veikia lygiai taip pat, kaip ir dabartinė „Stockfish16_dev“ versija."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "Pakeitus tik paieškos mazgų nustatymą nuo 1 iki 10, ELO sumažėja maždaug iki 1400."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "Tai geras atspirties taškas papildomiems parinkčių pakeitimams."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "Manau, tai reiškia, kad didesnė <waitms> reikšmė sumažina"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "pozicijų, kurias paieškos sistema ieško per sekundę, skaičius."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "Atsitiktinės atrankos būdu įvertintos vertės didinimas"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "paskatins įvairesnį žaidimą."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< Paieškos mazgai > nustato tam tikrą ieškomų pozicijų skaičiaus apribojimą."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< Paieškos gylis > riboja pusinių judesių (sluoksnių) skaičių, kurių ieško variklis."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "Taip pat yra parinktis, vadinama <nodestime>, bet aš nežinau, ką ji daro."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "Numatytosios nulio vertės reiškia, kad parinktis nenaudojama."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "Jūsų patogumui sukūriau variklių parametrų failus"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "su visais numatytaisiais parametrais, paruoštais atlikti pakeitimus."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "Jie saugomi -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "ir gali būti įkeltas naudojant <Įkelti variklį> iš variklio dialogo lango."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Stokžuvių NPS variklio pagalba"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "Tai „Stockfish“ išvestinis variklis su daugybe reguliavimo funkcijų."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "Kai pirmą kartą išbandžiau su nustatytu ELO ribos stiprumu, jis nesusilpnėjo."
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "ir atliko savo judesius visa jėga."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "Tada pridėjau parinktį < Handicapped Depth > ir nustatiau ją į < true >"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "Atrodo, kad tai veikia, ir variklis groja skirtinguose gyliuose, priklausomai nuo"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "pagal nustatytą ELO reitingą."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "Yra daug kitų parinkčių, kurios aprašytos faile <README.md>."
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "Šis failas yra šiame kataloge"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "Šiame kataloge sukūriau du variklio parametrų failus, kuriuos galite naudoti"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr ", kad nustatytumėte variklį naudodami < Įkelti variklį > iš variklio dialogo lango."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "Žaidžiant susilpnintu režimu, Aleksandras atlieka ėjimus beveik akimirksniu."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "Jei norite, galite jį sulėtinti naudodami < Pagrindinis meniu > < Variklis > < Judesio uždelsimas >"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "„Alexander“ variklis yra talpinamas „GitHub“ platformoje, esančioje šioje nuorodoje"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "Aleksandro šachmatų variklio pagalba"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "Neįmanoma pradėti žaidimo be žaidėjo vardo"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "Pasirinkite žaidėją iš dabartinių žaidėjų sąrašo"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "Įvertinto žaidimo klaidos pranešimas"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "Negalima pradėti žaidimo be įvertinimo formulės"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Pasirinkite formulę iš vertinimo formulės sąrašo lauko"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Pasirinkite graužikų variklio charakteristikų nustatymus"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "Nėra jokių variklio failų"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "Įvertintų variklių katalogas nebuvo pakeistas."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "Nėra asmenybės failų, kuriuos būtų galima perskaityti"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "Asmenybių katalogas"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "neegzistuoja, todėl negali rodyti asmenybių"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Pasirinkite „Rodent 3“ variklio charakteristikų nustatymus"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "Dabartinė asmenybė"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "Rodyti asmenybės vardą"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "Naudoti dokumentų katalogą"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "Naudokite ribotą ELO stiprumą"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "Įveskite vertes, kad sureguliuotumėte variklio galią"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "Mazgų per sekundę"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "Numatytųjų reikšmių kopijavimas"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "Įvertinimo suliejimo vertė"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "Kopijavimo įvertinimo suliejimas"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "Paieškos įgūdžių lygis (1–10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "Kopijavimo paieškos įgūdis"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "Išsaugoti dabartinius nustatymus faile"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "Pasirinkite failo vardą, kuriuo norite išsaugoti asmeninio failo pavadinimą"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "Pridėkite reikšmes prie failo, jei jų nėra"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "Pažymėkite, jei norite naudoti šį katalogą"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "įvertintų variklių ir susijusių failų"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "Pažymėkite, kad variklio reguliavimui būtų naudojamas UCI ribinis stiprumas"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "Įveskite mazgų per sekundę vertę,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "didesnis – stipresniam, mažesnis – silpnesniam,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "bet nulis maksimaliam stiprumui"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "Įveskite suliejimo įvertinimo reikšmę,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "mažesnis – stipresniam, didesnis – silpnesniam"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "Įveskite įgūdžių lygio vertę,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "mažesnis – silpnesniam, didesnis – stipresniam"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "Pridėkite mazgus per sekundę ir įvertinkite suliejimą"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "reikšmės faile, jei jų nėra"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "Pasirinkite asmenybę, prieš kurią norite žaisti"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "iš"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "Nepavyksta perjungti"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI ribos stiprumo reguliavimas"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "Mazgų per sekundę koregavimas"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "Negalima nustatyti į"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "nes"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "Nepavyko atidaryti failo."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "nes faile nebuvo parinkties „riboti stiprumą“."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "Visos vertės nustatytos pagal numatytuosius nustatymus"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "Tad nėra prasmės jų rašyti"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "Nepavyko atidaryti įvesties failo"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "Nepavyko atidaryti išvesties failo"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "atnaujinta ir"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "įrašyta į diską"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "Graužikų šachmatų variklio pagalba"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "Asmenybės aprašymai"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "Apie graužiką"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "Šiame dialogo lange galite pasirinkti grojimo asmenybę"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "ir „Rodent“ šachmatų variklių parinktys."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "Dabartinė asmenybė – išskleidžiamajame sąraše galite pasirinkti asmenybę."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "Naudoti ELO ribos stiprumą – pažymėkite, jei norite naudoti ELO vertes variklio dialogo lange."
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "nustatant variklio grojimo stiprumą."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "Įveskite vertes, kad sureguliuotumėte variklio stiprumą -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "Mazgų per sekundę skaičius – pozicijų skaičius, kurį sugeneruos variklis"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "ir analizuoti per sekundę."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "Įvertinimo suliejimo reikšmė – atsitiktinė reikšmė, pridedama prie vertinimo funkcijos."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Naudojant „Rodent 3“, mazgų per sekundę režimu, įvertinimo suliejimo vertė"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "įkeliamas iš asmenybės failo. Tai suteiks jums šiek tiek supratimo"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "naudotinų reikšmių diapazono, jei norite atlikti pakeitimus."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "Šią parinktį taip pat galima naudoti su ELO ribine stiprumo verte."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "Kai tai buvo naudojama tokiu būdu, pastebėjau, kad 20 nustatymas keitė judesius"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "kad variklis grojo, bet skaičiai, didesni nei 20, neturėjo jokio poveikio iki 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "o nustatymas, didesnis nei 1000, smarkiai susilpnino variklį."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "Taigi, naudingi ELO ribos stiprumo režimo nustatymai mano kompiuteriui"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "yra 20 arba 500–1000, tačiau jūsų kompiuteryje tai gali skirtis."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "Jei nenorite, kad jis būtų nustatytas arba rodomas, nustatykite jį į nulį."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "Nors mazgų skaičius per sekundę netaikomas naudojant ELO ribos stiprumą,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "Reikšmes vis tiek galima įvesti ir išsaugoti asmenybės faile vėlesniam naudojimui."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "Nukopijuokite numatytąsias vertes – patikrinkite stiprumo koregavimo vertes"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "nukopijuoti iš šio dialogo lango į variklio dialogo langą"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "net kai jie nustatyti pagal numatytuosius nustatymus. Tada juos galima redaguoti."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "Palikti tokie, kokie yra, jie neturės jokios įtakos varikliui."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ELO ribos stiprumo režime jie nėra atstatomi, kai ištrinami iš"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "variklio dialogo langas. Mazgų per sekundę režimu jie nustatomi iš naujo,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "taigi, norėdami juos redaguoti, turite išjungti <Kopijuoti parametrus>."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "Rodyti asmenybės vardą – pažymėkite, jei norite rodyti asmenybės vardą"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "žaidimo metu sekdami variklio pavadinimą."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "Variklio galia taip pat rodoma automatiškai."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "Naudoti dokumentų katalogą – pažymėkite, jei norite naudoti"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "vardiniams varikliams."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "Tai yra atsarginė priemonė, jei jie nebuvo nukopijuoti į"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "Jei jie buvo įdiegti kur nors kitur, galite juos nukopijuoti į"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "viename iš aukščiau pateiktų katalogų."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "Jei jie visai nebuvo įdiegti, juos galima atsisiųsti iš šių nuorodų -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "nuorodos"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "Įrašyti dabartinius nustatymus į failą – naudodami šį failų rinkiklį galite išsaugoti"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "atkurti stiprumo nustatymus iš dialogo lango į dabartinį failą,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "arba naują, jei pageidaujate."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "Pridėti reikšmes, jei jų nėra – Pažymėkite, jei norite, kad į failą būtų įtrauktos stiprumo reguliavimo reikšmės."
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "jei jų nėra. Taip bus, jei pridėsite įvertinimo suliejimo reikšmes"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "į „Rodent 4“ asmenybės failą."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "Apie graužikų šachmatų variklius"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "„Rodent“, kurį parašė Pawel Koziol, yra labai įdomus šachmatų variklis."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "Jame yra UCI_LimitStrength parinktis ir taip pat asmenybių rinkinys,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "kurie įkeliami iš failų, silpnesniam ir įvairesniam žaidimui."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "Kad variklis tinkamai veiktų su asmenybėmis ir jų"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "Atidarant knygas, visi komponentai turi būti tame pačiame kataloge."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "Jie turėjo būti įrengti..."
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Jei norite, kad žaidimo metu „Rodent“ variklis naudotų savo knygą,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "tada turite išjungti „Nimzo_3d“ atidarymo knygą iš"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< Pagrindinis meniu > < Atidarymai > < Knygos atidarymas >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "arba pažymėdami parinktį < Užsisakyti išjungta >, jei naudojate"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "įvertinto žaidimo dialogo langas."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "yra tam tikra dokumentacija ir pagalbinė programa"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "kurį galima panaudoti kuriant daugiau asmenybių."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "„Rodent 4“ variklio paketą ir senesnes versijas galima atsisiųsti iš -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Tik 4 graužikas su išsamia apžvalga"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "„Rodent 4“ variklio atraminė medžiaga, be variklių"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Graužikų 3 atraminė medžiaga, be variklių"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Graužikų asmenybės failas yra tiesiog UCI komandų sąrašas *.txt faile."
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "Manoma, kad jis veikia tokiu būdu:"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "Šachmatų programos grafinė sąsaja siunčia <Personality> komandą „Rodent“ varikliui."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "Tada variklis nuskaito komandas iš asmenybės failo"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "ir atitinkamai pakoreguoja savo nustatymus."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "Tačiau naudojant ir „Nimzo_3d“, ir „Tarrasch“ grafinę sąsają,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "Tokiu būdu naudojant, negalėjau priversti variklių veikti."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "Visos asmenybės atliko tuos pačius judesius."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "Taigi, vietoj to, aš perėmiau <Personality> komandą, kai ji buvo"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "netrukus bus išsiųstas iš grafinės sąsajos į variklį, atidarė asmenybės failą"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "ir siuntė komandas iš failo po vieną. Atrodo, kad tai veikia."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "Iš esmės, „Rodent“ variklis turi du pagrindinius grojimo stiprumo keitimo būdus."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "Jis gali naudoti ELO ribos stiprumą arba mazgus per sekundę su įvertinimo suliejimu."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ELO ribos stiprumas leidžia nustatyti apytikslį ELO įvertinimą"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "ir mazgų per sekundę skaičius su įvertinimo suliejimu leidžia nustatyti vertes"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "kurie turi panašų silpninantį poveikį."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "„Rodent 3“ asmenybės yra sukonfigūruotos naudoti mazgus per sekundę"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "su vertinimo suliejimu ir „Rodent 4“ yra skirtas naudoti"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "tik su ELO ribine jėga."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "Dėl mano atlikto komandos <Personality> siuntimo būdo pakeitimo,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "„Rodent 3“ gali naudoti savo asmenybes su ELO ribos jėga."
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "kartu su vertinimo suliejimu ir įgūdžių pasirinkimu,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "bet ne su mazgais per sekundę."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "Tai taip pat reiškia, kad „Rodent 4“ gali naudoti ELO ribos stiprumą"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "su vertinimo suliejimu ir įgūdžio pasirinkimu."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "Šiek tiek pakeitus įvertinimo suliejimo vertę, variklis gros"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "skirtingi judesiai, nekeičiant grojimo stiprumo,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "tol, kol suliejimo vertė nėra per didelė."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "Galite su tuo paeksperimentuoti, aš pastebėjau, kad vertės yra nuo 20 iki 50."
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "veikė gana gerai."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "Be to, abu varikliai dabar gali naudoti asmenybės failus"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "kito variklio, atlikus tik nedidelius „Nimzo_3d“ pakeitimus,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "kai jie bus nukopijuoti į variklio < Personalities > katalogą."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "Tai leidžia lengvai keisti naujus asmenybės failus, jei norite pokyčių."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "Įdėjau keletą į <papildomos_asmenybės>"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "kataloge < Asmenybės >."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "Asmenybės failai saugomi šiuose kataloguose:"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "pliusas"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "arba"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Failus galima modifikuoti „Nimzo_3d“ viduje, kad būtų galima pakoreguoti"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "mazgų per sekundę ir įvertinimo suliejimo reikšmės, o tada išsaugomos atgal į diską."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "Nesvarbu, kad asmenybės failai gali baigtis komandomis"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "kurie netinka šiuo metu naudojamam varikliui, nes yra"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "prieš siunčiant juos varikliui, juos išfiltruoja grafinė sąsaja."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "Graužikų komandos"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "Šie graužikų šachmatų variklių asmenybių aprašymai paimti iš"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "failą <FinalRodent.pdf>, kurį galima rasti šiame kataloge:"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "Iš anksto apibrėžtos asmenybės"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "Nuo pat pradžių „Rodent“ projektas buvo skirtas variklio kūrimui."
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "kuri leidžia modifikuoti žaidimo stilių – kaip ir „ChessMaster“ serijoje,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "tik geriau. Kodo pakeitimai naujoje versijoje reiškė, kad senos asmenybės"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "nebenaudojami, todėl pajutau poreikį sukurti naują rinkinį."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "Tikiuosi, kad jums bus įdomu."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "Visų pirma, užpuolikas, jos antrasis svarstytinas dalykas"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "yra figūrėlių veikla. Žaidžia gambito atidarymus."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe mėgsta uždaras pozicijas, pėstininkų audras ir patikimą pėstininkų struktūrą."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "Vienintelis dalykas, kurį ji teikia pirmenybę uždarai pozicijai, yra uždara pozicija"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "su vienu atviru failu, priklausančiu jos naujokams."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "Ji didžiuojasi prancūzų ir karaliaus indėnų gynybos praktikuotoja."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "Įsivaizduokite ją kaip tamsiaplaukę, liekną, melancholišką moterį."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "Ji yra gynybinė žaidėja, kuriai patinka vyskupai."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "Įsivaizduokite jį su brangiu kostiumu, labiau panašų į generalinį direktorių."
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "nei šachmatininkas. Stipri, racionali, nors ir šiek tiek pesimistiška asmenybė."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "Žaidžia tvirtas rungtynes. Pasiruošęs traukti kortas net ir esant lygioms pozicijoms."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "Įsivaizduokite jį kaip žaidėją, jau praėjusį savo jėgų piką,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "nepagarbus savo priešininkams ir vis dar gana pavojingas."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "Niurzgai patinka riboti priešo judėjimą ir pulti,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "mėgaujasi uždaromis pozicijomis ir tikisi laimėti."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "Dėl savo amžiaus jis dažniausiai groja ne itin modernias debiutas."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "Pavyzdžiui, jam patinka Tarrascho gynyba."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "Apsimetinėja Paulu Morphy. Pabrėžia mobilumą."
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "tada karaliaus ataka, pirmenybę teikia atviroms pozicijoms."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "Jis pradeda lėtai, naudodamas angas, kurios neužima daug vietos."
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "centre, bet neapsigąskite klaidingu saugumo jausmu."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "Vėliau jis puola įnirtingus išpuolius."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "Įsivaizduokite jį kaip jauną, kylantį didmeistrių,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "kuris dar nepasiekė savo tikrojo potencialo."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "Lieknas, energingas, šiek tiek per daug mėgsta efektingus judesius."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "Jis linkęs kartkartėmis išsiskirti su savo pėstininkais."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "Subalansuota asmenybė, linkusi paaukoti nedidelį kiekį materialinių išteklių,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "dažnai renkasi aktyvią gynybą rungtynių pabaigoje."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita reiškia pėstininkus, gynybą, suvaržymą."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "Ji žaidžia tvirtas debiutas ir pirmiausia galvoja apie gynybą, bet neapsigaukite!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "Ji gali gerai pulti, jei to reikalauja pozicija, ir su tvirtu pėstininko žaidimu."
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "ji kietas riešutėlis."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "Šiek tiek materialistiškas, bet kovojantis už iniciatyvą"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "ir pakankamai arti įsipareigojimų nevykdymo, kad būtų išvengta neprotingų planų."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "Mėgsta spausti priešo dalinius."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "Žaidžia uždaras angas kaip baltieji, Slav ir Caro-Kann gynybas kaip juodieji."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "Turbūt geriausia konfigūracija prieš silpnesnius variklius."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "Vaidina be pažangesnių vertinimo funkcijos aspektų,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "taikant protingą numatytąją reikšmę. Nedidelis pirmenybė teikiama mainams valdovėmis,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "Esant visiškai lygioms pozicijoms, sieks lygiųjų."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "Turbūt labiausiai į kompiuterį panaši asmenybė."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "Įsivaizduokite jį kaip aukštą vyrą su ruda odine striuke."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "Jam patinka aktyvūs žaidimai, bet jis nemėgsta būti užpultas."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "Mėgsta laikyti valdoves lentoje."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Remiantis Brendano J. Normano „Graudiko III“ asmenybės modeliu."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "Žaidžia smauglio stiliumi, bet labiau mėgsta ataką."
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "tikėtina, kad aukosis dėl pozicinių priežasčių."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "Daug temperamentingesnė „Grumpy“ versija, labai žmogiškas žaidimas."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "Gali būti pernelyg optimistiškas žaidimo pabaigoje su valdovėmis."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "Taip pat yra daugelio pasaulio čempionų ir kitų garsių žaidėjų asmeniniai vardai."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "„Rodent 4“ šachmatų variklio asmenybės aprašymai"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "Langas visada viršuje"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "Jei norite, galite sulėtinti tempą su..."
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< Pagrindinis meniu > < Variklis > < Judėjimo uždelsimas >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "Žaiskite įvertintą žaidimą prieš šachmatų variklį"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Pažymėkite, jei norite nukopijuoti ribos stiprumo nustatymus į pasirinktinius parametrus"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "Įvertinimo formulės paaiškinimas"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "Pažymėkite, jei norite rodyti asmens vardą"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "su variklio pavadinimu žaidimo metu"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "Įveskite paieškos įgūdžio vertę,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "Pažymėkite, jei norite, kad parinktys visada būtų automatiškai kopijuojamos"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "per pasirinktinius parametrus"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "Pažymėkite, jei norite automatiškai nukopijuoti įvertinimo suliejimą"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "vertė pasirinktiniams parametrams"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "Pažymėkite, jei norite automatiškai nukopijuoti paieškos įgūdį"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "Įveskite failo pavadinimą, kuriuo norite išsaugoti"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "variklio galios reguliavimo parinktys"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "laimėjo žaisdamas baltuoju ir laimi"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "pralaimėjo žaisdamas juodaisiais ir pralaimi"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "pralaimėjo žaisdamas baltaisiais ir pralaimi"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "laimėjo žaisdamas juodu ir laimi"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "ištraukė žaisdamas baltaisiais"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "ištraukė žaisdamas juodaisiais"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "reitingo pokyčių nebuvo."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "ir įgijo"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "ir prarado"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "Jūsų naujas įvertinimas yra"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "Žaidimo rezultato įvertinimo pranešimas"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "Nepavyksta atidaryti žaidėjo profilio failo, kad būtų galima įrašyti informaciją"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "Kataloge nėra variklio failų, įvertinimas „žaidimas atšauktas“."
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "Variklių katalogas"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "neegzistuoja, įvertintas žaidimas atšauktas"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "Pasiūlymas: atkurkite numatytąsias programos reikšmes iš"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< Pagrindinis meniu > < Parinktys > < Atkurti gamyklinius nustatymus >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "Jei tai nepavyksta, atsisiųskite ir įdiekite variklių specifikacijas iš"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "Graužikų variklio charakteristika"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "pakrautas"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "Įvertinto žaidimo variklio pranešimas"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "Variklio nėra sąraše, todėl jo nustatyti negalima."
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "Žaidėjo profilio katalogas"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "Pasiūlymas: sukurkite šį katalogą rankiniu būdu naudodami „Windows Explorer“"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "Žaidėjo vardas tuščias, įveskite vardą"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "Žaidėjo vardas jau yra sąraše,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "įveskite kitą žaidėjo vardą"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "Žaidėjo profilis"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "Klaida įrašant žaidėjo profilį į diską"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "Žaidėjo vardo nėra sąraše,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "Įveskite žaidėjo vardą, esantį sąraše"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "ištrinta iš disko"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "Klaida ištrinant žaidėjo profilį iš disko"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "Įvertinimo formulių katalogas"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "ir naudokite < Įvertinimo formulė > < + >, kad pridėtumėte formulę"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "įvertinto žaidimo dialogo lange."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "Formulės failo pavadinimas tuščias, įveskite pavadinimą"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "Įvertinimo formulės failo pavadinimas jau yra sąraše."
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "įveskite kitą vertinimo formulės failo pavadinimą"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "Įvertinimo formulės failo pavadinimo nėra sąraše."
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "Įveskite sąraše esantį vertinimo formulės failo pavadinimą"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "Įvertinimo formulė"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "Klaida įrašant įvertinimo formulės failą į diską"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "Formulės failo pavadinimas tuščias, įveskite failo pavadinimą"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "Įvertinimo formulės failo sąraše nėra."
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "Įveskite formulės failą, esantį sąraše"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "Klaida ištrinant vertinimo formulę iš disko"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "Nepavyksta atidaryti vertinimo formulės failo skaitymui"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "Įvertinta žaidimo funkcija, skirta žmonių valdomiems žaidimams (4.0 versija)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "Judėjimo delsa"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "Judėjimo vėlavimas.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "Rodyti perkėlimo delsos dialogo langą"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "Klaidos pranešimas"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "Kopijuoti į pasirinktinius parametrus"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "Rašydamas < Įvertintas žaidimas > straipsnį, pastebėjau, kad „Delfi“ variklis"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "reikėjo ribinio stiprumo nustatymų, esančių pasirinktinių parametrų sąraše"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "kad jie dirbtų."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "„Delfi“ sistemoje šis veiksmas bus atliktas automatiškai."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Jei turite šią problemą su kitais varikliais, galite patikrinti"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "<Kopijuoti į pasirinktinius parametrus> langelį ir ribinio stiprumo parametrus"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "bus nukopijuotas."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "Taip pat pastebėjau, kad jei žaidėte daugiau nei vieną žaidimą su susilpnėjusiu „Stockfish“ varikliu"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "ir nebuvo nustatyta <Kopijuoti į pasirinktinius parametrus>, „Stockfish“ grįžo į pilną našumą"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "antram žaidimui. Taigi tikriausiai geriausia visada nustatyti šią parinktį"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "kai naudojama ribinė jėga."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "Naudojant funkciją < Įvertintas žaidimas >, tai taikoma visiems varikliams."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Jei žaidžiant prieš „Stockfish“ atidarote paieškos informacijos skydelį,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "rodoma išsami variklio stiprumo analizė,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "net jei jis buvo susilpnintas naudojant UCI ribinį stiprumą."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "Galite pasakyti, ar jis iš tikrųjų susilpnėjo, nes jis dažnai žais"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "kitoks judesys nei parodytas analizėje."
+
