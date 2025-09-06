@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "Értékeléskorrekciós képlet"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "mert"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "Nyerési érték"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "Veszteségérték"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "Érték rajzolása"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "Erősségi korrekciós tényező"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "Effektív maximális különbségérték"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "Minimális nyereményérték"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "Beviteli értékelés változása győzelemhez"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "Értékelésmódosítás döntetlen esetén"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "Értékelésmódosítás veszteség esetén"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "Adja meg az erősségi tényező beállítási százalékát"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "Effektív maximális értékelési különbség"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "Ez a párbeszédpanel lehetővé teszi a felhasználó számára a képlet beállításainak megadását."
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "a játékos értékelésének módosítására szolgál egy motor elleni meccs után."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Győzelmi érték - a játék megnyeréséért járó rangsorolási pontnövekedés."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "Érték rajzolása - ez mindig nullára van állítva."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Veszteségérték – ez a nyereményérték mínuszértéke."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Erősségkorrekciós tényező (százalék) – Ezt az értéket használja a rendszer"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "a minősítés kiszámításakor, ahogy az az alábbi egyenletben látható."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Effektív maximális értékelési különbség - Ha a rangsorolási különbség"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "a játékosok közötti különbség nagyobb, mint ez a szám,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "akkor erre a számra van beállítva. Lásd az alábbi egyenletet."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Az alapképletet az Egyesült Államok Sakkszövetsége használja"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "levelező sakkjátszmákhoz."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "A következő weboldalon megtekintheti a leírását:"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "Itt van a képletük magyarázata."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "A számításuk az új értékeléshez egy meccs után:"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(győzelemre vagy vereségre)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Itt 0,04 (4 százalék) a szilárdsági beállítási tényező (SAF)."
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "Az ED az effektív értékelési különbség."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "Az ED pozitív értékű a rangsorolás kiszámításakor."
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "gyengébb játékosra, negatív értéket pedig az erősebb játékosra vonatkozó számításnál."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "16-os győzelem/vereség érték esetén, ha a tényleges értékelési különbség"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "Ha a játékosok közötti különbség nagyobb, mint 350, akkor 350-re állítjuk be."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "Ez biztosítja, hogy ezekben az esetekben, ha megnyersz egy meccset ellened,"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "egy gyengébb ellenféllel szemben a rangsorod növekszik, és ha veszítesz ellene"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "Egy erősebb ellenféllel csökken a rangsorod."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "Az értékelés változása itt kicsi lesz, mindössze 2 pont."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Ez egy minimális nyereményérték változó használatával módosítható."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "Tehát az általános egyenlet, azt hiszem, a következő..."
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "ahol"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "minimális nyereményérték"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Az alapértelmezett beállítások az < USCF > rangsorolási képletfájlban tárolódnak."
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "de létrehozhatsz egy új fájlt és módosíthatod a beállításokat, ha szeretnéd."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Csak kisebb változtatásokat javasolnék az alapszámokon."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "Értékelési képlet magyarázata"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "Mozgáskésleltetés embermotoros játékokban"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "Mozgáskésleltetés használata"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "Másodpercben lemondás"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "Minimális mozgási késleltetés (másodperc)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "Minimális áthelyezési késleltetés kikényszerítése"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "Véletlenszerű végrehajtási idő használata"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "Maximális mozgási késleltetés (másodperc)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "Véletlenszerű késleltetés fix időtartamra"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "Mozgáskésleltetés használata embermotoros játékban"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "Mozgáskésleltetés visszavonása, ha már csak ennyi másodperc van hátra"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "Minimális mozgási késleltetés másodpercben"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "Tartsa be a minimális mozgási késleltetést,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "amíg el nem éri a „Mégse másodpercben” feliratot"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "Használjon egy véletlenszerű számot 1 és a minimális mozgási késleltetés között,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "amikor a minimális mozgási késleltetés kényszerítése be van állítva"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "Maximális mozgási késleltetés másodpercben"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "Véletlenszerű mozgáskésleltetés használata fix motoridőkhöz"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "Ez a funkció elsősorban a Komodo sakkmotorokkal való használatra készült."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "amikor meggyengültek az embermotoros játékokhoz."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "Ebben az esetben a motorok szinte azonnal beindulnak, ami a játékot különlegessé teszi."
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "természetellenes ritmus, ami meglehetősen nyugtalanító."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "Ez a Rybka 2.3 motorral is előfordul."
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "és az Alexander sakkmotor."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "A Komodo motoroknak nincs < Lassú mozgó > opciójuk, ezért ez a párbeszédpanel"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "Lehetővé teszi a motor lassítását eredményező opciók beállítását."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Mozgáskésleltetés használata - Jelölje be, ha mozgáskésleltetést szeretne használni az ember által vezérelt játékoknál."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "Mégse másodpercben – Válassza ki azt az időpontot, amikor a mozgáskésleltetés már nem lesz használatban."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Minimális mozgási késleltetés – Válassza ki a minimális mozgási késleltetést másodpercben."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "Minimális mozgási késleltetés kikényszerítése - Jelölje be a minimális mozgási késleltetés kikényszerítéséhez"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "Ebben az esetben, ha a program kiszámítja, hogy a mozgáshoz rendelkezésre álló idő"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "kisebb, mint a minimális mozgási késleltetés, akkor a mozgási késleltetés vagy a következőre van beállítva:"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "minimális mozgási késleltetés, vagy egy véletlenszerű szám 1 és a minimális mozgási késleltetés között,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "attól függően, hogy a következő jelölőnégyzet hogyan van beállítva."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "Ez a kikényszerítés már nem érvényes, ha elérkezik a másodpercben megadott időpont."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "Töröld a jelölést, ha azt szeretnéd, hogy a motor a minimális mozgáskésleltetésnél gyorsabban játssza le a mozdulatokat."
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "a másodpercpontnál történő törlés előtt, ha az idő fogyni kezd."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "Véletlenszerű végrehajtás – Ellenőrizze a minimális áthelyezési késleltetés véletlenszerű végrehajtási idejét."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Maximális mozgáskésleltetés – Válassza ki a maximális mozgáskésleltetést másodpercben."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Véletlenszerű késleltetés fix időtartamhoz - Jelölje be, ha véletlenszerű mozgáskésleltetést szeretne használni fix időtartamokhoz."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Törölje a jelölést, ha a mozgási késleltetéshez engedélyezett teljes fix időt szeretné használni."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "Mozgáskésleltetés segítség"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "Értékelt játékbeállítások"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "PGN fájlnév játékos játékokhoz"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "Válassz .pgn fájlt a játékhoz"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "Motor ellenfél"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "Motor ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "Személyiségek"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "Jelenlegi játékos"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "Játékos ÉLŐ-értéke"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "Játékos ELO-értékének szerkesztése"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "Jelölje be a játékos ELO-értékének szerkesztéséhez"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "Beállítás aktuális motorként"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "Beállítás aktuális óraként"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "Eredmények értékelésének változása"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "Manuális beállítás"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "Értékelési képlet"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "Idővezérlés"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "Percenként meccsenként"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "Növekmény (másodperc)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "Játékos"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "Foglalás lemondva"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "Indítsd el a játékot"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "Írd be a PGN fájlnevet a játékosjátékok mentéséhez"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "Adja meg a motor ELO erősségét"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "Nyissa meg a motorbeállítások párbeszédpaneljét"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Nyissa meg a rágcsálómotor-jellemzők párbeszédpanelt"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "Új játékos hozzáadása"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "Aktuális játékos törlése"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "Aktuális játékosadatok mentése"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "Játékos ELO-értékelése"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "Jelölje be a játékos ELO-értékének szerkesztéséhez"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "Jelölje be, ha mozgáskésleltetést szeretne használni a korhatár-besorolású játékban."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "Jelölje be, ha a motorbeállításokat aktuálisként szeretné beállítani"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "Jelölje be, ha az óra beállításait aktuálisként szeretné beállítani"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "Jelölje be a játék nyitókönyvének kikapcsolásához"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "ELO besorolás változása játékos győzelme esetén"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "ELO besorolás változás játékosvesztés esetén"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "ELO-besorolás változás döntetlen esetén"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "Jelölje be az értékelési változtatások módosításához"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "és a játékos ELO-ját manuálisan"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "Jelenleg használt értékelési képlet"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "Új képlet hozzáadása"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "Törölje az aktuális képletet"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "Aktuális képlet szerkesztése"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "Add meg a játékos játékidejét percben"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "Add meg a játékos lépésszámát másodpercben"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "Add meg a játék motorjának idejét percben"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "Adja meg a motor mozgásának lépésközét másodpercben"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "Ellenőrizd, hogy az ember fehéret játsszon-e"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "Indítsd el a játékot az aktuális beállításokkal"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "Válaszd ki a motort, amely ellen játszani szeretnél"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "Válassza ki az aktuális játékost"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "Játék súgója korhatárra tekintet nélkül megtekinthető"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "A korhatárra tekintet nélküli játék kényelmes módot kínál a legyengült játékosok elleni játékra."
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "sakkmotorok, és egyúttal nyomon követi a haladásodat"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "egy hozzávetőleges ELO-értékelés frissítésével."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "A következő beállításokat adhatja meg egy korhatár-besorolású játékhoz"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN fájlnév: Válassza ki a PGN fájlnevet a besorolt ​​játékok tárolásához."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "A fájlnév a játékos nevéből származik. A fájlnév a következő helyen lesz tárolva:"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "Ha nincs megadva játékosnév, akkor a rated_games.pgn fájlnév lesz használva."
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Motor ellenfél: Itt kiválaszthatod, hogy melyik motorral szeretnél játszani."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Mindezen motorok rendelkeznek az UCI_LimitStrength opcióval,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "ami lehetővé teszi azok gyengülését."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Ha egy másik, ezzel az opcióval rendelkező motort szeretne hozzáadni, akkor azt másolni kell."
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "a"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "könyvtár"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "Motor ELO – Válassza ki a motor ELO erősségét."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "A megengedett felső és alsó értékek láthatók."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Motorbeállítások – Ez megnyitja a motor párbeszédpanelét, amely lehetővé teszi a beállítások módosítását."
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "további lehetőségek a kiválasztott motorhoz. Kattintson a < Stockfish > elemre egy példa megtekintéséhez."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Ha egy Rodent sakkmotor van betöltve, akkor egy < Személyiségek > gomb"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "ehhez a motorhoz is megjelenik."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Aktuális játékos - Itt beállíthatod az aktuális játékost, valamint hozzáadhatsz és törölhetsz"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "és szerkesztheti a játékosokat. Az aktuális játékos neve megjelenik a szerkesztőablakban."
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "egy legördülő listából."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Plusz gomb - Új játékos hozzáadásához írd be a nevét a szerkesztőablakba, majd kattints"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "erre a gombra. A nevük hozzáadódik a listához, és egy róla elnevezett fájl jön létre,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "amely tartalmazza az adataikat, lemezen lesz tárolva a"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Mínusz gomb – Kattintson rá a szerkesztőablakban látható játékos törléséhez."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "Ez a fájlt is eltávolítja a lemezről."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Mentés - Kattintson ide a játékos adatainak mentéséhez a szerkesztőablakban"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "ha manuálisan módosítod az ELO-értékelésüket."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "Játékos ELO – Ez mutatja a játékos ELO értékét a szerkesztőablakban."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Ha új játékos hozzáadásakor szeretnéd szerkeszteni ezt a mezőt, akkor nézd meg a következő lehetőséget."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Játékos ELO-értékelésének szerkesztése - Jelöld be, ha engedélyezed a játékos ELO-értékelésének szerkesztését."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Mozgáskésleltetés használata - Jelölje be, ha mozgáskésleltetést szeretne használni a korhatár-besorolású játékban."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "Ez az opció túl gyorsan forgó motorokhoz készült."
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "amikor legyengülnek, mint például a komodói varán."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Beállítás aktuális motorként - Jelölje be, ha a mezőben megjelenített motort szeretné beállítani"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "mint az aktuális motor a besorolt ​​játék befejezése után."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Töröld a jelölést, ha a játék értékelése után vissza szeretnéd állítani a régi motort."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Beállítás aktuális óraként - Jelölje be, ha be szeretné állítani az ebben a mezőben megjelenített órákat"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "mint az aktuális óra az értékelt mérkőzés befejezése után."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Töröld a jelölést, ha a játék értékelése után a régi órára szeretnél visszaállítani."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Eredmények értékelésének változása – Megjeleníti az értékelés változását győzelem, vereség vagy döntetlen esetén."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Ezek automatikusan beállításra kerülnek a lejátszó és a motor teljesítményének megfelelően."
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "és melyik képletet használják az ELO kiszámításához."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Kézi beállítás – Jelölje be ezt a négyzetet, ha manuálisan szeretné módosítani a fenti értékeket."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Ha a korhatár-besorolásnak megfelelő játékot manuálisan beállított értékekkel szeretné játszani,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "majd hagyd bejelölve ezt a négyzetet, amikor a < Játék indítása > gombra kattintasz"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Értékelési képletek – Itt kiválaszthatja és módosíthatja az ELO számítási képleteit."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "Hasonlóan kell használni, mint az aktuális játékosmezőt."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "A fő különbség az, hogy amikor képletet adunk hozzá vagy szerkesztünk,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "Egy új párbeszédpanel nyílik meg, amely lehetővé teszi a képlet beállításainak megadását."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "A besorolási képletekkel kapcsolatos további információkért kattintson a < Súgó > gombra."
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "a képlet párbeszédpanelen."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Idővezérlés - Válassza ki a játék idővezérlését."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Add meg a játékidőt percben, a lépésszámot pedig másodpercben"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "az emberi játékos és a sakkmotor számára."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Ha úgy tetszik, adhatsz magadnak több időt, mint a motornak."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Könyv kikapcsolása – Jelölje be ezt a lehetőséget, ha ki szeretné kapcsolni a kezdőkönyvet az értékelt játékhoz."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Fehér kártya lejátszása - Ellenőrizd, hogy az emberi játékos fehér kártyát játsszon-e."
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "vedd ki a pipát, ha azt szeretnéd, hogy az emberi játékos feketével játsszon."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Játék indítása – Kattintson ide egy besorolt ​​játék elindításához az aktuális beállításokkal."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Ha egy érdekes és változatos nyitókönyvet szeretnél embermotoros játékokhoz,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "Én a poliglott nyitókönyvet ajánlanám"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "Ez a könyv a Deep Saros motor letöltésének része volt."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "A következő könyvtárba kellett volna telepíteni:"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "Segítség a besorolt ​​játékmotorokhoz"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "Arasan"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "Rágcsáló"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "Szárított tőkehal"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "A < Rated game > játékban használt motorok mindegyike rendelkezik UCI limit erősségi opcióval."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "Ez lehetővé teszi a felhasználó számára egy hozzávetőleges ELO-besorolás kiválasztását"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "a motor játékerősségéhez."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "A motorok általában a következő könyvtárban tárolódnak:"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "Nagy a választék, de más erősségi határértékeket is hozzáadhatsz."
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "motorokat, ha úgy tetszik, hozzon létre egy új könyvtárat a < rated_engines > könyvtárban"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "és a motor *.exe fájljának belemásolása."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "Ez a folyamat a következő kereskedelmi motoroknál fog működni:"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "Komodói varánusz, Fritz 16, Shredder, Houdini 6, Deep Junior és Chiron."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "Lehet, hogy sokkal több is van."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "Megpróbáltam a legtöbb számítógéptípust kielégíteni, és ez lett belőle."
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "A motorlista elég hosszú. Tehát törölheted azokat, amelyeket nem akarsz."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Míg néhány régebbi motor, mint például az Ufim, a Delfi és az Amyan, kicsit játszik"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "egymástól eltérően, a Stockfish-ből származó motorok többsége,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "hasonló módon játsszanak."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "Az egyetlen motor, amely teljesen egyedi és tökéletesen illeszkedő"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "A < Rated game> játékhoz a Rodent sakkmotor tartozik, melyet Pawel Koziol írt."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "További részletekért kattintson a < Rágcsáló > gombra."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "A Jon Dart által írt Arasan motor egy másik nagyon jó motor."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Bár nem olyan erős, mint a Stockfish, jellegzetes játékstílusa van."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "A Tarrasch és a Nimzo_3d grafikus felhasználói felülettel használva azonban"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "vannak problémák."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "A neurális hálózat 23.0-s verzióval történő hozzáadása óta,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "egyik sem működne a számítógépemen."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "A legújabb 25.2-es verzióval azonban a következő motorok működnek"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "Ezen problémák miatt a 22.3-as verziótól kezdve használtam a motorokat."
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "a besorolt ​​játékokhoz. Ez volt az utolsó verzió neurális hálózat nélkül."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "Ennek a verziónak az összes motorja fut a számítógépemen."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Arasan motor segítség"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Stockfish sakkmotor"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "tőkehal nps"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "Sándor"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Amikor a motorillesztésekhez írt kódot írtam, azt tapasztaltam, hogy a Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "és a Komodo motorok időveszteséget szenvedtek a gyors időkorlátos játékokban,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "ezért írtam a < Motoridő-beállítás > opciót a probléma megoldására."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "Egy korhatáros játéknál, hosszabb időkorlát használatával, ismét ezt tapasztaltam"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "A tőkehal nagyon lassan játssza a lépéseit, amikor kikerül a nyitókönyvéből."
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "vagy ha nem használnak könyvet."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Ennek orvoslására beállíthatja a Stockfish lassú mozgás opciót."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Ennek az értéknek a csökkentése kissé felgyorsítja a mozgásokat."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Bár úgy találtam, hogy ez a lehetőség nem megfelelő a gyors idővezérléshez"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "Ha egy játék 3 percig vagy kevesebb ideig tart, akkor 5 percig vagy tovább jól működik."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "A Stockfish 11 esetében a 20-30-as érték jól működik 5-10 perces játékokhoz."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "A lassú mozgatás opciót az egyéni paraméterek használatával állíthatja be."
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "a motor párbeszédpanelén."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "A dolgok megkönnyítése érdekében készítettem egy motorparaméter-fájlt a Stockfish 11-hez."
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "a lassú mozgó készlettel. Ezt a besorolt ​​játék párbeszédablakából töltheted be."
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "a motor < Motorbeállítások.. >, majd a < Motor betöltése > menüpontra kattintva"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "a megnyíló motor párbeszédablakából."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "A Stockfish 11 paraméterfájljai a következő könyvtárban találhatók:"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "A Stockfish 8-15-ös motorjai rendelkeznek a lassú mozgás opcióval, a 16-os és 17-esek nem."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "Tekintettel arra, hogy itt nincs szükséged extra játékerőre,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "nincs szükség erősebb motorok használatára."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "A Stockfish motornak ezt a verzióját a GitHubon találtam: -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "Ez egy jobban állítható változat, mint a standard motor."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "Itt található a motor leírása a < README.md > fájlból -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "A StockfishNPS egy kissé módosított Stockfish emberi játékra"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "másodpercenkénti csomópontszám-csökkentéssel (kilo csomópont másodpercenként ~= 1 / waitms)"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "véletlenszerű értékelés, keresési mélység és keresési csomópontok korlátja."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "Az első két módosítás erőssége az UCI beállításokban állítható be."
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "0 és 100 között, míg a keresési mélység 1 és 20 közötti értékekre korlátozható"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "és keressen csomópontokat legfeljebb 500000 értékig."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "Minden módosítás bármilyen kombinációban használható a következőkkel együtt:"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "ELO limit erő és képzettségi szint beállítások az erő csökkentése érdekében"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "a motor, amikor emberek ellen játszol."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "Alapértelmezett beállításokkal a StockfishNPS pontosan úgy működik, mint a jelenlegi Stockfish16_dev."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "Ha csak a keresési csomópontok beállítását változtatjuk 1 és 10 közé, az ELO nagyjából 1400-ra csökken."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "Ez egy jó kiindulópont a további opcióváltoztatásokhoz."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "Szerintem ez azt jelenti, hogy a magasabb < waitms > érték csökkenti a"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "a motor által másodpercenként átkutatandó pozíciók száma."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "A randomizált értékelési érték növelése"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "változatosabb játékhoz vezet."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "A < Keresési csomópontok > valamilyen korlátozást szab a keresett pozíciók számára."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "A < Keresési mélység > korlátozza a féllépések (rétegek) számát, amelyek között a motor keres."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "Van egy < nodestime > nevű opció is, de nem tudom, hogy az mit csinál."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "Az alapértelmezett nulla érték azt jelenti, hogy az opció nincs használatban."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "A kényelmed érdekében létrehoztam a motorok paraméterfájljait."
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "minden paraméter alapértelmezettre van állítva, így készen áll a módosítások elvégzésére."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "Ezek a következő helyen vannak tárolva: -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "és a < Motor betöltése > paranccsal tölthető be a motor párbeszédpanelen."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Stockfish NPS motor segítség"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "Ez egy Stockfish-származékú motor, számos beállítási funkcióval."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "Amikor először próbáltam ki az ELO limit erősség beállításával, nem gyengült."
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "és teljes erőbedobással játszotta le a mozdulatait."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "Ezután hozzáadtam a < Handicapped Depth > opciót, és < true > értékre állítottam."
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "Úgy tűnik, ez működik, és a motor különböző mélységeken szólal meg attól függően, hogy"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "a beállított ELO besoroláson."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "Sok más lehetőség is létezik, amelyeket a < README.md > fájl ismertet."
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "Ez a fájl a következő könyvtárban található"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "Két motorparaméter-fájlt hoztam létre ebben a könyvtárban, amelyeket használhatsz"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "a motor beállításához a < Motor betöltése > lehetőséggel a motor párbeszédpanelen."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "Gyengített módban játszva Alexander szinte azonnal végrehajtja a mozdulatait."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "Ha szeretnéd, lelassíthatod a < Főmenü > < Motor > < Mozgáskésleltetés > menüponttal."
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "Az Alexander motor a GitHubon található a következő linken:"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "Alexander sakkmotor segítség"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "Játékosnév nélkül nem lehet elindítani a játékot"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "Kérjük, válasszon egy játékost az Aktuális játékos listából"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "Értékelt játék hibaüzenet"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "Értékelési képlet nélkül nem lehet elindítani a játékot"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Kérjük, válasszon egy képletet az Értékelési képlet listából"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Válassza ki a rágcsálómotor személyiségbeállításait"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "Nincsenek motorfájlok a"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "A névleges motorok könyvtára nem változott."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "Nincsenek olvasható személyiségfájlok"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "A személyiségek jegyzéke"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "nem létezik, ezért nem mutathat személyiségeket"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Válassza ki a Rodent 3 motor személyiségbeállításait"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "Jelenlegi személyiség"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "Személyiségnév megjelenítése"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "Dokumentumok könyvtárának használata"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "Használj limit ELO erőt"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "Adjon meg értékeket a motor erősségének beállításához"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "Csomópontok másodpercenként"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "Alapértelmezett értékek másolása"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "Kiértékelés elmosódási értéke"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "Másolásértékelés elmosódása"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "Keresési készségszint (1–10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "Másoláskeresési készség"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "Aktuális beállítások mentése fájlba"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "Válassza ki a fájlnevet a személyiségfájl mentéséhez"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "Értékek hozzáadása a fájlhoz, ha nincsenek jelen"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "Jelölje be a következő könyvtár használatához"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "a névleges motorokhoz és a kapcsolódó fájlokhoz"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "Jelölje be, hogy az UCI határerősségét használja-e a motorbeállításokhoz"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "Adja meg a csomópontok másodpercenkénti értékét,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "magasabb az erősebbhez, alacsonyabb a gyengébbhez,"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "de nulla a maximális szilárdságért"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "Adja meg az elmosódás kiértékelésének értékét,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "alacsonyabb az erősebbhez, magasabb a gyengébbhez"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "Adja meg a képzettségi szint értékét,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "alacsonyabb a gyengébb, magasabb az erősebb"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "Csomópontok hozzáadása másodpercenként és kiértékelés elmosása"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "értékek a fájlban, ha azok nincsenek jelen"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "Válaszd ki a személyiséget, aki ellen játszani szeretnél"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "-tól"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "Nem lehet váltani"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI határerősség-beállítás"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "Csomópontok másodpercenkénti beállítás"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "Nem lehet beállítani erre:"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "mert"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "a fájlt nem lehetett megnyitni."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "mert az erősség korlátozása opció nem szerepelt a fájlban."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "Minden érték alapértelmezettre van állítva"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "Szóval nincs értelme leírni őket"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "Nem sikerült megnyitni a bemeneti fájlt"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "Nem sikerült megnyitni a kimeneti fájlt"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "frissítve, és"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "lemezre mentve"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "Rágcsáló sakkmotor segítség"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "Személyiségleírások"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "A rágcsálókról"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "Ez a párbeszédablak lehetővé teszi egy játékos személyiség kiválasztását."
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "és a Rodent sakkmotorok opciói."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "Jelenlegi személyiség – A legördülő listából kiválaszthatja a kívánt személyiséget."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "ELO határérték használata - Jelölje be, ha az ELO értékeket szeretné használni a motor párbeszédpanelén"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "a motor lejátszási erősségének beállításakor."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "Adja meg az értékeket a motor erősségének beállításához -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "Csomópontok másodpercenként - a motor által generált pozíciók száma"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "és másodpercenként elemezhető."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "Kiértékelési elmosódási érték - véletlenszerű érték hozzáadva a kiértékelő függvényhez."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Rodent 3 esetén, csomópontok másodpercenkénti módban, a kiértékelés elmosódási értéke"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "a személyiségfájlból töltődik be. Ez némi képet ad arról,"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "a használandó értéktartományból, ha módosításokat szeretne végezni."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "Ez a beállítás ELO határerősséggel is használható."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "Így használva azt tapasztaltam, hogy egy 20-as beállítás változtatta a mozdulatokat"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "hogy a motor játszott, de a 20-nál nagyobb számoknak 500-ig nem volt hatásuk"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "és az 1000-nél magasabb beállítás komolyan legyengítette a motort."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "Tehát a hasznos beállítások az ELO limit strength módjában a számítógépemen"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "20 vagy 500 - 1000 között vannak, de ez a számítógépeden eltérő lehet."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "Ha nem szeretnéd, hogy be legyen állítva vagy megjelenjen, akkor állítsd nullára."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "Bár a másodpercenkénti csomópontok száma nem érvényes ELO limit erősség használatakor,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "Az értékek továbbra is megadhatók és menthetők a személyiségfájlban későbbi felhasználás céljából."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "Alapértelmezett értékek másolása - ellenőrizze az erősségbeállítások értékeit"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "átmásolandó erről a párbeszédpanelről a motor párbeszédpaneljébe"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "még akkor is, ha alapértelmezettre vannak állítva. Ezután szerkeszthetők."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "Ha így hagyják őket, akkor semmilyen hatással nem lesznek a motorra."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ELO limit erősségi módban ezek nem állnak vissza alaphelyzetbe, ha törlik őket a következőből:"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "a motor párbeszédpaneljén. Csomópontok másodpercenként módban ezek visszaállnak alaphelyzetbe,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "tehát a szerkesztésükhöz ki kell kapcsolni a < Paraméterek másolása > opciót."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "Személyiségnév megjelenítése - Jelölje be a személyiségnév megjelenítéséhez"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "a motor nevének követése játék közben."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "A motor teljesítménye is automatikusan megjelenik."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "Dokumentumok könyvtárának használata - Jelölje be, ha a következőt szeretné használni:"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "a névleges motorokhoz."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "Ez egy vészhelyzeti tartalékintézkedés arra az esetre, ha nem lettek volna átmásolva a rendszerbe."
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "Ha máshová telepítették őket, akkor átmásolhatja őket a"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "a fenti könyvtárak egyikében."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "Ha egyáltalán nem lettek telepítve, akkor letöltheti őket ezekről a linkekről -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "linkek"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "Jelenlegi beállítások mentése fájlba – ezzel a fájlválasztóval mentheti a beállításokat"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "az erősségi beállítások lejátszása a párbeszédpanelről az aktuális fájlba,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "vagy egy újat, ha szeretnél."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "Értékek hozzáadása, ha nincsenek jelen - Jelölje be, ha az erősségbeállítási értékeket hozzá szeretné adni a fájlhoz"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "ha nincsenek jelen. Ez akkor fordul elő, ha kiértékelési elmosódási értékeket ad hozzá."
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "egy Rodent 4 személyiségfájlba."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "A Rodent sakkmotorokról"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "A Pawel Koziol által írt Rodent egy nagyon érdekes sakkmotor."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "Rendelkezik az UCI_LimitStrength opcióval és egy sor személyiséggel is,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "amelyek fájlokból vannak betöltve, gyengébb és változatosabb játékhoz."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "Ahhoz, hogy a motor megfelelően működjön a személyiségekkel és azok"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "Könyvek megnyitásakor az összes komponenst ugyanabba a könyvtárba kell helyezni."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "Be kellett volna telepíteni őket -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Ha azt szeretnéd, hogy a Rodent motor a saját könyvét használja játék közben,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "akkor ki kell kapcsolnod a Nimzo_3d nyitókönyvet a"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< Főmenü > < Megnyitók > < Könyv megnyitása >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "vagy a < Foglalás kikapcsolva > opció bejelölésével, ha a"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "korhatárra tekintet nélkül megtekinthető játék párbeszédpanel."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "van némi dokumentáció és egy segédprogram"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "amivel több személyiséget lehet alkotni."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "A Rodent 4 motorcsomag és a régebbi verziók letölthetők innen:"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Csak 4. rágcsáló, részletes ismertetővel"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "A Rodent 4 motortartó anyaga, motorok nélkül"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Rágcsáló 3 tartóanyag, motorok nélkül"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "A Rodent személyiségfájl egyszerűen az UCI parancsok listája egy *.txt fájlban."
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "A következőképpen kellene működnie:"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "A sakkprogram grafikus felhasználói felülete elküldi a <Personality> parancsot a Rodent motornak."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "A motor ezután beolvassa a parancsokat a személyiségfájlból."
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "és ennek megfelelően módosítja a beállításait."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "Azonban mind a Nimzo_3d, mind a Tarrasch grafikus felhasználói felülettel..."
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "Így használva nem tudtam működésre bírni a motorokat."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "Minden személyiség ugyanazokat a mozdulatokat játszotta."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "Tehát ehelyett elfogtam a <Personality> parancsot, amikor az volt"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "hamarosan elküldésre kerül a grafikus felhasználói felületről a motornak, megnyitotta a személyiségfájlt"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "és egyenként küldte el a fájlból származó parancsokat. Úgy tűnik, ez működik."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "Lényegében a Rodent motornak két fő módja van a játék erősségének változtatására."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "Használhatja az ELO limit erősségét vagy a másodpercenkénti csomópontok számát az értékelés elmosásával."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "Az ELO limit strength lehetővé teszi egy hozzávetőleges ELO-érték beállítását."
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "és csomópontok másodpercenként, az értékelési elmosással lehetővé téve az értékek beállítását"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "amelyek hasonló gyengítő hatással bírnak."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "A Rodent 3 személyiségek másodpercenként csomópontokat használnak."
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "értékelési elmosással és a Rodent 4 használatára szolgál"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "csak ELO limit erősségű."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "A <Personality> parancs küldési módjának módosítása miatt,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "A Rodent 3 az ELO limit erejével használhatja a személyiségeit."
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "az értékelési elmosódással és a kiválasztott készséggel kombinálva,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "de nem másodpercenkénti csomópontokkal."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "Ez azt is jelenti, hogy a Rodent 4 használhatja az ELO limit erősségi szintjét."
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "értékelési elmosással és készség kiválasztásával."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "A kiértékelés elmosódási értékének kismértékű módosítása azt jelenti, hogy a motor lejátssza a"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "különböző mozdulatok a játék erősségének jelentős befolyásolása nélkül,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "feltéve, hogy az elmosódás értéke nem túl magas."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "Kísérletezhetsz ezzel, én 20 és 50 közötti értékeket tapasztaltam."
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "elég jól működött."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "Emellett mindkét motor most már használhatja a személyiségfájlokat."
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "a másik motoron, a Nimzo_3d-n belüli kisebb módosításokkal,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "miután átmásolták őket a motor < Personalities > könyvtárába."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "Ez lehetővé teszi az új személyiségfájlok egyszerű cseréjét, ha változtatásra van szüksége."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "Elhelyeztem néhányat az < extra_personalities > kategóriában."
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "a < Személyiségek > könyvtáron belül."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "A személyiségfájlok a következő könyvtárakban tárolódnak:"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "plusz"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "vagy"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "A fájlok a Nimzo_3d-n belül módosíthatók a következők beállításához:"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "másodpercenkénti csomópontok és az értékelés elmosódási értékei, majd visszamentve lemezre."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "Nem számít, hogy a személyiségfájlok parancsokkal végződhetnek"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "amelyek nem alkalmasak a jelenleg használt motorhoz, mert"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "a grafikus felhasználói felület kiszűri őket, mielőtt a motornak küldenék őket."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "Rágcsálóparancsok"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "A Rodent sakkmotor személyiségeinek leírásai innen származnak"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "a < FinalRodent.pdf > fájl, amely a következő könyvtárban található:"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "Előre meghatározott személyiségek"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "A Rodent projekt kezdete óta egy motor létrehozásáról szól."
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "amely lehetővé teszi a játékstílus módosítását – akárcsak a ChessMaster sorozat,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "csak jobb. Az új verzióban bekövetkezett kódváltozások azt jelentették, hogy a régi személyiségek"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "már nem használhatók, ezért úgy éreztem, hogy új készletet kell készítenem."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "Remélem, érdekesnek találod majd."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "Elsősorban egy támadó, a második szempontja"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "bábujáték. Csatákat játszik megnyitásokkal."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe szereti a zárt pozíciókat, a gyalogviharokat és a stabil gyalogszerkezetet."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "Az egyetlen dolog, amit a zárt pozíciónál jobban szeret, az a zárt pozíció."
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "egyetlen nyitott fájllal, amelynek tulajdonosa az újoncai."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "Büszkén gyakorolja a francia és a király indián védelmét."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "Képzeld el őt sötét hajú, karcsú, melankolikus nőként."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "Ő egy védekező játékos, aki szereti a futójátékosokat."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "Képzeld el őt egy drága öltönyben, aki inkább egy vezérigazgatóra hasonlít"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "mint egy sakkozó. Erős, racionális, bár enyhén pesszimista személyiség."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "Jól megnyílik. Készen áll a döntetlenre teljesen egyenlő pozíciókban."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "Képzeld el őt úgy, mint egy játékost, aki már túl van a fénykorán,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "tiszteletlen az ellenfeleivel szemben, és mégis meglehetősen veszélyes."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "Grumpy szereti korlátozni az ellenség mozgását és támadni,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "élvezi a zárt pozíciókat és nyerni akar."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "Kora miatt többnyire nem túl modern megnyitásokat játszik."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "Például tetszik neki a Tarrasch-féle védekezés."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "Paul Morphy megszemélyesítése. Hangsúlyozza a mobilitást,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "majd királytámadás, a nyílt pozíciókat részesíti előnyben."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "Lassan kezdi, olyan nyílásokat használva, amelyek nem foglalnak sok helyet."
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "a központban, de ne ringasson hamis biztonságérzet."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "Később brutális támadásokra indul."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "Képzeld el őt fiatal, feltörekvő nagymesterként,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "aki még nem érte el a valódi lehetőségeit."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "Vékony, energikus, egy kicsit túlságosan is szereti a feltűnő mozdulatokat."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "Hajlamos időnként megválni a gyalogjaitól."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "Kiegyensúlyozott személyiség, hajlamos szerény mennyiségű anyagi veszteségre."
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "gyakran az aktív védekezésre helyezi a hangsúlyt a végjátékban."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita a gyalogokat, a védelmet és az önmegtartóztatást jelképezi."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "Jól nyit, és elsősorban a védekezésre gondol, de ne hagyd magad becsapni!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "Támadni is tud, ha a pozíciója megkívánja, és biztos gyalogjátékkal is rendelkezik."
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "kemény dió ő."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "Enyhén anyagias, de küzd a kezdeményezésért"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "és elég közel ahhoz, hogy fizetésképtelen legyen, elkerülve ezzel a nem megfelelő terveket."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "Szeret nyomást gyakorolni az ellenséges egységekre."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "Zárt nyitásokat fehérként játssza, Slav és Caro - Kann védelmeit feketével."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "Talán a legjobb beállítás a gyengébb motorok ellen."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "Játszik fejlettebb értékelési funkciók nélkül,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "ésszerű alapértelmezett beállítás alkalmazása. Enyhe preferencia a királynők cseréjére,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "holtegyenlő állásban döntetlenre megyünk."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "Talán a leginkább számítógépszerű személyiség."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "Képzeld el egy magas férfiként, barna bőrkabátban."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "Szereti az aktív játékot, de utálja, ha támadás alatt áll."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "Szereti a dámákat a táblán tartani."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Brendan J. Norman Rodent III személyiségjegye alapján."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "Boa constrictor stílusban játszik, de erősen a támadásra helyezi a hangsúlyt."
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "valószínűleg pozícióbeli okokból áldoz fel."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "A Grumpy sokkal temperamentumosabb változata, nagyon emberi játék."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "Lehet, hogy túl optimista a végjátékokban a királynőkkel."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "Számos világbajnok és más híres játékos személyre szabott adatai is elérhetők."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Rodent 4 sakkmotor személyiségleírások"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "Ablak mindig felül"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "Ha akarod, lassíthatod a következővel:"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< Főmenü > < Motor > < Mozgáskésleltetés >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "Játssz egy értékelt játékot egy sakkmotor ellen"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Jelölje be, ha a korláterősségi beállításokat egyéni paraméterekbe szeretné másolni"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "Értékelési képlet magyarázata"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "Jelölje be a személyiség nevének megjelenítéséhez"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "a motor nevével egy játék közben"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "Adja meg a keresési készség értékét,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "Jelölje be, ha mindig automatikusan szeretné másolni a beállításokat"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "egyéni paraméterekre át"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "Jelölje be a kiértékelési elmosás automatikus másolásához"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "érték az egyéni paraméterekhez"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "Jelölje be a keresési képesség automatikus másolásához"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "Adja meg a mentéshez használt fájlnevet"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "motorerősség-szabályozási lehetőségek"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "fehérrel játszva nyert és nyereséget szerez"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "veszített feketével játszva és veszít"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "veszített fehér játékban és veszít"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "feketével játszva nyert és nyer"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "fehérrel játszik"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "feketével játszik"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "értékelésben nem történt változás."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "és szerzett"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "és elveszett"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "Az új értékelésed:"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "Játék eredményértékelési üzenet"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "Nem lehet megnyitni a játékosprofil fájlt a részletek írásához"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "Nincsenek motorfájlok a könyvtárban, a játékot törölték."
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "Névleges motorok jegyzéke"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "nem létezik, a játék értékelése törölve"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "Javaslat: Állítsa vissza a program alapértelmezett értékeit innen:"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< Főmenü > < Beállítások > < Gyári beállítások visszaállítása >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "Ha ez nem sikerül, töltse le és telepítse a névleges motorokat innen:"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "Rágcsáló motor személyisége"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "töltött"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "Értékelt játékmotor üzenet"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "A motor nincs a listában, ezért nem állítható be."
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "Játékosprofil-könyvtár"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "Javaslat: Hozza létre ezt a könyvtárat manuálisan a Windows Intézőben."
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "A játékos neve üres, kérjük, írjon be egy nevet"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "A játékos neve már szerepel a listában,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "kérjük, adjon meg egy másik játékosnevet"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "Játékosprofil ehhez:"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "Hiba történt a játékosprofil lemezre mentése során"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "A játékos neve nincs a listában,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "kérlek adj meg egy játékosnevet, ami szerepel a listán"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "törölve a lemezről"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "Hiba történt a játékosprofil lemezről való törlésekor"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "Értékelési képletek jegyzéke"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "és a < Rating formula > < + > használatával adjon hozzá egy képletet"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "a korhatár-besorolású játék párbeszédpanelen."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "A képletfájl neve üres, kérjük, írjon be egy nevet"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "A(z) értékelési képlet fájlneve már szerepel a listában."
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "kérjük, adjon meg egy másik értékelési képlet fájlnevet"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "Az értékelési képlet fájlneve nem szerepel a listában."
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "Kérjük, adjon meg egy listában szereplő értékelési képlet fájlnevet"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "Értékelési képlet"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "Hiba történt az értékelési képlet fájl lemezre mentésekor"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "A képlet fájlneve üres, kérjük, írjon be egy fájlnevet"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "Az értékelési képlet fájlja nem szerepel a listában."
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "kérjük, adjon meg egy listában szereplő képletfájlt"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "Hiba történt az értékelési képlet lemezről való törlésekor"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "Nem sikerült megnyitni az értékelési képlet fájlját olvasásra"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "Embermotoros játékokhoz készült, minősített játékfunkció (4.0 verzió)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "Mozgáskésleltetés"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "Mozgáskésleltetés.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "Az áthelyezési késleltetés párbeszédpanel megjelenítése"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "Hibaüzenet"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "Másolás egyéni paraméterekbe"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "A < Besorolt ​​játék > funkció írásakor azt tapasztaltam, hogy a Delfi motor"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "szükség volt a határerősségi beállításokra, amelyeket az egyéni paraméterek listájában helyeztek el"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "hogy dolgozhassanak."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "A Delfi motor esetében ez a művelet automatikusan megtörténik."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Ha más motoroknál is jelentkezik ez a probléma, akkor ellenőrizheti a"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< Másolás egyéni paraméterekbe > mező és a határerősségi paraméterek"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "át lesz másolva."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "Azt is tapasztaltam, hogy ha egynél több játékot játszottál egy legyengült Stockfish motorral"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "és a < Másolás egyéni paraméterekbe > nem volt beállítva, a Stockfish teljes erősségűre állt vissza."
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "a második játékhoz. Tehát valószínűleg a legjobb, ha ez az opció mindig be van állítva."
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "határerősség használata esetén."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "A < Besorolt ​​játék > funkció használatakor ez minden motorra érvényes."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Ha a Stockfish elleni játék közben meg van nyitva a keresési információs panel,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "teljes szilárdsági elemzést mutat a motorra,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "még akkor is, ha az UCI határerősség használatával meggyengült."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "Meg lehet állapítani, hogy valóban meggyengült-e, mert gyakran fog játszani"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "egy másik lépés, mint amit az elemzésben bemutattunk."
+
