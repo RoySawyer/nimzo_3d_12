@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "評価調整式"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "のために"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "勝利価値"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "損失額"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "ドローバリュー"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "強度調整係数"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "有効最大差値"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "最低勝利価値"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "勝利のための入力評価の変更"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "引き分けの評価変更"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "損失による格付け変更"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "強度係数調整率を入力します"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "有効最大定格差"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "このダイアログボックスでは、ユーザーは数式のオプションを設定できます。"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "エンジンとの対戦後にプレイヤーの評価を調整するために使用されます。"
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "勝利値 - ゲームに勝利することで増加するランキングポイント。"
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "描画値 - これは常にゼロに設定されます。"
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "損失値 - これは勝利値のマイナス値です。"
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "強度調整係数（パーセント） - この値は"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "評価を計算する際には、以下の式に示すように、"
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "有効最大評価差 - ランキング差が"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "プレイヤー間の差がこの数値より大きい場合、"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "この数値に設定されます。以下の式を参照してください。"
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "基本的な公式は米国チェス連盟で使用されている"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "通信チェスゲーム用。"
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "以下のウェブサイトで説明されています。"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "ここで彼らの公式について説明しましょう。"
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "試合後の新しい評価の計算は次の通りです。"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "（勝敗に関わらず）"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "ここで0.04（4％）は強度調整係数（SAF）である。"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED は有効な評価差です。"
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "EDは、ランキングを計算する際に正の値を持ちます。"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "弱いプレイヤーの場合は負の値になり、強いプレイヤーの場合は負の値になります。"
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "勝敗値が16の場合、実際の評価差が"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "プレイヤー間の差が 350 より大きい場合は 350 に設定されます。"
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "これは、このような場合に、"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "弱い相手に勝つとランキングが上がり、負けると"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "相手が強くなるほど、ランキングが下がります。"
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "ここでの評価の変化はわずか 2 ポイントです。"
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "これは、最小勝利値変数を使用して調整できます。"
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "だから、一般的な方程式はこうだと思います -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "どこ"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "最低勝利価値"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "デフォルト設定はランキング計算式ファイル<USCF>に保存されます。"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "ただし、必要に応じて新しいファイルを作成して設定を変更することもできます。"
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "基本的な数字には小さな変更のみをお勧めします。"
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "評価式の説明"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "人間の動きの遅延 - エンジンゲーム"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "移動遅延を使用する"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "秒後にキャンセル"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "最小移動遅延（秒）"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "最小移動遅延を強制する"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "ランダムな施行時間を使用する"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "最大移動遅延（秒）"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "一定時間のランダム遅延"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "人間とエンジンのゲームで移動遅延を使用する"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "残り時間がこの秒数に達したら移動遅延をキャンセルします"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "最小移動遅延（秒）"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "最小移動遅延を強制する、"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "キャンセル秒数に達するまで"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "1から最小移動遅延までの乱数を使用する。"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "最小移動遅延の強制が設定されている場合"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "最大移動遅延（秒）"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "固定エンジン時間に対してランダム移動遅延を使用する"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "この機能は主にコモドチェスエンジンで使用することを目的としています。"
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "人間エンジンゲームに対して弱体化したとき。"
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "この場合、エンジンはほぼ即座に動き、ゲームは"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "不自然なリズムで、かなり不安を感じます。"
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "これはRybka 2.3エンジンでも発生します"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "そしてアレクサンダーチェスエンジン。"
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "Komodoエンジンには<低速移動>オプションがないので、このダイアログボックス"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "エンジンの速度を低下させるオプションを設定できます。"
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "移動遅延を使用する - チェックすると、ヒューマン エンジン ゲームで移動遅延が使用されます。"
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "キャンセル秒数 - 移動遅延が使用されなくなる時間を選択します。"
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "最小移動遅延 - 最小移動遅延を秒単位で選択します。"
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "最小移動遅延を強制する - 最小移動遅延を強制するにはチェックを入れます"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "この場合、プログラムが移動に許される時間を計算すると、"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "最小移動遅延より小さい場合、移動遅延は"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "最小移動遅延、または1から最小移動遅延までの乱数、"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "次のチェックボックスの設定によって異なります。"
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "キャンセル秒数に達すると、この強制は適用されなくなります。"
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "チェックを外すと、エンジンは最小移動遅延よりも速く移動をプレイできるようになります。"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "時間が足りなくなってきたら、秒数でキャンセルしてください。"
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "ランダムに強制 - 最小移動遅延のランダム強制時間をチェックします。"
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "最大移動遅延 - 最大移動遅延を秒単位で選択します。"
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "固定時間のランダム遅延 - 固定時間レベルでランダム移動遅延を使用するにはチェックします。"
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "チェックを外すと、移動遅延に許可されている固定時間全体が使用されます。"
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "移動遅延ヘルプ"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "定格ゲームオプション"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "プレイヤーゲームのPGNファイル名"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "ゲームの.pgnファイルを選択"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "エンジン対戦相手"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "エンジンELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "人物"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "現在のプレーヤー"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "プレイヤーELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "プレイヤーのELOレーティングを編集する"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "プレイヤーのELOレーティングを編集するにはチェックを入れてください"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "現在のエンジンとして設定"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "現在の時計として設定"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "結果の評価変更"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "手動調整"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "評価式"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "時間制御"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "1試合あたりの出場時間"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "増分（秒）"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "プレーヤー"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "ブックオフ"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "ゲームを始める"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "プレイヤーのゲームを保存するためのPGNファイル名を入力します"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "エンジンのELO強度を入力してください"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "エンジン設定ダイアログボックスを開く"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Rodentエンジンのパーソナリティダイアログボックスを開く"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "新しいプレーヤーを追加する"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "現在のプレーヤーを削除する"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "現在のプレーヤーの詳細を保存する"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "プレイヤーのELOレーティング"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "プレイヤーのELOレーティングを編集するにはチェックを入れてください"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "評価されたゲームで移動遅延を使用するにはチェックを入れます。"
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "エンジン設定を現在の設定に設定するにはチェックを入れます"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "時計の設定を現在の設定に設定するにはチェックを入れます"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "このゲームのオープニングブックをオフにするにはチェックを入れてください"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "プレイヤーの勝利によるELOレーティングの変更"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "プレイヤーの敗北によるELOレーティングの変更"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "引き分けの場合のELOレーティングの変更"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "評価の変更を調整するにはチェックを入れてください"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "プレイヤーのELOを手動で"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "現在使用されている評価式"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "新しい数式を追加する"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "現在の数式を削除する"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "現在の数式を編集する"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "ゲームのプレイヤー時間を分単位で入力してください"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "プレイヤーの移動増分を秒単位で入力してください"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "ゲームのエンジン時間を分単位で入力してください"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "エンジン移動の増分を秒単位で入力します"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "人間が白を打つかどうかをチェックする"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "現在の設定でゲームを開始する"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "対戦したいエンジンを選択してください"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "現在のプレーヤーを選択"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "評価されたゲームのヘルプ"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "レーティングゲームは、弱体化したプレイヤーと対戦する便利な方法を提供します"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "チェスエンジンと同時にあなたの進捗状況を追跡します"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "おおよその ELO レーティングを更新します。"
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "レーティングされたゲームでは以下のオプションを設定できます"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN ファイル名: 評価されたゲームを保存する PGN ファイル名を選択します。"
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "ファイル名はプレイヤー名から派生し、"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "プレイヤー名が入力されていない場合は、rated_games.pgnがファイル名として使用されます。"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "エンジン対戦相手: ここで、プレイするエンジンを選択できます。"
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "これらのエンジンにはすべてUCI_LimitStrengthオプションがあり、"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "これにより、弱体化が可能になります。"
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "このオプションを持つ別のエンジンを追加する場合は、コピーする必要があります"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "に"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "ディレクトリ"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "エンジン ELO - エンジンの ELO 強度を選択します。"
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "許容上限値と許容下限値が表示されます。"
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "エンジン設定 - エンジンダイアログボックスが開き、"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "選択したエンジンのその他のオプション。例については< Stockfish >をクリックしてください。"
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Rodentチェスエンジンがロードされている場合は、< Personalities >ボタン"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "このエンジンも登場します。"
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "現在のプレイヤー - ここで現在のプレイヤーを設定したり、追加、削除したりできます"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "プレイヤーを編集します。現在のプレイヤーの名前は編集ウィンドウに表示されます。"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "ドロップダウン リスト ボックスの。"
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "プラスボタン - 新しいプレーヤーを追加するには、編集ウィンドウに名前を入力してクリックします。"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "このボタンをクリックすると、その名前がリストに追加され、ファイル名も作成されます。"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "詳細情報を含むデータは、"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "マイナスボタン - クリックすると編集ウィンドウに表示されているプレーヤーが削除されます。"
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "これにより、ディスクからファイルも削除されます。"
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "保存 - クリックすると、編集ウィンドウにプレーヤーの詳細が保存されます。"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "ELO レーティングを手動で変更した場合。"
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "プレーヤー ELO - 編集ウィンドウにプレーヤーの ELO 評価が表示されます。"
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "新しいプレーヤーを追加するときにこのボックスを編集する場合は、次のオプションを参照してください。"
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "プレーヤーの ELO レーティングを編集する - チェックすると、プレーヤーの ELO レーティングを編集できるようになります。"
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "移動遅延を使用する - 評価されたゲームで移動遅延を使用する場合にチェックします。"
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "このオプションは、エンジンの動きが速すぎる場合に使用します。"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "コモドドラゴンのように弱っているとき。"
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "現在のエンジンとして設定 - このボックスに表示されているエンジンを設定するにはチェックを入れます"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "評価されたゲームが終了した後の現在のエンジンとして。"
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "チェックを外すと、評価されたゲーム後に古いエンジンにリセットされます。"
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "現在の時計として設定 - このボックスに表示されている時計の時刻を設定するにはチェックを入れます"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "レートされたゲームが終了した後の現在の時計として。"
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "チェックを外すと、評価されたゲーム後に古い時計にリセットされます。"
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "結果の評価の変更 - 勝利、敗北、引き分けの評価の変更を表示します。"
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "これらはプレイヤーとエンジンのEloレーティングに応じて自動的に調整されます"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "ELO 計算にはどの式が使用されるか。"
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "手動調整 - 上記の値を手動で変更する場合は、このボックスをオンにします。"
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "手動で調整した値でレーティングゲームをプレイしたい場合は、"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "<ゲームを開始>をクリックするときにこのボックスをチェックしたままにしてください。"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "評価式 - ここで ELO 計算式を選択して変更できます。"
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "現在のプレーヤーボックスと同様の方法で使用されます。"
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "主な違いは、数式を追加または編集するときに、"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "新しいダイアログ ボックスが開き、数式のオプションを入力できます。"
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "評価の計算式の詳細については、<ヘルプ>ボタンをクリックしてください。"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "数式ダイアログ ボックスの。"
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "時間制御 - ゲームの時間制御を選択します。"
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "ゲーム時間を分単位で入力し、移動の増分を秒単位で入力します。"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "人間のプレイヤーとチェスエンジン向け。"
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "必要に応じて、エンジンよりも長い時間をかけることができます。"
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "ブックオフ - 評価されたゲームの開始ブックをオフにするにはチェックします。"
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "白をプレイ - 人間のプレイヤーが白をプレイするかどうかを確認します。"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "人間のプレイヤーが黒をプレイする場合はチェックを外します。"
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "ゲームを開始 - クリックすると、現在のオプションで評価されたゲームが開始されます。"
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "人間とエンジンのゲームのための興味深く多様なオープニングブックが必要な場合は、"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "ポリグロットのオープニングブックをお勧めします"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "この本は、Deep Saros エンジンのダウンロードの一部でした。"
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "次のディレクトリにインストールされているはずです -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "定格ゲームエンジンのヘルプ"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "アラサン"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "齧歯類"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "ストックフィッシュ"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "使用されるエンジン < 定格ゲーム > にはすべて、UCI 制限強度オプションがあります。"
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "これにより、ユーザーはおおよそのELOレーティングを選択できます。"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "エンジンの再生強度のため。"
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "エンジンは通常、次のディレクトリに保存されます -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "選択できる選択肢は豊富ですが、他の限界強度を追加することもできます"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "必要に応じて、< rated_engines > に新しいディレクトリを作成してエンジンをインストールします。"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "エンジンの *.exe ファイルをそこにコピーします。"
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "このプロセスは、以下の商用エンジンで機能します。"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "コモドドラゴン、フリッツ 16、シュレッダー、フーディーニ 6、ディープ ジュニア、カイロン。"
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "おそらく、さらにもっとたくさんあるでしょう。"
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "私はほとんどの種類のコンピュータに対応しようと努めてきましたが、"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "エンジンリストはかなり長いので、不要なものは削除できます。"
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Ufim、Delfi、Amyanなどの古いエンジンは、"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "それぞれ異なる方法で、Stockfishから派生したエンジンのほとんどは、"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "同じようにプレイします。"
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "完全にユニークで完璧に適合した唯一のエンジン"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "<定格ゲーム> には、Pawel Koziol によって書かれた Rodent チェス エンジンが使用されています。"
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "詳細については、< Rodent > をクリックしてください。"
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Jon Dart によって書かれた Arasan エンジンも非常に優れたエンジンです。"
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Stockfish ほど強力ではありませんが、独特のプレイスタイルを持っています。"
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "ただし、TarraschとNimzo_3dのGUIと併用すると、"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "いくつか問題があります。"
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "バージョン23.0でニューラルネットが追加されて以来、"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "どれも私のコンピュータでは動作しませんでした。"
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "ただし、最新バージョン25.2では、以下のエンジンが動作します。"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "これらの問題を考慮して、私はバージョン22.3のエンジンを使用しました。"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "レーティング対象ゲーム向け。これはニューラルネットを搭載していない最後のバージョンでした。"
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "このバージョンのエンジンはすべて私のコンピューターで実行されます。"
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "アラサンエンジンヘルプ"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "ストックフィッシュチェスエンジン"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "ストックフィッシュ国立公園"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "アレクサンダー"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "エンジンマッチのコードを書いていた時、Stockfishが"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "コモドエンジンは制限時間が短いゲームでは時間切れで負けていました。"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "そこで、この問題を解決するために < エンジン時間調整 > オプションを作成しました。"
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "制限時間を長くしたレーティングゲームでは、再び"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "ストックフィッシュはオープニングブックから外れると非常にゆっくりと動きます"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "または本が使用されない場合。"
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "これを解決するには、Stockfish の slow mover オプションを調整します。"
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "この値を下げると、移動速度が少し速くなります。"
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "このオプションは高速な時間制御には適していないことがわかりました"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "ゲームのプレイ時間が 3 分以内であれば、5 分以上でも問題なく動作します。"
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "Stockfish 11 の場合、5 ～ 10 分のゲームでは 20 ～ 30 の値で十分です。"
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "カスタムパラメータオプションを使用して、スロームーバーオプションを設定できます。"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "エンジン ダイアログ ボックスで。"
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "簡単にするために、Stockfish 11用のエンジンパラメータファイルを作成しました。"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "スロームーバー設定で。これはレーティングゲームのダイアログボックスから読み込むことができます。"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "エンジン<エンジン設定...>をクリックし、<エンジンをロード>をクリックします。"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "開いたエンジン ダイアログ ボックスから。"
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Stockfish 11のパラメータファイルは、以下のディレクトリに保存されます。"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Stockfish エンジン 8 ～ 15 にはスロー ムーバー オプションがありますが、16 と 17 にはありません。"
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "ここでは余分な演奏力は必要ないことを考えると、"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "より強力なエンジンを使用する必要はありません。"
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "このバージョンのStockfishエンジンはGitHubで見つかりました。"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "標準エンジンよりも調整可能なバージョンです。"
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "< README.md > ファイルからのエンジンの説明は次のとおりです -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPSは、人間が遊ぶために少し改造されたStockfishです。"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "1秒あたりのノード数の削減により、（1秒あたりのキロノード数 ~= 1 / waitms"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "ランダム評価、検索深度、検索ノードの制限。"
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "最初の2つの変更の強度はuciオプションで設定できます。"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "0から100までの範囲で指定できますが、検索の深さは1から20までの範囲に制限されます。"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "ノードを最大 500000 の値まで検索します。"
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "すべての変更は、以下と組み合わせて使用できます。"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "ELO制限強度とスキルレベル設定により強度を低下させる"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "人間と対戦するときのエンジンの。"
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "デフォルト設定では、StockfishNPS は現在の Stockfish16_dev とまったく同じように動作します。"
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "検索ノード設定のみを 1 ～ 10 に変更すると、ELO がおよそ 1400 に減少します。"
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "これは、追加のオプション変更の良い出発点となります。"
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "これは、< waitms > 値が大きいほど、"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "エンジンが 1 秒あたりに検索する位置の数。"
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "ランダム化評価値の増加"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "より多様な遊びが可能になります。"
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< 検索ノード > は、検索される位置の数に何らかの制限を課します。"
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< 検索の深さ > は、エンジンが検索する半移動 (プライ) の数を制限します。"
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "< nodestime > というオプションもありますが、それが何をするのかわかりません。"
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "デフォルト値のゼロは、オプションが使用されないことを意味します。"
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "便宜上、エンジン用のエンジンパラメータファイルを作成しました。"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "すべてのパラメータがデフォルトに設定されており、調整する準備が整っています。"
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "これらは以下の場所に保存されます -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "エンジン ダイアログ ボックスから < エンジンのロード > を使用してロードできます。"
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Stockfish NPSエンジンヘルプ"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "これは多くの調整機能を備えた Stockfish 派生エンジンです。"
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "最初にELO制限強度設定で試したときは弱体化しませんでしたが、"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "そして全力で動きました。"
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "次に、< 障害者の深さ > オプションを追加し、これを < true > に設定しました。"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "これはうまく機能しているようで、エンジンは異なる深さで再生します。"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "設定された ELO レーティングに基づきます。"
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "他にも多くのオプションがあり、それらはファイル<README.md>に記載されています。"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "このファイルは次のディレクトリにあります"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "このディレクトリに2つのエンジンパラメータファイルを作成しました。"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "エンジンダイアログボックスから<エンジンのロード>でエンジンを設定します。"
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "弱体モードでプレイする場合、アレクサンダーはほぼ瞬時に動きます。"
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "必要に応じて、< メインメニュー > < エンジン > < 移動遅延 > で速度を落とすことができます。"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "AlexanderエンジンはGitHubの次のリンクでホストされています。"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "アレクサンダーチェスエンジンヘルプ"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "プレイヤー名がないとゲームを開始できません"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "現在のプレーヤーリストボックスからプレーヤーを選択してください"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "レーティングされたゲームのエラーメッセージ"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "評価式がないとゲームを開始できません"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "評価式リストボックスから式を選択してください"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Rodentエンジンのパーソナリティ設定を選択"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "エンジンファイルがありません"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "定格エンジンディレクトリは変更されませんでした。"
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "読み取るパーソナリティファイルがありません"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "人物ディレクトリ"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "存在しないので、個性を示すことができない"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Rodent 3エンジンのパーソナリティ設定を選択する"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "現在の性格"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "パーソナリティ名を表示"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "ドキュメントディレクトリを使用する"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "ELO強度の制限を使用する"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "エンジンの強度を調整するための値を入力します"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "1秒あたりのノード数"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "デフォルト値をコピー"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "評価ぼかし値"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "コピー評価のぼかし"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "検索スキルレベル（1～10）"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "コピー検索スキル"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "現在の設定をファイルに保存する"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "パーソナリティファイルを保存するファイル名を選択してください"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "存在しない場合はファイルに値を追加する"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "次のディレクトリを使用するにはチェックを入れてください"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "定格エンジンおよび関連ファイル"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "エンジン調整にUCI限界強度を使用するかどうかをチェックします"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "1秒あたりのノード数を入力します。"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "高いほど強く、低いほど弱く、"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "しかし、最大強度の場合はゼロ"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "ぼかし評価値を入力します。"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "低いほど強く、高いほど弱い"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "スキルレベルの値を入力します。"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "低いほど弱く、高いほど強い"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "1秒あたりのノード数と評価ブラーを追加します"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "ファイルに値が存在しない場合は追加する"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "対戦したい性格を選択してください"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "から"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "切り替えできません"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI限界強度調整"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "1秒あたりのノード調整"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "設定できません"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "なぜなら"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "ファイルを開けませんでした。"
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "制限強度オプションがファイルになかったためです。"
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "すべての値はデフォルトに設定されています"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "だから書く意味がない"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "入力ファイルを開けませんでした"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "出力ファイルを開けませんでした"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "更新され、"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "ディスクに保存"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "げっ歯類チェスエンジンのヘルプ"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "性格の説明"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "齧歯類について"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "このダイアログボックスでは、プレイパーソナリティを選択できます。"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "Rodent チェス エンジンのオプション。"
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "現在のパーソナリティ - ドロップダウン リスト ボックスでパーソナリティを選択できます。"
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "ELO制限強度を使用する - エンジンダイアログボックスでELO値を使用するにはチェックを入れます"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "エンジンの再生強度を設定するとき。"
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "エンジンの強さを調整するための値を入力してください -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "1秒あたりのノード数 - エンジンが生成する位置の数"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "1秒あたりに分析します。"
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "評価ぼかし値 - 評価関数に追加されるランダム値。"
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Rodent 3では、ノード/秒モードでは、評価ブラー値が"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "パーソナリティファイルから読み込まれます。これにより、"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "調整を行う場合は、使用する値の範囲を指定します。"
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "このオプションは、ELO 制限強度でも使用できます。"
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "このように使用すると、設定を20にすると動きが変化することがわかりました。"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "エンジンは作動したが、20以上の数字は500まで効果がない"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "1000 を超える設定では、エンジンが著しく弱くなります。"
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "私のコンピュータのELO制限強度モードの便利な設定"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "20 または 500 - 1000 ですが、コンピュータによって異なる場合があります。"
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "設定または表示したくない場合は、ゼロに設定します。"
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "ELO制限強度を使用する場合、1秒あたりのノード数は適用されませんが、"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "後で使用するために、値を入力してパーソナリティ ファイルに保存することもできます。"
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "デフォルト値をコピー - 強度調整値を確認します"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "このダイアログボックスからエンジンダイアログボックスにコピーされます"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "デフォルトに設定されている場合でも、編集できます。"
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "そのままにしておくと、エンジンには影響がありません。"
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ELO制限強度モードでは、削除されてもリセットされません。"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "エンジンダイアログボックス。ノード数/秒モードではリセットされます。"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "そのため、編集するには < パラメータのコピー > をオフにする必要があります。"
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "パーソナリティ名を表示 - パーソナリティ名を表示する場合はチェックを入れます"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "ゲーム中にエンジン名をたどります。"
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "エンジン定格も自動的に表示されます。"
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "ドキュメントディレクトリを使用する - 使用する場合はチェックを入れます"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "定格エンジン用。"
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "これは、コピーされなかった場合の緊急フォールバック対策です。"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "他の場所にインストールされている場合は、コピーして"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "上記のディレクトリのいずれか。"
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "インストールされていない場合は、以下のリンクからダウンロードできます。"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "リンク"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "現在の設定をファイルに保存 - このファイルピッカーを使用すると、"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "ダイアログボックスから現在のファイルに再生強度の設定を適用する"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "または、必要に応じて新しいものを作成してください。"
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "存在しない場合は値を追加 - 強度調整値をファイルに追加するにはチェックを入れます"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "存在しない場合。評価ぼかし値を追加した場合、このようになります。"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "Rodent 4 のパーソナリティ ファイルに追加します。"
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "Rodentチェスエンジンについて"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Pawel Koziol によって書かれた Rodent は非常に興味深いチェス エンジンです。"
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "UCI_LimitStrengthオプションとパーソナリティのセットがあり、"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "ファイルからロードされ、より弱く、より多様なプレイを実現します。"
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "エンジンがパーソナリティとその"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "ブックを開くときは、すべてのコンポーネントを同じディレクトリに配置する必要があります。"
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "それらは-に設置されるべきだった"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Rodentエンジンがゲーム中に独自のブックを使用するようにしたい場合は、"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "次に、Nimzo_3dオープニングブックをオフにする必要があります"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< メインメニュー > < オープニング > < オープニングブック >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "または、< Book off >オプションをチェックします（"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "ゲームの定格ダイアログボックス。"
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "いくつかのドキュメントとユーティリティプログラムがあります"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "より多くの個性を作るために使うことができます。"
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "Rodent 4 エンジン パッケージおよび旧バージョンは、次の場所からダウンロードできます。"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Rodent 4のみ、詳細なレビュー付き"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "Rodent 4エンジン支持材（エンジンなし）"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Rodent 3のサポート材（エンジンなし）"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Rodent パーソナリティファイルは、単に *.txt ファイル内の UCI コマンドのリストです。"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "それは次のように動作するはずです -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "チェス プログラム GUI は、< Personality > コマンドを Rodent エンジンに送信します。"
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "エンジンはパーソナリティファイルからコマンドを読み取ります。"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "それに応じて設定を調整します。"
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "しかし、Nimzo_3dとTarrasch GUIの両方において、"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "このように使用すると、エンジンを動作させることができませんでした。"
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "出演者は全員同じ動きをしました。"
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "そこで、代わりに< Personality >コマンドをインターセプトしました。"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "GUIからエンジンに送信されようとしている、パーソナリティファイルを開いた"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "ファイルからコマンドを個別に送信しました。これでうまくいくようです。"
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "基本的に、Rodent エンジンには演奏の強さを変える主な方法が 2 つあります。"
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "ELO 制限強度または評価ブラー付きの 1 秒あたりのノードを使用できます。"
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ELO制限強度では、おおよそのELOレーティングを設定できます。"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "評価ブラー付きの1秒あたりのノード数で値を設定できます"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "同様の弱体化効果があります。"
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "Rodent 3のパーソナリティは1秒あたりノードを使用するように設定されている"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "評価のぼかしとRodent 4の使用を意図しています"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "ELO 制限強度のみ。"
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "< Personality >コマンドの送信方法を変更したため、"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "Rodent 3はELO限界強度で個性を発揮できる"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "評価ブラーと選択スキルと組み合わせることで、"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "ただし、1秒あたりのノード数ではありません。"
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "これは、Rodent 4がELO限界強度を使用できることを意味します"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "評価ブラーとスキル選択付き。"
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "評価ブラー値をわずかに変更すると、エンジンは"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "プレイの強さに大きな影響を与えずに異なる動きをする、"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "ぼかし値が高すぎない限りは。"
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "これを試してみると、20～50の値が"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "かなりうまくいきました。"
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "さらに、両方のエンジンでパーソナリティファイルを使用できるようになりました"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "Nimzo_3d内でのわずかな調整のみで他のエンジンの"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "エンジンの < Personalities > ディレクトリにコピーされたら。"
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "これにより、変更が必要な場合に新しいパーソナリティ ファイルを簡単に入れ替えることができます。"
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "< extra_personalities >にいくつか置いておきます"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "< Personalities > ディレクトリ内。"
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "パーソナリティファイルは次のディレクトリに保存されます -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "プラス"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "または"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Nimzo_3d内からファイルを変更して調整することができます。"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "1 秒あたりのノード数と評価ブラー値が計算され、ディスクに保存されます。"
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "パーソナリティファイルにコマンドが書かれていても問題はありません"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "現在使用されているエンジンには適さないもの。"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "エンジンに送信される前に GUI によってフィルタリングされます。"
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "齧歯類のコマンド"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "Rodentチェスエンジンのパーソナリティに関するこれらの説明は、"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "ファイル< FinalRodent.pdf >は次のディレクトリにあります -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "事前定義された性格"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "Rodentプロジェクトは発足当初からエンジンの開発に取り組んできました"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "チェスマスターシリーズのようにプレイスタイルを変更できる"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "より良くなっただけです。新バージョンでのコード変更により、古いパーソナリティは"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "はもう使えないので、新しいセットを作る必要があると感じました。"
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "興味を持っていただければ幸いです。"
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "まず第一に、攻撃者であり、二番目に考慮される"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "駒のアクティビティです。ギャンビットオープニングをプレイします。"
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe は、クローズド ポジション、ポーン ストーム、健全なポーン構造を好みます。"
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "彼女がクローズドポジションよりも好む唯一のものはクローズドポジションです"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "1 つの開いたファイルがあり、そのファイルは彼女のルークによって所有されています。"
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "彼女はフランスと国王インディアンの防衛術を実践していることを誇りに思っています。"
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "彼女を黒髪で細身で憂鬱な女性として想像してください。"
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "彼女はビショップを好む守備的なプレーヤーです。"
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "高価なスーツを着て、CEOのような姿を想像してみてほしい"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "チェスプレイヤーよりも。強くて合理的だが、少し悲観的な性格。"
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "堅実なオープニングをプレイする。完全に互角のポジションでもドローを取る準備ができている。"
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "彼がすでに全盛期を過ぎた選手だと想像してみてほしい。"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "対戦相手に対して失礼であり、依然として非常に危険です。"
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "グランピーは敵の動きを制限して攻撃するのが好きで、"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "クローズドポジションを楽しみ、勝利を期待しています。"
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "彼は年齢のせいで、あまり現代的ではないオープニングを主に演奏します。"
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "たとえば、彼はタラッシュの守備を気に入っています。"
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "ポール・モーフィーの物まね。機動力を強調し、"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "その後、キングが攻撃し、オープンポジションを好みます。"
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "彼は、あまりスペースを取らない隙間からゆっくりと始める。"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "中心にありますが、誤った安心感に陥らないでください。"
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "その後、彼は凶悪な攻撃を仕掛ける。"
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "彼を若く有望なグランドマスターとして想像してみて下さい。"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "まだ本当の潜在能力に到達していない人。"
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "痩せ型で、活発、派手な動きがちょっと好きすぎる。"
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "彼は時々自分のポーンを手放す傾向がある。"
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "バランスのとれた性格で、物質的な犠牲をある程度払う傾向がある。"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "終盤では積極的に防御に回ることが多い。"
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "ペドリタはポーン、防御、抑制を意味します。"
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "彼女は堅実なオープニングをプレイし、まず防御を考えていますが、騙されないでください!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "彼女はポジションが要求すれば攻撃できるし、堅実なポーンプレーで"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "彼女はなかなか手強い女性だ。"
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "やや物質主義的だが主導権を握ろうとしている"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "そして、不健全な計画を避けるためにデフォルトに十分近い状態にします。"
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "敵の駒に対してプレッシャーをかけるのが好きです。"
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "クローズドオープニングを白でプレイし、スラヴとカロ・カンのディフェンスを黒でプレイします。"
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "おそらく、弱いエンジンに対しては最善のセットアップです。"
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "評価関数のより高度な側面を考慮せずにプレイする、"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "賢明なデフォルトを適用する。クイーンの交換をわずかに優先する。"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "完全に同点の場合は引き分けになります。"
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "おそらく最もコンピューター的な性格。"
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "茶色の革ジャンを着た背の高い男性を想像してください。"
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "彼は活発な遊びは好きですが、攻撃を受けるのは嫌いです。"
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "クイーンをボード上に残しておくのが好きです。"
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Brendan J.Norman による Rodent III パーソナリティに基づいています。"
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "ボアコンストリクタースタイルでプレイするが、攻撃を強く好み、"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "位置的な理由で犠牲になる可能性が高い。"
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "グランピーのもっと気まぐれなバージョン、とても人間らしい遊びです。"
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "クイーンを使った終盤戦では楽観的すぎる可能性があります。"
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "世界チャンピオンや有名選手のパーソナリティも多数在籍しています。"
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Rodent 4 チェスエンジンの性格説明"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "ウィンドウは常に最前面に"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "必要に応じて、速度を遅くすることもできます。"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< メインメニュー > < エンジン > < 移動遅延 >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "チェスエンジンと対戦してレーティングゲームをプレイする"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "限界強度設定をカスタムパラメータにコピーするにはチェックを入れます"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "評価式の説明"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "パーソナリティ名を表示するにはチェックを入れます"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "ゲーム中にエンジン名を表示"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "検索スキル値を入力してください。"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "オプションを常に自動的にコピーするにはチェックを入れます"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "カスタムパラメータ全体"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "評価ブラーを自動的にコピーするにはチェックを入れます"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "カスタムパラメータの値"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "検索スキルを自動的にコピーするにはチェックを入れます"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "保存するファイル名を入力してください"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "エンジン強度調整オプション"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "白で勝って利益を得る"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "黒で負けて負けた"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "白で負けて負け"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "黒で勝って利益を得る"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "白で引いた"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "黒で引いた"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "評価の変更はありませんでした。"
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "そして獲得した"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "そして失われた"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "新しい評価は"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "ゲーム結果評価メッセージ"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "詳細を書き込むためにプレーヤー プロファイル ファイルを開くことができません"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "ディレクトリにエンジンファイルがありません。評価されたゲームはキャンセルされました"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "定格エンジンディレクトリ"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "存在しません。評価されたゲームはキャンセルされました"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "提案: プログラムのデフォルト値をリセットする"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< メインメニュー > < オプション > < 工場出荷時の設定にリセット >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "これが失敗した場合は、評価済みのエンジンをダウンロードしてインストールしてください。"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "げっ歯類エンジンの個性"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "ロード済み"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "ゲームエンジンの評価メッセージ"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "エンジンがリストにないため、設定できません"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "プレイヤープロフィールディレクトリ"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "提案: Windowsエクスプローラーでこのディレクトリを手動で作成してください"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "プレイヤー名が空です。名前を入力してください。"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "プレイヤー名はすでにリストに存在します。"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "別のプレイヤー名を入力してください"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "プレイヤープロフィール"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "プレーヤーのプロフィールをディスクに保存中にエラーが発生しました"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "プレイヤー名がリストにありません。"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "リストにあるプレーヤー名を入力してください"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "ディスクから削除されました"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "ディスクからプレーヤー プロファイルを削除するときにエラーが発生しました"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "評価式ディレクトリ"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "<評価式> < + >を使用して式を追加します"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "評価されたゲーム ダイアログ ボックスで。"
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "数式ファイル名が空です。名前を入力してください。"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "評価式ファイル名はすでにリストに存在します。"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "別の評価式ファイル名を入力してください"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "評価式ファイル名がリストにありません。"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "リストにある評価式ファイル名を入力してください"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "評価式"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "評価式ファイルをディスクに保存中にエラーが発生しました"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "数式ファイル名が空です。ファイル名を入力してください。"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "評価式ファイルがリストにありません。"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "リストにある数式ファイルを入力してください"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "ディスクから評価式を削除中にエラーが発生しました"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "評価式ファイルを読み込み用に開けません"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "人間向けエンジンゲームの評価機能（バージョン 4.0）"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "移動遅延"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "移動遅延。"
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "移動遅延ダイアログボックスを表示する"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "エラーメッセージ"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "カスタムパラメータにコピー"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "<評価されたゲーム>機能を書くときに、Delfiエンジンが"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "カスタムパラメータリストに限界強度設定を配置する必要がありました"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "彼らが働くために。"
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "Delfi エンジンの場合、このアクションは自動的に実行されます。"
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "他のエンジンでもこの問題が発生する場合は、"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "<カスタムパラメータにコピー>ボックスと限界強度パラメータ"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "コピーされます。"
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "また、弱体化したStockfishエンジンで複数のゲームをプレイすると、"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "<カスタムパラメータにコピー>が設定されていなかったため、Stockfishは完全な状態に戻りました"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "2つ目のゲームでは、このオプションを常に設定しておくのがベストでしょう。"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "限界強度を使用する場合。"
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "< 定格ゲーム > 機能を使用する場合、これはすべてのエンジンに適用されます。"
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Stockfishと対戦しているときに検索情報パネルを開いている場合、"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "エンジンの完全な強度分析を示します。"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "UCI 限界強度を使用して弱められた場合でも同様です。"
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "実際に弱体化しているかどうかは、頻繁に再生されるのでわかります。"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "分析で示された動きとは異なる動き。"
+
