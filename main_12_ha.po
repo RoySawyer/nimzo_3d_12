@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "Tsarin daidaita ƙimar ƙima"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "domin"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "Ƙimar nasara"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "Ƙimar hasara"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "Zana ƙima"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "Ƙarfin daidaitawa factor"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "Matsakaicin ƙimar bambanci mai inganci"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "Ƙimar nasara mafi ƙarancin"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "Canjin ƙimar shigarwa don nasara"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "Canjin kima don zane"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "Canjin kima don hasara"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "Shigar da kaso na daidaita yanayin ƙarfin ƙarfi"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "Ingantacciyar madaidaicin ƙimar ƙima"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "Wannan akwatin maganganu yana bawa mai amfani damar saita zaɓuɓɓuka don dabara"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "ana amfani dashi don daidaita ƙimar mai kunnawa bayan wasa da injin."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "Ƙimar nasara - haɓakar matsayi don cin nasara a wasa."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "Zana ƙima - wannan koyaushe ana saita shi zuwa sifili."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "Ƙimar asarar - wannan ita ce ragi darajar ƙimar nasara."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "Matsakaicin daidaitawar ƙarfi (kashi) - Ana amfani da wannan ƙimar"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "a cikin lissafin ƙididdiga, kamar yadda aka nuna a cikin lissafin da ke ƙasa."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "Ingantacciyar madaidaicin ƙimar ƙima - Idan bambancin matsayi"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "tsakanin 'yan wasan ya fi wannan adadin,"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "sai an saita zuwa wannan lambar.  Dubi lissafin ƙasa."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "Ƙungiyar Chess ta Amurka ce ke amfani da ainihin dabara"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "don wasiƙun chess wasanni. "
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "Kuna iya ganin yadda aka bayyana shi a gidan yanar gizon mai zuwa -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "Ga bayanina akan tsarin su."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "Lissafin su don sabon rating bayan wasa shine -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(don nasara ko asara)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "Anan 0.04 (kashi 4) shine yanayin daidaita ƙarfin (SAF)"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED shine bambancin ƙima mai tasiri."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED yana da ingantacciyar ƙima yayin ƙididdige ƙimar ƙimar"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "ɗan wasa mai rauni da ƙarancin ƙima yayin ƙididdige ɗan wasa mafi ƙarfi."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "Don ƙimar nasara / hasarar 16, idan ainihin bambancin ƙimar"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "tsakanin 'yan wasan ya fi 350, sannan an saita shi zuwa 350."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "Wannan shi ne don tabbatar da cewa a cikin waɗannan lokuta, idan kun ci nasara a wasa da"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "abokin adawa mai rauni, darajar ku yana ƙaruwa kuma idan kun yi rashin nasara"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "abokin gaba mai karfi ya rage darajar ku."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "Canjin kima a nan zai zama ƙarami, maki 2 kawai."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "Ana iya daidaita wannan ta amfani da madaidaicin ƙimar nasara."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "Don haka ma'auni na gaba ɗaya shine, ina tsammanin -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "ina"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "ƙimar nasara mafi ƙarancin"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "Ana adana saitunan tsoho a cikin fayil ɗin ƙira <USCF>"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "amma zaka iya ƙirƙirar sabon fayil kuma canza saitunan idan kuna so."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "Zan ba da shawarar ƙananan canje-canje zuwa ainihin lambobi."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "Bayanin dabarar ƙima"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "Matsar da jinkiri don wasanni na inji"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "Yi amfani da jinkirin motsi"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "Soke a cikin daƙiƙa"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "Mafi ƙarancin jinkirin motsi (daƙiƙa)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "Aiwatar da mafi ƙarancin jinkirin motsi"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "Yi amfani da lokacin tilastawa bazuwar"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "Matsakaicin jinkirin motsi (dakika)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "Bazuwar jinkiri na ƙayyadadden lokaci"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "Yi amfani da jinkirin motsi a cikin wasan inji"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "Soke jinkirin matsawa lokacin da wannan dakikoki masu yawa suka rage"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "Mafi ƙarancin jinkirin motsi a cikin daƙiƙa"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "Aiwatar da mafi ƙarancin jinkirin motsi,"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "har sai an soke a daƙiƙa"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "Yi amfani da bazuwar lamba tsakanin 1 - ƙaramar jinkirin motsi,"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "lokacin da aka saita mafi ƙarancin jinkirin motsi"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "Matsakaicin jinkirin motsi cikin daƙiƙa"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "Yi amfani da jinkirin motsi bazuwar don ƙayyadadden lokutan injin"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "An yi niyyar wannan fasalin da farko don amfani da injunan dara na Komodo"
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "lokacin da aka raunana su don wasanni na inji."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "A wannan yanayin injunan suna motsawa kusan nan da nan, wanda ke ba da wasan"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "rhythm wanda bai dace ba, wanda ke da ban tsoro."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "Hakanan yana faruwa tare da injin Rybka 2.3"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "da injin chess na Alexander."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "Injin Komodo ba su da zaɓin <Slow mover>, don haka wannan akwatin maganganu"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "yana ba ku damar saita zaɓuɓɓuka waɗanda zasu rage injin."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "Yi amfani da jinkirin motsawa - Bincika don amfani da jinkirin motsi don wasannin injuna."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "Soke a cikin daƙiƙa - Zaɓi lokacin da ba a ƙara amfani da jinkirin motsi ba."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "Mafi ƙarancin jinkirin motsawa - Zaɓi mafi ƙarancin jinkirin motsi a cikin daƙiƙa."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "Aiwatar da mafi ƙarancin jinkirin motsi - Bincika don aiwatar da ƙaramin jinkirin motsi"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "A wannan yanayin, idan shirin yana lissafin cewa lokacin da aka ba da izinin motsi"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "ya kasa mafi ƙarancin jinkirin motsi, sannan an saita jinkirin motsi ko dai zuwa ga"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "mafi ƙarancin jinkirin motsi, ko zuwa lambar bazuwar tsakanin 1 da ƙaramin jinkirin motsi,"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "dangane da yadda aka saita akwati na gaba."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "Wannan tilastawa ba ya aiki lokacin da sokewar a lokacin daƙiƙa ya ƙare."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "Cire alamar don ƙyale injin ya kunna motsi da sauri fiye da ƙaramin jinkirin motsi,"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "kafin sokewa a maki daƙiƙa, idan lokaci ya fara gajere."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "Ƙarfafa tare da bazuwar - Bincika don lokacin aiwatar da bazuwar mafi ƙarancin jinkirin motsi."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "Matsakaicin jinkirin motsawa - Zaɓi matsakaicin jinkirin motsi a cikin daƙiƙa."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "Bazuwar jinkiri don ƙayyadaddun lokaci - Bincika don amfani da jinkirin motsi bazuwar don ƙayyadaddun matakan lokaci."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "Cire alamar don amfani da gaba ɗaya ƙayyadaddun lokacin da aka ba da izinin jinkirin motsi."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "Matsar taimakon jinkiri"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "Zaɓuɓɓukan wasan da aka ƙididdige su"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "Sunan fayil na PGN don wasannin yan wasa"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "Zaɓi fayil ɗin pgn don wasan"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "Abokin adawar injin"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "Inji ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "Mutane"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "Mai kunnawa na yanzu"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "Mai kunnawa ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "Gyara ƙimar ELO mai kunnawa"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "Bincika don gyara ƙimar ELO mai kunnawa"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "Saita azaman injin na yanzu"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "Saita azaman agogon yanzu"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "Canjin kima don sakamako"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "Daidaitawar hannu"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "Tsarin ƙima"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "Gudanar da lokaci"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "Mintuna kowane wasa"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "Ƙara (dakika)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "Mai kunnawa"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "A kashe littafin"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "Fara wasan"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "Shigar da sunan fayil na PGN don adana wasannin ɗan wasa"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "Shigar da ƙarfin injin ELO"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "Bude akwatin magana saitin injin"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "Bude akwatin maganganu na mutum-mutumin injin Rodent"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "Ƙara sabon ɗan wasa"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "Share mai kunnawa na yanzu"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "Ajiye bayanan ɗan wasan na yanzu"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "Darajar ELO mai kunnawa"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "Bincika don gyara ƙimar ELO mai kunnawa"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "Bincika don amfani da jinkirin motsawa don ƙimar wasan."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "Bincika don saita saitunan injin azaman na yanzu"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "Bincika don saita saitunan agogo azaman halin yanzu"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "Bincika don kashe littafin buɗe wannan wasan"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "Canjin ƙimar ELO don cin nasarar ɗan wasa"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "Canjin ƙimar ELO don asarar ɗan wasa"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "Canjin ƙimar ELO don zane"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "Bincika don daidaita canje-canjen kima"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "da ELO player da hannu"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "Ƙididdigar ƙimar da ake amfani da ita a halin yanzu"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "Ƙara sabon tsari"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "Share tsari na yanzu"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "Gyara tsarin yanzu"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "Shigar da lokacin mai kunnawa don wasan cikin mintuna"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "Shigar da mai kunnawa yana ƙaruwa cikin daƙiƙa"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "Shigar da lokacin injin don wasan cikin mintuna"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "Shigar da injin yana ƙaruwa cikin daƙiƙa"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "Bincika don ɗan adam ya yi wasa da fari"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "Fara wasan tare da saitunan yanzu"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "Zaɓi injin da kuke son kunnawa da shi"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "Zaɓi mai kunnawa na yanzu"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "Taimakon wasan da aka ƙididdigewa"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "Wasan da aka ƙididdige yana ba da hanya mai dacewa don yin wasa da rauni"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "injin chess kuma a lokaci guda yana lura da ci gaban ku"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "ta sabunta kimar ELO."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "Kuna iya saita zaɓuɓɓuka masu zuwa don wasan da aka kimanta"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "Sunan fayil na PGN: Zaɓi sunan fayil ɗin PGN don adana wasannin da aka ƙima."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "An samo sunan fayil daga sunan mai kunnawa. Za a adana shi a cikin"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "Idan ba a shigar da sunan ɗan wasa ba, rated_games.pgn za a yi amfani da sunan fayil ɗin"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "Abokin adawar injin : Anan zaku iya zaɓar injin da kuke son kunnawa."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "Duk waɗannan injunan suna da zaɓin UCI_Limit ƙarfi,"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "wanda ke ba su damar raunana."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "Idan kana son ƙara wani injin da ke da wannan zaɓi ya kamata a kwafi"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "zuwa ga"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr " directory"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "Inji ELO - Zaɓi ƙarfin ELO na injin."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "Ana nuna ƙimar babba da ƙasa da aka halatta."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "Saitunan injin - Wannan yana buɗe akwatin maganganun injin wanda ke ba ku damar canzawa"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "sauran zaɓuɓɓuka don injin da kuka zaɓa.  Danna < Stockfish > misali."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "Idan an ɗora injin Rodent Chess, to, maɓallin < Personalities >"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "don wannan injin shima zai bayyana."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "Mai kunnawa na yanzu - Anan zaku iya saita mai kunnawa na yanzu kuma ku ƙara, sharewa"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "da kuma gyara 'yan wasa. Ana nuna sunan mai kunnawa na yanzu a cikin taga gyara"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "na akwatin zazzagewa."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "Maɓallin ƙari - Don ƙara sabon ɗan wasa, rubuta sunansu a cikin taga gyara sannan danna"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "akan wannan maballin.  Za a saka sunayensu cikin jerin sunayen da fayil mai suna bayansu,"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "wanda ya ƙunshi bayanan su, za a adana su a cikin faifai a cikin"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "Maɓallin Rage - Danna don share mai kunnawa da aka nuna a cikin taga gyarawa."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "Wannan kuma zai cire fayil ɗin su daga faifai."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "Ajiye - Danna don adana bayanan mai kunnawa a cikin taga gyarawa"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "idan kun yi canjin hannu zuwa ƙimar su ta ELO."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "Mai kunnawa ELO - Wannan yana nuna ƙimar ELO na mai kunnawa a cikin taga gyarawa."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "Idan kuna son gyara wannan akwatin lokacin da kuka ƙara sabon ɗan wasa, to duba zaɓi na gaba."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "Shirya ƙimar ELO mai kunnawa - Bincika don ba da izinin gyara ƙimar ELO mai kunnawa."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "Yi amfani da jinkirin motsi - Bincika don amfani da jinkirin motsawa don ƙimar wasan."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "An yi nufin wannan zaɓi don injunan da ke motsawa da sauri"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "idan sun yi rauni, kamar dodon Komodo."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "Saita azaman injin na yanzu - Duba don saita injin da aka nuna a cikin wannan akwatin"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "kamar yadda injin yanzu bayan wasan ya ƙare."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "Cire alamar don sake saiti zuwa tsohon injin bayan wasan da aka ƙima."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "Saita azaman agogo na yanzu - Duba don saita lokutan agogon da aka nuna a cikin wannan akwatin"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "kamar yadda agogon halin yanzu bayan wasan ya ƙare."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "Cire alamar don sake saitawa zuwa tsohuwar agogo bayan wasan da aka ƙima."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "Canjin kima don sakamako - Yana nuna canje-canjen kima don nasara, asara ko zana."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "Ana daidaita waɗannan ta atomatik bisa ga ƙimar mai kunnawa da injin elo"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "kuma wace dabara ake amfani da lissafin ELO."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "Daidaitawar hannu - Duba wannan akwatin idan kuna son canza ƙimar da ke sama da hannu."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "Idan kuna son kunna wasan da aka ƙididdigewa tare da daidaita ƙimar da hannu,"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "sa'an nan ka bar wannan akwatin a duba lokacin da ka danna kan <Fara wasa>"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "Ƙididdigar ƙididdiga - Anan za ku iya zaɓar da canza tsarin lissafin ELO."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "Ana amfani da shi a irin wannan hanya zuwa akwatin mai kunnawa na yanzu."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "Babban bambanci shine lokacin da kuka ƙara ko gyara tsari,"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "sabon akwatin maganganu yana buɗewa wanda ke ba ka damar shigar da zaɓuɓɓukan dabarar."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "Don ƙarin bayani kan tsarin ƙima Danna kan maballin <Taimako>"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "na akwatin maganganu na dabara."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "Gudanar da lokaci - Saita sarrafa lokacin wasan."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "Shigar da lokacin wasan cikin mintuna kuma motsi yana ƙaruwa cikin daƙiƙa"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "ga dan wasan dan adam da injin dara."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "Kuna iya ba da kanku lokaci fiye da injin idan kuna so."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "Kashe Littafi - Bincika don kashe littafin buɗewa don wasan da aka ƙima."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "Yi farin - Bincika ɗan wasan ɗan adam ya yi farin,"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "cire alamar ɗan adam ya buga baki."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "Fara wasan - Danna don fara wasan da aka kimanta tare da zaɓuɓɓukan yanzu."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "Idan kuna son littafi mai ban sha'awa da bambancin buɗewa ga ɗan adam - wasannin injin,"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "Zan ba da shawarar littafin buɗewar polyglot"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "Wannan littafi wani bangare ne na zazzagewar injin Deep Saros."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "Kamata ya yi an shigar da shi a cikin kundin adireshi mai zuwa:"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "Taimako ga injunan wasan rated"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "Arasan"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "Rodent"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "Kifi na jari"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "Injin ɗin da aka yi amfani da su <Wasan ƙima> duk suna da zaɓin ƙarfin iyaka na UCI."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "Wannan yana bawa mai amfani damar zaɓar ƙimar ELO mai ƙima"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "don ƙarfin wasa na injin."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "Yawancin injunan ana adana su a cikin kundin adireshi mai zuwa:"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "Akwai babban zaɓi don zaɓar daga, amma kuna iya ƙara ƙarfin iyaka"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "injuna idan kuna so ta yin sabon kundin adireshi a cikin < rated_engines >"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "da kwafi fayil ɗin injin * .exe a ciki."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "Wannan tsari zai yi aiki don injunan kasuwanci masu zuwa:"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior da Chiron."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "Wataƙila akwai wasu da yawa."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "Na yi ƙoƙarin ɗaukar yawancin nau'ikan kwamfutoci kuma wannan ya yi"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "lissafin injin yayi tsayi sosai.  Don haka kuna iya share wadanda ba ku so."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "Yayin da wasu tsofaffin injuna, kamar Ufim, Delfi da Amyan ke ɗan wasa"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "daban da juna, galibin injinan da aka samu daga Stockfish,"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "wasa a irin wannan hanya."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "Injin guda ɗaya wanda ya fito a matsayin na musamman kuma ya dace sosai"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "don <Wasan da aka ƙididdigewa> shine injin Rodent Chess, wanda Pawel Koziol ya rubuta."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "Danna < Rodent > don ƙarin cikakkun bayanai."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "Injin Arasan, wanda Jon Dart ya rubuta, wani injin ne mai kyau sosai."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "Duk da yake ba shi da ƙarfi kamar Stockfish, yana da salon wasa na musamman."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "Koyaya, lokacin amfani da Tarrasch da Nimzo_3d GUI,"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "akwai wasu matsaloli."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "Tun da ƙari na net ɗin neural tare da sigar 23.0,"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "babu ɗayansu da zai yi aiki akan kwamfuta ta."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "Koyaya, tare da sabon sigar 25.2 waɗannan injunan suna aiki"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "Ganin waɗannan batutuwa, na yi amfani da injuna daga sigar 22.3"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "don wasanni masu daraja.  Wannan shi ne sigar ƙarshe ba tare da gidan yanar gizo ba."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "Duk injunan wannan sigar suna aiki akan kwamfuta ta."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Arasan injin taimakon"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Injin Chess kifin"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "Stockfish nps"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "Alexander"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "Lokacin da nake rubuta lambar don matches na inji, na gano cewa Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "kuma injunan Komodo sun yi hasarar akan lokaci a wasanni tare da ƙayyadaddun lokaci,"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "don haka na rubuta <daidaita lokacin inji> zaɓi don gyara wannan matsalar."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "Tare da rating game, ta yin amfani da dogon lokaci iyaka, Na sake gano cewa sake"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Stockfish yana wasa da motsinsa a hankali lokacin da ya fita daga littafin buɗewa"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "ko kuma idan ba a yi amfani da littafi ba."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "Don gyara wannan za ku iya daidaita zaɓin jinkirin motsi na Stockfish."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "Rage wannan ƙimar yana ƙara saurin motsi kaɗan."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "Ko da yake na gano wannan zaɓin bai isa ba don sarrafa lokaci mai sauri"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "na minti 3 ko ƙasa da haka don wasa, yana aiki da kyau na mintuna 5 ko fiye."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "Don Stockfish 11, ƙimar 20-30 tana aiki da kyau don wasannin mintuna 5-10."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "Kuna iya saita zaɓin mai motsi a hankali ta amfani da zaɓuɓɓukan siga na al'ada"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "a cikin akwatin maganganu na injin."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "Don sauƙaƙe abubuwa, Na yi fayil ɗin sigar injin don Stockfish 11"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "tare da saitin mai motsi a hankali.  Kuna iya loda wannan daga akwatin maganganun wasan da aka kimanta"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "ta danna kan ingin <Settings Engine..> sannan sai < Load engine >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "daga akwatin maganganun injin da ke buɗewa."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Ana adana fayilolin siga na Stockfish 11 a cikin kundin adireshi"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Injin kifin kifin 8-15 suna da zaɓin motsi a hankali, 16 da 17 ba sa."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "Ganin cewa ba kwa buƙatar ƙarin ƙarfin wasa a nan,"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "babu buƙatar amfani da injuna masu ƙarfi."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "Na sami wannan sigar injin Stockfish akan GitHub a -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "Yana da sigar daidaitacce fiye da daidaitaccen injin."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "Anan ga bayanin injin daga fayil ɗin <README.md> -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS shine kifin kifin da aka gyara dan wasan dan adam"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "tare da raguwa a kowane daƙiƙa, (nodes kilo a sakan daya ~ = 1 / jira"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "kimantawa bazuwar, zurfin bincike da iyakacin nodes."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "Ƙarfin gyare-gyare biyu na farko ana iya saita shi a cikin zaɓuɓɓukan uci"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "daga 0 zuwa 100, yayin da zurfin bincike na iya iyakance ga ƙima daga 1 zuwa 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "da bincike nodes zuwa ƙima har zuwa 500000."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "Ana iya amfani da duk gyare-gyare a kowace haɗuwa tare da"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "Ƙarfin ELO yana iyakancewa da saitunan matakin gwaninta, don rage ƙarfi"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "na injin yayin wasa da mutane."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "Tare da saitunan tsoho, StockfishNPS yana wasa daidai kamar na yanzu Stockfish16_dev."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "Canza saitin nodes ɗin bincike kawai zuwa tsakanin 1 - 10 yana rage ELO kusan zuwa 1400."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "Wannan wuri ne mai kyau don ƙarin canje-canjen zaɓi."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "Ina tsammanin wannan yana nufin cewa mafi girma < jira > ƙima yana raguwa"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "adadin wuraren da injin ke nema a cikin daƙiƙa guda."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "Ƙara ƙimar ƙima bazuwar"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "zai haifar da ƙarin wasa iri-iri."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< Ƙididdigar bincike > yana sanya wani nau'i na iyaka akan adadin wuraren da aka nema."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< zurfin bincike > yana iyakance adadin rabin motsi (ply) wanda injin ke nema zuwa."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "Hakanan akwai zaɓi da ake kira < nodestime > amma ban san abin da hakan yake yi ba."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "Tsoffin ƙimar sifili yana nufin ba a amfani da zaɓin."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "Don saukakawa, na yi fayilolin sigar injin don injunan"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "tare da duk sigogin da aka saita zuwa tsoho, shirye don yin gyare-gyare."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "Ana adana waɗannan a cikin -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "kuma ana iya lodawa da <Injin Load> daga akwatin maganganu na injin."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Taimakon injin Stockfish nps"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "Wannan injin da aka samu na Stockfish ne tare da fasalulluka masu yawa na daidaitawa."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "Lokacin da na fara gwada shi tare da saita ƙarfin iyaka na ELO, bai raunana ba,"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "kuma ya buga motsinsa da cikakken ƙarfi."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "Sai na ƙara < Zurfin Nakasa > zaɓi kuma na saita wannan zuwa <gaskiya>"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "Wannan da alama yana aiki, kuma injin yana wasa a zurfin daban-daban dangane da"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "akan ƙimar ELO da aka saita."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "Akwai wasu zaɓuɓɓuka da yawa, waɗanda aka kwatanta a cikin fayil ɗin <README.md>"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "Wannan fayil ɗin yana cikin kundi mai zuwa"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "Na yi fayilolin ma'aunin injin guda biyu a cikin wannan jagorar, waɗanda zaku iya amfani da su"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "don saita injin tare da <Load engine> daga akwatin maganganun injin."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "Lokacin wasa a cikin yanayin rauni, Alexander yana yin motsin sa kusan nan take."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "Idan kuna so, zaku iya rage shi tare da < Babban menu > < Engine > < Matsar da jinkiri >"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "An shirya injin Alexander akan GitHub a mahaɗin da ke biyowa"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "Alexander Chess engine taimaka"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "Ba za a iya fara wasa ba tare da sunan ɗan wasa ba"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "Da fatan za a zaɓi ɗan wasa daga akwatin lissafin ƴan wasa na yanzu"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "An ƙididdige saƙon kuskure game"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "Ba za a iya fara wasa ba tare da tsarin ƙima ba"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "Da fatan za a zaɓi dabara daga akwatin lissafin ƙididdiga"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "Zaɓi saitunan halayen injin Rodent"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "Babu fayilolin inji a ciki"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "Ba a canza kundin adireshin injuna ba."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "Babu fayilolin mutumci da za a karanta"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "Littafin shugabanci"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "ba ya wanzu, don haka ba zai iya nuna hali"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "Zaɓi saitunan halayen injin Rodent 3"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "Halin halin yanzu"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "Nuna sunan mutum"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "Yi amfani da kundin adireshi"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "Yi amfani da iyakar ƙarfin ELO"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "Shigar da ƙima don daidaita ƙarfin injin"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "Nodes a sakan daya"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "Kwafi tsoffin ƙima"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "Ƙimar blur ƙima"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "Kwafi blur blur"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "Matsayin fasaha na bincike (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "Kwafi fasahar bincike"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "Ajiye saitunan yanzu zuwa fayil"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "Zaɓi sunan fayil don adana fayil ɗin mutumci"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "Ƙara ƙima zuwa fayil idan babu"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "Bincika don amfani da jagorar mai zuwa"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "don injunan ƙididdiga da fayilolin haɗin gwiwa"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "Bincika don amfani da ƙarfin iyakar UCI don daidaitawar injin"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "Shigar da nodes a kowace daƙiƙa,"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "mafi girma ga ƙarfi, ƙasa don rauni."
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "amma sifili don iyakar ƙarfi"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "Shigar da ƙimar blur,"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "ƙananan don ƙarfi, mafi girma ga mai rauni"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "Shigar da darajar matakin fasaha,"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "ƙasa don mai rauni, mafi girma don ƙarfi"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "Ƙara nodes a sakan daya da blur ƙima"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "ƙimar fayil ɗin, idan ba su nan"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "Zaɓi halayen da kuke son yin wasa da su"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "daga"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "Ba za a iya canzawa ba"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI iyaka daidaita ƙarfi"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "Nodes a kowace na biyu daidaitawa"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "Ba za a iya saita zuwa"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "saboda"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "ba a iya buɗe fayil ɗin ba."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "saboda iyakance ƙarfin zaɓin baya cikin fayil."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "An saita duk ƙimar zuwa tsoho"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "Don haka babu amfanin rubuta su"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "An kasa buɗe fayil ɗin shigarwa"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "An kasa buɗe fayil ɗin fitarwa"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "updated, kuma"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "ajiye zuwa faifai"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "Rodent Chess engine taimaka"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "Bayanin mutumci"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "Game da Rodent"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "Wannan akwatin maganganu yana ba ku damar zaɓar halayen wasa"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "da zaɓuɓɓuka don injunan chess na Rodent."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "Halin halin yanzu - Akwatin jerin abubuwan da aka sauke yana ba ku damar zaɓar mutum."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "Yi amfani da ƙarfin iyakar ELO - Bincika don amfani da ƙimar ELO a cikin akwatin maganganun injin"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "lokacin saita ƙarfin kunna injin."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "Shigar da ƙima don daidaita ƙarfin injin -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "Nodes a sakan daya - adadin matsayi da injin zai haifar"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "da yin nazari akan sakan daya."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "Ƙimar blur kimantawa - ƙimar bazuwar da aka ƙara zuwa aikin kimantawa."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "Tare da Rodent 3, a cikin nodes a kowane yanayi na biyu, ƙimar blur ƙima"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "ana loda shi daga fayil ɗin mutuntaka. Wannan zai ba ku ra'ayi"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "na kewayon ƙimar da za a yi amfani da su, idan kuna son yin gyare-gyare."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "Hakanan za'a iya amfani da wannan zaɓi tare da ƙarfin iyaka ELO."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "Lokacin da aka yi amfani da ita ta wannan hanya, na gano cewa saitin 20, ya bambanta motsi"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "cewa injin ya buga amma lambobin sama da 20 basu da tasiri har 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "kuma saitin da ya fi 1000 ya raunana injin."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "Don haka saituna masu amfani a cikin ELO iyaka yanayin ƙarfi don kwamfuta ta"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "suna 20 ko 500 - 1000 amma yana iya bambanta ga kwamfutarka."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "Idan baku son saita ko nunawa, to saita shi zuwa sifili."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "Kodayake nodes a sakan daya baya amfani lokacin amfani da ƙarfin iyaka na ELO,"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "Har ila yau ana iya shigar da ƙimar ƙima a cikin fayil ɗin mutum don amfani daga baya."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "Kwafi tsoffin ƙima - bincika ƙimar gyare-gyaren ƙarfi"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "za a kwafi daga wannan akwatin maganganu zuwa akwatin maganganu na injin"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "koda an saita su zuwa tsoho.  Sannan ana iya gyara su."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "Idan aka bar su, ba za su yi tasiri a kan injin ba."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "A cikin yanayin ƙayyadaddun ƙarfin ELO, ba a sake saita su lokacin share su daga"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "akwatin maganganun injin.  A nodes per second mode ana sake saita su,"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "don haka dole ka kashe < Kwafi sigogi > don gyara su."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "Nuna sunan mutum - Bincika don nuna sunan mutumci"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "bin sunan injin yayin wasa. "
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "Hakanan ana nuna ƙimar injin ta atomatik."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "Yi amfani da kundin adireshi - Bincika don amfani da"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "ga injuna masu daraja."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "Wannan ma'aunin faɗuwar gaggawa ne idan ba a kwafi su ba"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "Idan an shigar dasu a wani wuri daban, zaku iya kwafa su cikin"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "daya daga cikin kundayen adireshi da ke sama."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "Idan ba a sanya su kwata-kwata, ana iya saukar da su daga waɗannan hanyoyin haɗin gwiwar -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "    hanyoyin haɗin gwiwa"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "Ajiye saitunan yanzu zuwa fayil - tare da wannan mai ɗaukar fayil ɗin, zaku iya ajiyewa"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "kunna saitunan ƙarfi daga akwatin maganganu zuwa fayil ɗin yanzu,"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "ko kuma sabo idan kuna so."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "Ƙara dabi'u idan babu - Bincika don ƙara ƙimar daidaitawar ƙarfi zuwa fayil ɗin"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "idan ba su nan.  Wannan zai zama yanayin idan kun ƙara ƙimar ƙima"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "zuwa fayil ɗin mutuntaka na Rodent 4."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "Game da injin Rodent Chess"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Rodent, wanda Pawel Koziol ya rubuta, injin dara ne mai ban sha'awa."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "Yana da zaɓin UCI_LimitKarfin ƙarfi da kuma saitin mutane,"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "waɗanda aka ɗora su daga fayiloli, don mafi rauni kuma mafi bambancin wasa."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "Domin injin yayi aiki da kyau tare da mutane da kuma su"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "bude littattafai, duk abubuwan da aka gyara dole ne a sanya su a cikin directory iri ɗaya."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "Ya kamata a shigar da su a ciki -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "Idan kuna son injin Rodent ya yi amfani da nasa littafin yayin wasa,"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "to sai ka kashe littafin bude Nimzo_3d daga"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< Babban menu > < Buɗewa > < Littafin buɗewa >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "ko duba <Book off> zaɓi, idan kana amfani da"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "akwatin magana game da rated."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "akwai wasu takardu da shirin amfani"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "wanda za a iya amfani da shi don yin ƙarin mutane."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "Za a iya sauke fakitin injin Rodent 4 da tsofaffin sigogin daga -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "Rodent 4 kawai, tare da cikakken bita"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "Injin Rodent 4 kayan tallafi, ba tare da injuna ba"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Rodent 3 kayan tallafi, ba tare da injuna ba"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Fayil ɗin halayen Rodent shine kawai jerin umarnin UCI a cikin fayil * .txt"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "Ya kamata a yi aiki ta hanyar da ta dace:"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "Shirin dara GUI yana aika da < Halin> umarni zuwa injin Rodent."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "Daga nan injin ya karanta umarni daga fayil ɗin mutuntaka"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "kuma yana daidaita saitunan sa daidai."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "Koyaya, tare da Nimzo_3d da Tarrasch GUI,"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "Ba zan iya samun injunan aiki ba lokacin da aka yi amfani da su ta wannan hanyar."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "Duk mutane sun yi motsi iri ɗaya."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "Don haka maimakon wannan, na katse umarnin < Mutum > lokacin da ya kasance"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "game da aika daga GUI zuwa injin, buɗe fayil ɗin mutuntaka"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "kuma aika umarni daga fayil ɗin daban-daban.  Wannan da alama yana aiki."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "Ainihin, injin Rodent yana da manyan hanyoyi guda biyu na bambancin ƙarfin wasansa."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "Yana iya amfani da ƙarfin iyakar ELO ko Nodes a cikin daƙiƙa guda tare da blur kimantawa."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "Ƙarfin ƙayyadaddun ELO yana ba ku damar saita ƙimar ELO mai ƙima"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "da nodes a sakan daya tare da blur kimantawa yana ba ku damar saita ƙima"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "waɗanda ke da irin wannan tasiri mai rauni."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "An saita halayen Rodent 3 don amfani da nodes a sakan daya"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "tare da blur kimantawa kuma Rodent 4 an yi niyyar amfani dashi"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "tare da ƙarfin iyaka ELO kawai."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "Saboda gyaran da na yi ga hanyar da ake aika umarni < Personality >,"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "Rodent 3 na iya amfani da halayen sa tare da ƙarfin iyaka ELO"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "a hade tare da blur kimantawa da zaɓi gwaninta,"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "amma ba tare da nodes a sakan daya ba."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "Hakanan yana nufin cewa Rodent 4 na iya amfani da ƙarfin iyaka na ELO"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "tare da blur kimantawa kuma zaɓi fasaha."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "Canza ƙimar blur ƙima kaɗan yana nufin injin zai yi wasa"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "motsi daban-daban ba tare da tasiri sosai akan ƙarfin wasa ba,"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "muddin darajar blur ba ta yi yawa ba."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "Kuna iya gwaji tare da wannan, Na gano cewa ƙimar tsakanin 20 - 50"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "yayi aiki sosai."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "Hakazalika, duka injunan biyu suna iya amfani da fayilolin mutuntaka"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "na sauran injin tare da ƙananan gyare-gyare daga cikin Nimzo_3d,"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "da zarar an kwafi su cikin < Personalities > directory na injin."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "Wannan yana ba ku damar musanyawa cikin sabbin fayilolin mutum cikin sauƙi idan kuna son canji."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "Na sanya wasu a cikin < extra_personalities >"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "a cikin < Personalities > directory."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "Ana adana fayilolin mutuntaka a cikin kundayen adireshi masu zuwa -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "da"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "ko"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "Ana iya canza fayilolin daga cikin Nimzo_3d don daidaitawa"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "nodes a sakan daya da ƙimar blur ƙima sannan a ajiye su zuwa faifai."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "Ba komai fayilolin mutum na iya ƙarewa da umarni ba"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "wadanda ba su dace da injin da ake amfani da su a halin yanzu ba, saboda suna"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "GUI tace kafin a aika su zuwa injin."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "Rodent umarni"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "An ɗauko waɗannan kwatancen halayen injin Rodent Chess daga"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "fayil ɗin <FinalRodent.pdf> wanda za'a iya samuwa a cikin jagorar mai zuwa -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "Abubuwan da aka riga aka ƙayyade"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "Tun daga farkonsa, aikin Rodent ya kasance game da ƙirƙirar injin"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "wanda ke ba da damar gyara salon wasan sa - kamar jerin ChessMaster,"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "kawai mafi kyau.  Canje-canjen lamba a cikin sabon sigar yana nufin tsofaffin mutane"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "ba su da amfani, don haka na ji bukatar ƙirƙirar sabon saiti."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "Ina fatan za ku ga abin sha'awa."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "Fist kuma gaba ɗaya, mai kai hari, la'akarinta na biyu"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "aiki yanki ne.  Yana kunna buɗewar gambit."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe yana son rufaffiyar matsayi, guguwa da guguwa mai sauti da tsarin pawn."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "Abinda kawai ta fi son zuwa ga rufaffiyar matsayi shine rufaffiyar matsayi"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "da buɗaɗɗen fayil guda ɗaya, mallakar rooks dinta."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "Ta kasance mai girman kai mai aikin kare Faransanci da na Sarki na Indiya."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "Kalli ta a matsayin mai duhu - gashi, siriri, mace mai raɗaɗi."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "Ita 'yar wasan tsaro ce mai son bishops."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "Ka yi tunanin sa sanye da kaya mai tsada, yana kama da babban shugaba"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "fiye da mai wasan dara.  Ƙarfi, mai ma'ana, idan hali mai tawali'u."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "Yana kunna ƙwaƙƙwaran buɗewa.  Shirye don ɗaukar zane a matattu daidai matsayi."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "Ka yi tunanin shi a matsayin ɗan wasa ya riga ya wuce matsayinsa,"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "rashin girmamawa ga abokan hamayyarsa kuma har yanzu yana da haɗari."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "Grumpy yana son hana motsin abokan gaba da kai hari,"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "yana jin daɗin rufaffiyar matsayi kuma yana tsammanin samun nasara."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "Saboda shekarunsa, yana wasa galibi ba budadden zamani ba ne."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "Misali, yana son tsaron Tarrasch."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "Kwaikwayi Paul Morphy. Yana jaddada motsi,"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "sai sarki hari, ya fi son buɗaɗɗen matsayi."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "Yana farawa a hankali, yana amfani da buɗaɗɗen da ba su da sarari da yawa"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "a tsakiya, amma kada a yi la'akari da rashin tsaro."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "Daga baya ya je ya kai munanan hare-hare."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "Ka gan shi yana matashi, babba kuma mai zuwa,"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "wanda har yanzu bai kai ga gaskiya ba."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "Siriri, mai kuzari, yana son walƙiya yana motsawa kaɗan da yawa."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "Yana son rabuwa da ƴaƴansa lokaci zuwa lokaci."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "Daidaitaccen hali, mai yuwuwa ya sadaukar da adadi kaɗan na abu,"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "sau da yawa yana tafiya don tsaro mai aiki a cikin wasan ƙarshe."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita yana tsaye ga pawns, tsaro, kamewa."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "Ta fara yin buɗaɗɗen buɗe ido kuma ta fara tunanin tsaro, amma kar a yaudare ta!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "Za ta iya kai hari gabaɗaya idan matsayi ya buƙaci shi, kuma tare da ɗan wasa mai ƙarfi"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "goro ce mai wuyar fashewa."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "Ƙaunar jari-hujja, amma yaƙi don yunƙurin"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "kuma kusa isa ga tsoho don guje wa tsare-tsare marasa kyau."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "Yana son ƙirƙirar matsin lamba akan yanki na abokan gaba."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "Yana wasa rufe buɗe ido kamar fari, Slav da Caro - Kariyar Kann kamar baki."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "Wataƙila mafi kyawun saitin akan injuna masu rauni."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "Wasan kwaikwayo ba tare da ƙarin abubuwan ci gaba na aikin tantancewa ba,"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "Ana amfani da tsoho mai hankali. Zabi kaɗan don musayar sarauniya,"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "a matattu daidai matsayi za su je yi zane."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "Wataƙila mafi yawan kwamfuta - kamar mutumci."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "A kama shi a matsayin dogon mutum sanye da rigar fata mai launin ruwan kasa."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "Yana son wasa mai ƙarfi amma yana ƙin kasancewa ana kai hari."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "Yana son ajiye sarauniya a kan allo."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "Dangane da halayen Rodent III na Brendan J.Norman."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "Yana wasa salon boa constrictor, amma yana da fifikon fifiko don kai hari,"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "mai yiwuwa sadaukarwa don dalilai na matsayi."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "Mafi yawan yanayin yanayi na Grumpy, wasa mai kama da ɗan adam."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "Maiyuwa ya zama mai kima a wasan ƙarshe tare da sarauniya."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "Har ila yau, akwai keɓaɓɓun keɓaɓɓun zakarun duniya da yawa da sauran shahararrun 'yan wasa."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Bayanin halayen injin Rodent 4 Chess"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "Taga ko da yaushe a saman"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "Idan kuna so, kuna iya rage shi tare da -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< Babban menu > < Injiniya > < Matsar da jinkiri >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "Yi wasan da aka ƙima da injin dara"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "Bincika don kwafin saitunan ƙarfin ƙarfi zuwa sigogi na al'ada"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "An bayyana dabarar ƙima"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "Bincika don nuna sunan mutum"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "tare da sunan injin yayin wasa"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "Shigar da ƙimar ƙwarewar bincike,"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "Bincika don kwafin zaɓuɓɓuka koyaushe ta atomatik"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "ƙetare zuwa sigogi na al'ada"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "Bincika don kwafin blur ɗin ta atomatik"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "darajar zuwa sigogi na al'ada"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "Bincika don kwafi ƙwarewar bincike ta atomatik"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "Shigar da sunan fayil don adanawa"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "zaɓuɓɓukan daidaita ƙarfin injin"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "ya lashe wasa fari da ribar"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "ya rasa wasa baki ya sha kashi"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "ya rasa wasa fari kuma ya yi rashin nasara"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "ya lashe wasa baki da ribar"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "ya zana farar wasa"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "ya zana wasa baki"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "babu wani canjin kima."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "kuma ya samu"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "kuma batattu"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "Sabon kimar ku shine"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "Saƙon ƙimar sakamako na wasa"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "Ba za a iya buɗe fayil ɗin bayanin martabar mai kunnawa don rubuta cikakkun bayanai ba"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "Babu fayilolin inji a cikin kundin adireshin, wasan da aka ƙididdige an soke"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "Jagorar injuna masu ƙima"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "babu, wasan da aka ƙididdige an soke"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "Shawara : Sake saita tsohowar ƙimar shirin daga"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< Menu na ainihi > < Zaɓuɓɓuka > < Sake saita zuwa tsoffin ma'aikata >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "Idan wannan ya kasa, zazzagewa kuma shigar da rating injuna daga"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "Halin injin rodent"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "lodi"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "Saƙon injin wasan da aka ƙididdige shi"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "Inji ba ya cikin jeri, don haka ba za a iya saita shi ba"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "Jagorar bayanin martabar mai kunnawa"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "Shawara: Ƙirƙiri wannan littafin da hannu tare da Windows Explorer"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "Sunan mai kunnawa fanko ne, da fatan za a rubuta a cikin suna"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "Sunan mai kunnawa ya riga ya shiga cikin jerin,"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "da fatan za a shigar da sunan ɗan wasa daban"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "Bayanin mai kunnawa don"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "Kuskuren adana bayanan mai kunnawa zuwa faifai"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "Babu sunan mai kunnawa a cikin jerin,"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "da fatan za a shigar da sunan mai kunnawa da ke cikin jerin"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "share daga faifai"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "Kuskuren share bayanan mai kunnawa daga faifai"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "Littafin tsarin ƙima"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "kuma yi amfani da < Ƙididdigar Ƙididdiga > <+ > don ƙara ƙira"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "a cikin akwatin maganganun wasan da aka kimanta."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "Formula filename fanko ne, da fatan za a rubuta a cikin suna"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "Sunan fayil ɗin ƙididdiga ya riga ya kasance a cikin jerin,"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "da fatan za a shigar da sunan fayil ɗin ƙididdiga daban"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "Sunan fayil ɗin ƙididdiga ba ya cikin jeri,"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "da fatan za a shigar da sunan fayil ɗin ƙima wanda ke cikin jeri"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "Tsarin ƙima don"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "Kuskuren adana fayil ɗin ƙima zuwa faifai"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "Sunan fayil na Formula fanko ne, da fatan za a rubuta sunan fayil"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "Fayil ɗin ƙididdiga ba ya cikin jeri,"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "don Allah a shigar da fayil ɗin dabara wanda ke cikin jeri"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "Kuskuren share tsarin ƙima daga faifai"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "Ba za a iya buɗe fayil ɗin ƙididdiga don karantawa ba"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "Siffar wasan da aka ƙididdige don wasannin injuna (sigar 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "Matsar jinkiri"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "Matsar da jinkiri.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "Nuna akwatin maganganun jinkirin motsi"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "Saƙon kuskure"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "Kwafi zuwa sigogi na al'ada"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "Lokacin rubuta fasalin <Rated game> Na gano cewa injin Delfi"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "ana buƙatar saitunan ƙarfin iyaka da aka sanya a cikin jerin siga na al'ada"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "domin su yi aiki."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "Don injin Delfi wannan aikin za a yi ta atomatik."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "Idan kuna da wannan matsala tare da wasu injuna, to zaku iya bincika"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< Kwafi zuwa sigogi na al'ada> akwatin da sigogin ƙarfin iyaka"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "za a kwafi a fadin."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "Na kuma gano cewa idan kun buga wasa fiye da ɗaya tare da raunin injin Stockfish"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "kuma < Kwafi zuwa sigogi na al'ada > ba a saita ba, Kifin jari ya koma cikakken ƙarfi"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "don wasa na biyu.  Don haka tabbas yana da kyau koyaushe a sami wannan zaɓin"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "lokacin amfani da ƙarfin iyaka."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "Lokacin amfani da fasalin <Rated game>, ana aiwatar da wannan don duk injuna."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "Idan kuna buɗe kwamitin bayanan bincike lokacin wasa da Stockfish,"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "yana nuna cikakken ƙarfin bincike ga injin,"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "ko da an raunana ta ta amfani da ƙarfin iyakar UCI."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "Kuna iya sanin ko a zahiri an raunana saboda sau da yawa zai yi wasa"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "wani motsi daban zuwa wanda aka nuna a cikin bincike."
+
