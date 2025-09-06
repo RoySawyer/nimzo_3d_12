@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "فرمول تعدیل رتبه‌بندی"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "برای"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "ارزش برد"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "ارزش از دست رفته"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "مقدار رسم کنید"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "ضریب تعدیل قدرت"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "حداکثر مقدار اختلاف مؤثر"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "حداقل ارزش برد"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "تغییر رتبه ورودی برای برد"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "تغییر امتیاز برای تساوی"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "تغییر رتبه‌بندی برای یک ضرر"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "درصد تعدیل ضریب قدرت را وارد کنید"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "حداکثر اختلاف رتبه‌بندی مؤثر"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "این کادر محاوره‌ای به کاربر اجازه می‌دهد گزینه‌هایی را برای فرمول تنظیم کند."
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "برای تنظیم رتبه بازیکن پس از بازی مقابل یک موتور استفاده می‌شود."
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "ارزش برد - افزایش امتیاز رتبه‌بندی برای برد در یک بازی."
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "مقدار ترسیم - این مقدار همیشه روی صفر تنظیم می‌شود."
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "مقدار ضرر - این مقدار منفی مقدار برد است."
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "ضریب تعدیل مقاومت (درصد) - این مقدار استفاده می‌شود"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "در محاسبه امتیاز، همانطور که در معادله زیر نشان داده شده است."
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "حداکثر اختلاف رتبه‌بندی مؤثر - اگر اختلاف رتبه‌بندی"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "بین بازیکنان بیشتر از این عدد باشد،"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "سپس روی این عدد تنظیم می‌شود. به معادله زیر توجه کنید."
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "فرمول پایه توسط فدراسیون شطرنج ایالات متحده استفاده می‌شود."
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "برای بازی‌های شطرنج مکاتبه‌ای."
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "می‌توانید توضیحات آن را در وب‌سایت زیر مشاهده کنید -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "در اینجا توضیح من در مورد فرمول آنها آمده است."
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "محاسبه آنها برای رتبه جدید پس از یک بازی عبارت است از -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(برای برد یا باخت)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "در اینجا 0.04 (4 درصد) ضریب تعدیل مقاومت (SAF) است."
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED اختلاف رتبه‌بندی مؤثر است."
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED هنگام محاسبه رتبه‌بندی، مقدار مثبتی دارد."
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "بازیکن ضعیف‌تر و یک مقدار منفی هنگام محاسبه برای بازیکن قوی‌تر."
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "برای مقدار برد/باخت ۱۶، اگر اختلاف امتیاز واقعی"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "اگر بین بازیکنان بیشتر از ۳۵۰ باشد، روی ۳۵۰ تنظیم می‌شود."
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "این برای اطمینان از این است که در این موارد، اگر در بازی مقابل برنده شوید،"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "حریف ضعیف‌تر، رتبه شما افزایش می‌یابد و اگر در مقابل ببازید"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "یک حریف قوی‌تر، رتبه شما را کاهش می‌دهد."
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "تغییر رتبه‌بندی در اینجا کوچک خواهد بود، فقط ۲ امتیاز."
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "این را می‌توان با استفاده از یک متغیر حداقل مقدار برد تنظیم کرد."
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "بنابراین معادله کلی، فکر می‌کنم این است -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "کجا"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "حداقل ارزش برد"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "تنظیمات پیش‌فرض در فایل فرمول رتبه‌بندی <USCF> ذخیره می‌شوند."
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "اما اگر دوست دارید می‌توانید یک فایل جدید ایجاد کنید و تنظیمات را تغییر دهید."
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "من فقط تغییرات جزئی در اعداد اولیه را توصیه می‌کنم."
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "توضیح فرمول رتبه‌بندی"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "تأخیر حرکت برای بازی‌های موتوری انسانی"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "استفاده از تأخیر حرکت"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "لغو در ثانیه"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "حداقل تأخیر حرکت (ثانیه)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "اعمال حداقل تأخیر حرکت"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "از زمان اجرای تصادفی استفاده کنید"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "حداکثر تأخیر حرکت (ثانیه)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "تأخیر تصادفی برای زمان ثابت"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "استفاده از تأخیر حرکت در یک بازی موتور انسانی"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "لغو تأخیر حرکت وقتی که فقط این مقدار ثانیه باقی مانده باشد"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "حداقل تأخیر حرکت (ثانیه)"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "اعمال حداقل تأخیر در حرکت،"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "تا زمان لغو در ثانیه"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "از یک عدد تصادفی بین ۱ - حداقل تأخیر حرکت استفاده کنید،"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "وقتی حداقل تأخیر حرکت اعمال می‌شود"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "حداکثر تأخیر حرکت (ثانیه)"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "استفاده از تأخیر حرکت تصادفی برای زمان‌های ثابت موتور"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "این ویژگی در درجه اول برای استفاده با موتورهای شطرنج کومودو در نظر گرفته شده است."
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "وقتی که آنها برای بازی‌های موتور انسانی ضعیف شده‌اند."
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "در این حالت موتورها تقریباً بلافاصله حرکت می‌کنند که به بازی جذابیت می‌بخشد."
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "یک ریتم غیرطبیعی، که نسبتاً نگران‌کننده است."
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "این اتفاق در مورد موتور Rybka 2.3 نیز رخ می‌دهد."
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "و موتور شطرنج الکساندر."
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "موتورهای کومودو گزینه <حرکت آهسته> را ندارند، بنابراین این کادر محاوره‌ای"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "به شما امکان می‌دهد گزینه‌هایی را تنظیم کنید که باعث کاهش سرعت موتور شوند."
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "استفاده از تأخیر حرکت - برای استفاده از تأخیر حرکت برای بازی‌های موتور انسانی، علامت بزنید."
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "لغو در ثانیه - زمانی را انتخاب کنید که دیگر از تأخیر حرکت استفاده نمی‌شود."
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "حداقل تأخیر حرکت - حداقل تأخیر حرکت را بر حسب ثانیه انتخاب کنید."
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "اعمال حداقل تأخیر حرکت - برای اعمال حداقل تأخیر حرکت، تیک بزنید."
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "در این حالت، اگر برنامه محاسبه کند که زمان مجاز برای حرکت"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "کمتر از حداقل تأخیر حرکت باشد، آنگاه تأخیر حرکت روی مقدار زیر تنظیم می‌شود:"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "حداقل تأخیر حرکت، یا به یک عدد تصادفی بین ۱ و حداقل تأخیر حرکت،"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "بسته به نحوه تنظیم کادر انتخاب بعدی."
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "این الزام دیگر زمانی که زمان لغو در ثانیه فرا برسد، اعمال نمی‌شود."
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "برای اینکه موتور بتواند حرکات را سریع‌تر از حداقل تأخیر حرکت پخش کند، تیک آن را بردارید."
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "قبل از لغو در ثانیه‌شمار، اگر زمان شروع به تمام شدن کرده باشد."
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "اجرا با تصادفی - بررسی کنید که آیا زمان اجرای تصادفی با حداقل تأخیر حرکت وجود دارد یا خیر."
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "حداکثر تأخیر حرکت - حداکثر تأخیر حرکت را بر حسب ثانیه انتخاب کنید."
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "تأخیر تصادفی برای زمان ثابت - برای استفاده از تأخیر حرکت تصادفی برای سطوح زمانی ثابت، علامت بزنید."
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "برای استفاده از کل زمان ثابت مجاز برای تأخیر حرکت، علامت را بردارید."
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "کمک در مورد تأخیر حرکت"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "گزینه‌های بازی رتبه‌بندی‌شده"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "نام فایل PGN برای بازی‌های بازیکن"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "فایل .pgn را برای بازی انتخاب کنید"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "حریف موتور"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "موتور ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "شخصیت‌ها"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "بازیکن فعلی"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "بازیکن ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "ویرایش رتبه ELO بازیکن"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "برای ویرایش رتبه ELO بازیکن، علامت بزنید"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "تنظیم به عنوان موتور فعلی"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "تنظیم به عنوان ساعت فعلی"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "تغییر رتبه‌بندی برای نتایج"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "تنظیم دستی"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "فرمول رتبه‌بندی"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "کنترل‌های زمانی"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "دقایق در هر بازی"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "افزایش (ثانیه)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "بازیکن"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "رزرو کنید"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "بازی را شروع کنید"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "نام فایل PGN را برای ذخیره بازی‌های بازیکن وارد کنید"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "قدرت موتور ELO را وارد کنید"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "کادر محاوره‌ای تنظیمات موتور را باز کنید"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "کادر محاوره‌ای شخصیت‌های موتور Rodent را باز کنید"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "اضافه کردن یک بازیکن جدید"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "حذف بازیکن فعلی"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "جزئیات بازیکن فعلی را ذخیره کنید"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "رتبه‌بندی ELO بازیکن"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "برای ویرایش رتبه‌بندی ELO بازیکن، تیک بزنید."
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "برای استفاده از تأخیر حرکت برای بازی دارای رتبه، تیک بزنید."
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "برای تنظیم تنظیمات موتور به صورت فعلی، تیک بزنید"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "برای تنظیم تنظیمات ساعت به عنوان تنظیمات فعلی، تیک بزنید"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "برای خاموش کردن دفترچه شروع بازی، تیک بزنید."
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "تغییر رتبه ELO برای برد بازیکن"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "تغییر رتبه ELO برای از دست دادن بازیکن"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "تغییر رتبه‌بندی ELO برای تساوی"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "برای تنظیم تغییرات رتبه‌بندی، تیک بزنید"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "و پخش کننده ELO به صورت دستی"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "فرمول رتبه‌بندی که در حال حاضر استفاده می‌شود"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "اضافه کردن فرمول جدید"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "فرمول فعلی را حذف کنید"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "فرمول فعلی را ویرایش کنید"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "زمان بازی بازیکن را به دقیقه وارد کنید"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "مقدار افزایش حرکت بازیکن را بر حسب ثانیه وارد کنید"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "زمان موتور برای بازی را به دقیقه وارد کنید"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "افزایش حرکت موتور را بر حسب ثانیه وارد کنید"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "بررسی کنید که آیا انسان می‌تواند سفید بازی کند یا خیر"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "بازی را با تنظیمات فعلی شروع کنید"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "موتوری را که می‌خواهید در مقابل آن بازی کنید انتخاب کنید"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "بازیکن فعلی را انتخاب کنید"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "کمک در مورد بازی‌های دارای رتبه‌بندی"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "بازی رتبه‌بندی‌شده، راهی مناسب برای بازی در مقابل بازیکنان ضعیف‌شده فراهم می‌کند."
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "موتورهای شطرنج و در عین حال پیشرفت شما را پیگیری می‌کند"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "با به‌روزرسانی رتبه‌بندی تقریبی ELO."
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "می‌توانید گزینه‌های زیر را برای یک بازی دارای رتبه‌بندی تنظیم کنید"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "نام فایل PGN: نام فایل PGN را برای ذخیره بازی‌های دارای رتبه‌بندی انتخاب کنید."
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "نام فایل از نام بازیکن گرفته شده است. این نام در مسیر زیر ذخیره خواهد شد."
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "اگر نام بازیکن وارد نشود، از rated_games.pgn برای نام فایل استفاده خواهد شد."
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "رقیب موتور: در اینجا می‌توانید موتوری را که می‌خواهید بازی کنید انتخاب کنید."
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "همه این موتورها گزینه UCI_LimitStrength را دارند،"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "که به آنها اجازه می‌دهد ضعیف شوند."
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "اگر می‌خواهید موتور دیگری که این گزینه را دارد اضافه کنید، باید آن را کپی کنید."
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "به"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "دایرکتوری"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "سطح ELO موتور - قدرت ELO موتور را انتخاب کنید."
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "مقادیر مجاز بالا و پایین نشان داده شده است."
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "تنظیمات موتور - این کادر محاوره‌ای موتور را باز می‌کند که به شما امکان تغییر آن را می‌دهد."
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "گزینه‌های دیگر برای موتور انتخابی شما. برای مثال روی <Stockfish> کلیک کنید."
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "اگر موتور شطرنج Rodent بارگذاری شده باشد، دکمه <Personality>"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "برای این موتور نیز ظاهر خواهد شد."
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "پخش‌کننده فعلی - در اینجا می‌توانید پخش‌کننده فعلی را تنظیم کنید و همچنین اضافه یا حذف کنید"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "و بازیکنان را ویرایش کنید. نام بازیکن فعلی در پنجره ویرایش نمایش داده می‌شود."
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "از یک کادر لیست کشویی."
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "دکمه بعلاوه - برای اضافه کردن یک بازیکن جدید، نام او را در پنجره ویرایش تایپ کنید و کلیک کنید"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "روی این دکمه. نام آنها به لیست اضافه می‌شود و فایلی به نام آنها ایجاد می‌شود،"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "که شامل جزئیات آنهاست، روی دیسک ذخیره خواهد شد."
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "دکمه‌ی منها - برای حذف پخش‌کننده‌ی نمایش داده شده در پنجره‌ی ویرایش، کلیک کنید."
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "این کار فایل آنها را از روی دیسک نیز حذف می‌کند."
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "ذخیره - برای ذخیره جزئیات بازیکن در پنجره ویرایش، کلیک کنید"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "اگر به صورت دستی رتبه‌بندی ELO آنها را تغییر دهید."
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "رتبه‌بندی ELO بازیکن - این رتبه‌بندی ELO بازیکن را در پنجره ویرایش نشان می‌دهد."
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "اگر می‌خواهید هنگام اضافه کردن یک بازیکن جدید، این کادر را ویرایش کنید، گزینه بعدی را ببینید."
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "ویرایش رتبه ELO بازیکن - برای ویرایش رتبه ELO بازیکن، این گزینه را علامت بزنید."
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "استفاده از تأخیر حرکت - برای استفاده از تأخیر حرکت برای بازی دارای رتبه، این گزینه را علامت بزنید."
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "این گزینه برای موتورهایی در نظر گرفته شده است که خیلی سریع حرکت می‌کنند"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "وقتی ضعیف می‌شوند، مانند اژدهای کومودو."
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "تنظیم به عنوان موتور فعلی - برای تنظیم موتور نمایش داده شده در این کادر، علامت بزنید"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "به عنوان موتور فعلی پس از پایان بازی رده‌بندی شده."
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "برای تنظیم مجدد به موتور قدیمی پس از بازی رده‌بندی‌شده، تیک را بردارید."
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "تنظیم به عنوان ساعت فعلی - برای تنظیم زمان‌های ساعت نمایش داده شده در این کادر، علامت بزنید"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "به عنوان ساعت فعلی پس از پایان بازی رده‌بندی شده."
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "برای تنظیم مجدد به ساعت قدیمی پس از بازی دارای رتبه، علامت آن را بردارید."
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "تغییر رتبه‌بندی برای نتایج - تغییرات رتبه‌بندی را برای برد، باخت یا تساوی نشان می‌دهد."
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "اینها به طور خودکار با توجه به رتبه‌بندی elo بازیکن و موتور تنظیم می‌شوند"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "و از چه فرمولی برای محاسبه ELO استفاده می‌شود."
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "تنظیم دستی - اگر می‌خواهید مقادیر بالا را به صورت دستی تغییر دهید، این کادر را علامت بزنید."
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "اگر می‌خواهید بازی دارای رتبه‌بندی را با مقادیر تنظیم‌شده دستی انجام دهید،"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "سپس وقتی روی <شروع بازی> کلیک می‌کنید، این کادر را علامت بزنید."
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "فرمول‌های رتبه‌بندی - در اینجا می‌توانید فرمول‌های محاسبه ELO را انتخاب و اصلاح کنید."
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "به روشی مشابه جعبه بازیکن فعلی استفاده می‌شود."
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "تفاوت اصلی این است که وقتی فرمولی را اضافه یا ویرایش می‌کنید،"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "یک کادر محاوره‌ای جدید باز می‌شود که به شما امکان می‌دهد گزینه‌های فرمول را وارد کنید."
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "برای اطلاعات بیشتر در مورد فرمول‌های رتبه‌بندی، روی دکمه <راهنما> کلیک کنید."
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "از کادر محاوره‌ای فرمول."
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "کنترل‌های زمان - کنترل‌های زمان بازی را انتخاب کنید."
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "زمان بازی را به دقیقه و گام حرکت را به ثانیه وارد کنید."
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "برای بازیکن انسانی و موتور شطرنج."
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "اگر دوست دارید می‌توانید به خودتان زمان بیشتری نسبت به موتور بدهید."
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "رزرو کردن - برای خاموش کردن رزرو شروع بازی رده‌بندی‌شده، این گزینه را علامت بزنید."
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "بازی با سفید - بررسی کنید که آیا بازیکن انسانی با سفید بازی می‌کند یا خیر،"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "تیک مربوط به بازیکن انسانی برای بازی با رنگ مشکی را بردارید."
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "شروع بازی - برای شروع یک بازی رتبه‌بندی‌شده با گزینه‌های فعلی، کلیک کنید."
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "اگر یک کتاب شروع بازی جالب و متنوع برای بازی‌های موتوری-انسانی می‌خواهید،"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "من کتاب شروع چندزبانه را توصیه می‌کنم"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "این کتاب بخشی از دانلود موتور Deep Saros بود."
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "باید در دایرکتوری زیر نصب می‌شد -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "کمک برای موتورهای بازی رتبه‌بندی‌شده"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "آراسان"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "جوندگان"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "ماهی استاک فیش"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "موتورهای استفاده شده <بازی دارای رتبه‌بندی> همگی دارای گزینه‌ی قدرت محدود UCI هستند."
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "این به کاربر اجازه می‌دهد تا یک رتبه‌بندی تقریبی ELO را انتخاب کند."
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "برای قدرت بازی موتور."
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "موتورها معمولاً در دایرکتوری زیر ذخیره می‌شوند -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "انتخاب‌های زیادی برای انجام دادن وجود دارد، اما می‌توانید قدرت‌های محدودکننده‌ی دیگری را نیز اضافه کنید."
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "اگر دوست دارید، با ایجاد یک دایرکتوری جدید در <rated_engines>، موتورهای"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "و کپی کردن فایل *.exe موتور در آن."
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "این فرآیند برای موتورهای تجاری زیر کار خواهد کرد -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "اژدهای کومودو، فریتز ۱۶، شردر، هودینی ۶، دیپ جونیور و شیرون."
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "ممکن است تعداد بیشتری هم وجود داشته باشد."
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "من سعی کرده‌ام برای اکثر انواع کامپیوترها خدمات ارائه دهم و این باعث شده است"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "لیست موتورها خیلی طولانیه. بنابراین می‌تونید اون‌هایی که نمی‌خواید رو حذف کنید."
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "در حالی که برخی از موتورهای قدیمی‌تر، مانند Ufim، Delfi و Amyan کمی ضعیف‌تر هستند."
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "متفاوت از یکدیگر، بیشتر موتورهایی که از Stockfish مشتق شده‌اند،"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "به روشی مشابه بازی کنید."
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "موتوری که کاملاً منحصر به فرد و کاملاً مناسب است"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "برای <بازی رتبه‌بندی‌شده> موتور شطرنج Rodent است که توسط پاول کوزیول نوشته شده است."
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "برای جزئیات بیشتر روی <جوندگان> کلیک کنید."
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "موتور Arasan که توسط جان دارت نوشته شده، یکی دیگر از موتورهای بسیار خوب است."
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "اگرچه به اندازه استاک‌فیش قوی نیست، اما سبک بازی متمایزی دارد."
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "با این حال، هنگامی که با رابط کاربری گرافیکی Tarrasch و Nimzo_3d استفاده می‌شود،"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "برخی مشکلات وجود دارد."
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "از زمان اضافه شدن یک شبکه عصبی با نسخه ۲۳.۰،"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "هیچ کدام از آنها روی کامپیوتر من کار نمی‌کردند."
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "با این حال، با آخرین نسخه ۲۵.۲ موتورهای زیر کار می‌کنند"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "با توجه به این مشکلات، من از موتورهای نسخه ۲۲.۳ استفاده کرده‌ام."
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "برای بازی‌های رده‌بندی‌شده. این آخرین نسخه بدون شبکه عصبی بود."
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "تمام موتورهای این نسخه روی کامپیوتر من اجرا می‌شوند."
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "کمک موتور آراسان"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "موتور شطرنج استوک‌فیش"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "nps ماهی استاک فیش"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "الکساندر"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "وقتی داشتم کد مربوط به تطابق موتور را می‌نوشتم، متوجه شدم که Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "و موتورهای کومودو در بازی‌هایی با محدودیت زمانی سریع، زمان از دست می‌دادند،"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "بنابراین من گزینه <تنظیم زمان موتور> را برای رفع این مشکل نوشتم."
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "با یک بازی رده‌بندی‌شده، با استفاده از محدودیت زمانی طولانی‌تر، دوباره متوجه شدم که"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "استوک‌فیش وقتی از کتاب شروع بازی‌اش خارج می‌شود، حرکاتش را خیلی آهسته انجام می‌دهد."
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "یا اگر از هیچ کتابی استفاده نشده باشد."
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "برای رفع این مشکل می‌توانید گزینه‌ی حرکت آهسته‌ی Stockfish را تنظیم کنید."
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "کاهش این مقدار، سرعت حرکت را کمی افزایش می‌دهد."
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "اگرچه متوجه شدم که این گزینه برای کنترل‌های سریع کافی نیست"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "اگر برای یک بازی ۳ دقیقه یا کمتر باشد، برای ۵ دقیقه یا بیشتر به خوبی کار می‌کند."
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "برای Stockfish 11، مقدار 20-30 برای بازی‌های 5-10 دقیقه‌ای خوب جواب می‌دهد."
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "شما می‌توانید گزینه حرکت آهسته را با استفاده از گزینه‌های پارامتر سفارشی تنظیم کنید."
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "در کادر محاوره‌ای موتور."
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "برای آسان‌تر کردن کارها، یک فایل پارامتر موتور برای Stockfish 11 ساخته‌ام."
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "با مجموعه حرکت آهسته. می‌توانید این را از کادر محاوره‌ای بازی دارای رتبه‌بندی بارگیری کنید"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "با کلیک روی موتور < تنظیمات موتور.. > و سپس < بارگذاری موتور >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "از کادر محاوره‌ای موتور که باز می‌شود."
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "فایل‌های پارامتر برای Stockfish 11 در دایرکتوری ذخیره می‌شوند."
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "موتورهای Stockfish 8 تا 15 گزینه حرکت آهسته را دارند، در حالی که موتورهای 16 و 17 این گزینه را ندارند."
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "با توجه به اینکه در اینجا به قدرت نوازندگی اضافی نیاز ندارید،"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "نیازی به استفاده از موتورهای قوی‌تر نیست."
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "من این نسخه از موتور Stockfish را در GitHub به آدرس زیر پیدا کردم -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "این یک نسخه قابل تنظیم تر از موتور استاندارد است."
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "در اینجا توضیحی از موتور از فایل <README.md> آمده است -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS یک Stockfish با کمی تغییر برای بازی با انسان است."
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "با کاهش تعداد گره‌ها در ثانیه، (کیلو گره در ثانیه ~= 1 / waitms"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "ارزیابی تصادفی، عمق جستجو و محدودیت گره‌های جستجو."
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "قدرت دو تغییر اول را می‌توان در گزینه‌های uci تنظیم کرد."
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "از ۰ تا ۱۰۰، در حالی که عمق جستجو ممکن است به مقادیر ۱ تا ۲۰ محدود شود"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "و گره‌ها را تا مقادیر حداکثر ۵۰۰۰۰۰ جستجو کنید."
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "همه اصلاحات را می‌توان در هر ترکیبی با هم استفاده کرد"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "تنظیمات محدودیت قدرت و سطح مهارت ELO، برای کاهش قدرت"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "از موتور هنگام بازی در مقابل انسان."
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "با تنظیمات پیش‌فرض، StockfishNPS دقیقاً مانند Stockfish16_dev فعلی عمل می‌کند."
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "تغییر تنظیمات گره‌های جستجو به بین ۱ تا ۱۰، ELO را تقریباً به ۱۴۰۰ کاهش می‌دهد."
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "این یک نقطه شروع خوب برای تغییرات بیشتر در گزینه‌ها است."
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "من فکر می‌کنم این به این معنی است که مقدار بالاتر <waitms> باعث کاهش می‌شود."
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "تعداد موقعیت‌هایی که موتور در هر ثانیه جستجو می‌کند."
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "افزایش مقدار ارزیابی تصادفی"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "منجر به تنوع بیشتر در بازی خواهد شد."
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "<گره‌های جستجو> نوعی محدودیت بر تعداد موقعیت‌های جستجو شده اعمال می‌کند."
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "<عمق جستجو> تعداد نیم‌حرکت‌هایی (ply) را که موتور جستجو می‌کند، محدود می‌کند."
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "همچنین گزینه‌ای به نام < nodestime > وجود دارد، اما نمی‌دانم چه کاری انجام می‌دهد."
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "مقادیر پیش‌فرض صفر به این معنی است که از این گزینه استفاده نمی‌شود."
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "برای راحتی شما، فایل‌های پارامتر موتور را برای موتورها ساخته‌ام."
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "با تمام پارامترهای تنظیم‌شده روی پیش‌فرض، آماده برای انجام تنظیمات توسط شما."
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "اینها در - ذخیره می‌شوند"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "و می‌توان آن را با <بارگذاری موتور> از کادر محاوره‌ای موتور بارگذاری کرد."
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "کمک در مورد موتور NPS استوک‌فیش"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "این یک موتور مشتق شده از Stockfish با ویژگی‌های تنظیمی فراوان است."
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "وقتی برای اولین بار آن را با تنظیم قدرت محدود ELO امتحان کردم، ضعیف نشد،"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "و حرکاتش را با تمام قدرت انجام داد."
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "سپس گزینه <Honicapped Depth> را اضافه کردم و آن را روی <true> تنظیم کردم."
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "به نظر می‌رسد این روش جواب می‌دهد و موتور بسته به شرایط، در عمق‌های مختلف کار می‌کند."
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "روی رتبه‌بندی ELO که تعیین شده است."
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "گزینه‌های بسیار دیگری نیز وجود دارد که در فایل <README.md> توضیح داده شده‌اند."
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "این فایل در مسیر زیر قرار دارد"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "من دو فایل پارامتر موتور در این دایرکتوری ایجاد کرده‌ام که می‌توانید از آنها استفاده کنید."
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "برای تنظیم موتور با استفاده از <Load engine> از کادر محاوره‌ای موتور."
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "وقتی در حالت ضعیف بازی می‌کنید، الکساندر تقریباً بلافاصله حرکاتش را انجام می‌دهد."
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "اگر بخواهید، می‌توانید با استفاده از <منوی اصلی> <موتور> <تأخیر حرکت> سرعت آن را کاهش دهید."
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "موتور Alexander در GitHub و در لینک زیر میزبانی می‌شود."
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "کمک در مورد موتور شطرنج الکساندر"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "بدون نام بازیکن نمی‌توان بازی را شروع کرد"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "لطفا یک بازیکن را از کادر لیست بازیکنان فعلی انتخاب کنید"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "پیام خطای بازی رتبه‌بندی‌شده"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "نمی‌توان یک بازی را بدون فرمول رتبه‌بندی شروع کرد."
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "لطفا یک فرمول از لیست فرمول‌های رتبه‌بندی انتخاب کنید"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "تنظیمات شخصیت موتور Rodent را انتخاب کنید"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "هیچ فایل موتوری وجود ندارد"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "فهرست موتورهای دارای رتبه‌بندی تغییر نکرده است."
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "هیچ فایل شخصیتی برای خواندن وجود ندارد"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "فهرست شخصیت‌ها"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "وجود ندارد، بنابراین نمی‌تواند شخصیت‌ها را نشان دهد"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "تنظیمات شخصیت موتور Rodent 3 را انتخاب کنید"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "شخصیت فعلی"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "نمایش نام شخصیت"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "استفاده از دایرکتوری اسناد"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "از قدرت ELO محدود استفاده کنید"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "مقادیر را برای تنظیم قدرت موتور وارد کنید"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "گره در ثانیه"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "کپی کردن مقادیر پیش‌فرض"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "ارزیابی مقدار تاری"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "کپی کردن ارزیابی تاری"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "سطح مهارت جستجو (۱ - ۱۰)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "مهارت جستجوی کپی"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "تنظیمات فعلی را در یک فایل ذخیره کنید"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "نام فایل را برای ذخیره فایل شخصیت انتخاب کنید"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "اگر مقادیری در فایل وجود ندارد، آنها را اضافه کنید"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "برای استفاده از دایرکتوری زیر، تیک بزنید"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "برای موتورهای رتبه‌بندی‌شده و فایل‌های مرتبط"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "بررسی کنید که آیا از قدرت محدود UCI برای تنظیمات موتور استفاده می‌شود یا خیر."
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "مقدار گره در ثانیه را وارد کنید،"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "برای قوی‌ترها بالاتر، برای ضعیف‌ترها پایین‌تر،"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "اما صفر برای حداکثر قدرت"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "مقدار ارزیابی تاری را وارد کنید،"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "برای قوی‌تر پایین‌تر، برای ضعیف‌تر بالاتر"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "مقدار سطح مهارت را وارد کنید،"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "برای ضعیف‌تر پایین‌تر، برای قوی‌تر بالاتر"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "اضافه کردن گره در ثانیه و ارزیابی تاری"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "مقادیر مربوط به فایل، در صورت عدم وجود آنها"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "شخصیتی را که می‌خواهید در مقابلش بازی کنید انتخاب کنید"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "از"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "نمیشه سوئیچ کرد"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "تنظیم قدرت محدودیت UCI"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "تنظیم گره در ثانیه"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "نمی‌توان تنظیم کرد که"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "زیرا"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "فایل باز نشد."
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "زیرا گزینه حد مقاومت در پرونده نبود."
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "همه مقادیر به صورت پیش‌فرض تنظیم شده‌اند"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "بنابراین نوشتن آنها فایده ای ندارد."
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "فایل ورودی باز نشد"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "فایل خروجی باز نشد"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "به‌روزرسانی‌شده، و"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "ذخیره شده روی دیسک"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "کمک در موتور شطرنج جوندگان"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "توصیفات شخصیتی"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "درباره جوندگان"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "این کادر محاوره‌ای به شما امکان می‌دهد شخصیت بازی را انتخاب کنید"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "و گزینه‌هایی برای موتورهای شطرنج Rodent."
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "شخصیت فعلی - کادر لیست کشویی به شما امکان می‌دهد یک شخصیت انتخاب کنید."
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "از قدرت محدودیت ELO استفاده کنید - برای استفاده از مقادیر ELO در کادر محاوره‌ای موتور، علامت بزنید"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "هنگام تنظیم قدرت پخش موتور."
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "مقادیر را برای تنظیم قدرت موتور وارد کنید -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "گره در ثانیه - تعداد موقعیت‌هایی که موتور تولید می‌کند"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "و در هر ثانیه تجزیه و تحلیل کنید."
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "مقدار تاری ارزیابی - مقدار تصادفی به تابع ارزیابی اضافه می‌شود."
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "با Rodent 3، در حالت گره در ثانیه، مقدار تاری ارزیابی"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "از فایل شخصیت بارگذاری شده است. این به شما ایده‌ای می‌دهد"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "از محدوده مقادیری که می‌توانید استفاده کنید، اگر می‌خواهید تنظیماتی انجام دهید."
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "این گزینه همچنین می‌تواند با قدرت محدود ELO استفاده شود."
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "وقتی به این روش استفاده شد، متوجه شدم که تنظیم روی ۲۰، حرکات را تغییر می‌دهد."
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "اینکه موتور اجرا می‌شد اما اعداد بالاتر از ۲۰ تا ۵۰۰ هیچ تاثیری نداشتند"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "و تنظیم بالاتر از ۱۰۰۰ به طور جدی موتور را ضعیف می‌کرد."
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "بنابراین تنظیمات مفید در حالت محدودکننده‌ی ELO برای کامپیوتر من"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "20 یا 500 - 1000 هستند اما ممکن است برای رایانه شما متفاوت باشد."
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "اگر نمی‌خواهید تنظیم یا نمایش داده شود، آن را روی صفر تنظیم کنید."
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "اگرچه هنگام استفاده از قدرت محدودیت ELO، تعداد گره‌ها در ثانیه اعمال نمی‌شود،"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "مقادیر هنوز هم می‌توانند برای استفاده بعدی در فایل شخصیت وارد و ذخیره شوند."
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "مقادیر پیش‌فرض را کپی کنید - مقادیر تنظیمات قدرت را بررسی کنید"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "از این کادر محاوره‌ای به کادر محاوره‌ای موتور کپی شود"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "حتی وقتی که روی پیش‌فرض تنظیم شده‌اند. سپس می‌توان آنها را ویرایش کرد."
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "اگر به همین شکل باقی بمانند، هیچ تاثیری روی موتور نخواهند داشت."
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "در حالت قدرت محدودیت ELO، هنگام حذف از آنها، آنها بازنشانی نمی‌شوند."
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "کادر محاوره‌ای موتور. در حالت گره در ثانیه، آنها بازنشانی می‌شوند،"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "بنابراین برای ویرایش آنها باید <کپی پارامترها> را خاموش کنید."
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "نمایش نام شخصیت - برای نمایش نام شخصیت، تیک بزنید"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "دنبال کردن نام موتور در طول بازی."
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "همچنین رتبه‌بندی موتور به طور خودکار نمایش داده می‌شود."
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "استفاده از فهرست اسناد - برای استفاده از آن، علامت بزنید"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "برای موتورهای دارای رتبه‌بندی."
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "این یک اقدام اضطراری برای مواقعی است که کپی نشده باشند."
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "اگر آنها در جای دیگری نصب شده‌اند، می‌توانید آنها را کپی کنید."
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "یکی از دایرکتوری‌های بالا."
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "اگر اصلاً نصب نشده بودند، می‌توانند از این لینک‌ها دانلود شوند -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "لینک‌ها"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "ذخیره تنظیمات فعلی در یک فایل - با استفاده از این انتخابگر فایل، می‌توانید تنظیمات را ذخیره کنید."
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "پخش تنظیمات قدرت از کادر محاوره‌ای به فایل فعلی،"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "یا اگر مایلید، یک مورد جدید."
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "اگر مقادیری وجود ندارد، آنها را اضافه کنید - برای اضافه کردن مقادیر تنظیم قدرت به فایل، تیک بزنید."
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "اگر آنها وجود نداشته باشند. این در صورتی خواهد بود که مقادیر تاری ارزیابی را اضافه کنید"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "به یک پرونده شخصیتی جوندگان ۴."
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "درباره موتورهای شطرنج Rodent"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "جوندگان، نوشته شده توسط پاول کوزیول، یک موتور شطرنج بسیار جالب است."
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "این گزینه UCI_LimitStrength و همچنین مجموعه‌ای از شخصیت‌ها را دارد،"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "که از فایل‌ها بارگذاری می‌شوند، برای پخش ضعیف‌تر و متنوع‌تر."
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "برای اینکه موتور به درستی با شخصیت‌ها و ویژگی‌های آنها کار کند"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "برای باز کردن کتاب‌ها، همه اجزا باید در یک دایرکتوری قرار بگیرند."
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "آنها باید نصب می شدند -"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "اگر می‌خواهید موتور Rodent در طول بازی از کتاب خودش استفاده کند،"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "سپس باید کتاب شروع Nimzo_3d را از [حالت] خارج کنید"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "<منوی اصلی> <شروع بازی‌ها> <دفترچه شروع بازی‌ها>"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "یا اگر از گزینه <رزرو بدون رزرو> استفاده می‌کنید، آن را تیک بزنید."
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "کادر محاوره‌ای بازی دارای رتبه‌بندی."
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "مقداری مستندات و یک برنامه کمکی وجود دارد"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "که می‌توان از آن برای شخصیت‌پردازی بیشتر استفاده کرد."
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "بسته موتور Rodent 4 و نسخه‌های قدیمی‌تر را می‌توانید از اینجا دانلود کنید -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "فقط جوندگان ۴، با بررسی دقیق"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "مواد نگهدارنده موتور Rodent 4، بدون موتورها"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "مواد نگهدارنده Rodent 3، بدون موتور"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "یک فایل شخصیتی جوندگان، صرفاً فهرستی از دستورات UCI در یک فایل *.txt است."
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "قرار است به روش زیر کار کند -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "رابط کاربری گرافیکی برنامه شطرنج، دستور <شخصیت> را به موتور Rodent ارسال می‌کند."
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "سپس موتور دستورات را از فایل شخصیت می‌خواند"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "و تنظیمات خود را بر اساس آن تنظیم می‌کند."
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "با این حال، با هر دو رابط کاربری گرافیکی Nimzo_3d و Tarrasch،"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "وقتی به این شکل استفاده می‌شد، نمی‌توانستم موتورها را به کار بیندازم."
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "همه شخصیت‌ها حرکات یکسانی را انجام دادند."
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "بنابراین به جای این، من دستور <Personality> را وقتی که"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "در شرف ارسال از رابط کاربری گرافیکی به موتور، فایل شخصیت را باز کرد"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "و دستورات را از فایل به صورت جداگانه ارسال کرد. به نظر می‌رسد که این روش جواب می‌دهد."
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "اساساً، موتور Rodent دو روش اصلی برای تغییر قدرت نوازندگی خود دارد."
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "می‌تواند از قدرت محدودیت ELO یا تعداد گره‌ها در ثانیه با تاری ارزیابی استفاده کند."
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "قدرت محدود ELO به شما امکان می‌دهد یک رتبه تقریبی ELO تعیین کنید"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "و گره‌ها در ثانیه با تاری ارزیابی به شما امکان می‌دهد مقادیر را تنظیم کنید"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "که اثر تضعیف‌کننده مشابهی دارند."
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "شخصیت‌های جوندگان ۳ طوری تنظیم شده‌اند که در هر ثانیه از گره‌ها استفاده کنند"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "با تاری ارزیابی و Rodent 4 برای استفاده در نظر گرفته شده است"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "فقط با قدرت محدود ELO."
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "به دلیل تغییری که در نحوه ارسال دستور <شخصیت> ایجاد کردم،"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "جوندگان ۳ می‌توانند از شخصیت‌های خود با قدرت محدود ELO استفاده کنند."
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "در ترکیب با تاری ارزیابی و مهارت انتخاب،"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "اما نه با گره در ثانیه."
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "همچنین به این معنی است که Rodent 4 می‌تواند از قدرت محدود ELO استفاده کند."
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "با تاری ارزیابی و مهارت انتخاب."
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "تغییر جزئی مقدار تاری ارزیابی به این معنی است که موتور بازی خواهد کرد"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "حرکات مختلف بدون اینکه تأثیر زیادی بر قدرت نوازندگی داشته باشند،"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "تا زمانی که مقدار تاری خیلی زیاد نباشد."
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "شما می‌توانید این را آزمایش کنید، من متوجه شدم که مقادیر بین ۲۰ تا ۵۰"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "کاملاً خوب کار کرد."
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "علاوه بر این، هر دو موتور اکنون می‌توانند از فایل‌های شخصیت استفاده کنند"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "از موتور دیگر با تنظیمات جزئی از داخل Nimzo_3d،"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "پس از کپی شدن آنها در دایرکتوری <Personities> موتور."
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "این به شما امکان می‌دهد در صورت نیاز به تغییر، به راحتی فایل‌های شخصیتی جدید را جایگزین کنید."
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "من تعدادی را در <extra_personalities> قرار داده‌ام"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "در پوشه‌ی <شخصیت‌ها>."
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "فایل‌های شخصیت در دایرکتوری‌های زیر ذخیره می‌شوند -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "به علاوه"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "یا"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "فایل‌ها را می‌توان از داخل Nimzo_3d تغییر داد تا تنظیمات لازم انجام شود."
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "گره در ثانیه و مقادیر تاری ارزیابی شده و سپس دوباره روی دیسک ذخیره می‌شوند."
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "فرقی نمی‌کند که فایل‌های شخصیتی بتوانند با دستوراتی به پایان برسند"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "که برای موتور مورد استفاده فعلی نامناسب هستند، زیرا آنها"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "قبل از ارسال به موتور، توسط رابط کاربری گرافیکی فیلتر می‌شوند."
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "دستورات جوندگان"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "این توصیفات از شخصیت‌های موتور شطرنج Rodent از ... گرفته شده است."
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "فایل <FinalRodent.pdf> که در مسیر زیر قرار دارد -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "شخصیت‌های از پیش تعریف‌شده"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "از زمان آغاز به کار، پروژه Rodent در مورد ایجاد یک موتور بوده است."
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "که امکان تغییر سبک بازی آن را فراهم می‌کند - درست مانند سری ChessMaster،"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "فقط بهتر. تغییرات کد در نسخه جدید به این معنی بود که شخصیت‌های قدیمی"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "دیگر قابل استفاده نیستند، بنابراین احساس کردم که نیاز به ایجاد یک مجموعه جدید دارم."
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "امیدوارم براتون جالب باشه."
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "مشت و مهمترین چیز، یک مهاجم، دومین ملاحظه او"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "فعالیت مهره‌ای است. شروع گامبی را بازی می‌کند."
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "کلوئه عاشق موقعیت‌های بسته، طوفان‌های پیاده‌ای و ساختار پیاده‌ای قوی است."
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "تنها چیزی که او به یک پوزیشن بسته ترجیح می‌دهد، یک پوزیشن بسته است."
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "با یک ستون باز، که متعلق به رخ‌هایش بود."
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "او با افتخار مدافع فرانسوی و مدافع هندی-شاهی است."
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "او را زنی مو مشکی، لاغر اندام و غمگین تصور کنید."
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "او یک بازیکن دفاعی است که فیل‌ها را دوست دارد."
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "او را با یک کت و شلوار گران‌قیمت تصور کنید، که بیشتر شبیه یک مدیرعامل است."
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "از یک بازیکن شطرنج قوی، منطقی، هرچند کمی بدبین."
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "شروع‌های خوبی دارد. آماده است تا در موقعیت‌های مساوی، بازی را مساوی کند."
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "او را به عنوان بازیکنی تصور کنید که دوران اوجش را پشت سر گذاشته است،"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "نسبت به حریفانش بی‌احترامی می‌کند و همچنان کاملاً خطرناک است."
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "اخمو ​​دوست دارد حرکات دشمن را محدود کند و حمله کند،"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "از موقعیت‌های بسته لذت می‌برد و انتظار برد دارد."
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "به دلیل سنش، او بیشتر شروع بازی نه چندان مدرنی دارد."
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "برای مثال، او خط دفاعی تاراش را دوست دارد."
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "تقلید از پاول مورفی. بر تحرک تأکید دارد،"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "سپس حمله به شاه، موقعیت‌های باز را ترجیح می‌دهد."
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "او به آرامی شروع می‌کند و از دهانه‌هایی استفاده می‌کند که فضای زیادی را اشغال نمی‌کنند."
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "در مرکز، اما با حس امنیت کاذب غرق نشوید."
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "بعداً او به حملات وحشیانه‌ای دست می‌زند."
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "او را به عنوان یک استاد بزرگ جوان، در حال پیشرفت و ترقی تصور کنید،"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "کسی که هنوز به جایگاه واقعی خود نرسیده است."
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "لاغر، پرانرژی، کمی بیش از حد به حرکات پر زرق و برق علاقه دارد."
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "او تمایل دارد هر از گاهی از مهره‌هایش جدا شود."
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "شخصیت متعادل، احتمال دارد مقدار کمی از مواد را فدا کند،"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "اغلب در آخر بازی به دفاع فعال روی می‌آورد."
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "پدریتا مخفف پیاده‌ها، دفاع، و مهار است."
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "او شروع بازی خوبی دارد و اول به دفاع فکر می‌کند، اما گول نخورید!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "او می‌تواند در صورت نیاز به موقعیت مناسب، و با بازی پیاده‌ای قوی، به خوبی حمله کند."
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "او خیلی سرسخت است."
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "کمی مادی‌گرا، اما برای ابتکار عمل می‌جنگد"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "و به اندازه کافی نزدیک به عدم پرداخت بدهی باشد تا از برنامه‌های نادرست جلوگیری شود."
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "دوست دارد فشار زیادی روی مهره‌های حریف ایجاد کند."
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "شروع‌های بسته را با رنگ سفید و دفاع‌های اسلاو و کارو-کان را با رنگ سیاه بازی می‌کند."
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "شاید بهترین ترکیب در برابر موتورهای ضعیف‌تر باشد."
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "بدون جنبه‌های پیشرفته‌تر عملکرد ارزیابی بازی می‌کند،"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "اعمال پیش‌فرض معقول. ترجیح جزئی برای تعویض ملکه‌ها،"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "در موقعیت‌های مساوی، بازی به تساوی کشیده می‌شود."
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "شاید بیشترین شباهت را به کامپیوتر داشته باشد."
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "او را به عنوان یک مرد قد بلند با یک کت چرمی قهوه‌ای تصور کنید."
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "او بازی فعال را دوست دارد اما از مورد حمله قرار گرفتن بیزار است."
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "دوست دارد وزیرها را روی تخته نگه دارد."
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "بر اساس شخصیت جوندگان III اثر برندن جی. نورمن."
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "به سبک مار بوآ بازی می‌کند، اما تمایل زیادی به حمله دارد،"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "احتمالاً به دلایل موقعیتی فداکاری خواهد کرد."
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "نسخه‌ی خیلی تندمزاج‌ترِ بازیِ اخمو، خیلی شبیه آدم‌ها."
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "ممکن است در آخر بازی با وزیرها بیش از حد خوش‌بین باشد."
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "همچنین شخصیت‌های بسیاری از قهرمانان جهان و دیگر بازیکنان مشهور وجود دارد."
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "توصیفات شخصیتی موتور شطرنج Rodent 4"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "پنجره همیشه در بالا"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "اگر بخواهید، می‌توانید با ... سرعت آن را کم کنید."
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "<منوی اصلی> <موتور> <تاخیر حرکت>"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "یک بازی رده‌بندی‌شده در مقابل یک موتور شطرنج انجام دهید"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "برای کپی کردن تنظیمات قدرت محدودیت به پارامترهای سفارشی، علامت بزنید"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "فرمول رتبه‌بندی توضیح داده شده است"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "برای نمایش نام شخصیت، تیک بزنید"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "با نام موتور در طول یک بازی"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "مقدار مهارت جستجو را وارد کنید،"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "برای کپی خودکار گزینه‌ها، همیشه تیک بزنید"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "در پارامترهای سفارشی"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "برای کپی خودکار تاری ارزیابی، تیک بزنید."
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "مقدار به پارامترهای سفارشی"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "برای کپی کردن خودکار مهارت جستجو، علامت بزنید"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "نام فایل را برای ذخیره وارد کنید"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "گزینه‌های تنظیم قدرت موتور"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "در بازی با سفید برنده شده و امتیازاتی کسب کرده است"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "بازی سیاه را باخته است و می‌بازد"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "بازی با سفید را باخته و همچنان باخته است"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "در بازی سیاه برنده شده و سود برده است"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "با رنگ سفید نقاشی کشیده است"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "سیاه بازی کشیده است"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "هیچ تغییر رتبه‌بندی وجود نداشت."
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "و به دست آورد"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "و گم شده"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "امتیاز جدید شما"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "پیام رتبه‌بندی نتیجه بازی"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "نمی‌توان فایل پروفایل بازیکن را برای نوشتن جزئیات باز کرد"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "هیچ فایل موتوری در دایرکتوری وجود ندارد، بازی رده‌بندی‌شده لغو شده است"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "فهرست موتورهای دارای رتبه‌بندی"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "وجود ندارد، بازی رده‌بندی‌شده لغو شد"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "پیشنهاد: مقادیر پیش‌فرض برنامه را از ... به حالت اولیه برگردانید."
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "<منوی اصلی> <گزینه‌ها> <بازگرداندن به تنظیمات کارخانه>"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "اگر این روش جواب نداد، موتورهای رتبه‌بندی‌شده را از اینجا دانلود و نصب کنید."
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "شخصیت موتور جوندگان"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "بارگذاری شده"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "پیام موتور بازی رتبه‌بندی‌شده"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "موتور در لیست نیست، بنابراین نمی‌توان آن را تنظیم کرد"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "فهرست مشخصات بازیکن"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "پیشنهاد: این پوشه را به صورت دستی با Windows Explorer ایجاد کنید"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "نام بازیکن خالی است، لطفا یک نام وارد کنید"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "نام بازیکن از قبل در لیست وجود دارد،"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "لطفا نام بازیکن دیگری را وارد کنید"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "پروفایل بازیکن برای"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "خطا در ذخیره مشخصات بازیکن روی دیسک"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "اسم بازیکن تو لیست نیست"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "لطفا نام بازیکنی را که در لیست است وارد کنید"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "از دیسک حذف شده"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "خطا در حذف پروفایل بازیکن از دیسک"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "فهرست فرمول‌های رتبه‌بندی"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "و از <فرمول رتبه‌بندی> <+> برای اضافه کردن فرمول استفاده کنید"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "در کادر محاوره‌ای بازی دارای رتبه‌بندی."
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "نام فایل فرمول خالی است، لطفاً یک نام تایپ کنید"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "نام فایل فرمول رتبه‌بندی از قبل در لیست وجود دارد،"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "لطفا نام فایل فرمول رتبه‌بندی متفاوتی وارد کنید"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "نام فایل فرمول رتبه‌بندی در لیست نیست،"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "لطفا نام فایل فرمول رتبه‌بندی را که در لیست موجود است وارد کنید"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "فرمول رتبه بندی برای"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "خطا در ذخیره فایل فرمول رتبه‌بندی روی دیسک"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "نام فایل فرمول خالی است، لطفاً نام فایل را تایپ کنید"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "فایل فرمول رتبه‌بندی در لیست نیست،"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "لطفاً یک فایل فرمول که در لیست موجود است را وارد کنید"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "خطا در حذف فرمول رتبه‌بندی از دیسک"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "نمی‌توان فایل فرمول رتبه‌بندی را برای خواندن باز کرد"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "یک ویژگی بازی دارای رتبه‌بندی برای بازی‌های موتور انسانی (نسخه ۴.۰)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "تأخیر حرکت"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "تاخیر در حرکت.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "نمایش کادر محاوره‌ای تأخیر حرکت"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "پیام خطا"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "کپی به پارامترهای سفارشی"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "هنگام نوشتن ویژگی <بازی دارای رتبه> متوجه شدم که موتور Delfi"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "به تنظیمات قدرت حدی که در لیست پارامترهای سفارشی قرار داده شده بود، نیاز داشتم"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "تا آنها کار کنند."
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "برای موتور دلفی، این عمل به صورت خودکار انجام خواهد شد."
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "اگر این مشکل را با هر موتور دیگری دارید، می‌توانید آن را بررسی کنید"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "<کپی به پارامترهای سفارشی> کادر و پارامترهای مقاومت حدی"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "در سراسر آن کپی خواهد شد."
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "همچنین متوجه شدم که اگر بیش از یک بازی را با موتور ضعیف Stockfish انجام دهید،"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "و <کپی به پارامترهای سفارشی> تنظیم نشده بود، Stockfish به قدرت کامل خود بازگشت"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "برای بازی دوم. بنابراین احتمالاً بهتر است همیشه این گزینه را تنظیم کنید"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "هنگام استفاده از قدرت محدود."
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "هنگام استفاده از ویژگی <بازی دارای رتبه‌بندی>، این مورد برای همه موتورها اعمال می‌شود."
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "اگر هنگام بازی در مقابل استاک‌فیش، پنل اطلاعات جستجو را باز کرده‌اید،"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "تحلیل کامل قدرت موتور را نشان می‌دهد،"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "حتی اگر با استفاده از حد مجاز UCI ضعیف شده باشد."
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "می‌توانید تشخیص دهید که آیا واقعاً ضعیف شده است یا خیر، زیرا اغلب بازی می‌کند."
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "حرکتی متفاوت با آنچه در تحلیل نشان داده شده است."
+
