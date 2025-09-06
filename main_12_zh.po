@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "评级调整公式"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "为了"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "胜利价值"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "损失价值"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "绘制值"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "强度调整系数"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "有效最大差值"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "最低获胜价值"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "输入评级变化以获得胜利"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "平局评级变化"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "因亏损而改变评级"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "输入强度因子调整百分比"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "有效最大额定值差异"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "此对话框允许用户设置公式的选项"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "用于在与引擎进行游戏后调整玩家评级。"
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "胜利值——赢得比赛后排名点数的增加。"
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "绘制值 - 始终设置为零。"
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "损失值——这是获胜值的减值。"
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "强度调整系数（百分比）- 该值用于"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "计算评级，如下面的公式所示。"
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "有效最大评级差异 - 如果排名差异"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "玩家之间的距离大于这个数字，"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "然后将其设置为该数字。请参阅下面的公式。"
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "美国国际象棋联合会使用的基本公式"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "用于通信象棋游戏。"
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "您可以在以下网站上看到它的描述 -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "以下是我对他们的公式的解释。"
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "他们对比赛后新评分的计算是 -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "（胜负）"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "这里 0.04（4%）是强度调整系数（SAF）"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED 是有效评级差异。"
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "在计算排名时，ED 具有正值"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "较弱的玩家计算结果为负值，而较强的玩家计算结果为负值。"
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "对于胜/负值为16的情况，如果实际评级差异"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "玩家之间的距离大于350，则设置为350。"
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "这是为了确保在这些情况下，如果你赢了一场"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "较弱的对手，你的排名就会上升，如果你输给"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "对手越强大，你的排名就越下降。"
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "这里的评级变化很小，只有 2 分。"
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "这可以通过使用最小获胜值变量来调整。"
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "所以我认为一般的方程是 -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "在哪里"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "最低获胜价值"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "默认设置存储在排名公式文件<USCF>中"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "但如果您愿意，您可以创建一个新文件并更改设置。"
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "我建议只对基本数字进行微小的修改。"
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "评级公式解释"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "人类引擎游戏的移动延迟"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "使用移动延迟"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "取消 秒"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "最小移动延迟（秒）"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "强制执行最小移动延迟"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "使用随机执行时间"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "最大移动延迟（秒）"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "固定时间的随机延迟"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "在人类引擎游戏中使用移动延迟"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "当仅剩这么多秒时取消移动延迟"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "最小移动延迟（秒）"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "强制执行最小移动延迟，"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "直到达到取消秒数"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "使用 1 - 最小移动延迟之间的随机数，"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "当设置强制最小移动延迟时"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "最大移动延迟（秒）"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "使用随机移动延迟来固定引擎时间"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "此功能主要用于 Komodo 国际象棋引擎"
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "当它们因人类引擎游戏而被削弱时。"
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "在这种情况下，引擎几乎立即移动，这使得游戏"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "一种不自然的节奏，相当令人不安。"
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "Rybka 2.3 引擎也会出现这种情况"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "以及亚历山大国际象棋引擎。"
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "Komodo 发动机没有<慢速移动>选项，因此此对话框"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "允许您设置减慢引擎速度的选项。"
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "使用移动延迟 - 选中以在人类引擎游戏中使用移动延迟。"
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "取消秒数 - 选择不再使用移动延迟的时间。"
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "最小移动延迟 - 选择最小移动延迟（以秒为单位）。"
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "强制执行最小移动延迟 - 选中以强制执行最小移动延迟"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "在这种情况下，如果程序计算出移动所允许的时间"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "小于最小移动延迟，则移动延迟设置为"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "最小移动延迟，或 1 至最小移动延迟之间的随机数，"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "取决于下一个复选框如何设置。"
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "当达到取消秒数时，此强制措施不再适用。"
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "取消选中以允许引擎以比最小移动延迟更快的速度播放动作，"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "如果时间开始不足，则在取消之前的几秒内。"
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "随机强制执行 - 检查最小移动延迟的随机执行时间。"
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "最大移动延迟 - 选择最大移动延迟（以秒为单位）。"
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "固定时间的随机延迟 - 选中以对固定时间级别使用随机移动延迟。"
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "取消选中以使用允许移动延迟的整个固定时间。"
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "移动延迟帮助"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "评级游戏选项"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "玩家游戏的 PGN 文件名"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "为游戏选择 .pgn 文件"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "引擎对手"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "引擎 ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "人物"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "现役球员"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "玩家 ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "编辑玩家 ELO 评分"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "勾选以编辑玩家 ELO 评分"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "设置为当前引擎"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "设置为当前时钟"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "评级结果变化"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "手动调节"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "评级公式"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "时间控件"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "每场比赛分钟数"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "增量（秒）"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "玩家"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "预订"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "开始游戏"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "输入用于保存玩家游戏的 PGN 文件名"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "输入引擎 ELO 强度"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "打开引擎设置对话框"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "打开 Rodent 引擎个性对话框"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "添加新玩家"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "删除当前玩家"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "保存当前玩家的详细信息"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "玩家 ELO 评级"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "勾选编辑玩家 ELO 等级"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "勾选此项可为评级游戏使用移动延迟。"
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "检查以将引擎设置设置为当前设置"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "检查将时钟设置设为当前设置"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "勾选关闭此游戏的开场书"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "玩家获胜时 ELO 评分发生变化"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "玩家失败时 ELO 等级变化"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "ELO 等级分因平局而改变"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "勾选调整评级变化"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "并手动设置玩家 ELO"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "目前使用的评级公式"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "添加新公式"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "删除当前公式"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "编辑当前公式"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "输入玩家的游戏时间（分钟）"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "输入玩家移动增量（以秒为单位）"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "输入游戏引擎运行时间（分钟）"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "输入发动机移动增量（以秒为单位）"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "检查人类是否出白棋"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "使用当前设置开始游戏"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "选择您想要对抗的引擎"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "选择当前玩家"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "评级游戏帮助"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "评级游戏为你提供了一种方便的方式来对抗弱者"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "国际象棋引擎，同时跟踪你的进度"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "通过更新近似的 ELO 评级。"
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "您可以为评级游戏设置以下选项"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "PGN 文件名：选择 PGN 文件名来存储评级游戏。"
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "文件名来自玩家名称。它将存储在"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "如果没有输入玩家名称，则将使用 rated_games.pgn 作为文件名"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "引擎对手：在这里您可以选择想要玩的引擎。"
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "所有这些引擎都有 UCI_LimitStrength 选项，"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "这使得它们被削弱。"
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "如果你想添加另一个具有此选项的引擎，则应复制"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "到"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "目录"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "引擎 ELO - 选择引擎的 ELO 强度。"
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "显示了允许的上限值和下限值。"
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "引擎设置 - 这将打开引擎对话框，允许您更改"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "您选择的引擎的其他选项。点击<Stockfish>查看示例。"
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "如果加载了 Rodent 国际象棋引擎，则会出现 < 个性 > 按钮"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "该引擎也会出现。"
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "当前玩家 - 您可以在这里设置当前玩家，也可以添加、删除"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "并编辑球员。当前球员的名字显示在编辑窗口中"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "下拉列表框。"
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "加号按钮 - 要添加新玩家，请在编辑窗口中输入其姓名，然后单击"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "点击此按钮。他们的名字将被添加到列表中，并创建一个以他们名字命名的文件。"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "包含其详细信息，将存储在磁盘中"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "减号按钮 - 单击可删除编辑窗口中显示的播放器。"
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "这也将把他们的文件从磁盘中删除。"
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "保存 - 点击保存编辑窗口中玩家的详细信息"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "如果您手动更改他们的 ELO 评级。"
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "玩家 ELO - 这会在编辑窗口中显示玩家的 ELO 等级。"
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "如果您想在添加新玩家时编辑此框，请参阅下一个选项。"
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "编辑玩家 ELO 评级 - 选中以允许编辑玩家 ELO 评级。"
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "使用移动延迟 - 选中以对评级游戏使用移动延迟。"
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "此选项适用于移动速度过快的引擎"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "当它们变弱时，例如科莫多巨蜥。"
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "设置为当前引擎 - 选中以设置此框中显示的引擎"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "在评级游戏结束后作为当前引擎。"
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "取消选中则评级游戏结束后重置为旧引擎。"
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "设置为当前时钟 - 勾选此框可设置显示的时钟时间"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "作为评级比赛结束后的当前时钟。"
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "取消选中则在评级比赛结束后重置为旧时钟。"
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "结果评级变化 - 显示胜利、失败或平局的评级变化。"
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "这些会根据玩家和引擎 elo 评级自动调整"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "以及使用哪个公式来计算 ELO。"
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "手动调整 - 如果您想手动更改上述值，请选中此框。"
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "如果你想玩手动调整数值的评级游戏，"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "然后，当您单击<开始游戏>时，请选中此框"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "评级公式 - 您可以在此处选择和修改 ELO 计算公式。"
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "它的使用方式与当前玩家框类似。"
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "主要区别在于，当您添加或编辑公式时，"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "将打开一个新对话框，您可以在其中输入公式的选项。"
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "有关评级公式的更多信息，请单击<帮助>按钮"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "公式对话框。"
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "时间控制——选择游戏的时间控制。"
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "输入游戏时间（分钟）和移动增量（秒）"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "适用于人类玩家和国际象棋引擎。"
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "如果愿意的话，你可以给自己比引擎更多的时间。"
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "关闭开局书 - 勾选此项可关闭评级游戏的开局书。"
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "下白棋 - 检查人类玩家是否下白棋，"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "取消选中，人类玩家将下黑棋。"
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "开始游戏 - 单击即可使用当前选项开始评级游戏。"
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "如果你想要一本有趣且丰富多彩的人类引擎游戏开局书，"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "我推荐多语言开场书"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "本书是 Deep Saros 引擎下载的一部分。"
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "它应该安装在以下目录中 -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "评级游戏引擎的帮助"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "阿拉桑"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "啮齿动物"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "鳕鱼干"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "所使用的<额定游戏>引擎均具有UCI限制强度选项。"
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "这允许用户选择一个近似的 ELO 评分"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "引擎的演奏强度。"
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "引擎通常存储在以下目录中 -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "有大量的选择可供选择，但你可以添加其他限制强度"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "如果您愿意，可以在 <rated_engines> 中创建一个新目录"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "并将引擎 *.exe 文件复制到其中。"
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "此过程适用于以下商用发动机 -"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "科莫多巨蜥、弗里茨 16、施莱德、胡迪尼 6、Deep Junior 和 Chiron。"
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "可能还有很多。"
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "我尝试过适应大多数类型的计算机，这使得"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "引擎列表很长。所以你可以删除那些你不想要的。"
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "虽然一些较旧的引擎，如 Ufim、Delfi 和 Amyan 发挥了一点作用"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "彼此不同，大多数源自 Stockfish 的引擎，"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "以类似的方式玩。"
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "一款独一无二、完美契合的发动机"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "< 评级游戏 > 的引擎是 Rodent 国际象棋引擎，由 Pawel Koziol 编写。"
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "点击< 啮齿动物 > 了解更多详情。"
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "由 Jon Dart 编写的 Arasan 引擎是另一个非常优秀的引擎。"
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "虽然不如 Stockfish 强大，但它具有独特的游戏风格。"
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "然而，当与 Tarrasch 和 Nimzo_3d GUI 一起使用时，"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "存在一些问题。"
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "自从 23.0 版本增加了神经网络后，"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "它们都不能在我的计算机上运行。"
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "但是，最新版本 25.2 可以使用以下引擎"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "考虑到这些问题，我使用了 22.3 版的引擎"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "用于评级游戏。这是最后一个没有神经网络的版本。"
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "此版本的所有引擎均可在我的计算机上运行。"
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "Arasan 引擎帮助"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "Stockfish 国际象棋引擎"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "鳕鱼干"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "亚历山大"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "当我为引擎匹配编写代码时，我发现 Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "Komodo 引擎在时间限制较短的游戏中会浪费时间，"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "所以我写了<引擎时间调整>选项来解决这个问题。"
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "在评级游戏中，使用更长的时间限制，我再次发现"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "当 Stockfish 的开局超出范围时，它的行动会非常缓慢"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "或者如果没有使用书籍。"
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "为了解决这个问题，您可以调整 Stockfish 慢速移动选项。"
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "降低该值可以稍微加快移动速度。"
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "尽管我发现此选项不适合快速时间控制"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "对于一场比赛来说，3 分钟或更短的时间效果很好，但对于 5 分钟或更长的时间效果也很好。"
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "对于 Stockfish 11，20-30 的值适合 5-10 分钟的游戏。"
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "您可以使用自定义参数选项设置慢速移动选项"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "在引擎对话框中。"
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "为了方便起见，我为 Stockfish 11 制作了一个引擎参数文件"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "慢速移动。您可以从评级游戏对话框中加载它"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "单击引擎<引擎设置..>，然后单击<加载引擎>"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "从打开的引擎对话框中。"
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "Stockfish 11 的参数文件存储在目录中"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "Stockfish 8-15 号发动机具有慢速发动机选项，而 16 号和 17 号发动机则没有。"
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "鉴于你在这里不需要额外的演奏力量，"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "没有必要使用更强劲的引擎。"
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "我在 GitHub 上找到了这个版本的 Stockfish 引擎 -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "它是一个比标准引擎更具可调性的版本。"
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "以下是来自 < README.md > 文件的引擎描述 -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS 是经过稍微修改的 Stockfish，适合人类游戏"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "每秒节点数减少，（每秒千节点数 ~= 1 / waitms"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "随机评估、搜索深度和搜索节点限制。"
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "前两种修改的强度可以在 uci 选项中设置"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "从 0 到 100，而搜索深度可能限制为从 1 到 20 的值"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "并搜索值高达 500000 的节点。"
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "所有修改都可以与"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "ELO限制实力和技能等级设置，以降低实力"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "与人类对战时引擎的"
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "使用默认设置，StockfishNPS 的运行方式与当前的 Stockfish16_dev 完全相同。"
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "仅将搜索节点设置更改为 1 - 10 之间可将 ELO 降低至大约 1400。"
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "这是进行其他选项更改的一个很好的起点。"
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "我认为这意味着更高的< waitms >值会减少"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "引擎每秒搜索的位置数。"
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "增加随机评估值"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "会带来更加多样化的玩法。"
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "< 搜索节点 > 对搜索的位置数量施加了某种限制。"
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< 搜索深度 > 限制引擎搜索的半步 (层) 的数量。"
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "还有一个名为 < nodestime > 的选项，但我不知道它的作用是什么。"
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "默认值为零表示不使用该选项。"
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "为了方便起见，我为引擎制作了引擎参数文件"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "所有参数均设置为默认值，以便您进行调整。"
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "这些存储在-"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "并且可以从引擎对话框中使用<加载引擎>进行加载。"
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "Stockfish nps 引擎帮助"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "这是一款 Stockfish 衍生引擎，具有许多调整功能。"
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "当我第一次尝试设置 ELO 限制强度时，它并没有减弱，"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "并全力发挥其动作。"
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "然后我添加了 < Handicapped Depth > 选项并将其设置为 < true >"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "这似乎有效，并且引擎根据不同的深度播放"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "设定的 ELO 评分。"
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "还有许多其他选项，在文件 < README.md > 中描述"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "该文件位于以下目录中"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "我在这个目录下制作了两个引擎参数文件，你可以使用"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "使用引擎对话框中的<加载引擎>来设置引擎。"
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "当以弱化模式游戏时，亚历山大几乎可以立即采取行动。"
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "如果需要，您可以使用 < 主菜单 > < 引擎 > < 移动延迟 > 来减慢速度"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "Alexander 引擎托管在 GitHub 上，链接如下"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "亚历山大国际象棋引擎帮助"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "没有玩家姓名就无法开始游戏"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "请从当前玩家列表框中选择一名玩家"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "评级游戏错误信息"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "没有评级公式就无法开始游戏"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "请从评级公式列表框中选择一个公式"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "选择 Rodent 引擎个性设置"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "没有引擎文件"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "额定发动机目录未改变。"
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "没有可读的个性文件"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "人物目录"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "不存在，所以无法展现个性"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "选择 Rodent 3 引擎个性设置"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "当前性格"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "显示个性名称"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "使用文档目录"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "使用限制 ELO 强度"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "输入值来调整引擎强度"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "每秒节点数"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "复制默认值"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "评估模糊值"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "复制评估模糊"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "搜索技能等级 (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "复制搜索技能"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "将当前设置保存到文件"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "选择保存个性文件的文件名"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "如果不存在，则将值添加到文件"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "检查使用以下目录"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "额定发动机和相关文件"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "检查是否使用 UCI 限制强度进行发动机调整"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "输入每秒节点数值，"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "越高越强，越低越弱，"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "但最大强度为零"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "输入模糊评估值，"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "较低表示较强，较高表示较弱"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "输入技能等级值，"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "低则弱，高则强"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "每秒添加节点并评估模糊"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "如果不存在，则将值添加到文件中"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "选择你想对抗的角色"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "从"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "无法切换"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "UCI限制强度调整"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "每秒节点数调整"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "无法设置为"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "因为"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "无法打开文件。"
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "因为文件中没有限制强度选项。"
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "所有值均设置为默认值"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "所以写这些毫无意义"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "无法打开输入文件"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "无法打开输出文件"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "已更新，并且"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "保存到磁盘"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "啮齿动物象棋引擎帮助"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "性格描述"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "关于 Rodent"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "此对话框允许您选择游戏个性"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "以及 Rodent 国际象棋引擎的选项。"
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "当前个性——下拉列表框允许您选择一种个性。"
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "使用 ELO 限制强度 - 在引擎对话框中勾选使用 ELO 值"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "设置引擎播放强度时。"
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "输入数值来调整引擎强度 -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "每秒节点数 - 引擎将生成的位置数"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "并每秒进行分析。"
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "评估模糊值——添加到评估函数的随机值。"
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "使用 Rodent 3，在每秒节点模式下，评估模糊值"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "是从个性文件中加载的。这会给你一些想法"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "如果您想进行调整，请使用值的范围。"
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "此选项也可与 ELO 限制强度一起使用。"
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "当以这种方式使用时，我发现设置为 20，可以改变动作"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "引擎在运行，但高于 20 的数字没有效果，最高可达 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "高于 1000 的设置会严重削弱发动机。"
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "因此，ELO 限制强度模式中对我的电脑有用的设置"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "是 20 或 500 - 1000，但您的计算机可能会有所不同。"
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "如果您不想设置或显示它，则将其设置为零。"
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "虽然在使用 ELO 限制强度时每秒节点数不适用，"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "仍然可以输入值并将其保存在个性文件中以供日后使用。"
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "复制默认值 - 检查强度调整值"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "从此对话框复制到引擎对话框"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "即使设置为默认值，也可以进行编辑。"
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "如果不加以处理，它们将不会对发动机产生任何影响。"
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "在 ELO 限制强度模式下，从"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "引擎对话框。在每秒节点模式下，它们会被重置，"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "因此您必须关闭<复制参数>才能编辑它们。"
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "显示个性名称 - 勾选显示个性名称"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "在游戏过程中跟随引擎名称。"
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "发动机额定功率也会自动显示。"
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "使用文档目录 - 选中以使用"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "适用于额定发动机。"
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "这是在没有被复制到的情况下采取的紧急后备措施"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "如果它们已安装在其他地方，你可以将它们复制到"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "上述目录之一。"
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "如果根本没有安装，可以从这些链接下载 -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "链接"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "将当前设置保存到文件 - 使用此文件选择器，您可以保存"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "将播放强度设置从对话框复制到当前文件，"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "或者如果您愿意的话，可以买一个新的。"
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "如果不存在则添加值 - 选中以将强度调整值添加到文件中"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "如果它们不存在。如果您添加评估模糊值，则会出现这种情况"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "到 Rodent 4 个性文件。"
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "关于 Rodent 国际象棋引擎"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Rodent 由 Pawel Koziol 编写，是一款非常有趣的国际象棋引擎。"
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "它有 UCI_LimitStrength 选项和一组个性，"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "从文件中加载，以实现更弱且更多样化的游戏。"
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "为了使引擎能够与个性和他们的"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "开书时，所有的组件都必须放在同一个目录中。"
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "它们应该安装在-"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "如果你想让 Rodent 引擎在游戏中使用自己的书，"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "那么你必须关闭 Nimzo_3d 开局书"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< 主菜单 > < 开局 > < 开局书 >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "或者选中< Book off >选项，如果您正在使用"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "评级游戏对话框。"
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "有一些文档和实用程序"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "可以用来塑造更多个性。"
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "Rodent 4 引擎包和旧版本可以从以下位置下载 -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "仅限啮齿动物 4，附有详细评论"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "Rodent 4 发动机支撑材料，不含发动机"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "Rodent 3 支撑材料，不含发动机"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "Rodent 个性文件只是 *.txt 文件中的 UCI 命令列表。"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "它应该以以下方式工作 -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "国际象棋程序 GUI 将 < Personality > 命令发送给 Rodent 引擎。"
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "然后引擎从个性文件中读取命令"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "并相应地调整其设置。"
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "然而，对于 Nimzo_3d 和 Tarrasch GUI，"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "当以这种方式使用时，我无法让引擎运转。"
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "所有人物都采取了相同的举动。"
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "因此，我没有这样做，而是在 < Personality > 命令执行时进行拦截"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "即将从 GUI 发送到引擎，打开个性文件"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "并分别发送文件中的命令。这似乎有效。"
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "本质上，Rodent 引擎有两种主要方法来改变其播放强度。"
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "它可以使用 ELO 限制强度或每秒节点数以及评估模糊。"
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ELO 限制强度允许您设置近似的 ELO 评分"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "并且每秒节点数与评估模糊允许您设置值"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "具有类似削弱效果。"
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "Rodent 3 的性格设置为每秒使用节点"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "评估模糊和 Rodent 4 旨在用于"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "仅具有 ELO 限制强度。"
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "由于我修改了<个性>命令的发送方式，"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "啮齿动物 3 可以使用其具有 ELO 限制强度的个性"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "结合评估模糊和选择技能，"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "但不是每秒节点数。"
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "这也意味着 Rodent 4 可以使用 ELO 限制强度"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "具有评估模糊和选择技巧。"
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "稍微改变评估模糊值意味着引擎将播放"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "不同的动作，而不会对比赛强度产生太大影响，"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "只要模糊值不太高。"
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "你可以尝试一下，我发现 20 - 50 之间的值"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "效果很好。"
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "除此之外，两个引擎现在都可以使用个性文件"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "另一个引擎只需在 Nimzo_3d 内部进行微小调整，"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "一旦它们被复制到引擎的< Personalities >目录中。"
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "如果您想要改变，这可以让您轻松地交换新的个性文件。"
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "我已经把一些放在了<extra_personalities>中"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "在<人物>目录中。"
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "个性文件存储在以下目录中 -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "加"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "或者"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "可以从 Nimzo_3d 内部修改文件以调整"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "每秒节点数和评估模糊值，然后保存回磁盘。"
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "个性文件最终会以命令结尾，这并不重要"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "不适合当前使用的发动机，因为它们"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "在将它们发送到引擎之前，由 GUI 过滤掉。"
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "啮齿动物命令"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "这些关于 Rodent 国际象棋引擎特性的描述取自"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "文件< FinalRodent.pdf >可以在以下目录中找到 -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "预先定义的个性"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "自成立以来，Rodent 项目一直致力于打造一款引擎"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "允许修改其游戏风格 - 就像 ChessMaster 系列一样，"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "只会更好。新版本中的代码更改意味着旧的个性"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "不再可用，所以我觉得有必要创建一套新的。"
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "我希望你会觉得它很有趣。"
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "首先，攻击者，是她的第二个考虑"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "是棋子活动。玩弃牌开局。"
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe 喜欢封闭局面、兵风暴和健全的兵结构。"
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "她唯一喜欢的就是封闭的位置"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "只有一个开放的队列，由她的车控制。"
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "她是法国防御术和印度国王防御术的骄傲实践者。"
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "把她想象成一个黑发、苗条、忧郁的女人。"
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "她是一名喜欢主教的防守型球员。"
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "想象一下他穿着昂贵的西装，看起来更像一位首席执行官"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "比棋手更厉害。性格坚强、理性，略带悲观。"
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "开局稳健。在势均力敌的情况下随时准备和棋。"
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "想象一下他已经过了巅峰时期，"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "对对手不尊重，但仍然相当危险。"
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "脾气暴躁的人喜欢限制敌人的行动和攻击，"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "享受封闭的立场并期望获胜。"
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "由于年龄原因，他所演绎的开局大多不是太现代。"
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "例如，他喜欢塔拉什防守。"
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "模仿保罗·莫菲。强调机动性，"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "然后国王进攻，喜欢开放的位置。"
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "他开始得慢，使用不占用太多空间的开口"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "在中心，但不要被虚假的安全感所迷惑。"
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "随后他发起了恶毒的攻击。"
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "想象他是一位年轻有为的国际象棋大师，"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "尚未发挥其真正潜力。"
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "瘦弱，精力充沛，有点太喜欢华丽的动作。"
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "他时常会放弃他的棋子。"
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "性格平衡，愿意牺牲适量的物质，"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "经常在游戏最后阶段采取积极防御。"
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita 代表棋子、防御、克制。"
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "她开局稳健，首先考虑的是防守，但不要被欺骗！"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "如果位置需要，她可以进攻，并且兵法扎实"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "她真是个难对付的人。"
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "略显物质主义，但积极争取主动"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "并且足够接近违约以避免不健全的计划。"
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "喜欢对敌方棋子施加压力。"
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "白棋采用封闭式开局，黑棋采用斯拉夫防御和卡罗-康防御。"
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "这可能是对抗较弱引擎的最佳设置。"
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "无需更高级的评估功能，"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "应用合理的默认设置。略微倾向于交换皇后，"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "处于绝对平等位置的将进行平局。"
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "也许是最像计算机的个性。"
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "想象他是一个身穿棕色皮夹克的高个子男人。"
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "他喜欢积极玩耍但讨厌受到攻击。"
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "喜欢将皇后保留在棋盘上。"
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "基于 Brendan J.Norman 创作的 Rodent III 性格。"
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "玩法类似蟒蛇，但更倾向于攻击，"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "可能会因为位置原因而做出牺牲。"
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "比 Grumpy 更具脾气的版本，非常像人类的游戏。"
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "在与皇后的残局中可能过于乐观。"
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "还有许多世界冠军和其他著名运动员的人物肖像。"
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "Rodent 4 国际象棋引擎个性描述"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "窗口始终位于最顶部"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "如果你愿意，你可以放慢速度 -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< 主菜单 > < 引擎 > < 移动延迟 >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "与国际象棋引擎进行评级游戏"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "勾选将限制强度设置复制到自定义参数"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "评级公式解释"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "勾选显示个性名称"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "在游戏过程中使用引擎名称"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "输入搜索技能值，"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "勾选始终自动复制选项"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "跨越自定义参数"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "勾选自动复制评估模糊"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "自定义参数的值"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "勾选自动复制搜索技能"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "输入保存的文件名"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "发动机强度调节选项"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "执白获胜并获得"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "玩黑棋输了，输了"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "已经输了白棋，并且输了"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "玩黑棋获胜并获得"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "已经画了白"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "已经抽到黑"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "评级没有变化。"
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "并获得了"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "并失去了"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "您的新评分是"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "比赛结果评分消息"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "无法打开玩家个人资料文件来写入详细信息"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "目录中没有引擎文件，评级游戏已取消"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "额定发动机目录"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "不存在，评级游戏已取消"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "建议：重置程序默认值"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< 主菜单 > < 选项 > < 重置为出厂默认设置 >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "如果失败，请从下载并安装额定引擎"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "啮齿动物引擎个性"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "已加载"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "额定游戏引擎消息"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "引擎不在列表中，因此无法设置"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "玩家资料目录"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "建议：使用 Windows 资源管理器手动创建此目录"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "玩家姓名为空，请输入姓名"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "玩家姓名已在列表中，"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "请输入不同的玩家名称"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "玩家个人资料"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "将玩家资料保存到磁盘时出错"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "玩家姓名不在列表中，"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "请输入列表中的玩家名称"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "从磁盘中删除"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "从磁盘删除玩家资料时出错"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "评级公式目录"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "并使用 < 评级公式 > < + > 添加公式"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "在评级游戏对话框中。"
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "公式文件名为空，请输入名称"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "评级公式文件名已在列表中，"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "请输入不同的评级公式文件名"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "评级公式文件名不在列表中，"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "请输入列表中的评级公式文件名"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "评级公式"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "将评级公式文件保存到磁盘时出错"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "公式文件名为空，请输入文件名"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "评级公式文件不在列表中，"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "请输入列表中的公式文件"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "从磁盘删除评级公式时出错"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "无法打开评级公式文件进行读取"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "人类引擎游戏的评级游戏功能（版本 4.0）"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "移动延迟"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "移動延遲.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "显示移动延迟对话框"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "错误信息"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "复制到自定义参数"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "在编写<评级游戏>功能时，我发现 Delfi 引擎"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "需要将限制强度设置放置在自定义参数列表中"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "让他们工作。"
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "对于 Delfi 引擎，此操作将自动执行。"
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "如果您在其他引擎上也遇到这个问题，那么您可以检查"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "<复制到自定义参数>框和限制强度参数"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "将被复制。"
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "我还发现，如果你用功能较弱的 Stockfish 引擎玩多个游戏"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "并且未设置 < 复制到自定义参数 >，Stockfish 恢复到完整强度"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "对于第二场比赛。所以最好始终设置此选项"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "当使用极限强度时。"
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "当使用<评级游戏>功能时，所有引擎都会强制执行此功能。"
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "如果您在与 Stockfish 对战时打开了搜索信息面板，"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "它显示了发动机的全面强度分析，"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "即使它已经使用 UCI 极限强度被削弱了。"
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "你可以判断它是否真的被削弱了，因为它经常会播放"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "与分析中显示的动作不同。"
+
