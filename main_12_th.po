@@ -1,0 +1,2473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-03 22:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main_12.cpp:3
+msgid "Rating adjustment formula"
+msgstr "สูตรปรับเรตติ้ง"
+
+#: main_12.cpp:107
+msgid "for"
+msgstr "สำหรับ"
+
+#: main_12.cpp:170
+msgid "Win value"
+msgstr "มูลค่าการชนะ"
+
+#: main_12.cpp:196
+msgid "Loss value"
+msgstr "มูลค่าการสูญเสีย"
+
+#: main_12.cpp:222
+msgid "Draw value"
+msgstr "ค่าวาด"
+
+#: main_12.cpp:248
+msgid "Strength adjustment factor"
+msgstr "ปัจจัยการปรับความแข็งแกร่ง"
+
+#: main_12.cpp:275
+msgid "Effective maximum difference value"
+msgstr "ค่าความแตกต่างสูงสุดที่มีประสิทธิภาพ"
+
+#: main_12.cpp:302 main_12.cpp:439
+msgid "Minimum win value"
+msgstr "มูลค่าการชนะขั้นต่ำ"
+
+#: main_12.cpp:429
+msgid "Input rating change for a win"
+msgstr "การเปลี่ยนแปลงคะแนนอินพุตเพื่อชัยชนะ"
+
+#: main_12.cpp:431
+msgid "Rating change for a draw"
+msgstr "การเปลี่ยนแปลงคะแนนสำหรับการเสมอกัน"
+
+#: main_12.cpp:433
+msgid "Rating change for a loss"
+msgstr "การเปลี่ยนแปลงเรตติ้งสำหรับการขาดทุน"
+
+#: main_12.cpp:435
+msgid "Input the strength factor adjustment percentage"
+msgstr "ป้อนเปอร์เซ็นต์การปรับปัจจัยความแข็งแกร่ง"
+
+#: main_12.cpp:437
+msgid "Effective maximum rating difference"
+msgstr "ความแตกต่างของค่าเรตติ้งสูงสุดที่มีประสิทธิภาพ"
+
+#: main_12.cpp:468
+msgid "This dialog box allows the user to set options for the formula"
+msgstr "กล่องโต้ตอบนี้ช่วยให้ผู้ใช้สามารถตั้งค่าตัวเลือกสำหรับสูตรได้"
+
+#: main_12.cpp:470
+msgid "used to adjust the player rating after a game against an engine."
+msgstr "ใช้เพื่อปรับคะแนนผู้เล่นหลังจากเล่นเกมกับเอนจิ้น"
+
+#: main_12.cpp:473
+msgid "Win value  -  the ranking point increase for winning a game."
+msgstr "มูลค่าการชนะ - คะแนนอันดับจะเพิ่มขึ้นเมื่อชนะเกม"
+
+#: main_12.cpp:476
+msgid "Draw value  -  this is always set to zero."
+msgstr "ค่าการวาด - จะถูกตั้งเป็นศูนย์เสมอ"
+
+#: main_12.cpp:479
+msgid "Loss value  -  this is the minus value of the win value."
+msgstr "มูลค่าการสูญเสีย - นี่คือค่าลบของมูลค่าการชนะ"
+
+#: main_12.cpp:482
+msgid "Strength adjustment factor (percent)  -  This value is used"
+msgstr "ปัจจัยการปรับความแข็งแกร่ง (เปอร์เซ็นต์) - ค่านี้ใช้"
+
+#: main_12.cpp:484
+msgid "in calculating the rating, as shown in the equation below."
+msgstr "ในการคำนวณคะแนนดังแสดงในสมการด้านล่าง"
+
+#: main_12.cpp:487
+msgid "Effective maximum rating difference  -  If the ranking difference"
+msgstr "ความแตกต่างของคะแนนสูงสุดที่มีประสิทธิภาพ - หากความแตกต่างของการจัดอันดับ"
+
+#: main_12.cpp:489
+msgid "between the players is greater than this number,"
+msgstr "ระหว่างผู้เล่นมีจำนวนมากกว่านี้"
+
+#: main_12.cpp:491
+msgid "then it is set to this number.  See the equation below."
+msgstr "จากนั้นก็ตั้งค่าเป็นตัวเลขนี้ ดูสมการด้านล่าง"
+
+#: main_12.cpp:494
+msgid "The basic formula is used by the United States Chess Federation"
+msgstr "สูตรพื้นฐานใช้โดยสหพันธ์หมากรุกแห่งสหรัฐอเมริกา"
+
+#: main_12.cpp:496
+msgid "for correspondence chess games. "
+msgstr "สำหรับการเล่นหมากรุกทางจดหมาย"
+
+#: main_12.cpp:498
+msgid "You can see it described on the following website -"
+msgstr "คุณสามารถดูคำอธิบายได้ในเว็บไซต์ต่อไปนี้ -"
+
+#: main_12.cpp:504
+msgid "Here is my explanation of their formula."
+msgstr "นี่คือคำอธิบายของฉันเกี่ยวกับสูตรของพวกเขา"
+
+#: main_12.cpp:506
+msgid "Their calculation for the new rating after a game is -"
+msgstr "การคำนวณของพวกเขาสำหรับเรตติ้งใหม่หลังเกมคือ -"
+
+#: main_12.cpp:509
+msgid "(for win or loss)"
+msgstr "(เพื่อชัยชนะหรือความพ่ายแพ้)"
+
+#: main_12.cpp:512
+msgid "Here 0.04 (4 percent) is the strength adjustment factor (SAF)"
+msgstr "ที่นี่ 0.04 (4 เปอร์เซ็นต์) คือปัจจัยการปรับความแข็งแกร่ง (SAF)"
+
+#: main_12.cpp:515
+msgid "ED is the effective rating difference."
+msgstr "ED คือค่าความแตกต่างของคะแนนที่มีประสิทธิภาพ"
+
+#: main_12.cpp:517
+msgid "ED is has a positive value when calculating the ranking of the"
+msgstr "ED มีค่าเป็นบวกเมื่อคำนวณอันดับของ"
+
+#: main_12.cpp:519
+msgid "weaker player and a negative value when calculating for the stronger player."
+msgstr "ผู้เล่นที่อ่อนแอกว่าและค่าลบเมื่อคำนวณสำหรับผู้เล่นที่แข็งแกร่งกว่า"
+
+#: main_12.cpp:522
+msgid "For a win / loss value of 16, if the actual rating difference"
+msgstr "สำหรับค่าชนะ/แพ้ 16 ถ้าความแตกต่างของคะแนนจริง"
+
+#: main_12.cpp:524
+msgid "between the players is greater than 350, then it is set to 350."
+msgstr "ระหว่างผู้เล่นมากกว่า 350 ก็ตั้งเป็น 350 ครับ"
+
+#: main_12.cpp:526
+msgid "This is to ensure that in these cases, if you win a game against"
+msgstr "เพื่อให้แน่ใจว่าในกรณีเหล่านี้ หากคุณชนะเกมกับ"
+
+#: main_12.cpp:528
+msgid "a weaker opponent, your ranking increases and if you lose against"
+msgstr "คู่ต่อสู้ที่อ่อนแอกว่า อันดับของคุณก็จะเพิ่มขึ้น และหากคุณแพ้"
+
+#: main_12.cpp:530
+msgid "a stronger opponent your ranking decreases."
+msgstr "คู่ต่อสู้ที่แข็งแกร่งกว่าอันดับของคุณจะลดลง"
+
+#: main_12.cpp:532
+msgid "The rating change here will be small, only 2 points."
+msgstr "การเปลี่ยนแปลงคะแนนที่นี่จะมีเพียงเล็กน้อยเพียง 2 คะแนนเท่านั้น"
+
+#: main_12.cpp:534
+msgid "This can be adjusted by using a minimum win value variable."
+msgstr "สามารถปรับได้โดยใช้ตัวแปรค่าการชนะขั้นต่ำ"
+
+#: main_12.cpp:537
+msgid "So the general equation is, I think -"
+msgstr "ดังนั้นสมการทั่วไปก็คือ ฉันคิดว่า -"
+
+#: main_12.cpp:543
+msgid "where"
+msgstr "ที่ไหน"
+
+#: main_12.cpp:543
+msgid "minimum win value"
+msgstr "มูลค่าการชนะขั้นต่ำ"
+
+#: main_12.cpp:546
+msgid "The default settings are stored in the ranking formula file < USCF >"
+msgstr "การตั้งค่าเริ่มต้นจะถูกเก็บไว้ในไฟล์สูตรการจัดอันดับ < USCF >"
+
+#: main_12.cpp:548
+msgid "but you can create a new file and change the settings if you like."
+msgstr "แต่คุณสามารถสร้างไฟล์ใหม่และเปลี่ยนการตั้งค่าได้หากคุณต้องการ"
+
+#: main_12.cpp:550
+msgid "I would recomend only minor changes to the basic numbers."
+msgstr "ฉันขอแนะนำให้มีการเปลี่ยนแปลงเล็กน้อยในตัวเลขพื้นฐานเท่านั้น"
+
+#: main_12.cpp:555
+msgid "Rating formula explanation"
+msgstr "คำอธิบายสูตรการให้คะแนน"
+
+#: main_12.cpp:637
+msgid "Move delay for human - engine games"
+msgstr "การเคลื่อนไหวล่าช้าสำหรับมนุษย์ - เกมเอนจิ้น"
+
+#: main_12.cpp:811 main_12.cpp:1931
+msgid "Use move delay"
+msgstr "ใช้การหน่วงเวลาการเคลื่อนไหว"
+
+#: main_12.cpp:829
+msgid "Cancel at seconds"
+msgstr "ยกเลิกในไม่กี่วินาที"
+
+#: main_12.cpp:856
+msgid "Minimum move delay (seconds)"
+msgstr "ความล่าช้าในการเคลื่อนที่ขั้นต่ำ (วินาที)"
+
+#: main_12.cpp:884
+msgid "Enforce minimum move delay"
+msgstr "บังคับใช้การหน่วงเวลาการเคลื่อนย้ายขั้นต่ำ"
+
+#: main_12.cpp:899
+msgid "Use random enforcement time"
+msgstr "ใช้เวลาบังคับใช้แบบสุ่ม"
+
+#: main_12.cpp:920
+msgid "Maximum move delay (seconds)"
+msgstr "ความล่าช้าในการเคลื่อนที่สูงสุด (วินาที)"
+
+#: main_12.cpp:942
+msgid "Random delay for fixed time"
+msgstr "การหน่วงเวลาแบบสุ่มสำหรับเวลาที่กำหนด"
+
+#: main_12.cpp:1045
+msgid "Use move delay in a human - engine game"
+msgstr "ใช้การหน่วงเวลาการเคลื่อนไหวในเกมเอนจิ้นมนุษย์"
+
+#: main_12.cpp:1047
+msgid "Cancel move delay when only this many seconds are left"
+msgstr "ยกเลิกการเลื่อนเวลาเมื่อเหลือเวลาเพียงไม่กี่วินาทีนี้"
+
+#: main_12.cpp:1049
+msgid "Minimum move delay in seconds"
+msgstr "ความล่าช้าในการเคลื่อนที่ขั้นต่ำเป็นวินาที"
+
+#: main_12.cpp:1051
+msgid "Enforce the minimum move delay,"
+msgstr "บังคับใช้การหน่วงเวลาการเคลื่อนย้ายขั้นต่ำ"
+
+#: main_12.cpp:1053
+msgid "until cancel at seconds is reached"
+msgstr "จนกว่าจะถึงวินาทียกเลิก"
+
+#: main_12.cpp:1055
+msgid "Use a random number between 1 - minimum move delay,"
+msgstr "ใช้ตัวเลขสุ่มระหว่าง 1 - ความล่าช้าในการเคลื่อนที่ขั้นต่ำ"
+
+#: main_12.cpp:1057
+msgid "when enforce minimum move delay is set"
+msgstr "เมื่อตั้งค่าการหน่วงเวลาการเคลื่อนย้ายขั้นต่ำ"
+
+#: main_12.cpp:1059
+msgid "Maximum move delay in seconds"
+msgstr "ความล่าช้าในการเคลื่อนที่สูงสุดเป็นวินาที"
+
+#: main_12.cpp:1061
+msgid "Use random move delay for fixed engine times"
+msgstr "ใช้การหน่วงเวลาการเคลื่อนที่แบบสุ่มสำหรับเวลาเครื่องยนต์คงที่"
+
+#: main_12.cpp:1089
+msgid "This feature is inteneded primarily for use with Komodo chess engines"
+msgstr "คุณสมบัตินี้มีไว้สำหรับใช้กับโปรแกรมหมากรุกโคโมโดโดยเฉพาะ"
+
+#: main_12.cpp:1091
+msgid "when they have been weakened for human - engine games."
+msgstr "เมื่อพวกเขาถูกทำให้อ่อนแอลงสำหรับเกมเอ็นจิ้นมนุษย์"
+
+#: main_12.cpp:1093
+msgid "In this case the engines move almost immediately, which gives the game"
+msgstr "ในกรณีนี้เครื่องยนต์จะเคลื่อนไหวเกือบจะทันที ซึ่งทำให้เกม"
+
+#: main_12.cpp:1095
+msgid "an unnatural rhythm, which is rather disconcerting."
+msgstr "จังหวะที่ไม่เป็นธรรมชาติซึ่งน่าวิตกกังวลไม่น้อย"
+
+#: main_12.cpp:1097
+msgid "This also happens with the Rybka 2.3 engine"
+msgstr "สิ่งนี้ยังเกิดขึ้นกับเครื่องยนต์ Rybka 2.3 ด้วย"
+
+#: main_12.cpp:1099
+msgid "and the Alexander chess engine."
+msgstr "และเครื่องหมากรุกอเล็กซานเดอร์"
+
+#: main_12.cpp:1102
+msgid "Komodo engines do not have a < Slow mover > option, so this dialog box"
+msgstr "เครื่องยนต์ Komodo ไม่มีตัวเลือก <Slow mover> ดังนั้นกล่องโต้ตอบนี้"
+
+#: main_12.cpp:1104
+msgid "allows you to set options which will slow down the engine."
+msgstr "ช่วยให้คุณตั้งค่าตัวเลือกเพื่อทำให้เครื่องยนต์ทำงานช้าลงได้"
+
+#: main_12.cpp:1107
+msgid "Use move delay  -  Check to use move delay for human - engine games."
+msgstr "ใช้การหน่วงเวลาการเคลื่อนไหว - ตรวจสอบเพื่อใช้การหน่วงเวลาการเคลื่อนไหวสำหรับเกมเอนจิ้นมนุษย์"
+
+#: main_12.cpp:1110
+msgid "Cancel at seconds  -  Select the time at which move delay is no longer used."
+msgstr "ยกเลิกที่วินาที - เลือกเวลาที่การหน่วงเวลาการเคลื่อนที่จะไม่ถูกใช้ต่อไป"
+
+#: main_12.cpp:1113
+msgid "Minimum move delay  -  Select the minimum move delay in seconds."
+msgstr "ความล่าช้าในการเคลื่อนที่ขั้นต่ำ - เลือกความล่าช้าในการเคลื่อนที่ขั้นต่ำเป็นวินาที"
+
+#: main_12.cpp:1116
+msgid "Enforce minimum move delay  -  Check to enforce the minimum move delay"
+msgstr "บังคับใช้การหน่วงเวลาการเคลื่อนย้ายขั้นต่ำ - เลือกเพื่อบังคับใช้การหน่วงเวลาการเคลื่อนย้ายขั้นต่ำ"
+
+#: main_12.cpp:1118
+msgid "In this case, if the program calculates that the time allowed for the move"
+msgstr "ในกรณีนี้หากโปรแกรมคำนวณว่าเวลาที่อนุญาตให้เคลื่อนย้ายได้"
+
+#: main_12.cpp:1120
+msgid "is less than the minimum move delay, then the move delay is set either to the"
+msgstr "น้อยกว่าค่าความล่าช้าในการเคลื่อนที่ขั้นต่ำ ค่าความล่าช้าในการเคลื่อนที่จะถูกตั้งค่าเป็น"
+
+#: main_12.cpp:1122
+msgid "minimum move delay, or to a random number between 1 and the minimum move delay,"
+msgstr "ความล่าช้าในการเคลื่อนที่ขั้นต่ำ หรือเป็นตัวเลขสุ่มระหว่าง 1 ถึงความล่าช้าในการเคลื่อนที่ขั้นต่ำ"
+
+#: main_12.cpp:1124
+msgid "depending on how the next check box is set."
+msgstr "ขึ้นอยู่กับว่าช่องกาเครื่องหมายถัดไปจะถูกตั้งค่าอย่างไร"
+
+#: main_12.cpp:1126
+msgid "This enforcement no longer applies when the cancel at seconds time is reached."
+msgstr "การบังคับใช้นี้จะไม่สามารถใช้ได้อีกต่อไปเมื่อถึงเวลายกเลิกในวินาที"
+
+#: main_12.cpp:1128
+msgid "Uncheck to allow the engine to play moves faster than the minimum move delay,"
+msgstr "ยกเลิกการเลือกเพื่อให้เครื่องยนต์เล่นการเคลื่อนไหวได้เร็วกว่าความล่าช้าในการเคลื่อนไหวขั้นต่ำ"
+
+#: main_12.cpp:1130
+msgid "prior to the cancel at seconds point, if time is beginning to run short."
+msgstr "ก่อนที่จะยกเลิกในจุดวินาที หากเวลาเริ่มจะเหลือน้อยลง"
+
+#: main_12.cpp:1133
+msgid "Enforce with random  -  Check for a random enforcement time of the minimum move delay."
+msgstr "บังคับใช้แบบสุ่ม - ตรวจสอบเวลาบังคับใช้แบบสุ่มของความล่าช้าในการเคลื่อนย้ายขั้นต่ำ"
+
+#: main_12.cpp:1136
+msgid "Maximum move delay  -  Select the maximum move delay in seconds."
+msgstr "ความล่าช้าในการเคลื่อนที่สูงสุด - เลือกความล่าช้าในการเคลื่อนที่สูงสุดเป็นวินาที"
+
+#: main_12.cpp:1139
+msgid "Random delay for fixed time  -  Check to use a random move delay for fixed time levels."
+msgstr "การหน่วงเวลาแบบสุ่มสำหรับเวลาที่กำหนด - เลือกเพื่อใช้การหน่วงเวลาการเคลื่อนที่แบบสุ่มสำหรับระดับเวลาที่กำหนด"
+
+#: main_12.cpp:1141
+msgid "Uncheck to use the whole of the fixed time allowed for the move delay."
+msgstr "ยกเลิกการเลือกเพื่อใช้เวลาคงที่ทั้งหมดที่อนุญาตให้ล่าช้าในการย้าย"
+
+#: main_12.cpp:1146
+msgid "Move delay help"
+msgstr "ความช่วยเหลือเรื่องการเลื่อนเวลา"
+
+#: main_12.cpp:1330
+msgid "Rated game options"
+msgstr "ตัวเลือกเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:1663
+msgid "PGN filename for player games"
+msgstr "ชื่อไฟล์ PGN สำหรับเกมผู้เล่น"
+
+#: main_12.cpp:1680
+msgid "Select .pgn file for the game"
+msgstr "เลือกไฟล์ .pgn สำหรับเกม"
+
+#: main_12.cpp:1715
+msgid "Engine opponent"
+msgstr "คู่ต่อสู้เครื่องยนต์"
+
+#: main_12.cpp:1739
+msgid "Engine ELO"
+msgstr "เครื่องยนต์ ELO"
+
+#: main_12.cpp:1782
+msgid "Personalities"
+msgstr "บุคลิกภาพ"
+
+#: main_12.cpp:1802
+msgid "Current player"
+msgstr "ผู้เล่นปัจจุบัน"
+
+#: main_12.cpp:1897
+msgid "Player ELO"
+msgstr "ผู้เล่น ELO"
+
+#: main_12.cpp:1918
+msgid "Edit player ELO rating"
+msgstr "แก้ไขเรตติ้ง ELO ของผู้เล่น"
+
+#: main_12.cpp:1918
+msgid "Check to edit player ELO rating"
+msgstr "ตรวจสอบเพื่อแก้ไขคะแนน ELO ของผู้เล่น"
+
+#: main_12.cpp:1944
+msgid "Set as current engine"
+msgstr "ตั้งเป็นเครื่องยนต์ปัจจุบัน"
+
+#: main_12.cpp:1957
+msgid "Set as current clock"
+msgstr "ตั้งเป็นนาฬิกาปัจจุบัน"
+
+#: main_12.cpp:1983
+msgid "Rating change for results"
+msgstr "การเปลี่ยนแปลงคะแนนสำหรับผลลัพธ์"
+
+#: main_12.cpp:2057
+msgid "Manual adjustment"
+msgstr "การปรับด้วยตนเอง"
+
+#: main_12.cpp:2075
+msgid "Rating formula"
+msgstr "สูตรการให้คะแนน"
+
+#: main_12.cpp:2173
+msgid "Time controls"
+msgstr "การควบคุมเวลา"
+
+#: main_12.cpp:2185
+msgid "Minutes per game"
+msgstr "นาทีต่อเกม"
+
+#: main_12.cpp:2194
+msgid "Increment (seconds)"
+msgstr "เพิ่ม (วินาที)"
+
+#: main_12.cpp:2212
+msgid "Player"
+msgstr "ผู้เล่น"
+
+#: main_12.cpp:2279
+msgid "Book off"
+msgstr "การจอง"
+
+#: main_12.cpp:2305
+msgid "Start the game"
+msgstr "เริ่มเกม"
+
+#: main_12.cpp:2483
+msgid "Input the PGN filename for saving player games"
+msgstr "ป้อนชื่อไฟล์ PGN เพื่อบันทึกเกมของผู้เล่น"
+
+#: main_12.cpp:2485
+msgid "Input the engine ELO strength"
+msgstr "ป้อนค่าความแรง ELO ของเครื่องยนต์"
+
+#: main_12.cpp:2486
+msgid "Open the engine settings dialog box"
+msgstr "เปิดกล่องโต้ตอบการตั้งค่าเครื่องยนต์"
+
+#: main_12.cpp:2487
+msgid "Open the Rodent engine personalities dialog box"
+msgstr "เปิดกล่องโต้ตอบบุคลิกภาพของเครื่องยนต์หนู"
+
+#: main_12.cpp:2489
+msgid "Add a new player"
+msgstr "เพิ่มผู้เล่นใหม่"
+
+#: main_12.cpp:2490
+msgid "Delete the current player"
+msgstr "ลบผู้เล่นปัจจุบัน"
+
+#: main_12.cpp:2491
+msgid "Save the current player details"
+msgstr "บันทึกรายละเอียดผู้เล่นปัจจุบัน"
+
+#: main_12.cpp:2492
+msgid "Player ELO rating"
+msgstr "เรตติ้ง ELO ของผู้เล่น"
+
+#: main_12.cpp:2493
+msgid "Check to edit the player ELO rating"
+msgstr "เลือกเพื่อแก้ไขเรตติ้ง ELO ของผู้เล่น"
+
+#: main_12.cpp:2495
+msgid "Check to use a move delay for the rated game."
+msgstr "เลือกเพื่อใช้การหน่วงเวลาการเคลื่อนที่สำหรับเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2496
+msgid "Check to set engine settings as current"
+msgstr "ตรวจสอบเพื่อตั้งค่าเครื่องยนต์ให้เป็นปัจจุบัน"
+
+#: main_12.cpp:2497
+msgid "Check to set clock settings as current"
+msgstr "เลือกเพื่อตั้งค่านาฬิกาให้เป็นปัจจุบัน"
+
+#: main_12.cpp:2499
+msgid "Check to switch off the opening book for this game"
+msgstr "เลือกเพื่อปิดหนังสือเปิดเกมนี้"
+
+#: main_12.cpp:2501
+msgid "ELO rating change for a player win"
+msgstr "การเปลี่ยนแปลงคะแนน ELO สำหรับผู้เล่นที่ชนะ"
+
+#: main_12.cpp:2502
+msgid "ELO rating change for a player loss"
+msgstr "การเปลี่ยนแปลงเรตติ้ง ELO สำหรับการสูญเสียผู้เล่น"
+
+#: main_12.cpp:2503
+msgid "ELO rating change for a draw"
+msgstr "การเปลี่ยนแปลงคะแนน ELO สำหรับการเสมอกัน"
+
+#: main_12.cpp:2505
+msgid "Check to adjust the rating changes"
+msgstr "ตรวจสอบเพื่อปรับการเปลี่ยนแปลงคะแนน"
+
+#: main_12.cpp:2507
+msgid "and player ELO manually"
+msgstr "และผู้เล่น ELO ด้วยตนเอง"
+
+#: main_12.cpp:2509
+msgid "Rating formula currently in use"
+msgstr "สูตรการให้คะแนนที่ใช้ในปัจจุบัน"
+
+#: main_12.cpp:2510
+msgid "Add a new formula"
+msgstr "เพิ่มสูตรใหม่"
+
+#: main_12.cpp:2511
+msgid "Delete the current formula"
+msgstr "ลบสูตรปัจจุบัน"
+
+#: main_12.cpp:2512
+msgid "Edit the current formula"
+msgstr "แก้ไขสูตรปัจจุบัน"
+
+#: main_12.cpp:2514
+msgid "Input the player time for the game in minutes"
+msgstr "ป้อนเวลาของผู้เล่นสำหรับเกมเป็นนาที"
+
+#: main_12.cpp:2515
+msgid "Input the player move increment in seconds"
+msgstr "ป้อนค่าเพิ่มการเคลื่อนไหวของผู้เล่นเป็นวินาที"
+
+#: main_12.cpp:2517
+msgid "Input the engine time for the game in minutes"
+msgstr "ป้อนเวลาของเครื่องยนต์สำหรับเกมเป็นนาที"
+
+#: main_12.cpp:2518
+msgid "Input the engine move increment in seconds"
+msgstr "ป้อนค่าเพิ่มการเคลื่อนที่ของเครื่องยนต์เป็นวินาที"
+
+#: main_12.cpp:2520
+msgid "Check for human to play white"
+msgstr "ตรวจสอบให้มนุษย์เล่นสีขาว"
+
+#: main_12.cpp:2522
+msgid "Start the game with the current settings"
+msgstr "เริ่มเกมด้วยการตั้งค่าปัจจุบัน"
+
+#: main_12.cpp:2528 main_12.cpp:2529
+msgid "Select the engine that you want to play against"
+msgstr "เลือกเครื่องยนต์ที่คุณต้องการเล่น"
+
+#: main_12.cpp:2534 main_12.cpp:2535
+msgid "Select the current player"
+msgstr "เลือกผู้เล่นปัจจุบัน"
+
+#: main_12.cpp:2566
+msgid "Rated game help"
+msgstr "ความช่วยเหลือเกี่ยวกับเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2604
+msgid "Rated game provides a convenient way for you to play against weakened"
+msgstr "เกมเรตติ้งช่วยให้คุณเล่นได้อย่างสะดวกสบายเมื่อต้องเจอกับผู้เล่นที่อ่อนแอ"
+
+#: main_12.cpp:2606
+msgid "chess engines and at the same time it keeps track of your progress"
+msgstr "เครื่องมือหมากรุกและในเวลาเดียวกันก็ติดตามความคืบหน้าของคุณ"
+
+#: main_12.cpp:2608
+msgid "by updating an approximate ELO rating."
+msgstr "โดยการอัปเดตคะแนน ELO โดยประมาณ"
+
+#: main_12.cpp:2611
+msgid "You can set the following options for a rated game"
+msgstr "คุณสามารถตั้งค่าตัวเลือกต่อไปนี้สำหรับเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2614
+msgid "PGN filename  :  Select the PGN filename to store rated games."
+msgstr "ชื่อไฟล์ PGN: เลือกชื่อไฟล์ PGN เพื่อจัดเก็บเกมที่ได้รับการจัดเรต"
+
+#: main_12.cpp:2616
+msgid "The filename is derived from the player name. It will be stored in the"
+msgstr "ชื่อไฟล์ได้มาจากชื่อผู้เล่น จะถูกเก็บไว้ใน"
+
+#: main_12.cpp:2620
+msgid "If no player name is input, rated_games.pgn will be used for the filename"
+msgstr "หากไม่ได้ระบุชื่อผู้เล่น ระบบจะใช้ rated_games.pgn เป็นชื่อไฟล์"
+
+#: main_12.cpp:2623
+msgid "Engine opponent  :  Here you can select which engine you want to play."
+msgstr "เครื่องยนต์ฝ่ายตรงข้าม : ที่นี่คุณสามารถเลือกเครื่องยนต์ที่คุณต้องการเล่นได้"
+
+#: main_12.cpp:2625
+msgid "All of these engines have the UCI_LimitStrength option,"
+msgstr "เครื่องยนต์ทั้งหมดเหล่านี้มีตัวเลือก UCI_LimitStrength"
+
+#: main_12.cpp:2627
+msgid "which allows them to be weakened."
+msgstr "ซึ่งทำให้สามารถอ่อนแอลงได้"
+
+#: main_12.cpp:2629
+msgid "If you want to add another engine that has this option it should be copied"
+msgstr "หากคุณต้องการเพิ่มเครื่องยนต์อื่นที่มีตัวเลือกนี้ ควรคัดลอกไว้"
+
+#: main_12.cpp:2631
+msgid "to the"
+msgstr "ไปที่"
+
+#: main_12.cpp:2631
+msgid " directory"
+msgstr "ไดเรกทอรี"
+
+#: main_12.cpp:2634
+msgid "Engine ELO  -  Select the ELO strength of the engine."
+msgstr "เครื่องยนต์ ELO - เลือกความแรง ELO ของเครื่องยนต์"
+
+#: main_12.cpp:2636
+msgid "The upper and lower permissable values are shown."
+msgstr "แสดงค่าที่อนุญาตด้านบนและด้านล่าง"
+
+#: main_12.cpp:2639
+msgid "Engine settings  -  This opens the engine dialog box which allows you to alter"
+msgstr "การตั้งค่าเครื่องยนต์ - การดำเนินการนี้จะเปิดกล่องโต้ตอบเครื่องยนต์ซึ่งจะช่วยให้คุณเปลี่ยนแปลงได้"
+
+#: main_12.cpp:2641
+msgid "other options for your chosen engine.  Click on < Stockfish > for an example."
+msgstr "ตัวเลือกอื่นๆ สำหรับเครื่องยนต์ที่คุณเลือก คลิกที่ <Stockfish> เพื่อดูตัวอย่าง"
+
+#: main_12.cpp:2643
+msgid "If a Rodent chess engine is loaded, then a < Personalities > button"
+msgstr "หากโหลดโปรแกรมหมากรุก Rodent แล้วจะมีปุ่ม <Personality>"
+
+#: main_12.cpp:2645
+msgid "for this engine will also appear."
+msgstr "สำหรับเครื่องยนต์ตัวนี้ก็จะปรากฏขึ้นเช่นกัน"
+
+#: main_12.cpp:2648
+msgid "Current player  -  Here you can set the current player and also add, delete"
+msgstr "ผู้เล่นปัจจุบัน - ที่นี่คุณสามารถตั้งค่าผู้เล่นปัจจุบันและเพิ่มหรือลบได้"
+
+#: main_12.cpp:2650
+msgid "and edit players. The name of the current player is displayed in the edit window"
+msgstr "และแก้ไขผู้เล่น ชื่อของผู้เล่นปัจจุบันจะแสดงในหน้าต่างแก้ไข"
+
+#: main_12.cpp:2652
+msgid "of a drop-down list box."
+msgstr "ของกล่องรายการแบบดรอปดาวน์"
+
+#: main_12.cpp:2655
+msgid "Plus button  -  To add a new player, type their name in the edit window and click"
+msgstr "ปุ่มบวก - หากต้องการเพิ่มผู้เล่นใหม่ ให้พิมพ์ชื่อของพวกเขาในหน้าต่างแก้ไข แล้วคลิก"
+
+#: main_12.cpp:2657
+msgid "on this button.  Their name will be added to the list and a file named after them,"
+msgstr "บนปุ่มนี้ ชื่อของพวกเขาจะถูกเพิ่มลงในรายการและไฟล์จะถูกตั้งชื่อตามพวกเขา"
+
+#: main_12.cpp:2659
+msgid "which contains their details, will be stored on disk in the"
+msgstr "ซึ่งมีรายละเอียดของพวกเขาจะถูกเก็บไว้ในดิสก์ใน"
+
+#: main_12.cpp:2664
+msgid "Minus button  -  Click to delete the player shown in the edit window."
+msgstr "ปุ่มลบ - คลิกเพื่อลบเครื่องเล่นที่แสดงในหน้าต่างแก้ไข"
+
+#: main_12.cpp:2666
+msgid "This will also remove their file from disk."
+msgstr "การทำเช่นนี้จะลบไฟล์ของพวกเขาออกจากดิสก์ด้วย"
+
+#: main_12.cpp:2669
+msgid "Save  -  Click to save the details of the player in the edit window"
+msgstr "บันทึก - คลิกเพื่อบันทึกรายละเอียดของผู้เล่นในหน้าต่างแก้ไข"
+
+#: main_12.cpp:2671
+msgid "if you make a manual change to their ELO rating."
+msgstr "หากคุณทำการเปลี่ยนแปลงคะแนน ELO ด้วยตนเอง"
+
+#: main_12.cpp:2674
+msgid "Player ELO  -  This shows the ELO rating of the player in the edit window."
+msgstr "ELO ของผู้เล่น - แสดงคะแนน ELO ของผู้เล่นในหน้าต่างแก้ไข"
+
+#: main_12.cpp:2676
+msgid "If you want to edit this box when you add a new player, then see the next option."
+msgstr "หากคุณต้องการแก้ไขกล่องนี้เมื่อคุณเพิ่มผู้เล่นใหม่ โปรดดูตัวเลือกถัดไป"
+
+#: main_12.cpp:2679
+msgid "Edit player ELO rating  -  Check to allow editing of the player ELO rating."
+msgstr "แก้ไขเรตติ้ง ELO ของผู้เล่น - เลือกเพื่ออนุญาตให้แก้ไขเรตติ้ง ELO ของผู้เล่น"
+
+#: main_12.cpp:2682
+msgid "Use move delay  -  Check to use a move delay for the rated game."
+msgstr "ใช้การหน่วงเวลาการเคลื่อนที่ - เลือกเพื่อใช้การหน่วงเวลาการเคลื่อนที่สำหรับเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2684
+msgid "This option is intended for engines that move too quickly"
+msgstr "ตัวเลือกนี้มีไว้สำหรับเครื่องยนต์ที่เคลื่อนที่เร็วเกินไป"
+
+#: main_12.cpp:2686
+msgid "when they are weakened, such as the Komodo dragon."
+msgstr "เมื่อมันอ่อนแอลง เช่น มังกรโคโมโด"
+
+#: main_12.cpp:2689
+msgid "Set as current engine  -  Check to set the engine displayed in this box"
+msgstr "ตั้งค่าเป็นเครื่องยนต์ปัจจุบัน - เลือกเพื่อตั้งค่าเครื่องยนต์ที่แสดงในกล่องนี้"
+
+#: main_12.cpp:2691
+msgid "as the current engine after the rated game has finished."
+msgstr "เป็นเครื่องมือปัจจุบันหลังจากเกมที่ได้รับการจัดอันดับจบลง"
+
+#: main_12.cpp:2693
+msgid "Uncheck to reset to the old engine after the rated game."
+msgstr "ยกเลิกการเลือกเพื่อรีเซ็ตเป็นเอนจิ้นเก่าหลังจากเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2696
+msgid "Set as current clock  -  Check to set the clock times displayed in this box"
+msgstr "ตั้งเป็นนาฬิกาปัจจุบัน - เลือกเพื่อตั้งเวลาที่แสดงในกล่องนี้"
+
+#: main_12.cpp:2698
+msgid "as the current clock after the rated game has finished."
+msgstr "เป็นนาฬิกาปัจจุบันหลังจากที่เกมที่ได้รับการจัดอันดับสิ้นสุดลง"
+
+#: main_12.cpp:2700
+msgid "Uncheck to reset to the old clock after the rated game."
+msgstr "ยกเลิกการเลือกเพื่อรีเซ็ตเป็นนาฬิกาเดิมหลังจากเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2703
+msgid "Rating change for results -  Shows the rating changes for a win, loss or draw."
+msgstr "การเปลี่ยนแปลงคะแนนสำหรับผลลัพธ์ - แสดงการเปลี่ยนแปลงคะแนนสำหรับชัยชนะ แพ้ หรือเสมอ"
+
+#: main_12.cpp:2705
+msgid "These are automatically adjusted according to the player and engine elo ratings"
+msgstr "สิ่งเหล่านี้จะถูกปรับโดยอัตโนมัติตามคะแนน Elo ของผู้เล่นและเครื่องยนต์"
+
+#: main_12.cpp:2707
+msgid "and which formula for ELO calculation is used."
+msgstr "และใช้สูตรใดในการคำนวณ ELO"
+
+#: main_12.cpp:2710
+msgid "Manual adjustment  -  Check this box if you want to alter the values above manually."
+msgstr "การปรับด้วยตนเอง - ทำเครื่องหมายในช่องนี้หากคุณต้องการเปลี่ยนแปลงค่าข้างต้นด้วยตนเอง"
+
+#: main_12.cpp:2712
+msgid "If you want to play the rated game with manually adjusted values,"
+msgstr "หากคุณต้องการเล่นเกมที่ได้รับการจัดอันดับด้วยค่าที่ปรับด้วยตนเอง"
+
+#: main_12.cpp:2714
+msgid "then leave this box checked when you click on < Start game >"
+msgstr "จากนั้นปล่อยให้ช่องนี้ถูกเลือกไว้เมื่อคุณคลิก < เริ่มเกม >"
+
+#: main_12.cpp:2717
+msgid "Rating formulas  -  Here you can select and modify ELO calculation formulas."
+msgstr "สูตรการจัดอันดับ - ที่นี่คุณสามารถเลือกและปรับเปลี่ยนสูตรการคำนวณ ELO ได้"
+
+#: main_12.cpp:2719
+msgid "It is used in a similar way to the current player box."
+msgstr "มีการใช้งานในลักษณะเดียวกับกล่องเครื่องเล่นปัจจุบัน"
+
+#: main_12.cpp:2721
+msgid "The main difference is that when you add or edit a formula,"
+msgstr "ความแตกต่างหลักคือเมื่อคุณเพิ่มหรือแก้ไขสูตร"
+
+#: main_12.cpp:2723
+msgid "a new dialog box opens which allows you to input the options for the formula."
+msgstr "กล่องโต้ตอบใหม่จะเปิดขึ้นซึ่งคุณจะป้อนตัวเลือกสำหรับสูตรได้"
+
+#: main_12.cpp:2725
+msgid "For more information on rating formulas Click on the < Help > button"
+msgstr "สำหรับข้อมูลเพิ่มเติมเกี่ยวกับสูตรการจัดอันดับ คลิกที่ปุ่ม <ช่วยเหลือ>"
+
+#: main_12.cpp:2727
+msgid "of the formula dialog box."
+msgstr "ของกล่องโต้ตอบสูตร"
+
+#: main_12.cpp:2730
+msgid "Time controls  -  Selet the time controls for the game."
+msgstr "การควบคุมเวลา - เลือกการควบคุมเวลาสำหรับเกม"
+
+#: main_12.cpp:2732
+msgid "Input the game time in minutes and the move increment in seconds"
+msgstr "ป้อนเวลาเล่นเกมเป็นนาทีและเพิ่มการเคลื่อนไหวเป็นวินาที"
+
+#: main_12.cpp:2734
+msgid "for the human player and chess engine."
+msgstr "สำหรับผู้เล่นมนุษย์และโปรแกรมหมากรุก"
+
+#: main_12.cpp:2736
+msgid "You can give yourself more time than the engine if you like."
+msgstr "คุณสามารถให้เวลาตัวเองมากกว่าเครื่องยนต์ได้หากคุณต้องการ"
+
+#: main_12.cpp:2739
+msgid "Book off  -  Check to switch off the opening book for the rated game."
+msgstr "ปิดหนังสือ - เลือกเพื่อปิดหนังสือเปิดสำหรับเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2742
+msgid "Play white  -  Check for the human player to play white,"
+msgstr "เล่นสีขาว - ตรวจสอบว่าผู้เล่นมนุษย์เล่นสีขาว"
+
+#: main_12.cpp:2744
+msgid "uncheck for the human player to play black."
+msgstr "ยกเลิกการเลือกเพื่อให้ผู้เล่นมนุษย์เล่นเป็นฝ่ายดำ"
+
+#: main_12.cpp:2747
+msgid "Start the game  -  Click to start a rated game with the current options."
+msgstr "เริ่มเกม - คลิกเพื่อเริ่มเกมที่ได้รับการจัดอันดับพร้อมตัวเลือกปัจจุบัน"
+
+#: main_12.cpp:2750
+msgid "If you want an interesting and varied opening book for human - engine games,"
+msgstr "หากคุณต้องการหนังสือเปิดตัวที่น่าสนใจและหลากหลายสำหรับเกมเอนจิ้นมนุษย์"
+
+#: main_12.cpp:2752
+msgid "I would recommend the polyglot opening book"
+msgstr "ฉันอยากจะแนะนำหนังสือเปิดโปงภาษาหลายภาษา"
+
+#: main_12.cpp:2754
+msgid "This book was part of the Deep Saros engine download."
+msgstr "หนังสือเล่มนี้เป็นส่วนหนึ่งของการดาวน์โหลดเครื่องมือ Deep Saros"
+
+#: main_12.cpp:2756
+msgid "It should have been installed in the following directory -"
+msgstr "ควรได้รับการติดตั้งในไดเร็กทอรีต่อไปนี้ -"
+
+#: main_12.cpp:2784
+msgid "Help for rated game engines"
+msgstr "ความช่วยเหลือสำหรับเอนจิ้นเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:2787
+msgid "Arasan"
+msgstr "อาราซาน"
+
+#: main_12.cpp:2787
+msgid "Rodent"
+msgstr "สัตว์ฟันแทะ"
+
+#: main_12.cpp:2789
+msgid "Stockfish"
+msgstr "ปลาสต็อกฟิช"
+
+#: main_12.cpp:2851
+msgid "The engines used < Rated game > all have the UCI limit strength option."
+msgstr "เครื่องยนต์ที่ใช้ < เกมที่ได้รับการจัดอันดับ > ทั้งหมดมีตัวเลือกความแข็งแกร่งจำกัด UCI"
+
+#: main_12.cpp:2853
+msgid "This allows the user to select an approximate ELO rating"
+msgstr "สิ่งนี้ช่วยให้ผู้ใช้สามารถเลือกค่า ELO โดยประมาณได้"
+
+#: main_12.cpp:2855
+msgid "for the playing strength of the engine."
+msgstr "เพื่อความแข็งแกร่งในการเล่นของเครื่องยนต์"
+
+#: main_12.cpp:2858
+msgid "The engines are usually stored in the following directory -"
+msgstr "เครื่องยนต์โดยทั่วไปจะถูกเก็บไว้ในไดเร็กทอรีต่อไปนี้ -"
+
+#: main_12.cpp:2863
+msgid "There is a large selection to choose from, but you can add other limit strength"
+msgstr "มีให้เลือกหลากหลายแต่สามารถเพิ่มขีดจำกัดความแข็งแกร่งอื่นๆ ได้"
+
+#: main_12.cpp:2865
+msgid "engines if you like by making a new directory in < rated_engines >"
+msgstr "เครื่องยนต์หากคุณต้องการโดยสร้างไดเร็กทอรีใหม่ใน < rated_engines >"
+
+#: main_12.cpp:2867
+msgid "and copying the engine *.exe file into it."
+msgstr "และคัดลอกไฟล์เครื่องยนต์ *.exe ลงไป"
+
+#: main_12.cpp:2870
+msgid "This process will work for the following commercial engines -"
+msgstr "กระบวนการนี้จะใช้ได้กับเครื่องยนต์เชิงพาณิชย์ต่อไปนี้"
+
+#: main_12.cpp:2872
+msgid "Komodo dragon, Fritz 16, Shredder, Houdini 6, Deep Junior and Chiron."
+msgstr "มังกรโคโมโด, ฟริตซ์ 16, ชเรดเดอร์, ฮูดินี่ 6, ดีพ จูเนียร์ และไครอน"
+
+#: main_12.cpp:2873
+msgid "There may well be many more."
+msgstr "อาจจะมีอีกมากมาย"
+
+#: main_12.cpp:2875
+msgid "I have tried to cater for most types of computers and this has made"
+msgstr "ฉันพยายามรองรับคอมพิวเตอร์เกือบทุกประเภทและสิ่งนี้ทำให้"
+
+#: main_12.cpp:2877
+msgid "the engine list quite long.  So you can delete the ones that you don't want."
+msgstr "รายการเครื่องยนต์ค่อนข้างยาว ดังนั้นคุณสามารถลบตัวที่ไม่ต้องการได้"
+
+#: main_12.cpp:2880
+msgid "Whilst some of the older engines, such as Ufim, Delfi and Amyan play a bit"
+msgstr "ในขณะที่เครื่องยนต์รุ่นเก่าบางรุ่น เช่น Ufim, Delfi และ Amyan ก็มีการเล่นบ้างเล็กน้อย"
+
+#: main_12.cpp:2882
+msgid "differently to each other, most of the engines that are derived from Stockfish,"
+msgstr "แตกต่างกันออกไป โดยเครื่องยนต์ส่วนใหญ่ที่มาจาก Stockfish"
+
+#: main_12.cpp:2884
+msgid "play in a similar way."
+msgstr "เล่นในลักษณะเดียวกัน"
+
+#: main_12.cpp:2887
+msgid "The one engine that stands out as totally unique and perfectly suited"
+msgstr "เครื่องยนต์หนึ่งเดียวที่โดดเด่นเป็นเอกลักษณ์และเหมาะสมอย่างสมบูรณ์แบบ"
+
+#: main_12.cpp:2889
+msgid "for < Rated game > is the Rodent chess engine, written by Pawel Koziol."
+msgstr "สำหรับ < เกมที่ได้รับการจัดอันดับ > คือโปรแกรมเล่นหมากรุก Rodent ที่เขียนโดย Pawel Koziol"
+
+#: main_12.cpp:2891
+msgid "Click on < Rodent > for more details."
+msgstr "คลิกที่ < หนู > เพื่อดูรายละเอียดเพิ่มเติม"
+
+#: main_12.cpp:2909
+msgid "The Arasan engine, written by Jon Dart is another very good engine."
+msgstr "เครื่องยนต์ Arasan ที่เขียนโดย Jon Dart ถือเป็นเครื่องยนต์ที่ดีมากอีกตัวหนึ่ง"
+
+#: main_12.cpp:2911
+msgid "Whilst not as strong as the Stockfish, it has a distinctive playing style."
+msgstr "แม้จะไม่แข็งแกร่งเท่ากับ Stockfish แต่ก็มีรูปแบบการเล่นที่โดดเด่น"
+
+#: main_12.cpp:2913
+msgid "However, when used with the Tarrasch and Nimzo_3d GUI,"
+msgstr "อย่างไรก็ตาม เมื่อใช้ร่วมกับ Tarrasch และ Nimzo_3d GUI"
+
+#: main_12.cpp:2915
+msgid "there are some problems."
+msgstr "มีปัญหาอยู่บ้าง"
+
+#: main_12.cpp:2918
+msgid "Since the addition of a neural net with version 23.0,"
+msgstr "ตั้งแต่มีการเพิ่มเครือข่ายประสาทด้วยเวอร์ชัน 23.0"
+
+#: main_12.cpp:2920
+msgid "none of them would work on my computer."
+msgstr "ไม่มีอันไหนเลยที่จะทำงานบนคอมพิวเตอร์ของฉันได้"
+
+#: main_12.cpp:2922
+msgid "However, with the latest version 25.2 the following engines work"
+msgstr "อย่างไรก็ตาม ด้วยเวอร์ชันล่าสุด 25.2 เอ็นจิ้นต่อไปนี้ทำงานได้"
+
+#: main_12.cpp:2927
+msgid "Given these issues, I have used engines from version 22.3"
+msgstr "เนื่องจากปัญหาเหล่านี้ ฉันจึงใช้เอนจิ้นจากเวอร์ชัน 22.3"
+
+#: main_12.cpp:2929
+msgid "for the rated games.  This was the last version without a neural net."
+msgstr "สำหรับเกมที่ได้รับการจัดอันดับ นี่เป็นเวอร์ชันสุดท้ายที่ไม่มีเครือข่ายประสาท"
+
+#: main_12.cpp:2931
+msgid "All of the engines from this version run on my computer."
+msgstr "เครื่องยนต์ทั้งหมดจากเวอร์ชันนี้ทำงานบนคอมพิวเตอร์ของฉัน"
+
+#: main_12.cpp:2936
+msgid "Arasan engine help"
+msgstr "ความช่วยเหลือเครื่องยนต์อาราซาน"
+
+#: main_12.cpp:2962
+msgid "Stockfish chess engine"
+msgstr "เครื่องหมากรุกปลาสต็อกฟิช"
+
+#: main_12.cpp:2965
+msgid "Stockfish nps"
+msgstr "ปลาสต๊อกฟิช เอ็นพีเอส"
+
+#: main_12.cpp:2967
+msgid "Alexander"
+msgstr "อเล็กซานเดอร์"
+
+#: main_12.cpp:3010
+msgid "When I was writing the code for engine matches, I found that the Stockfish"
+msgstr "เมื่อผมเขียนโค้ดสำหรับการจับคู่เอนจิ้น ผมพบว่า Stockfish"
+
+#: main_12.cpp:3012
+msgid "and Komodo engines were losing on time in games with a fast time limit,"
+msgstr "และเครื่องยนต์โคโมโดกำลังสูญเสียเวลาในเกมที่มีการจำกัดเวลาอย่างรวดเร็ว"
+
+#: main_12.cpp:3014
+msgid "so I wrote the < Engine time adjustment > option to fix this problem."
+msgstr "ดังนั้นฉันจึงเขียนตัวเลือก <การปรับเวลาเครื่องยนต์> เพื่อแก้ไขปัญหานี้"
+
+#: main_12.cpp:3017
+msgid "With a rated game, using a longer time limit, I found that once again"
+msgstr "ด้วยเกมที่มีเรตติ้งและจำกัดเวลานานขึ้น ฉันพบว่าอีกครั้ง"
+
+#: main_12.cpp:3019
+msgid "Stockfish plays its moves very slowly when it is out of its opening book"
+msgstr "Stockfish เล่นการเคลื่อนไหวช้ามากเมื่อออกจากหนังสือเปิด"
+
+#: main_12.cpp:3021
+msgid "or if no book is used."
+msgstr "หรือถ้าไม่ใช้หนังสือเลย"
+
+#: main_12.cpp:3024
+msgid "To remedy this you can adjust the Stockfish slow mover option."
+msgstr "เพื่อแก้ไขปัญหานี้ คุณสามารถปรับตัวเลือกการเคลื่อนไหวช้าของ Stockfish ได้"
+
+#: main_12.cpp:3026
+msgid "Lowering this value speeds up the moves a bit."
+msgstr "การลดค่านี้จะทำให้การเคลื่อนที่เร็วขึ้นเล็กน้อย"
+
+#: main_12.cpp:3028
+msgid "Although I found this option was not adequate for fast time controls"
+msgstr "แม้ว่าฉันจะพบว่าตัวเลือกนี้ไม่เหมาะสมสำหรับการควบคุมเวลาอย่างรวดเร็ว"
+
+#: main_12.cpp:3030
+msgid "of 3 minutes or less for a game, it works well for 5 minutes or greater."
+msgstr "3 นาทีหรือน้อยกว่าสำหรับเกมหนึ่งเกม จะเหมาะดีสำหรับ 5 นาทีหรือมากกว่านั้น"
+
+#: main_12.cpp:3032
+msgid "For Stockfish 11, a value of 20-30 works well for 5-10 minute games."
+msgstr "สำหรับ Stockfish 11 ค่า 20-30 จะเหมาะกับเกมที่มีความยาว 5-10 นาที"
+
+#: main_12.cpp:3035
+msgid "You can set the slow mover option using the custom parameter options"
+msgstr "คุณสามารถตั้งค่าตัวเลือกการเคลื่อนที่ช้าได้โดยใช้ตัวเลือกพารามิเตอร์แบบกำหนดเอง"
+
+#: main_12.cpp:3037
+msgid "in the engine dialog box."
+msgstr "ในกล่องโต้ตอบเครื่องยนต์"
+
+#: main_12.cpp:3039
+msgid "To make things easier, I have made an engine parameter file for Stockfish 11"
+msgstr "เพื่อให้ง่ายขึ้น ฉันได้สร้างไฟล์พารามิเตอร์เครื่องยนต์สำหรับ Stockfish 11"
+
+#: main_12.cpp:3041
+msgid "with the slow mover set.  You can load this from the rated game dialog box"
+msgstr "ด้วยชุดการเคลื่อนที่ช้า คุณสามารถโหลดได้จากกล่องโต้ตอบเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:3043
+msgid "by clicking on engine < Engine settings.. > and then < Load engine >"
+msgstr "โดยคลิกที่เครื่องยนต์ < การตั้งค่าเครื่องยนต์.. > จากนั้นคลิก < โหลดเครื่องยนต์ >"
+
+#: main_12.cpp:3045
+msgid "from the engine dialog box that opens."
+msgstr "จากกล่องโต้ตอบเครื่องยนต์ที่เปิดขึ้นมา"
+
+#: main_12.cpp:3048
+msgid "The parameter files for Stockfish 11 are stored in the directory"
+msgstr "ไฟล์พารามิเตอร์สำหรับ Stockfish 11 ถูกเก็บไว้ในไดเร็กทอรี"
+
+#: main_12.cpp:3053
+msgid "Stockfish engines 8-15 have the slow mover option, 16 and 17 do not."
+msgstr "เครื่องยนต์ Stockfish รุ่น 8-15 มีตัวเลือกการเคลื่อนที่ช้า ส่วนรุ่น 16 และ 17 ไม่มี"
+
+#: main_12.cpp:3055
+msgid "Given the fact that you do not need the extra playing strength here,"
+msgstr "เมื่อพิจารณาจากข้อเท็จจริงที่ว่าคุณไม่จำเป็นต้องมีกำลังเล่นพิเศษเพิ่มเติมที่นี่"
+
+#: main_12.cpp:3057
+msgid "there is no need to use the stronger engines."
+msgstr "ไม่จำเป็นต้องใช้เครื่องยนต์ที่แรงกว่า"
+
+#: main_12.cpp:3075
+msgid "I found this version of the Stockfish engine on the GitHub at -"
+msgstr "ฉันพบเวอร์ชันของ Stockfish Engine นี้บน GitHub ที่ -"
+
+#: main_12.cpp:3079
+msgid "It is a more adjustable version than the standard engine."
+msgstr "เป็นเวอร์ชั่นปรับแต่งได้มากกว่าเครื่องยนต์มาตรฐาน"
+
+#: main_12.cpp:3081
+msgid "Here is a description of the engine from the < README.md > file -"
+msgstr "นี่คือคำอธิบายของเครื่องยนต์จากไฟล์ < README.md > -"
+
+#: main_12.cpp:3086
+msgid "StockfishNPS is a slightly modified Stockfish for human play"
+msgstr "StockfishNPS เป็น Stockfish ที่ถูกดัดแปลงเล็กน้อยสำหรับการเล่นของมนุษย์"
+
+#: main_12.cpp:3088
+msgid "with nodes per second reduction, (kilo nodes per second ~= 1 / waitms"
+msgstr "โดยลดจำนวนโหนดต่อวินาที (กิโลโหนดต่อวินาที ~= 1 / waitms"
+
+#: main_12.cpp:3090
+msgid "randomized evaluation, search depth and search nodes limit."
+msgstr "การประเมินแบบสุ่ม ความลึกของการค้นหา และขีดจำกัดโหนดการค้นหา"
+
+#: main_12.cpp:3092
+msgid "The strength of the first two modifications can be set in the uci options"
+msgstr "ความแข็งแกร่งของการปรับเปลี่ยนสองประการแรกสามารถตั้งค่าได้ในตัวเลือก uci"
+
+#: main_12.cpp:3094
+msgid "from 0 to 100, while search depth may be limited to values from 1 to 20"
+msgstr "ตั้งแต่ 0 ถึง 100 ในขณะที่ความลึกในการค้นหาอาจจำกัดอยู่ที่ค่าตั้งแต่ 1 ถึง 20"
+
+#: main_12.cpp:3096
+msgid "and search nodes to values up to 500000."
+msgstr "และค้นหาโหนดที่มีค่าสูงสุดถึง 500,000"
+
+#: main_12.cpp:3099
+msgid "All modifications can be used in any combination together with"
+msgstr "การปรับเปลี่ยนทั้งหมดสามารถใช้ร่วมกับ"
+
+#: main_12.cpp:3101
+msgid "ELO limit strength and Skill Level settings, to reduce the strength"
+msgstr "ELO จำกัดความแข็งแกร่งและการตั้งค่าระดับทักษะเพื่อลดความแข็งแกร่ง"
+
+#: main_12.cpp:3103
+msgid "of the engine when playing against humans."
+msgstr "ของเครื่องยนต์เมื่อเล่นกับมนุษย์"
+
+#: main_12.cpp:3106
+msgid "With default settings, StockfishNPS plays exactly like the current Stockfish16_dev."
+msgstr "ด้วยการตั้งค่าเริ่มต้น StockfishNPS จะเล่นได้เหมือนกับ Stockfish16_dev ในปัจจุบันทุกประการ"
+
+#: main_12.cpp:3108
+msgid "Changing only the search nodes setting to between 1 - 10 reduces ELO roughly to 1400."
+msgstr "การเปลี่ยนแปลงเฉพาะการตั้งค่าโหนดการค้นหาเป็นระหว่าง 1 - 10 จะลด ELO ลงประมาณ 1,400"
+
+#: main_12.cpp:3110
+msgid "That's a good starting point for additional option changes."
+msgstr "นั่นเป็นจุดเริ่มต้นที่ดีสำหรับการเปลี่ยนแปลงตัวเลือกเพิ่มเติม"
+
+#: main_12.cpp:3115
+msgid "I think that this means that a higher < waitms > value reduces"
+msgstr "ฉันคิดว่านี่หมายความว่าค่า < waitms > ที่สูงขึ้นจะลดลง"
+
+#: main_12.cpp:3117
+msgid "the number of positions that the engine searches per second."
+msgstr "จำนวนตำแหน่งที่เครื่องมือค้นหาต่อวินาที"
+
+#: main_12.cpp:3119
+msgid "Increasing the randomized evaluation value"
+msgstr "การเพิ่มค่าการประเมินแบบสุ่ม"
+
+#: main_12.cpp:3121
+msgid "will lead to more varied play."
+msgstr "จะทำให้การเล่นมีความหลากหลายมากยิ่งขึ้น"
+
+#: main_12.cpp:3123
+msgid "< Search nodes > imposes some kind of limit on the number of positions searched."
+msgstr "<โหนดการค้นหา> กำหนดข้อจำกัดบางประการเกี่ยวกับจำนวนตำแหน่งที่ค้นหา"
+
+#: main_12.cpp:3125
+msgid "< Search depth > limits the number of half moves (ply) that the engine searches to."
+msgstr "< ความลึกในการค้นหา > จำกัดจำนวนการเคลื่อนที่ครึ่งหนึ่ง (ply) ที่เครื่องมือค้นหาจะค้นหา"
+
+#: main_12.cpp:3127
+msgid "There is also an option called < nodestime > but I don't know what that does."
+msgstr "นอกจากนี้ยังมีตัวเลือกที่เรียกว่า <nodestime> แต่ฉันไม่ทราบว่ามันทำอะไร"
+
+#: main_12.cpp:3130
+msgid "Default values of zero mean that the option is not used."
+msgstr "ค่าเริ่มต้นเป็นศูนย์หมายความว่าตัวเลือกนั้นไม่ได้ถูกใช้"
+
+#: main_12.cpp:3133
+msgid "For you convenience, I have made engine parameter files for the engines"
+msgstr "เพื่อความสะดวกของคุณ ฉันได้สร้างไฟล์พารามิเตอร์เครื่องยนต์สำหรับเครื่องยนต์"
+
+#: main_12.cpp:3135
+msgid "with all the parameters set to default, ready for you to make adjustments."
+msgstr "โดยตั้งค่าพารามิเตอร์ทั้งหมดเป็นค่าเริ่มต้น พร้อมให้คุณปรับเปลี่ยนได้"
+
+#: main_12.cpp:3138
+msgid "These are stored in -"
+msgstr "สิ่งเหล่านี้จะถูกเก็บไว้ใน -"
+
+#: main_12.cpp:3142
+msgid "and can be loaded with < Load engine > from the engine dialog box."
+msgstr "และสามารถโหลดได้ด้วย <โหลดเครื่องยนต์> จากกล่องโต้ตอบเครื่องยนต์ได้"
+
+#: main_12.cpp:3147
+msgid "Stockfish nps engine help"
+msgstr "ความช่วยเหลือเกี่ยวกับเอ็นจิ้น Stockfish nps"
+
+#: main_12.cpp:3163
+msgid "This is a Stockfish derivative engine with many adjustment features."
+msgstr "นี่คือเครื่องยนต์อนุพันธ์ของ Stockfish ที่มีคุณสมบัติการปรับแต่งมากมาย"
+
+#: main_12.cpp:3166
+msgid "When I first tried it with ELO limit strength set, it did not weaken,"
+msgstr "เมื่อผมลองใช้กับชุด ELO Limit Strength ครั้งแรก มันไม่ได้อ่อนลงเลย"
+
+#: main_12.cpp:3168
+msgid "and played its moves at full strength."
+msgstr "และแสดงท่าทางได้เต็มที่"
+
+#: main_12.cpp:3170
+msgid "I then added the < Handicapped Depth > option and set this to < true >"
+msgstr "จากนั้นฉันจึงเพิ่มตัวเลือก < Handicapped Depth > และตั้งค่าเป็น < true >"
+
+#: main_12.cpp:3172
+msgid "This seems to work, and the engine plays at different depths depending"
+msgstr "วิธีนี้ดูเหมือนจะได้ผล และเครื่องยนต์จะทำงานที่ความลึกต่างกันขึ้นอยู่กับ"
+
+#: main_12.cpp:3174
+msgid "on the ELO rating that is set."
+msgstr "ตามค่า ELO ที่ตั้งไว้"
+
+#: main_12.cpp:3177
+msgid "There are many other options, which are described in the file < README.md >"
+msgstr "มีตัวเลือกอื่น ๆ อีกมากมายซึ่งอธิบายไว้ในไฟล์ < README.md >"
+
+#: main_12.cpp:3179
+msgid "This file is located in the following directory"
+msgstr "ไฟล์นี้ตั้งอยู่ในไดเร็กทอรีต่อไปนี้"
+
+#: main_12.cpp:3184
+msgid "I have made two engine parameter files in this directory, which you can use"
+msgstr "ฉันได้สร้างไฟล์พารามิเตอร์เครื่องยนต์สองไฟล์ในไดเร็กทอรีนี้ ซึ่งคุณสามารถใช้ได้"
+
+#: main_12.cpp:3186
+msgid "to set the engine with < Load engine > from the engine dialog box."
+msgstr "เพื่อตั้งค่าเครื่องยนต์ด้วย < โหลดเครื่องยนต์ > จากกล่องโต้ตอบเครื่องยนต์"
+
+#: main_12.cpp:3189
+msgid "When playing in a weakened mode, Alexander plays its moves almost instantaneously."
+msgstr "เมื่อเล่นในโหมดอ่อนแอ Alexander จะเล่นการเคลื่อนไหวเกือบจะทันที"
+
+#: main_12.cpp:3191
+msgid "If you want, you can slow it down with < Main menu > < Engine > < Move delay >"
+msgstr "หากต้องการ คุณสามารถลดความเร็วได้ด้วย < เมนูหลัก > < เครื่องยนต์ > < การหน่วงเวลาการเคลื่อนที่ >"
+
+#: main_12.cpp:3194
+msgid "The Alexander engine is hosted on the GitHub at the following link"
+msgstr "เครื่องมือ Alexander ถูกโฮสต์บน GitHub ตามลิงก์ต่อไปนี้"
+
+#: main_12.cpp:3201
+msgid "Alexander chess engine help"
+msgstr "ความช่วยเหลือเกี่ยวกับโปรแกรมหมากรุก Alexander"
+
+#: main_12.cpp:3238
+msgid "Cannot start a game without a player name"
+msgstr "ไม่สามารถเริ่มเกมได้หากไม่มีชื่อผู้เล่น"
+
+#: main_12.cpp:3239
+msgid "Please select a player from the Current player list box"
+msgstr "โปรดเลือกผู้เล่นจากกล่องรายชื่อผู้เล่นปัจจุบัน"
+
+#: main_12.cpp:3241 main_12.cpp:3249
+msgid "Rated game error message"
+msgstr "ข้อความแสดงข้อผิดพลาดของเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:3246
+msgid "Cannot start a game without a rating formula"
+msgstr "ไม่สามารถเริ่มเกมได้หากไม่มีสูตรการจัดอันดับ"
+
+#: main_12.cpp:3247
+msgid "Please select a formula from the Rating formula list box"
+msgstr "โปรดเลือกสูตรจากกล่องรายการสูตรการจัดอันดับ"
+
+#: main_12.cpp:3457
+msgid "Select Rodent engine personality settings"
+msgstr "เลือกการตั้งค่าบุคลิกภาพเครื่องยนต์หนู"
+
+#: main_12.cpp:3731
+msgid "There are no engine files in"
+msgstr "ไม่มีไฟล์เครื่องยนต์ใน"
+
+#: main_12.cpp:3732
+msgid "Rated engines directory was not changed."
+msgstr "ไดเร็กทอรีเครื่องยนต์ที่ได้รับการจัดอันดับไม่มีการเปลี่ยนแปลง"
+
+#: main_12.cpp:3874
+msgid "There are no personality files to read"
+msgstr "ไม่มีไฟล์บุคลิกภาพที่จะอ่าน"
+
+#: main_12.cpp:3996
+msgid "The personalities directory"
+msgstr "ไดเรกทอรีบุคคล"
+
+#: main_12.cpp:3998
+msgid "does not exist, so cannot show personalities"
+msgstr "ไม่มีอยู่จึงไม่สามารถแสดงบุคลิกภาพได้"
+
+#: main_12.cpp:4035
+msgid "Select Rodent 3 engine personality settings"
+msgstr "เลือกการตั้งค่าบุคลิกภาพเครื่องยนต์ Rodent 3"
+
+#: main_12.cpp:4345
+msgid "Current personality"
+msgstr "บุคลิกภาพในปัจจุบัน"
+
+#: main_12.cpp:4406
+msgid "Display personality name"
+msgstr "แสดงชื่อบุคลิกภาพ"
+
+#: main_12.cpp:4419
+msgid "Use documents directory"
+msgstr "ใช้ไดเรกทอรีเอกสาร"
+
+#: main_12.cpp:4452
+msgid "Use limit ELO strength"
+msgstr "ใช้ขีดจำกัดความแข็งแกร่ง ELO"
+
+#: main_12.cpp:4490
+msgid "Enter values to adjust the engine strength"
+msgstr "ป้อนค่าเพื่อปรับความแรงของเครื่องยนต์"
+
+#: main_12.cpp:4514
+msgid "Nodes per second"
+msgstr "โหนดต่อวินาที"
+
+#: main_12.cpp:4537
+msgid "Copy default values"
+msgstr "คัดลอกค่าเริ่มต้น"
+
+#: main_12.cpp:4560
+msgid "Evaluation blur value"
+msgstr "การประเมินค่าความเบลอ"
+
+#: main_12.cpp:4583
+msgid "Copy evaluation blur"
+msgstr "การประเมินสำเนาแบบเบลอ"
+
+#: main_12.cpp:4607
+msgid "Search skill level (1 - 10)"
+msgstr "ระดับทักษะการค้นหา (1 - 10)"
+
+#: main_12.cpp:4628
+msgid "Copy search skill"
+msgstr "ทักษะการค้นหาสำเนา"
+
+#: main_12.cpp:4646
+msgid "Save current settings to file"
+msgstr "บันทึกการตั้งค่าปัจจุบันลงในไฟล์"
+
+#: main_12.cpp:4672
+msgid "Select filename for saving the personality file"
+msgstr "เลือกชื่อไฟล์สำหรับบันทึกไฟล์บุคลิกภาพ"
+
+#: main_12.cpp:4694
+msgid "Add values to file if not present"
+msgstr "เพิ่มค่าลงในไฟล์หากไม่มีอยู่"
+
+#: main_12.cpp:4897
+msgid "Check to use the following directory"
+msgstr "ตรวจสอบเพื่อใช้ไดเร็กทอรีต่อไปนี้"
+
+#: main_12.cpp:4898
+msgid "for the rated engines and associated files"
+msgstr "สำหรับเครื่องยนต์ที่ได้รับการจัดอันดับและไฟล์ที่เกี่ยวข้อง"
+
+#: main_12.cpp:4900
+msgid "Check to use UCI limit strength for engine adjustments"
+msgstr "ตรวจสอบการใช้ขีดจำกัด UCI สำหรับการปรับเครื่องยนต์"
+
+#: main_12.cpp:4902
+msgid "Enter the nodes per second value,"
+msgstr "ป้อนค่าโหนดต่อวินาที"
+
+#: main_12.cpp:4903
+msgid "higher for stronger, lower for weaker,"
+msgstr "สูงขึ้นเพื่อแข็งแกร่งขึ้น ต่ำลงเพื่ออ่อนแอลง"
+
+#: main_12.cpp:4904
+msgid "but zero for maximum strength"
+msgstr "แต่ศูนย์เพื่อความแข็งแกร่งสูงสุด"
+
+#: main_12.cpp:4906 main_12.cpp:6263
+msgid "Enter the blur evaluation value,"
+msgstr "ป้อนค่าการประเมินความเบลอ"
+
+#: main_12.cpp:4907 main_12.cpp:6264
+msgid "lower for stronger, higher for weaker"
+msgstr "ต่ำลงเพื่อแข็งแกร่งขึ้น สูงขึ้นเพื่ออ่อนแอลง"
+
+#: main_12.cpp:4909
+msgid "Enter the skill level value," 
+msgstr "กรอกค่าระดับทักษะ"
+
+#: main_12.cpp:4909
+msgid "lower for weaker, higher for stronger" 
+msgstr "ต่ำลงหมายถึงอ่อนแอ สูงขึ้นหมายถึงแข็งแกร่งขึ้น"
+
+#: main_12.cpp:4919
+msgid "Add nodes per second and evaluation blur"
+msgstr "เพิ่มโหนดต่อวินาทีและการประเมินแบบเบลอ"
+
+#: main_12.cpp:4920
+msgid "values to the file, if they are not present"
+msgstr "ค่าไปยังไฟล์หากไม่มีอยู่"
+
+#: main_12.cpp:4932 main_12.cpp:4933
+msgid "Select the personality that you want to play against"
+msgstr "เลือกบุคลิกภาพที่คุณต้องการเล่นด้วย"
+
+#: main_12.cpp:5099
+msgid "from"
+msgstr "จาก"
+
+#: main_12.cpp:5143 main_12.cpp:5164
+msgid "Cannot switch"
+msgstr "ไม่สามารถสลับได้"
+
+#: main_12.cpp:5143 main_12.cpp:5149 main_12.cpp:5165
+msgid "UCI limit strength adjustment"
+msgstr "การปรับขีดจำกัดความแข็งแกร่งของ UCI"
+
+#: main_12.cpp:5150
+msgid "Nodes per second adjustment"
+msgstr "การปรับโหนดต่อวินาที"
+
+#: main_12.cpp:5152
+msgid "Cannot set to"
+msgstr "ไม่สามารถตั้งค่าได้"
+
+#: main_12.cpp:5155
+msgid "because"
+msgstr "เพราะ"
+
+#: main_12.cpp:5155
+msgid "file could not be opened."
+msgstr "ไม่สามารถเปิดไฟล์ได้"
+
+#: main_12.cpp:5166
+msgid "because limit strength option was not in file."
+msgstr "เนื่องจากตัวเลือกขีดจำกัดความแข็งแกร่งไม่ได้อยู่ในไฟล์"
+
+#: main_12.cpp:5236
+msgid "All values are set to default"
+msgstr "ค่าทั้งหมดถูกตั้งค่าเป็นค่าเริ่มต้น"
+
+#: main_12.cpp:5237
+msgid "So there is no point in writing them"
+msgstr "ดังนั้นจึงไม่มีประเด็นที่จะเขียนมัน"
+
+#: main_12.cpp:5280
+msgid "Could not open input file"
+msgstr "ไม่สามารถเปิดไฟล์อินพุตได้"
+
+#: main_12.cpp:5289
+msgid "Could not open output file"
+msgstr "ไม่สามารถเปิดไฟล์เอาท์พุตได้"
+
+#: main_12.cpp:5380
+msgid "updated, and"
+msgstr "อัปเดตแล้ว และ"
+
+#: main_12.cpp:5395 main_12.cpp:7749 main_12.cpp:7939 main_12.cpp:8257
+msgid "saved to disk"
+msgstr "บันทึกลงดิสก์"
+
+#: main_12.cpp:5641 main_12.cpp:5837
+msgid "Rodent chess engine help"
+msgstr "ความช่วยเหลือเกี่ยวกับเครื่องมือหมากรุกหนู"
+
+#: main_12.cpp:5644 main_12.cpp:5842
+msgid "Personality descriptions"
+msgstr "คำอธิบายบุคลิกภาพ"
+
+#: main_12.cpp:5646 main_12.cpp:6255
+msgid "About Rodent"
+msgstr "เกี่ยวกับสัตว์ฟันแทะ"
+
+#: main_12.cpp:5704
+msgid "This dialog box allows you to select a playing personality"
+msgstr "กล่องโต้ตอบนี้ช่วยให้คุณสามารถเลือกบุคลิกการเล่นได้"
+
+#: main_12.cpp:5706
+msgid "and options for the Rodent chess engines."
+msgstr "และตัวเลือกสำหรับโปรแกรมเล่นหมากรุก Rodent"
+
+#: main_12.cpp:5709
+msgid "Current personality  -  The drop down list box allows you to pick a personality."
+msgstr "บุคลิกภาพปัจจุบัน - กล่องรายการแบบดรอปดาวน์ช่วยให้คุณสามารถเลือกบุคลิกภาพได้"
+
+#: main_12.cpp:5712
+msgid "Use ELO limit strength  -  Check to use ELO values in the engine dialog box"
+msgstr "ใช้ขีดจำกัดความแข็งแกร่งของ ELO - เลือกเพื่อใช้ค่า ELO ในกล่องโต้ตอบเครื่องยนต์"
+
+#: main_12.cpp:5714
+msgid "when setting the engine playing strength."
+msgstr "เมื่อตั้งค่าความแรงในการเล่นของเครื่องยนต์"
+
+#: main_12.cpp:5717
+msgid "Enter values to adjust the engine strength -"
+msgstr "ป้อนค่าเพื่อปรับความแรงของเครื่องยนต์ -"
+
+#: main_12.cpp:5721
+msgid "Nodes per second  -  the number of position the engine will generate"
+msgstr "โหนดต่อวินาที - จำนวนตำแหน่งที่เครื่องยนต์จะสร้าง"
+
+#: main_12.cpp:5723
+msgid "and analyse per second."
+msgstr "และวิเคราะห์ต่อวินาที"
+
+#: main_12.cpp:5727
+msgid "Evaluation blur value  -  random value added to evaluation function."
+msgstr "ค่าเบลอในการประเมิน - ค่าสุ่มที่เพิ่มเข้าไปในฟังก์ชันการประเมิน"
+
+#: main_12.cpp:5729
+msgid "With Rodent 3, in nodes per second mode, the evaluation blur value"
+msgstr "ด้วย Rodent 3 ในโหมดโหนดต่อวินาที ค่าการประเมินจะเบลอ"
+
+#: main_12.cpp:5731
+msgid "is loaded from the personality file. This will give you some idea"
+msgstr "โหลดจากไฟล์บุคลิกภาพ ซึ่งจะทำให้คุณเข้าใจมากขึ้น"
+
+#: main_12.cpp:5733
+msgid "of the range of values to use, if you want to make adjustments."
+msgstr "ของช่วงค่าที่จะใช้หากต้องการปรับเปลี่ยน"
+
+#: main_12.cpp:5737
+msgid "This option can also be used with ELO limit strength."
+msgstr "ตัวเลือกนี้สามารถใช้ได้กับขีดจำกัดความแข็งแกร่งของ ELO ด้วยเช่นกัน"
+
+#: main_12.cpp:5739
+msgid "When used in this way, I found that a setting of 20, varied the moves"
+msgstr "เมื่อใช้ในลักษณะนี้ ฉันพบว่าการตั้งค่า 20 จะทำให้การเคลื่อนไหวเปลี่ยนแปลงไป"
+
+#: main_12.cpp:5741
+msgid "that the engine played but numbers higher than 20 had no effect up to 500"
+msgstr "ที่เครื่องเล่นได้แต่ตัวเลขเกิน 20 ไม่มีผลถึง 500"
+
+#: main_12.cpp:5743
+msgid "and a setting higher than 1000 seriously weakened the engine."
+msgstr "และการตั้งค่าที่สูงกว่า 1,000 จะทำให้เครื่องยนต์อ่อนลงอย่างมาก"
+
+#: main_12.cpp:5745
+msgid "So the useful settings in ELO limit strength mode for my computer"
+msgstr "ดังนั้นการตั้งค่าที่มีประโยชน์ในโหมดจำกัดความแข็งแกร่งของ ELO สำหรับคอมพิวเตอร์ของฉัน"
+
+#: main_12.cpp:5747
+msgid "are 20 or 500 - 1000 but it may be different for your computer."
+msgstr "มี 20 หรือ 500 - 1,000 แต่อาจแตกต่างกันไปตามคอมพิวเตอร์ของคุณ"
+
+#: main_12.cpp:5749
+msgid "If you don't want it set or displayed, then set it to zero."
+msgstr "หากคุณไม่ต้องการตั้งค่าหรือแสดง ให้ตั้งค่าเป็นศูนย์"
+
+#: main_12.cpp:5752
+msgid "Although nodes per second does not apply when using ELO limit strength,"
+msgstr "แม้ว่าโหนดต่อวินาทีจะไม่สามารถใช้ได้เมื่อใช้ขีดจำกัดความแข็งแกร่งของ ELO"
+
+#: main_12.cpp:5754
+msgid "values can still be entered and saved in the personality file for later use."
+msgstr "สามารถป้อนค่าและบันทึกลงในไฟล์บุคลิกภาพเพื่อใช้ในภายหลังได้"
+
+#: main_12.cpp:5757
+msgid "Copy default values  -  check for the strength adjustments values"
+msgstr "คัดลอกค่าเริ่มต้น - ตรวจสอบค่าการปรับความแข็งแกร่ง"
+
+#: main_12.cpp:5759
+msgid "to be copied from this dialog box to the engine dialog box"
+msgstr "ที่จะคัดลอกจากกล่องโต้ตอบนี้ไปยังกล่องโต้ตอบของเครื่องยนต์"
+
+#: main_12.cpp:5761
+msgid "even when they are set to default.  They can then be edited."
+msgstr "แม้ว่าจะตั้งค่าเป็นค่าเริ่มต้นก็ตาม สามารถแก้ไขได้"
+
+#: main_12.cpp:5763
+msgid "Left as they are, they will have no effect on the engine."
+msgstr "หากปล่อยไว้แบบนี้ก็ไม่มีผลอะไรกับเครื่องยนต์"
+
+#: main_12.cpp:5765
+msgid "In ELO limit strength mode, they are not reset when deleted from"
+msgstr "ในโหมดขีดจำกัดความแข็งแกร่งของ ELO พวกมันจะไม่ถูกรีเซ็ตเมื่อลบออกจาก"
+
+#: main_12.cpp:5767
+msgid "the engine dialog box.  In nodes per second mode they are reset,"
+msgstr "กล่องโต้ตอบเครื่องยนต์ ในโหมดโหนดต่อวินาที พวกมันจะถูกรีเซ็ต"
+
+#: main_12.cpp:5769
+msgid "so you have to switch off < Copy parameters > to edit them."
+msgstr "ดังนั้นคุณต้องปิด <คัดลอกพารามิเตอร์> เพื่อแก้ไข"
+
+#: main_12.cpp:5772
+msgid "Display personality name  -  Check to display the personality name"
+msgstr "แสดงชื่อบุคลิกภาพ - เลือกเพื่อแสดงชื่อบุคลิกภาพ"
+
+#: main_12.cpp:5774
+msgid "following the engine name during a game. "
+msgstr "ตามชื่อเครื่องยนต์ระหว่างเกม"
+
+#: main_12.cpp:5776
+msgid "The engine rating is also displayed automatically."
+msgstr "คะแนนเครื่องยนต์ยังแสดงโดยอัตโนมัติด้วย"
+
+#: main_12.cpp:5780
+msgid "Use documents directory  -  Check to use the"
+msgstr "ใช้ไดเรกทอรีเอกสาร - เลือกเพื่อใช้"
+
+#: main_12.cpp:5784
+msgid "for the rated engines."
+msgstr "สำหรับเครื่องยนต์ที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:5786
+msgid "This is an emergency fallback measusre in case they were not copied into"
+msgstr "นี่คือมาตรการสำรองฉุกเฉินในกรณีที่ไม่ได้คัดลอกลงใน"
+
+#: main_12.cpp:5790
+msgid "If they have been installed somewhere else, you can copy them into"
+msgstr "หากได้รับการติดตั้งที่อื่นแล้ว คุณสามารถคัดลอกลงใน"
+
+#: main_12.cpp:5792
+msgid "one of the directories above."
+msgstr "หนึ่งในไดเร็กทอรีด้านบน"
+
+#: main_12.cpp:5794
+msgid "If they were not installed at all, they can be downloaded from these links -"
+msgstr "หากไม่ได้ติดตั้งเลยก็สามารถดาวน์โหลดได้จากลิงค์เหล่านี้ -"
+
+#: main_12.cpp:5797
+msgid "    links"
+msgstr "ลิงค์"
+
+#: main_12.cpp:5799
+msgid "Save current settings to file  -  with this file picker, you can save the"
+msgstr "บันทึกการตั้งค่าปัจจุบันลงในไฟล์ - ด้วยตัวเลือกไฟล์นี้ คุณสามารถบันทึก"
+
+#: main_12.cpp:5801
+msgid "playing strength settings from the dialog box to the current file,"
+msgstr "การเล่นการตั้งค่าความแรงจากกล่องโต้ตอบไปยังไฟล์ปัจจุบัน"
+
+#: main_12.cpp:5803
+msgid "or a new one if you wish."
+msgstr "หรืออันใหม่หากคุณต้องการ"
+
+#: main_12.cpp:5806
+msgid "Add values if not present  -  Check to add the strength adjustment values to the file"
+msgstr "เพิ่มค่าหากไม่มีอยู่ - เลือกเพื่อเพิ่มค่าการปรับความแข็งแกร่งให้กับไฟล์"
+
+#: main_12.cpp:5808
+msgid "if they are not present.  This will be the case if you add evaluation blur values"
+msgstr "หากไม่มีอยู่ จะเป็นกรณีนี้หากคุณเพิ่มค่าความเบลอในการประเมิน"
+
+#: main_12.cpp:5810
+msgid "to a Rodent 4 personality file."
+msgstr "ไปยังไฟล์บุคลิกภาพของหนู 4"
+
+#: main_12.cpp:5893
+msgid "About the Rodent chess engines"
+msgstr "เกี่ยวกับเครื่องยนต์หมากรุกหนู"
+
+#: main_12.cpp:5905
+msgid "Rodent, written by Pawel Koziol, is a very interesting chess engine."
+msgstr "Rodent ซึ่งเขียนโดย Pawel Koziol เป็นโปรแกรมเล่นหมากรุกที่น่าสนใจมาก"
+
+#: main_12.cpp:5907
+msgid "It has the UCI_LimitStrength option and also a set of personalities,"
+msgstr "มีตัวเลือก UCI_LimitStrength และชุดบุคลิกภาพด้วย"
+
+#: main_12.cpp:5909
+msgid "which are loaded from files, for weaker and more varied play."
+msgstr "ซึ่งโหลดมาจากไฟล์ เพื่อการเล่นที่อ่อนและหลากหลายมากขึ้น"
+
+#: main_12.cpp:5912
+msgid "For the engine to work properly with the personalities and their"
+msgstr "เพื่อให้เครื่องยนต์ทำงานได้อย่างเหมาะสมกับบุคลิกและบุคลิกของพวกเขา"
+
+#: main_12.cpp:5914
+msgid "opening books, all of the components have to be placed in the same directory."
+msgstr "การเปิดหนังสือส่วนประกอบทั้งหมดจะต้องวางไว้ในไดเร็กทอรีเดียวกัน"
+
+#: main_12.cpp:5916
+msgid "They should have been installed in -"
+msgstr "ควรได้รับการติดตั้งใน-"
+
+#: main_12.cpp:5921
+msgid "If you want the Rodent engine to use its own book during a game,"
+msgstr "หากคุณต้องการให้เครื่องยนต์ Rodent ใช้หนังสือของตัวเองระหว่างเกม"
+
+#: main_12.cpp:5923
+msgid "then you have to switch off the Nimzo_3d opening book from"
+msgstr "จากนั้นคุณต้องปิดหนังสือเปิด Nimzo_3d จาก"
+
+#: main_12.cpp:5925
+msgid "< Main menu > < Openings > < Opening book >"
+msgstr "< เมนูหลัก > < การเปิด > < หนังสือเปิด >"
+
+#: main_12.cpp:5927
+msgid "or checking the < Book off > option, if you are using the"
+msgstr "หรือเลือกตัวเลือก <ปิดหนังสือ> หากคุณกำลังใช้"
+
+#: main_12.cpp:5929
+msgid "rated game dialog box."
+msgstr "กล่องโต้ตอบเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:5934
+msgid "there is some documentation and a utility program"
+msgstr "มีเอกสารประกอบและโปรแกรมยูทิลิตี้บางอย่าง"
+
+#: main_12.cpp:5936
+msgid "which can be used to make more personalities."
+msgstr "ซึ่งสามารถนำไปใช้สร้างบุคลิกเพิ่มเติมได้"
+
+#: main_12.cpp:5939
+msgid "The Rodent 4 engine package and older versions can be downloaded from -"
+msgstr "สามารถดาวน์โหลดแพ็คเกจเครื่องยนต์ Rodent 4 และเวอร์ชันเก่ากว่าได้จาก -"
+
+#: main_12.cpp:5944
+msgid "Rodent 4 only, with a detailed review"
+msgstr "เฉพาะ Rodent 4 เท่านั้น พร้อมรีวิวโดยละเอียด"
+
+#: main_12.cpp:5949
+msgid "The Rodent 4 engine support material, without engines"
+msgstr "วัสดุรองรับเครื่องยนต์ Rodent 4 โดยไม่มีเครื่องยนต์"
+
+#: main_12.cpp:5954
+msgid "Rodent 3 support material, without engines"
+msgstr "วัสดุรองรับหนู 3 ไม่มีเครื่องยนต์"
+
+#: main_12.cpp:5973
+msgid "A Rodent personality file is simply a list of UCI commands in a *.txt file"
+msgstr "ไฟล์บุคลิกภาพของสัตว์ฟันแทะเป็นเพียงรายการคำสั่ง UCI ในไฟล์ *.txt"
+
+#: main_12.cpp:5975
+msgid "It is supposed to work in the following manner -"
+msgstr "มันควรจะทำงานในลักษณะต่อไปนี้ -"
+
+#: main_12.cpp:5977
+msgid "The chess program GUI sends the < Personality > command to the Rodent engine."
+msgstr "GUI ของโปรแกรมหมากรุกส่งคำสั่ง <บุคลิกภาพ> ไปยังโปรแกรม Rodent"
+
+#: main_12.cpp:5979
+msgid "The engine then reads the commands from the personality file"
+msgstr "จากนั้นเครื่องยนต์จะอ่านคำสั่งจากไฟล์บุคลิกภาพ"
+
+#: main_12.cpp:5981
+msgid "and adjusts its settings accordingly."
+msgstr "และปรับการตั้งค่าให้เหมาะสม"
+
+#: main_12.cpp:5984
+msgid "However, with both Nimzo_3d and the Tarrasch GUI,"
+msgstr "อย่างไรก็ตาม ด้วยทั้ง Nimzo_3d และ Tarrasch GUI"
+
+#: main_12.cpp:5986
+msgid "I could not get the engines to work when used in this way."
+msgstr "ฉันไม่สามารถทำให้เครื่องยนต์ทำงานเมื่อใช้งานในลักษณะนี้"
+
+#: main_12.cpp:5988
+msgid "All of the personalities played the same moves."
+msgstr "บุคคลทุกคนเล่นการเคลื่อนไหวแบบเดียวกัน"
+
+#: main_12.cpp:5991
+msgid "So instead of this, I intercepted the < Personality > command when it was"
+msgstr "ดังนั้นแทนที่จะทำอย่างนี้ ฉันจึงสกัดกั้นคำสั่ง <บุคลิกภาพ> เมื่อมันเป็น"
+
+#: main_12.cpp:5993
+msgid "about to be sent from the GUI to the engine , opened the personality file"
+msgstr "กำลังจะถูกส่งจาก GUI ไปยังเครื่องยนต์ เปิดไฟล์บุคลิกภาพ"
+
+#: main_12.cpp:5995
+msgid "and sent the commands from the file individually.  This seems to work."
+msgstr "และส่งคำสั่งจากไฟล์ทีละรายการ วิธีนี้ดูเหมือนจะได้ผล"
+
+#: main_12.cpp:6000
+msgid "Essentially, the Rodent engine has two main methods of varying its playing strength."
+msgstr "โดยพื้นฐานแล้วเครื่องยนต์ Rodent มีสองวิธีหลักในการเปลี่ยนความแรงในการเล่น"
+
+#: main_12.cpp:6002
+msgid "It can use ELO limit strength or Nodes per seconds with evaluation blur."
+msgstr "สามารถใช้ขีดจำกัดความแข็งแกร่งของ ELO หรือโหนดต่อวินาทีพร้อมการประเมินแบบเบลอได้"
+
+#: main_12.cpp:6004
+msgid "ELO limit strength allows you to set an approximate ELO rating"
+msgstr "ขีดจำกัดความแข็งแกร่งของ ELO ช่วยให้คุณตั้งค่าระดับ ELO โดยประมาณได้"
+
+#: main_12.cpp:6006
+msgid "and nodes per second with evaluation blur lets you set values"
+msgstr "และโหนดต่อวินาทีพร้อมการประเมินแบบเบลอช่วยให้คุณตั้งค่าได้"
+
+#: main_12.cpp:6008
+msgid "that have a similar weakening effect."
+msgstr "ที่มีฤทธิ์อ่อนตัวคล้ายกัน"
+
+#: main_12.cpp:6011
+msgid "The Rodent 3 personalities are set up to use nodes per second"
+msgstr "บุคลิกภาพของ Rodent 3 ถูกตั้งค่าให้ใช้โหนดต่อวินาที"
+
+#: main_12.cpp:6013
+msgid "with evaluation blur and Rodent 4 is intended to be used"
+msgstr "ด้วยการประเมินความเบลอและ Rodent 4 มีวัตถุประสงค์เพื่อใช้"
+
+#: main_12.cpp:6015
+msgid "with ELO limit strength only."
+msgstr "ที่มีขีดจำกัดความแข็งแกร่งของ ELO เท่านั้น"
+
+#: main_12.cpp:6018
+msgid "Because of my modification to the way the < Personality > command is sent,"
+msgstr "เนื่องจากฉันปรับเปลี่ยนวิธีการส่งคำสั่ง <บุคลิกภาพ>"
+
+#: main_12.cpp:6020
+msgid "Rodent 3 can use its personalities with ELO limit strength"
+msgstr "หนู 3 สามารถใช้บุคลิกของตนได้โดยมีขีดจำกัดความแข็งแกร่งของ ELO"
+
+#: main_12.cpp:6022
+msgid "in combination with evaluation blur and select skill,"
+msgstr "ร่วมกับการประเมินแบบเบลอและการเลือกทักษะ"
+
+#: main_12.cpp:6024
+msgid "but not with nodes per second."
+msgstr "แต่ไม่ใช่กับโหนดต่อวินาที"
+
+#: main_12.cpp:6029
+msgid "It also means that Rodent 4 can use ELO limit strength"
+msgstr "นอกจากนี้ยังหมายความว่า Rodent 4 สามารถใช้ขีดจำกัดความแข็งแกร่งของ ELO ได้"
+
+#: main_12.cpp:6031
+msgid "with evaluation blur and select skill."
+msgstr "พร้อมการประเมินความเบลอและทักษะการเลือก"
+
+#: main_12.cpp:6034
+msgid "Changing the evaluation blur value slightly means the engine will play"
+msgstr "การเปลี่ยนค่าเบลอการประเมินเล็กน้อยหมายความว่าเครื่องยนต์จะเล่น"
+
+#: main_12.cpp:6036
+msgid "different moves without greatly affecting the playing strength,"
+msgstr "การเคลื่อนไหวที่แตกต่างกันโดยไม่กระทบต่อความแข็งแกร่งในการเล่นมากนัก"
+
+#: main_12.cpp:6038
+msgid "so long as the blur value is not too high."
+msgstr "ตราบใดที่ค่าเบลอไม่สูงเกินไป"
+
+#: main_12.cpp:6039
+msgid "You can experiment with this, I found that values between 20 - 50"
+msgstr "คุณสามารถทดลองกับสิ่งนี้ได้ ฉันพบว่าค่าอยู่ระหว่าง 20 - 50"
+
+#: main_12.cpp:6041
+msgid "worked quite well."
+msgstr "ทำงานได้ดีมาก"
+
+#: main_12.cpp:6046
+msgid "As well as that, both engines can now use the personality files"
+msgstr "นอกจากนั้นทั้งสองเครื่องยนต์ยังสามารถใช้ไฟล์บุคลิกภาพได้อีกด้วย"
+
+#: main_12.cpp:6048
+msgid "of the other engine with only minor adjustments from within Nimzo_3d,"
+msgstr "ของเครื่องยนต์อื่นที่มีการปรับแต่งเล็กน้อยเท่านั้นจากภายใน Nimzo_3d"
+
+#: main_12.cpp:6050
+msgid "once they have been copied into the < Personalities > directory of the engine."
+msgstr "เมื่อคัดลอกไปยังไดเร็กทอรี <Personities> ของเครื่องยนต์แล้ว"
+
+#: main_12.cpp:6052
+msgid "This allows you to easily swap in new personality files if you want a change."
+msgstr "วิธีนี้ทำให้คุณสามารถสลับไฟล์บุคลิกภาพใหม่ได้อย่างง่ายดายหากคุณต้องการการเปลี่ยนแปลง"
+
+#: main_12.cpp:6054
+msgid "I have placed some in < extra_personalities >"
+msgstr "ฉันได้วางไว้ใน < extra_personalities >"
+
+#: main_12.cpp:6056
+msgid "within the < Personalities > directory."
+msgstr "ภายในไดเร็กทอรี <บุคลิกภาพ>"
+
+#: main_12.cpp:6059
+msgid "The personality files are stored in the following directories -"
+msgstr "ไฟล์บุคลิกภาพจะถูกเก็บไว้ในไดเร็กทอรีต่อไปนี้ -"
+
+#: main_12.cpp:6062
+msgid "plus"
+msgstr "บวก"
+
+#: main_12.cpp:6062
+msgid "or"
+msgstr "หรือ"
+
+#: main_12.cpp:6066
+msgid "The files can be modified from within Nimzo_3d to adjust the"
+msgstr "ไฟล์สามารถปรับเปลี่ยนได้จากภายใน Nimzo_3d เพื่อปรับ"
+
+#: main_12.cpp:6068
+msgid "nodes per second and evaluation blur values and then saved back to disk."
+msgstr "โหนดต่อวินาทีและการประเมินค่าเบลอแล้วบันทึกกลับไปยังดิสก์"
+
+#: main_12.cpp:6071
+msgid "It does not matter that the personality files can end up with commands"
+msgstr "ไม่สำคัญว่าไฟล์บุคลิกภาพจะจบลงด้วยคำสั่ง"
+
+#: main_12.cpp:6073
+msgid "that are unsuitable for the engine currently in use, because they are"
+msgstr "ที่ไม่เหมาะสมสำหรับเครื่องยนต์ที่ใช้งานในปัจจุบัน เนื่องจาก"
+
+#: main_12.cpp:6075
+msgid "filtered out by the GUI before they are sent to the engine."
+msgstr "กรองออกโดย GUI ก่อนที่จะส่งไปยังเครื่องยนต์"
+
+#: main_12.cpp:6080
+msgid "Rodent commands"
+msgstr "คำสั่งสัตว์ฟันแทะ"
+
+#: main_12.cpp:6097
+msgid "These descriptions of the Rodent chess engine personalities are taken from"
+msgstr "คำอธิบายเกี่ยวกับบุคลิกของโปรแกรมเล่นหมากรุกหนูเหล่านี้นำมาจาก"
+
+#: main_12.cpp:6099
+msgid "the file < FinalRodent.pdf > which can be found in the following directory -"
+msgstr "ไฟล์ < FinalRodent.pdf > ซึ่งสามารถพบได้ในไดเร็กทอรีต่อไปนี้ -"
+
+#: main_12.cpp:6104
+msgid "Predefined personalities"
+msgstr "บุคลิกภาพที่กำหนดไว้ล่วงหน้า"
+
+#: main_12.cpp:6107
+msgid "Since its inception, Rodent project has been about creating an engine"
+msgstr "ตั้งแต่เริ่มก่อตั้ง โครงการ Rodent มุ่งเน้นไปที่การสร้างเครื่องยนต์"
+
+#: main_12.cpp:6109
+msgid "that allows modification of its playing style - just like the ChessMaster series,"
+msgstr "ซึ่งช่วยให้สามารถปรับเปลี่ยนรูปแบบการเล่นได้ - เช่นเดียวกับซีรีส์ ChessMaster"
+
+#: main_12.cpp:6111
+msgid "only better.  Code changes in the new version meant that old personalities"
+msgstr "ดีขึ้นเท่านั้น การเปลี่ยนแปลงโค้ดในเวอร์ชันใหม่หมายถึงบุคลิกแบบเก่า"
+
+#: main_12.cpp:6113
+msgid "are no longer usable, so I felt the need for creating a new set."
+msgstr "ไม่สามารถใช้งานได้อีกต่อไป ฉันจึงรู้สึกจำเป็นต้องสร้างชุดใหม่"
+
+#: main_12.cpp:6115
+msgid "I hope you will find it interesting."
+msgstr "ฉันหวังว่าคุณจะพบว่ามันน่าสนใจ"
+
+#: main_12.cpp:6118
+msgid "Fist and foremost, an attacker, her second consideration"
+msgstr "อันดับแรกและสำคัญที่สุด ผู้โจมตี การพิจารณาครั้งที่สองของเธอ"
+
+#: main_12.cpp:6120
+msgid "is piece activity.  Plays gambit openings."
+msgstr "เป็นกิจกรรมชิ้นหนึ่ง เล่นการเปิดเกมแบบแกมบิต"
+
+#: main_12.cpp:6123
+msgid "Cloe likes closed positions, pawn storms and sound pawn structure."
+msgstr "Cloe ชอบตำแหน่งปิด พายุเบี้ย และโครงสร้างเบี้ยที่ดี"
+
+#: main_12.cpp:6125
+msgid "The only thing she prefers to a closed position is a closed position"
+msgstr "สิ่งเดียวที่เธอชอบมากกว่าตำแหน่งปิดคือตำแหน่งปิด"
+
+#: main_12.cpp:6127
+msgid "with a single open file, owned by her rooks."
+msgstr "โดยมีไฟล์เปิดเพียงไฟล์เดียวที่เป็นของเรือของเธอ"
+
+#: main_12.cpp:6129
+msgid "She is a proud practitioner of the French and King's Indian defenses."
+msgstr "เธอเป็นผู้ฝึกฝนการป้องกันของฝรั่งเศสและกษัตริย์อินเดียอย่างภาคภูมิใจ"
+
+#: main_12.cpp:6132
+msgid "Picture her as a dark - haired, slender, melancholy woman."
+msgstr "ลองนึกภาพเธอเป็นผู้หญิงผมสีเข้ม ผอมบาง และเศร้าหมอง"
+
+#: main_12.cpp:6134
+msgid "She is a defensive player who likes bishops."
+msgstr "เธอเป็นผู้เล่นฝ่ายรับที่ชอบบิชอป"
+
+#: main_12.cpp:6137
+msgid "Imagine him in an expensive suit, looking more like a CEO"
+msgstr "ลองจินตนาการว่าเขาใส่สูทราคาแพง ดูเหมือนซีอีโอมากกว่า"
+
+#: main_12.cpp:6139
+msgid "than a chess player.  Strong, rational, if mildly pessimistic personality."
+msgstr "ยิ่งกว่านักเล่นหมากรุก บุคลิกแข็งแกร่ง มีเหตุผล แม้จะมองโลกในแง่ร้ายเล็กน้อย"
+
+#: main_12.cpp:6141
+msgid "Plays solid openings.  Ready to take draw in dead equal positions."
+msgstr "เปิดเกมได้อย่างแข็งแกร่ง พร้อมเสมอเมื่ออยู่ในตำแหน่งที่เสมอกัน"
+
+#: main_12.cpp:6144
+msgid "Imagine him as a player already past his prime,"
+msgstr "ลองจินตนาการว่าเขาเป็นผู้เล่นที่ผ่านจุดสูงสุดของเขาไปแล้ว"
+
+#: main_12.cpp:6146
+msgid "disrespectful towards  his opponents and still quite dangerous."
+msgstr "ไม่เคารพคู่ต่อสู้และยังอันตรายมาก"
+
+#: main_12.cpp:6148
+msgid "Grumpy likes restricting enemy movement and attacking,"
+msgstr "หงุดหงิดชอบจำกัดการเคลื่อนไหวของศัตรูและโจมตี"
+
+#: main_12.cpp:6150
+msgid "enjoys closed positions and expects to win."
+msgstr "เพลิดเพลินกับสถานะปิดและคาดว่าจะชนะ"
+
+#: main_12.cpp:6152
+msgid "Because of his age, he plays mostly not too modern openings."
+msgstr "เพราะอายุของเขา เขาจึงเล่นเพลงเปิดส่วนใหญ่ที่ไม่ค่อยทันสมัยนัก"
+
+#: main_12.cpp:6154
+msgid "For example, he likes the Tarrasch defense."
+msgstr "เช่น เขาชอบการป้องกันของ Tarrasch"
+
+#: main_12.cpp:6157
+msgid "Impersonation of Paul Morphy. Emphasizes mobility,"
+msgstr "การเลียนแบบพอล มอร์ฟี เน้นความคล่องตัว"
+
+#: main_12.cpp:6159
+msgid "then king attack, prefers open positions."
+msgstr "จากนั้นกษัตริย์ก็เข้าโจมตี โดยชอบตำแหน่งเปิดมากกว่า"
+
+#: main_12.cpp:6162
+msgid "He starts slowly, using openings that do not occupy much space"
+msgstr "เขาเริ่มต้นอย่างช้าๆ โดยใช้ช่องเปิดที่ไม่กินพื้นที่มากนัก"
+
+#: main_12.cpp:6164
+msgid "in the center, but don't be lulled in a false sense of security."
+msgstr "อยู่ตรงกลางแต่ไม่ต้องหลงเชื่อความรู้สึกปลอดภัยแบบผิดๆ"
+
+#: main_12.cpp:6166
+msgid "Later he goes for a vicious attacks."
+msgstr "ต่อมาเขาได้เริ่มโจมตีอย่างรุนแรง"
+
+#: main_12.cpp:6169
+msgid "Picture him as a young, up and coming grandmaster,"
+msgstr "ลองนึกภาพเขาในฐานะปรมาจารย์หนุ่มที่กำลังก้าวขึ้นมาเป็นดาวรุ่ง"
+
+#: main_12.cpp:6171
+msgid "who has not yet reached his true potential."
+msgstr "ที่ยังไม่สามารถบรรลุศักยภาพที่แท้จริงของตนได้"
+
+#: main_12.cpp:6173
+msgid "Thin, energetic, likes flashy moves a bit too much."
+msgstr "ผอมบาง กระตือรือร้น ชอบการเคลื่อนไหวที่ฉูดฉาดนิดหน่อย"
+
+#: main_12.cpp:6175
+msgid "He tends to part with his pawns from time to time."
+msgstr "เขามีแนวโน้มที่จะแยกทางกับเบี้ยของเขาเป็นครั้งคราว"
+
+#: main_12.cpp:6177
+msgid "Balanced personality, likely to sacrifice modest amount of material,"
+msgstr "บุคลิกภาพที่สมดุล มีแนวโน้มที่จะเสียสละวัสดุในปริมาณเล็กน้อย"
+
+#: main_12.cpp:6179
+msgid "often goes for active defence in the endgame."
+msgstr "มักจะใช้การป้องกันแบบเชิงรุกในช่วงท้ายเกม"
+
+#: main_12.cpp:6182
+msgid "Pedrita stands for pawns, defense, restraint."
+msgstr "Pedrita ยืนหยัดแทนเบี้ย การป้องกัน การยับยั้งชั่งใจ"
+
+#: main_12.cpp:6184
+msgid "She plays solid openings and thinks defense first, but dont be deceived!"
+msgstr "เธอเปิดเกมได้อย่างแข็งแกร่งและคิดถึงการป้องกันก่อน แต่อย่าหลงกลล่ะ!"
+
+#: main_12.cpp:6186
+msgid "She can attack all right if position demands it, and with solid pawn play"
+msgstr "เธอสามารถโจมตีได้ดีหากตำแหน่งนั้นต้องการ และด้วยการเล่นเบี้ยที่มั่นคง"
+
+#: main_12.cpp:6188
+msgid "she is a hard nut to crack."
+msgstr "เธอเป็นคนที่เข้มแข็งมาก"
+
+#: main_12.cpp:6191
+msgid "Mildly materialistic, but fighting for the initiative"
+msgstr "ค่อนข้างนิยมวัตถุนิยมแต่ก็ต่อสู้เพื่อริเริ่ม"
+
+#: main_12.cpp:6193
+msgid "and close enough to default to avoid unsound plans."
+msgstr "และใกล้เคียงพอที่จะผิดนัดเพื่อหลีกเลี่ยงแผนการที่ไม่สมเหตุสมผล"
+
+#: main_12.cpp:6195
+msgid "Likes to create pressure against enemy pieces."
+msgstr "ชอบสร้างแรงกดดันต่อตัวหมากศัตรู"
+
+#: main_12.cpp:6197
+msgid "Plays closed openings as white, Slav and Caro - Kann defenses as black."
+msgstr "เล่นช่องเปิดแบบปิดเป็นสีขาว สลาฟและคาโร - การป้องกันของคานน์เป็นสีดำ"
+
+#: main_12.cpp:6199
+msgid "Perhaps the best setup against the weaker engines."
+msgstr "บางทีนี่อาจเป็นการตั้งค่าที่ดีที่สุดเพื่อรับมือกับเครื่องยนต์ที่อ่อนแอกว่า"
+
+#: main_12.cpp:6202
+msgid "Plays without more advanced facets of evaluation function,"
+msgstr "เล่นโดยไม่ต้องมีฟังก์ชันการประเมินขั้นสูงเพิ่มเติม"
+
+#: main_12.cpp:6204
+msgid "applying sensible default. Slight preference for exchanging queens,"
+msgstr "การใช้ค่าเริ่มต้นที่สมเหตุสมผล ความชอบเล็กน้อยในการแลกเปลี่ยนราชินี"
+
+#: main_12.cpp:6206
+msgid "in dead equal positions will go for a draw."
+msgstr "ในตำแหน่งที่เสมอกันจะเสมอกัน"
+
+#: main_12.cpp:6208
+msgid "Perhaps the most computer - like personality."
+msgstr "บางทีอาจเป็นบุคลิกภาพที่เหมือนคอมพิวเตอร์มากที่สุด"
+
+#: main_12.cpp:6211
+msgid "Picture him as a tall man in a brown leather jacket."
+msgstr "ลองนึกภาพเขาเป็นผู้ชายร่างสูงสวมแจ็คเก็ตหนังสีน้ำตาล"
+
+#: main_12.cpp:6213
+msgid "He likes active play but detests being under attack."
+msgstr "เขาชอบการเล่นที่กระตือรือร้นแต่เกลียดการถูกโจมตี"
+
+#: main_12.cpp:6215
+msgid "Likes keeping queens on the board."
+msgstr "ชอบเก็บราชินีไว้บนกระดาน"
+
+#: main_12.cpp:6218
+msgid "Based on Rodent III personality by Brendan J.Norman."
+msgstr "อิงจากบุคลิกภาพของ Rodent III โดย Brendan J.Norman"
+
+#: main_12.cpp:6220
+msgid "Plays boa constrictor style, but has strong preference for attack,"
+msgstr "เล่นสไตล์งูเหลือม แต่ชอบโจมตีเป็นพิเศษ"
+
+#: main_12.cpp:6222
+msgid "likely to sacrifice for positional reasons."
+msgstr "มีแนวโน้มที่จะเสียสละเพราะเหตุผลด้านตำแหน่ง"
+
+#: main_12.cpp:6224
+msgid "Much more temperamental version ofGrumpy, very human-like play."
+msgstr "เวอร์ชันอารมณ์แปรปรวนมากขึ้นของการเล่นแบบ Grumpy ที่เหมือนมนุษย์มาก"
+
+#: main_12.cpp:6226
+msgid "May be overoptimistic in endgames with queens."
+msgstr "อาจจะมองโลกในแง่ดีเกินไปในช่วงท้ายเกมกับราชินี"
+
+#: main_12.cpp:6229
+msgid "There are also personalites for many world champions and other famous players."
+msgstr "นอกจากนี้ยังมีของที่ระลึกส่วนตัวของแชมป์โลกและผู้เล่นชื่อดังอื่นๆ อีกมากมาย"
+
+#: main_12.cpp:6233
+msgid "Rodent 4 chess engine personality descriptions"
+msgstr "คำอธิบายบุคลิกภาพของเครื่องยนต์หมากรุก Rodent 4"
+
+#: main_12.cpp:6240
+msgid "Window always on top"
+msgstr "หน้าต่างจะอยู่ด้านบนเสมอ"
+
+#: main_12.cpp:6245
+msgid "If you want, you can slow it down with -"
+msgstr "หากต้องการคุณสามารถชะลอความเร็วได้ด้วย -"
+
+#: main_12.cpp:6247
+msgid "< Main menu > < Engine > < Move delay >"
+msgstr "< เมนูหลัก > < เครื่องยนต์ > < หน่วงเวลาการเคลื่อนที่ >"
+
+#: main_12.cpp:6250
+msgid "Play a rated game against a chess engine"
+msgstr "เล่นเกมจัดอันดับกับโปรแกรมหมากรุก"
+
+#: main_12.cpp:6252
+msgid "Check to copy limit strength settings to custom parameters"
+msgstr "เลือกเพื่อคัดลอกการตั้งค่าความแข็งแกร่งของขีดจำกัดไปยังพารามิเตอร์ที่กำหนดเอง"
+
+#: main_12.cpp:6257
+msgid "Rating formula explained"
+msgstr "อธิบายสูตรการให้คะแนน"
+
+#: main_12.cpp:6259
+msgid "Check to display personality name"
+msgstr "เลือกเพื่อแสดงชื่อบุคลิกภาพ"
+
+#: main_12.cpp:6260
+msgid "with engine name during a game"
+msgstr "พร้อมชื่อเครื่องยนต์ระหว่างเกม"
+
+#: main_12.cpp:6266
+msgid "Enter the search skill value,"
+msgstr "ป้อนค่าทักษะการค้นหา"
+
+#: main_12.cpp:6269
+msgid "Check to always automatically copy options"
+msgstr "เลือกเพื่อคัดลอกตัวเลือกโดยอัตโนมัติเสมอ"
+
+#: main_12.cpp:6270
+msgid "across to custom parameters"
+msgstr "ข้ามไปยังพารามิเตอร์ที่กำหนดเอง"
+
+#: main_12.cpp:6272
+msgid "Check to automatically copy the evaluation blur"
+msgstr "เลือกเพื่อคัดลอกการประเมินแบบเบลอโดยอัตโนมัติ"
+
+#: main_12.cpp:6273 main_12.cpp:6276
+msgid "value to custom parameters"
+msgstr "ค่าพารามิเตอร์ที่กำหนดเอง"
+
+#: main_12.cpp:6275
+msgid "Check to automatically copy the search skill"
+msgstr "เลือกเพื่อคัดลอกทักษะการค้นหาโดยอัตโนมัติ"
+
+#: main_12.cpp:6278
+msgid "Enter the filename for saving the"
+msgstr "กรอกชื่อไฟล์สำหรับการบันทึก"
+
+#: main_12.cpp:6279
+msgid "engine strength adjustment options"
+msgstr "ตัวเลือกการปรับความแรงของเครื่องยนต์"
+
+#: main_12.cpp:6709
+msgid "has won playing white and gains"
+msgstr "ได้ชนะการเล่นสีขาวและได้รับ"
+
+#: main_12.cpp:6720
+msgid "has lost playing black and loses"
+msgstr "แพ้การเล่นดำและแพ้"
+
+#: main_12.cpp:6734
+msgid "has lost playing white and loses"
+msgstr "แพ้การเล่นสีขาวและแพ้"
+
+#: main_12.cpp:6747
+msgid "has won playing black and gains"
+msgstr "ได้ชัยชนะจากการเล่นสีดำและได้รับ"
+
+#: main_12.cpp:6763
+msgid "has drawn playing white"
+msgstr "ได้วาดเล่นสีขาว"
+
+#: main_12.cpp:6768
+msgid "has drawn playing black"
+msgstr "ได้วาดเล่นสีดำ"
+
+#: main_12.cpp:6773
+msgid "there was no rating change."
+msgstr "ไม่มีการเปลี่ยนแปลงคะแนน"
+
+#: main_12.cpp:6782
+msgid "and gained"
+msgstr "และได้รับ"
+
+#: main_12.cpp:6787
+msgid "and lost"
+msgstr "และสูญหายไป"
+
+#: main_12.cpp:6800
+msgid "Your new rating is"
+msgstr "คะแนนใหม่ของคุณคือ"
+
+#: main_12.cpp:6808
+msgid "Game result rating message"
+msgstr "ข้อความให้คะแนนผลการแข่งขัน"
+
+#: main_12.cpp:6950
+msgid "Cannot open player profile file to write details"
+msgstr "ไม่สามารถเปิดไฟล์โปรไฟล์ผู้เล่นเพื่อเขียนรายละเอียดได้"
+
+#: main_12.cpp:7065
+msgid "There are no engine files in the directory, rated game cancelled"
+msgstr "ไม่มีไฟล์เครื่องยนต์ในไดเร็กทอรี เกมที่ถูกจัดอันดับถูกยกเลิก"
+
+#: main_12.cpp:7074
+msgid "Rated engines directory"
+msgstr "ไดเรกทอรีเครื่องยนต์ที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:7078 main_12.cpp:7665 main_12.cpp:8108
+msgid "does not exist, rated game cancelled"
+msgstr "ไม่มีอยู่, เกมที่ได้รับการจัดอันดับถูกยกเลิก"
+
+#: main_12.cpp:7080
+msgid "Suggestion : Reset the program default values from"
+msgstr "คำแนะนำ : รีเซ็ตค่าเริ่มต้นของโปรแกรมจาก"
+
+#: main_12.cpp:7082
+msgid "< Main menu > < Options > < Reset to factory defaults >"
+msgstr "< เมนูหลัก > < ตัวเลือก > < รีเซ็ตเป็นค่าเริ่มต้นจากโรงงาน >"
+
+#: main_12.cpp:7084
+msgid "If this fails, download and install the rated engines from"
+msgstr "หากวิธีนี้ล้มเหลว ให้ดาวน์โหลดและติดตั้งเครื่องยนต์ที่ได้รับการจัดอันดับจาก"
+
+#: main_12.cpp:7473
+msgid "Rodent engine personality"
+msgstr "บุคลิกของเครื่องยนต์หนู"
+
+#: main_12.cpp:7475
+msgid "loaded"
+msgstr "โหลดแล้ว"
+
+#: main_12.cpp:7476
+msgid "Rated game engine message"
+msgstr "ข้อความเอนจิ้นเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:7537
+msgid "Engine is not in list, so cannot be set"
+msgstr "เครื่องยนต์ไม่อยู่ในรายการจึงไม่สามารถตั้งค่าได้"
+
+#: main_12.cpp:7662
+msgid "Player profile directory"
+msgstr "ไดเรกทอรีโปรไฟล์ผู้เล่น"
+
+#: main_12.cpp:7667 main_12.cpp:8109
+msgid "Suggestion : Manually create this directory with Windows Explorer"
+msgstr "ข้อเสนอแนะ: สร้างไดเรกทอรีนี้ด้วยตนเองด้วย Windows Explorer"
+
+#: main_12.cpp:7696 main_12.cpp:7785 main_12.cpp:7892
+msgid "Player name is empty, please type in a name"
+msgstr "ชื่อผู้เล่นว่างเปล่า กรุณาพิมพ์ชื่อ"
+
+
+#: main_12.cpp:7716
+msgid "Player name is already in the list,"
+msgstr "ชื่อผู้เล่นอยู่ในรายการแล้ว"
+
+#: main_12.cpp:7718
+msgid "please input a different player name"
+msgstr "กรุณาใส่ชื่อผู้เล่นอื่น"
+
+#: main_12.cpp:7749 main_12.cpp:7856 main_12.cpp:7939
+msgid "Player profile for"
+msgstr "โปรไฟล์ผู้เล่นสำหรับ"
+
+#: main_12.cpp:7756 main_12.cpp:7946
+msgid "Error saving player profile to disk"
+msgstr "เกิดข้อผิดพลาดในการบันทึกโปรไฟล์ผู้เล่นลงในดิสก์"
+
+#: main_12.cpp:7805 main_12.cpp:7912
+msgid "Player name is not in the list,"
+msgstr "ชื่อผู้เล่นไม่อยู่ในรายการ"
+
+#: main_12.cpp:7806 main_12.cpp:7914
+msgid "please input a player name that is in the list"
+msgstr "กรุณาใส่ชื่อผู้เล่นที่อยู่ในรายการ"
+
+#: main_12.cpp:7857 main_12.cpp:8353
+msgid "deleted from disk"
+msgstr "ลบออกจากดิสก์"
+
+#: main_12.cpp:7864
+msgid "Error deleting player profile from disk"
+msgstr "เกิดข้อผิดพลาดในการลบโปรไฟล์ผู้เล่นจากดิสก์"
+
+#: main_12.cpp:8106
+msgid "Rating formula directory"
+msgstr "ไดเรกทอรีสูตรการจัดอันดับ"
+
+#: main_12.cpp:8110
+msgid "and use < Rating formula > < + > to add a formula"
+msgstr "และใช้สูตร < Rating > < + > เพื่อเพิ่มสูตร"
+
+#: main_12.cpp:8111
+msgid "in the rated game dialog box."
+msgstr "ในกล่องโต้ตอบเกมที่ได้รับการจัดอันดับ"
+
+#: main_12.cpp:8167
+msgid "Formula filename is empty, please type in a name"
+msgstr "ชื่อไฟล์สูตรว่างเปล่า กรุณาพิมพ์ชื่อ"
+
+#: main_12.cpp:8189
+msgid "Rating formula filename is already in the list,"
+msgstr "ชื่อไฟล์สูตรการจัดอันดับอยู่ในรายการแล้ว"
+
+#: main_12.cpp:8190
+msgid "please input a different rating formula filename"
+msgstr "กรุณาใส่ชื่อไฟล์สูตรการให้คะแนนที่แตกต่างกัน"
+
+#: main_12.cpp:8198
+msgid "Rating formula filename is not in the list,"
+msgstr "ชื่อไฟล์สูตรการจัดอันดับไม่อยู่ในรายการ"
+
+#: main_12.cpp:8199
+msgid "please input a rating formula filename that is in the list"
+msgstr "กรุณาใส่ชื่อไฟล์สูตรการจัดอันดับที่อยู่ในรายการ"
+
+#: main_12.cpp:8257 main_12.cpp:8353
+msgid "Rating formula for"
+msgstr "สูตรการให้คะแนนสำหรับ"
+
+#: main_12.cpp:8264
+msgid "Error saving rating formula file to disk"
+msgstr "เกิดข้อผิดพลาดในการบันทึกไฟล์สูตรการจัดอันดับลงในดิสก์"
+
+#: main_12.cpp:8296 main_12.cpp:8376
+msgid "Formula filename is empty, please type in a filename"
+msgstr "ชื่อไฟล์สูตรว่างเปล่า กรุณาพิมพ์ชื่อไฟล์"
+
+#: main_12.cpp:8316
+msgid "Rating formula file is not in the list,"
+msgstr "ไฟล์สูตรการจัดอันดับไม่ได้อยู่ในรายการ"
+
+#: main_12.cpp:8317
+msgid "please input a formula file that is in the list"
+msgstr "กรุณาใส่ไฟล์สูตรที่อยู่ในรายการ"
+
+#: main_12.cpp:8360
+msgid "Error deleting rating formula from disk"
+msgstr "เกิดข้อผิดพลาดในการลบสูตรการจัดอันดับจากดิสก์"
+
+#: main_12.cpp:8472
+msgid "Cannot open rating formula file for reading"
+msgstr "ไม่สามารถเปิดไฟล์สูตรการให้คะแนนเพื่ออ่านได้"
+
+#: main_12.cpp:8473
+msgid "A rated game feature for human - engine games (version 4.0)"
+msgstr "ฟีเจอร์เกมที่ได้รับการจัดระดับสำหรับเกมเอนจิ้นมนุษย์ (เวอร์ชัน 4.0)"
+
+#: main_12.cpp:8474
+msgid "Move delay"
+msgstr "ความล่าช้าในการย้าย"
+
+#: main_12.cpp:8475
+msgid "Move delay.."
+msgstr "เลื่อนเลื่อน.."
+
+#: main_12.cpp:8476
+msgid "Show the move delay dialog box"
+msgstr "แสดงกล่องโต้ตอบการหน่วงเวลาการย้าย"
+
+#: main_12.cpp:8477
+msgid "Error message"
+msgstr "ข้อความแสดงข้อผิดพลาด"
+
+#: main_12.cpp:8478
+msgid "Copy to custom parameters"
+msgstr "คัดลอกไปยังพารามิเตอร์ที่กำหนดเอง"
+
+
+#: main_12.cpp:8481
+msgid "When writing the < Rated game > feature I found that the Delfi engine"
+msgstr "เมื่อเขียนฟีเจอร์ <เกมที่ได้รับการจัดอันดับ> ฉันพบว่าเอ็นจิ้น Delfi"
+
+#: main_12.cpp:8482
+msgid "needed the limit strength settings placed in the custom parameter list"
+msgstr "จำเป็นต้องมีการตั้งค่าความแข็งแกร่งจำกัดที่อยู่ในรายการพารามิเตอร์ที่กำหนดเอง"
+
+#: main_12.cpp:8483
+msgid "for them to work."
+msgstr "ให้พวกเขาทำงาน"
+
+#: main_12.cpp:8484
+msgid "For the Delfi engine this action will be made automatically."
+msgstr "สำหรับเครื่องยนต์ Delfi การดำเนินการนี้จะดำเนินการโดยอัตโนมัติ"
+
+#: main_12.cpp:8485
+msgid "If you have this problem with any other engines, then you can check the"
+msgstr "หากคุณประสบปัญหานี้กับเครื่องยนต์อื่น ๆ คุณสามารถตรวจสอบได้"
+
+#: main_12.cpp:8486
+msgid "< Copy to custom parameters > box and the limit strength parameters"
+msgstr "< คัดลอกไปยังพารามิเตอร์ที่กำหนดเอง > กล่องและพารามิเตอร์ความแข็งแกร่งจำกัด"
+
+#: main_12.cpp:8487
+msgid "will be copied across."
+msgstr "จะถูกคัดลอกไปทั่ว"
+
+#: main_12.cpp:8488
+msgid "I also found that if you played more than one game with a weakened Stockfish engine"
+msgstr "ฉันพบว่าหากคุณเล่นเกมมากกว่าหนึ่งเกมด้วยโปรแกรม Stockfish ที่อ่อนแอลง"
+
+#: main_12.cpp:8489
+msgid "and < Copy to custom parameters > was not set, Stockfish reverted to full strength"
+msgstr "และไม่ได้ตั้งค่า <คัดลอกไปยังพารามิเตอร์ที่กำหนดเอง> Stockfish กลับสู่ระดับความแข็งแกร่งเต็ม"
+
+#: main_12.cpp:8490
+msgid "for the second game.  So it is probably best to always have this option set"
+msgstr "สำหรับเกมที่สอง ดังนั้น คงจะดีที่สุดถ้าตั้งค่าตัวเลือกนี้ไว้เสมอ"
+
+#: main_12.cpp:8491
+msgid "when using limit strength."
+msgstr "เมื่อใช้ความแข็งแกร่งจำกัด"
+
+#: main_12.cpp:8492
+msgid "When using the < Rated game > feature, this is enforced for all engines."
+msgstr "เมื่อใช้คุณสมบัติ < เกมที่ได้รับการจัดอันดับ > จะมีการบังคับใช้กับเอนจิ้นทั้งหมด"
+
+#: main_12.cpp:8493
+msgid "If you have the search info panel open when playing against Stockfish,"
+msgstr "หากคุณเปิดแผงข้อมูลการค้นหาไว้เมื่อเล่นกับ Stockfish"
+
+#: main_12.cpp:8494
+msgid "it shows full strength analysis for the engine,"
+msgstr "มันแสดงการวิเคราะห์ความแข็งแกร่งเต็มรูปแบบสำหรับเครื่องยนต์"
+
+#: main_12.cpp:8495
+msgid "even if it has been weakened using UCI limit strength."
+msgstr "แม้ว่าจะถูกทำให้อ่อนลงโดยใช้ขีดจำกัดความแข็งแกร่งของ UCI ก็ตาม"
+
+#: main_12.cpp:8496
+msgid "You can tell if it has actually been weakened because it will often play"
+msgstr "คุณสามารถบอกได้ว่ามันอ่อนลงจริงหรือไม่เพราะมันจะเล่นบ่อย"
+
+#: main_12.cpp:8497
+msgid "a different move to the one shown in the analysis."
+msgstr "การเคลื่อนไหวที่แตกต่างไปจากที่แสดงไว้ในการวิเคราะห์"
+
